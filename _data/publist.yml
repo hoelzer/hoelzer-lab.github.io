@@ -1,24 +1,88 @@
-- title: "Differential transcriptional responses to Ebola and Marburg virus infection in bat and human cells"
-  authors: Martin Hölzer, Verena Krähling, Fabian Amman, Emanuel Barth, Stephan H Bernhart, Victor AO Carmelo, Maximilian Collatz, Gero Doose, Florian Eggenhofer, Jan Ewald, Jörg Fallmann, Lasse M Feldhahn, Markus Fricke, Juliane Gebauer, Andreas J Gruber, Franziska Hufsky, Henrike Indrischek, Sabina Kanton, Jörg Linde, Nelly Mostajo, Roman Ochsenreiter, Konstantin Riege, Lorena Rivarola-Duarte, Abdullah H Sahyoun, Sita J Saunders, Stefan E Seemann, Andrea Tanzer, Bertram Vogel, Stefanie Wehner, Michael T Wolfinger, Rolf Backofen, Jan Gorodkin, Ivo Grosse, Ivo Hofacker, Steve Hoffmann, Christoph Kaleta, Peter F Stadler, Stephan Becker, Manja Marz
+- title: "Analysis of molecular mechanism of progression of non-muscle-invasive bladder cancer (NMIBC) by genome-wide exome and UTR mutation analysis"
+  authors: Daniel Steinbach, Martin Hölzer, Manja Marz, Mieczyslaw Gajda, Friedrich-Carl von Rundstedt, Marc-Oliver Grimm
+  year: 2018
+  preprint: 0
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S1569905618318980?via%3Dihub#.#
+    display: European Urology Supplements
+
+- title: "Massive effect on lncRNAs in human monocytes during fungal and bacterial infections and in response to vitamins A and D"
+  authors: Konstantin Riege, Martin Hölzer, Tilman E Klassert, Emanuel Barth, Julia Bräuer, Maximilian Collatz, Franziska Hufsky, Nelly Mostajo *et al*.
+  year: 2017
+  preprint: 0
+  link:
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5240112/pdf/srep40598.pdf
+    display: Scientific Reports
+
+- title: "Differential Effects of Vitamins A and D on the Transcriptional Landscape of Human Monocytes during Infection."
+  authors: Tilman E Klassert, Julia Bräuer, Martin Hölzer, Magdalena Stock, Konstantin Riege, Cristina Zubir{\'\i}a-Barrera, Mario M Müller, Silke Rummler *et al*.
+  year: 2017
+  preprint: 0
+  link:
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5240108/pdf/srep40599.pdf
+    display: Scientific Reports
+
+- title: "Software Dedicated to Virus Sequence Analysis \"Bioinformatics Goes Viral\""
+  authors: Martin Hölzer, Manja Marz
+  year: 2017
+  preprint: 0
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S0065352717300222?via%3Dihub
+    display: Advances in Virus Research
+
+- title: "Evaluation of associations between genotypes of \emphMycobacterium avium subsp.\ \emphparatuberculsis and presence of intestinal lesions characteristic of paratuberculosis"
+  authors: Petra Möbius, Elisabeth Liebler-Tenorio, Martin Hölzer, Heike Köhler
+  year: 2017
+  preprint: 0
+  link:
+    url: https://doi.org/10.1016/j.vetmic.2017.01.026
+    display: Veterinary Microbiology
+
+- title: "Evolution and antiviral specificity of interferon-induced Mx proteins of bats against Ebola-, Influenza-, and other RNA viruses."
+  authors: Jonas Fuchs, Martin Hölzer, Mirjam Schilling, Corinna Patzina, Andreas Schoen, Thomas Hoenen, Gert Zimmer, Manja Marz *et al*.
+  year: 2017
+  preprint: 0
+  link:
+    url: https://doi.org/10.1128/JVI.00361-17
+    display: Journal of Virology
+
+- title: "Complete genome sequence of JII-1961, a bovine \emphMycobacterium avium subsp.\ \emphparatuberculosis field isolate from Germany"
+  authors: Petra Möbius, Gabriele Nordsiek, Martin Hölzer, Michael Jarek, Manja Marz, Heike Köhler
+  year: 2017
+  preprint: 0
+  link:
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5571421/pdf/e00870-17.pdf
+    display: Genome Announcements
+
+- title: "Differential transcriptional responses to Ebola and Marburg virus infection in bat and human cells."
+  authors: Martin Hölzer, Verena Krähling, Fabian Amman, Emanuel Barth, Stephan H Bernhart, Victor A O Carmelo, Maximilian Collatz, Gero Doose *et al*.
   year: 2016
   preprint: 0
   link:
-    url: https://www.nature.com/articles/srep34589
-    display: "Scientific Reports"
-    
+    url: http://dx.doi.org/10.1038/srep34589
+    display: Scientific Reports
 
-- title: "Towards a comprehensive picture of alloacceptor tRNA remolding in metazoan mitochondrial genomes"
-  authors: Abdullah H Sahyoun, Martin Hölzer, Frank Jühling, Christian Höner zu Siederdissen, Marwa Al-Arab, Kifah Tout, Manja Marz, Martin Middendorf, Peter F Stadler, Matthias Bernt
+- title: "Whole-Genome Sequence of \textitChlamydia gallinacea Type Strain 08-1274/3."
+  authors: Martin Hölzer, Karine Laroucau, Heather Huot Creasy, Sandra Ott, Fabien Vorimore, Patrik M Bavoil, Manja Marz, Konrad Sachse
+  year: 2016
+  preprint: 0
+  link:
+    url: http://dx.doi.org/10.1128/genomeA.00708-16
+    display: Genome Announcements
+
+- title: "Towards a comprehensive picture of alloacceptor tRNA remolding in metazoan mitochondrial genomes."
+  authors: Abdullah H Sahyoun, Martin Hölzer, Frank Jühling, Christian Höner Zu Siederdissen, Marwa Al-Arab, Kifah Tout, Manja Marz, Martin Middendorf *et al*.
   year: 2015
   preprint: 0
   link:
-    url: https://academic.oup.com/nar/article/43/16/8044/1076252
-    display: "Nucleic Acids Research"
+    url: http://dx.doi.org/10.1093/nar/gkv746
+    display: Nucleic Acids Res.
 
-- title: ""
-  authors: 
-  year: 2016
+- title: "Comprehensive insights in the \emphMycobacterium avium subsp.\ \emphparatuberculosis genome using new WGS data of sheep strain JIII-386 from Germany"
+  authors: Petra Möbius, Martin Hölzer, Marius Felder, Gabriele Nordsiek, Marco Groth, Heike Köhler, Kathrin Reichwald, Matthias Platzer *et al*.
+  year: 2015
   preprint: 0
   link:
-    url: 
-    display: ""
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4607514/pdf/evv154.pdf
+    display: Genome Biology and Evolution
+
