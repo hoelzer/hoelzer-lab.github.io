@@ -1,5 +1,5 @@
 - name: Dr. Martin Hölzer
-  photo: Milan.jpg
+  photo: Martin.png
   info: Head, started Feb 2018
   email: martin.hoelzer@uni-jena.de
   github: https://github.com/hoelzer
@@ -10,7 +10,7 @@
   education2: Diploma, University of Jena
 
 - name: Maximilian Collatz
-  photo: Milan.jpg
+  photo: Max.png
   info: Ph.D., started May 2016
   email: maximilian.collatz@uni-jena.de
   #github: https://github.com/hoelzer
@@ -19,7 +19,7 @@
   education1: M.Sc. Bioinf, University of Jena
 
 - name: Sebastian Krautwurst
-  photo: Milan.jpg
+  photo: Basti.png
   info: Ph.D., started Feb 2017
   email: sebastian.krautwurst@uni-jena.de
   #github: https://github.com/hoelzer
@@ -28,8 +28,8 @@
   education1: M.Sc. Bioinf, University of Jena
 
 - name: Lisa-Marie Barf
-  photo: Milan.jpg
-  info: M.Sc., started July 2017
+  photo: Lisa.png
+  info: M.Sc., started Oct 2017
   email: lisa-marie.barf@uni-jena.de
   #github: https://github.com/hoelzer
   #twitter: https://twitter.com/MartinHoelzer
