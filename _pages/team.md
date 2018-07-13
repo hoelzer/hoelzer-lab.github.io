@@ -17,13 +17,12 @@ permalink: /team/
 <div class="row">
 {% endif %}
 
-
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <a href="{{ member.github }}/"> <i class="fa fa-github" style="color:black; font-size:24px;"></i></a>
+  <a target="_blank" href="{{ member.github }}/"> <i class="fa fa-github" style="color:black; font-size:24px;"></i></a>
   {% if member.twitter != 0 %}
-  <a href="{{ member.twitter }}/"> <i class="fa fa-twitter" style="color:#0084b4; font-size:24px;"></i></a>
+  <a target="_blank" href="{{ member.twitter }}/"> <i class="fa fa-twitter" style="color:#0084b4; font-size:24px;"></i></a>
   {% endif %}
   <br>
   <i>{{ member.info }}<br>email: <{{ member.email }}></i>
@@ -67,6 +66,10 @@ permalink: /team/
 </div>
 {% endif %}
 
+<table align="center" class="table table-condensed">
+<tr><th>Research assistants</th></tr>
+<tr><td>Tassilo Dellnitz, since Spring 2017</td></tr>
+</table>
 
 ## Alumni
 <table align="center" class="table table-condensed">
