@@ -19,10 +19,11 @@ figcaption {
     margin-bottom: 20px;
 }
 
-
-
 /* Top navigation bar */
-
+.navbar {
+    background-color: #FEFEFE;
+    border-color: #7BA4D9;
+}
 
 p.byline {
 	text-align: center;
@@ -91,3 +92,15 @@ firstp {
     margin-right: 30px;
 }
 
+/*************************************************
+ *  Tables
+  **************************************************/
+
+.table-post {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.table-post>thead>tr>th, .table-post>tbody>tr>th, .table-post>tfoot>tr>th, .table-post>thead>tr>td, .table-post>tbody>tr>td, .table-post>tfoot>tr>td{
+    padding: 1px;
+}
