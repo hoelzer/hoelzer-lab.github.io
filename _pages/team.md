@@ -20,10 +20,15 @@ permalink: /team/
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
+  {% if member.github != 0 %}
   <a target="_blank" href="{{ member.github }}/"> <i class="fa fa-github" style="color:black; font-size:24px;"></i></a>
+  {% endif %}
   {% if member.twitter != 0 %}
   <a target="_blank" href="{{ member.twitter }}/"> <i class="fa fa-twitter" style="color:#0084b4; font-size:24px;"></i></a>
   {% endif %}
+  <!--{% if member.orcid != 0 %}
+  <a target="_blank" href="{{ member.orcid }}/"> <img src="/assets/orcid.svg" alt="ORCID" width="24px"></a>
+  {% endif %}-->
   <br>
   <i>{{ member.info }}<br>email: <{{ member.email }}></i>
   <ul style="overflow: hidden">

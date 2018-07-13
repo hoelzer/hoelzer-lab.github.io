@@ -92,6 +92,19 @@ firstp {
     margin-right: 30px;
 }
 
+/*
+ * Don't wrap code
+ */ 
+pre code{
+       white-space: pre;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+}
+
 /*************************************************
  *  Tables
   **************************************************/
