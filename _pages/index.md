@@ -6,9 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-We are a fresh, small group at the [FSU Jena](https://www.uni-jena.de/en/start.html?) closely affiliated to the [RNA Bioinformatics/High-Throughput](http://www.rna.uni-jena.de/en/) group of Prof Manja Marz. We develop new ways to analyze biological sequence data.
+We are a fresh, small bioinformatics group at the [FSU Jena](https://www.uni-jena.de/en/start.html?), which is closely linked to the [RNA Bioinformatics/High-Throughput](http://www.rna.uni-jena.de/en/) group of Prof. Manja Marz. 
 
-As bioinformaticians, we focus on the development of algorithms and tools for handling large sequencing data sets. We apply our computational methods to *de novo* genome and transcriptome assembly, the comprehensive analysis of RNA-Seq data, and the identification of pathogens such as viruses.
+We focus on the development of algorithms and tools for handling large sequencing data sets. We apply our computational methods to *de novo* genome and transcriptome assembly, the comprehensive analysis of RNA-Seq data, and the identification of pathogens such as viruses.
 
 We strive to combine well-established and novel computational approaches to analyze and visualize large amounts of sequencing data.
 <!-- in a comprehensive and handsome way to allow other researchers to understand, interpret and dilate the data.-->
