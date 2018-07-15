@@ -65,10 +65,13 @@ end
 year.each do |y|
 	publist.each do |id, pub|
 		next if pub.year.to_s != y
+		book = '0'
+		book = '1' if pub.title.include?('Software Dedicated')
 		yml << "- title: \"#{pub.title}\"\n"
 		yml << "  authors: #{authors(pub.authors)}\n"
 		yml << "  year: #{pub.year}\n"
 		yml << "  preprint: 0\n"
+		yml << "  book: #{book}\n"
 		yml << "  link:\n"
 		yml << "    url: #{pub.url}\n"
 		yml << "    display: #{pub.journal}\n\n"
