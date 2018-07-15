@@ -10,10 +10,10 @@ permalink: /teaching/
 
 ### LaTeX basics for natural scientists
 
-Content will be added during the course. 
+Content will be added during the course. The  
 
 - What is `LaTeX`? Why `LaTeX`?
-- Basics<!--: Handout, Aufgaben-->
+- Basics: <!--[Handout](/assets/teaching/latex/handouts/Handout1_Basics.pdf), [Aufgaben](/assets/teaching/latex/tasks/1_Protokoll.tex.zip)-->
 - Text formating
 - Figures and tables
 - Mathematics
