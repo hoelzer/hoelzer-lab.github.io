@@ -6,7 +6,7 @@ sitemap: false
 permalink: /team/
 ---
 
-# Group Members
+## Group Members
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
@@ -68,7 +68,7 @@ permalink: /team/
 <tr><td>Tassilo Dellnitz, since Spring 2017</td></tr>
 </table>
 
-## Alumni
+### Alumni
 <table align="center" class="table table-condensed">
 <tr><th>Master Students</th> </tr>
 <tr><td>Marie Lataretu, Summer 2018</td></tr>

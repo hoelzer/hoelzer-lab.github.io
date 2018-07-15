@@ -6,11 +6,11 @@ sitemap: false
 permalink: /publications/
 ---
 
-# Publications
+## Publications
 
 This list is also available on [Google Scholar](https://scholar.google.de/citations?user=DMZ7Hc8AAAAJ) and under [ORCID](https://orcid.org/0000-0001-7090-8717).
 
-## Peer Reviewed
+### Peer Reviewed
 
 {% for publi in site.data.publist %}
 
@@ -22,7 +22,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 
 {% endfor %}
 
-## Book Chapter
+### Book Chapter
 
 {% for publi in site.data.publist %}
 
