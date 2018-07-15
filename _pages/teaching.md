@@ -8,7 +8,9 @@ permalink: /teaching/
 
 ## Teaching
 
-### LaTeX basics for natural scientists
+### Summer term 2018
+
+#### LaTeX basics for natural scientists
 
 Content will be added during the course. The  
 
