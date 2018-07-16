@@ -6,6 +6,9 @@ sitemap: flase
 permalink: /teaching/
 ---
 
+<div class="row">
+<div class="col-sm-6 clearfix">
+
 ## Teaching
 
 ### Summer term 2018
@@ -22,3 +25,11 @@ Content will be added during the course.
 - Informatics
 - Bachlor/Master closing operations and larger theses 
 - Scientific publication formats, CV, letters
+
+</div>
+
+<div class="col-sm-6 clearfix">
+![](/assets/teaching/teaching_model.png)
+</div>
+
+</div>
