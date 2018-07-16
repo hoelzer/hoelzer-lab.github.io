@@ -20,7 +20,7 @@ permalink: /team/
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>{% if member.github != 0 %}
-  <a target="_blank" href="{{ member.github }}/"><i class="fab fa-github" style="color:black; font-size:24px;"></i></a> {% endif %}{% if member.twitter != 0 %}<a target="_blank" href="{{ member.twitter }}/"><i class="fab fa-twitter" style="color:#0084b4; font-size:24px;"></i></a> {% endif %}{% if member.orcid != 0 %}<a target="_blank" href="{{ member.orcid }}/"> <i class="fas fa-dot-circle" style="color:#a6ce39;font-size:24px;"></i></a> {% endif %}{% if member.cv != 0 %}<a target="_blank" href="{{ member.cv }}/"> <i class="fas fa-file-pdf" style="color:#f45c42;font-size:22px;"></i></a>{% endif %}
+  <a target="_blank" href="{{ member.github }}/"><i class="fab fa-github" style="color:black; font-size:24px;"></i></a> {% endif %}{% if member.twitter != 0 %}<a target="_blank" href="{{ member.twitter }}/"><i class="fab fa-twitter" style="color:#0084b4; font-size:24px;"></i></a> {% endif %}{% if member.orcid != 0 %}<a target="_blank" href="{{ member.orcid }}/"> <i class="fas fa-dot-circle" style="color:#a6ce39;font-size:24px;"></i></a> {% endif %}{% if member.cv != 0 %}<a target="_blank" href="{{ site.url }}{{ site.baseurl }}{{ member.cv }}"> <i class="fas fa-file-pdf" style="color:#f45c42;font-size:22px;"></i></a>{% endif %}
   <br>
   <i>{{ member.info }}<br>email: <{{ member.email }}></i>
   <ul style="overflow: hidden">
