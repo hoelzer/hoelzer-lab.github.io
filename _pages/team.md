@@ -75,7 +75,7 @@ permalink: /team/
 <tr><td>Ruman Gerst, Fall 2017</td></tr>
 </table>
 <table align="center" class="table table-condensed">
-<tr><th>Visitors</th></tr>
+<tr><th>Guest Scientists</th></tr>
 <tr><td>Fabien Vorimore, Winter 2016 & 2017</td></tr>
 </table>
 <br>
