@@ -14,10 +14,12 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 
 {% for publi in site.data.publist %}
 
-  {% if publi.preprint == 0 && publi.book == 0 %}
+  {% if publi.preprint == 0 %}
+    {% if publi.book == 0 %}
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br />
   <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}})
+  {% endif %}  
   {% endif %}
 
 {% endfor %}

@@ -9,6 +9,9 @@ File.open('_data/publist.yml','w') {|file| file.truncate(0) }
 yml = File.open('_data/publist.yml','w')
 
 @umlaute = {'o' => 'ö', 'a' => 'ä', 'u' => 'ü', 'O' => 'Ö', 'A' => 'Ä', 'U' => 'Ü', 'ss' => 'ß'}
+special_i = '{\ \'\i}'.gsub(' ','')
+@special = {special_i => '&iacute;'}
+#Zubir{\'\i}a
 
 class Pub
 	attr_accessor :title, :authors, :year, :url, :journal
@@ -24,7 +27,7 @@ bib.each do |entry|
 		publist[id] = Pub.new
 
 		publist[id].authors = entry.authors.to_s 
-		publist[id].title = entry.title.to_s.gsub('{','').gsub('}','').gsub('"','\"')
+		publist[id].title = entry.title.to_s#.gsub('{','').gsub('}','').gsub('"','\"')
 		publist[id].year = entry.year.to_s
 		publist[id].url = entry.url.to_s
 		publist[id].journal = entry.journal.to_s
@@ -44,30 +47,47 @@ def authors(authors)
 			break
 		else	
 			new_authors << ", " if new_authors.size > 1
-			puts author
 			firstname = author.split(',')[1].strip
 			lastname = author.split(',')[0].strip
 			@umlaute.each do |umlaut, replace|
 				firstname = firstname.gsub("{\\\"#{umlaut}\}",replace).gsub("{\\\"\{#{umlaut}\}\}",replace)
 				lastname = lastname.gsub("{\\\"#{umlaut}\}",replace).gsub("{\\\"\{#{umlaut}\}\}",replace)
 			end		
+			@special.each do |special, replace|
+				firstname = firstname.gsub(special, replace)
+				lastname = lastname.gsub(special, replace)
+			end
 			new_authors << "#{firstname} #{lastname}"
 		end
 	end
 	new_authors
 end
 
-  #author    = {H{\"o}lzer, Martin and Marz, Manja},
-
-  #author    = {Klassert, Tilman E and Br{\"a}uer, Julia and H{\"o}lzer, Martin and Stock, Magdalena and Riege, Konstantin and Zubir{\'\i}a-Barrera, Cristina and M{\"u}ller, Mario M and Rummler, Silke and Skerka, Christine and Marz, Manja and others},
+def title(title)
+	puts title if title.include?('Myco')
+	new_title = title
+	['\emph{', '\textit{'].each do |rep|
+		while new_title.include?(rep)
+			replacement = new_title.split(rep)[1].split('}')[0]
+			new_title = new_title.split(rep)[0] \
+			+ '*' \
+			+ new_title.split(rep)[1].split('}')[0] \
+			+ '*' 
+			puts replacement
+			new_title << title.split("#{replacement}\}")[1]
+		end
+	end
+	puts new_title if title.include?('Myco')
+	new_title = new_title.gsub('{','').gsub('}','').gsub('.\\','.')
+end
 
 
 year.each do |y|
 	publist.each do |id, pub|
 		next if pub.year.to_s != y
 		book = '0'
-		book = '1' if pub.title.include?('Software Dedicated')
-		yml << "- title: \"#{pub.title}\"\n"
+		book = '1' if pub.title.include?('Software')
+		yml << "- title: \"#{title(pub.title.gsub('"','\"'))}\"\n"
 		yml << "  authors: #{authors(pub.authors)}\n"
 		yml << "  year: #{pub.year}\n"
 		yml << "  preprint: 0\n"

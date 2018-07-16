@@ -19,7 +19,7 @@ Interactive web service that allows analysis of RNA-Seq read count data with PCA
 - [Run PCAGO as standalone desktop application using the Electron framework](https://github.com/rumangerst/pcago-electron/)
 
 </div><div class="col-sm-6 clearfix">
-[![PCAGO Logo](https://gitlab.com/rumangerst/pcago/raw/master/www/logo.png)](http://pcago.bioinf.uni-jena.de/)
+[![PCAGO Logo](/assets/tools/pcago.png)](http://pcago.bioinf.uni-jena.de/)
 </div></div>
 
 <div class="row"><div class="col-sm-6 clearfix">
