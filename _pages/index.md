@@ -15,6 +15,8 @@ We strive to combine well-established and novel computational approaches to anal
 
 We work closely with the [RNA Bioinformatics/High-Throughput](http://www.rna.uni-jena.de/en/) group of Manja Marz and we are a member of the [European Virus Bioinformatics Center](http://evbc.uni-jena.de/). 
 
+![](/images/black_box.png)
+
 <!--
 We apply our computational methods to de novo genome assembly, cancer genomics and (most recently) infectious disease. We collaborate closely with [Nick Loman's group at the University of Birmingham](http://lab.loman.net/), [Winston Timp's lab at Johns Hopkins University](http://www.timplab.org/) and [Conrad Nieduszynski at the University of Oxford](http://www.path.ox.ac.uk/content/conrad-nieduszynski).
 -->
