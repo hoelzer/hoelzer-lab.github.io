@@ -29,7 +29,7 @@ Content will be added during the course.
 </div>
 
 <div class="col-sm-6 clearfix">
-![](/assets/teaching/teaching_model.png)
+![](/assets/teaching/teaching_model.svg)
 </div>
 
 </div>
