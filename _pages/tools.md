@@ -32,5 +32,5 @@ Interactive web service that allows analysis of RNA-Seq read count data with PCA
 
 </div><div class="col-sm-6 clearfix">
 <!--[![PoSeiDon logo](/assets/tools/poseidon.png)](http://www.rna.uni-jena.de/en/poseidon)-->
-<div align="right">[<img src="/assets/tools/poseidon.png" width="220px">](http://www.rna.uni-jena.de/en/poseidon)
+<div align="right">[<img src="/assets/tools/poseidon.svg" width="220px">](http://www.rna.uni-jena.de/en/poseidon)
 </div></div></div>
