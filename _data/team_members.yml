@@ -42,6 +42,16 @@
   cv: 0
   number_educ: 1
   education1: B.Sc. Bio, University of Jena
+
+- name: Rebekka Köhl
+  photo: rock.jpg
+  info: B.Sc., started Jul 2018
+  email: rebekka.koehl@uni-jena.de
+  github: 0
+  twitter: 0
+  orcid: 0
+  cv: 0
+  number_educ: 0
   
 #- name: "This could be you !"
 #  photo: rock.jpg
