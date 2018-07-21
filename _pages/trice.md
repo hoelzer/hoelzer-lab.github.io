@@ -15,5 +15,10 @@ Und das wünsche nicht nur ich aus dem fernen Kanada, sondern auch der Ulkbär!
   <p>Your browser does not support the video element.</p>
 </video>
 
-<a rel='nofollow' href='http://www.qrcode-generator.de' border='0' style='cursor:default'><img src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fhoelzer-lab.github.io%2Ftrice%2F&chs=180x180&choe=UTF-8&chld=L|2' alt=''></a>
+Und nun fragst du dich bestimmt, was es mit dieser Seite auf sich haben soll? 
+Eigentlich nicht viel, darum geh doch lieber mal an mein schottisch-kariertes 
+Jacket und schau mal was du dort in der Innentasche findest... 
 
+Alles liebe!
+
+Martin
