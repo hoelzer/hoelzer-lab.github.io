@@ -14,12 +14,12 @@ Und das wünsche nicht nur ich aus dem fernen Kanada, sondern auch der Ulkbär!
   <source type="video/mp4" src="/assets/trice.mp4"></source>
   <p>Your browser does not support the video element.</p>
 </video>
-(Falls das Video nicht direkt abspielt: (/assets/trice.mp4)[hier klicken!])
+(Falls das Video nicht direkt abspielt: [hier klicken!](/assets/trice.mp4)
 
 Und nun fragst du dich bestimmt, was es mit dieser Seite auf sich haben soll? 
 Eigentlich nicht viel, darum geh doch lieber mal an mein schottisch-kariertes 
-Jacket und schau mal was du dort in der Innentasche findest... 
+Jacket und schau mal was du dort in der Innentasche so findest... 
 
-Alles liebe!
+Viel Spass an deinem Tag und Alles Liebe!
 
-Martin
+Dein Martin
