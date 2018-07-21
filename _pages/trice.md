@@ -11,9 +11,10 @@ permalink: /trice/
 Und das wünsche nicht nur ich aus dem fernen Kanada, sondern auch der Ulkbär!
 
 <video  width="800" controls>
-  <source type="video/mp4" src="assets/trice.mp4"></source>
+  <source type="video/mp4" src="/assets/trice.mp4"></source>
   <p>Your browser does not support the video element.</p>
 </video>
+(Falls das Video nicht direkt abspielt: (/assets/trice.mp4)[hier klicken!])
 
 Und nun fragst du dich bestimmt, was es mit dieser Seite auf sich haben soll? 
 Eigentlich nicht viel, darum geh doch lieber mal an mein schottisch-kariertes 
