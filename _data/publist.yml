@@ -2,15 +2,27 @@
   authors: Daniel Steinbach, Martin Hölzer, Manja Marz, Mieczyslaw Gajda, Friedrich-Carl von Rundstedt, Marc-Oliver Grimm
   year: 2018
   preprint: 0
+  submitted: 0
   book: 0
   link:
     url: https://www.sciencedirect.com/science/article/pii/S1569905618318980?via%3Dihub#.#
     display: European Urology Supplements
 
+- title: "*De novo* transcriptome assembly: A comprehensive cross-species comparison of short-read RNA-Seq assemblers."
+  authors: Martin Hölzer, Manja Marz
+  year: 2018
+  preprint: 0
+  submitted: 1
+  book: 0
+  link:
+    url: 
+    display: Submitted
+
 - title: "Massive effect on lncRNAs in human monocytes during fungal and bacterial infections and in response to vitamins A and D."
   authors: Konstantin Riege, Martin Hölzer, Tilman E Klassert, Emanuel Barth, Julia Bräuer, Maximilian Collatz, Franziska Hufsky, Nelly Mostajo *et al*.
   year: 2017
   preprint: 0
+  submitted: 0
   book: 0
   link:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5240112/pdf/srep40598.pdf
@@ -20,6 +32,7 @@
   authors: Tilman E Klassert, Julia Bräuer, Martin Hölzer, Magdalena Stock, Konstantin Riege, Cristina Zubir&iacute;a-Barrera, Mario M Müller, Silke Rummler *et al*.
   year: 2017
   preprint: 0
+  submitted: 0
   book: 0
   link:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5240108/pdf/srep40599.pdf
@@ -29,6 +42,7 @@
   authors: Martin Hölzer, Manja Marz
   year: 2017
   preprint: 0
+  submitted: 0
   book: 1
   link:
     url: https://www.sciencedirect.com/science/article/pii/S0065352717300222?via%3Dihub
@@ -38,6 +52,7 @@
   authors: Petra Möbius, Elisabeth Liebler-Tenorio, Martin Hölzer, Heike Köhler
   year: 2017
   preprint: 0
+  submitted: 0
   book: 0
   link:
     url: https://doi.org/10.1016/j.vetmic.2017.01.026
@@ -47,6 +62,7 @@
   authors: Jonas Fuchs, Martin Hölzer, Mirjam Schilling, Corinna Patzina, Andreas Schoen, Thomas Hoenen, Gert Zimmer, Manja Marz *et al*.
   year: 2017
   preprint: 0
+  submitted: 0
   book: 0
   link:
     url: https://doi.org/10.1128/JVI.00361-17
@@ -56,6 +72,7 @@
   authors: Petra Möbius, Gabriele Nordsiek, Martin Hölzer, Michael Jarek, Manja Marz, Heike Köhler
   year: 2017
   preprint: 0
+  submitted: 0
   book: 0
   link:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5571421/pdf/e00870-17.pdf
@@ -65,6 +82,7 @@
   authors: Martin Hölzer, Verena Krähling, Fabian Amman, Emanuel Barth, Stephan H Bernhart, Victor A O Carmelo, Maximilian Collatz, Gero Doose *et al*.
   year: 2016
   preprint: 0
+  submitted: 0
   book: 0
   link:
     url: http://dx.doi.org/10.1038/srep34589
@@ -74,6 +92,7 @@
   authors: Martin Hölzer, Karine Laroucau, Heather Huot Creasy, Sandra Ott, Fabien Vorimore, Patrik M Bavoil, Manja Marz, Konrad Sachse
   year: 2016
   preprint: 0
+  submitted: 0
   book: 0
   link:
     url: http://dx.doi.org/10.1128/genomeA.00708-16
@@ -83,6 +102,7 @@
   authors: Abdullah H Sahyoun, Martin Hölzer, Frank Jühling, Christian Höner Zu Siederdissen, Marwa Al-Arab, Kifah Tout, Manja Marz, Martin Middendorf *et al*.
   year: 2015
   preprint: 0
+  submitted: 0
   book: 0
   link:
     url: http://dx.doi.org/10.1093/nar/gkv746
@@ -92,6 +112,7 @@
   authors: Petra Möbius, Martin Hölzer, Marius Felder, Gabriele Nordsiek, Marco Groth, Heike Köhler, Kathrin Reichwald, Matthias Platzer *et al*.
   year: 2015
   preprint: 0
+  submitted: 0
   book: 0
   link:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4607514/pdf/evv154.pdf
