@@ -10,18 +10,32 @@ permalink: /publications/
 
 This list is also available on [Google Scholar](https://scholar.google.de/citations?user=DMZ7Hc8AAAAJ) and under [ORCID](https://orcid.org/0000-0001-7090-8717).
 
+### Submitted
+
+{% for publi in site.data.publist %}
+
+{% if publi.submitted == 1 %}
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }} </em><br />
+  {{ publi.link.display }} ({{publi.year}})
+  {% endif %}
+
+{% endfor %}
+
 ### Peer Reviewed
 
 {% for publi in site.data.publist %}
 
   {% if publi.preprint == 0 %}
     {% if publi.book == 0 %}
+    {% if publi.submitted == 0 %}
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br />
   <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}})
   {% endif %}  
   {% endif %}
-
+  {% endif %}
+  
 {% endfor %}
 
 ### Book Chapter
