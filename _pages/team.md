@@ -64,8 +64,9 @@ permalink: /team/
 {% endif %}
 
 <table align="center" class="table table-condensed">
-<tr><th>Research assistants</th></tr>
+<tr><th>Shared research assistants</th></tr>
 <tr><td>Tassilo Dellnitz, since Spring 2017</td></tr>
+<tr><td>Anne Muriel Christin Ritsch, since Fall 2018</td></tr>
 </table>
 
 ### Alumni
