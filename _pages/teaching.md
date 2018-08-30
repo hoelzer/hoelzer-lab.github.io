@@ -18,7 +18,7 @@ permalink: /teaching/
 Content will be added during the course.
 
 - What is `LaTeX`? Why `LaTeX`? [Slides](/assets/teaching/latex/latex_intro.pdf)
-- Basics: [Handout](/assets/teaching/latex/handouts/Handout1_Basics.pdf), [Aufgaben](/assets/teaching/latex/tasks/1_Protokoll.tex.zip)
+- Basics: [Handout](/assets/teaching/latex/handouts/Handout1_Basics.pdf), [Aufgaben](/assets/teaching/latex/tasks/1_Protokoll.zip)
 - Text formating
 - Figures and tables
 - Mathematics
