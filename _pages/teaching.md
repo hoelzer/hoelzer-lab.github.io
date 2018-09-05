@@ -28,11 +28,9 @@ Content will be added during the course.
 
 #### Virus metatranscriptomics practical course
 
-##### Input:
-An artificial transcriptomic sample from a human patient.   
+##### **Input**: An artificial transcriptomic sample from a human patient.   
 
-##### Goal:
-Find out which viruses infected the patient.  
+##### **Goal**: Find out which viruse(s) infected the patient.  
 
 ##### Approaches/Tools:
 - Quality check (FastQC)
