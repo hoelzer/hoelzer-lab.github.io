@@ -26,7 +26,7 @@ Content will be added during the course.
 - Bachlor/Master and larger theses: <!--[Handout](/assets/teaching/latex/handouts/Handout6_Abschlussarbeiten.pdf), [Aufgaben](/assets/teaching/latex/tasks/6_Abschlussarbeiten.zip)-->
 - Scientific publication formats, CV, letters: <!--[ShareLaTeX](https://de.sharelatex.com/), [Aufgaben](/assets/teaching/latex/tasks/7_Last.txt.zip)-->
 
-#### Virus metatranscriptomics practical course
+<!--#### Virus metatranscriptomics practical course
 
 ##### **Input**: An artificial transcriptomic sample from a human patient.   
 
@@ -38,7 +38,7 @@ Content will be added during the course.
 - Read classification (Clark, Kraken2, ...)
 - 
 
-##### Any other ideas?
+##### Any other ideas?-->
 
 </div>
 
