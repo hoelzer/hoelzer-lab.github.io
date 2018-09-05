@@ -26,6 +26,22 @@ Content will be added during the course.
 - Bachlor/Master and larger theses: <!--[Handout](/assets/teaching/latex/handouts/Handout6_Abschlussarbeiten.pdf), [Aufgaben](/assets/teaching/latex/tasks/6_Abschlussarbeiten.zip)-->
 - Scientific publication formats, CV, letters: <!--[ShareLaTeX](https://de.sharelatex.com/), [Aufgaben](/assets/teaching/latex/tasks/7_Last.txt.zip)-->
 
+#### Virus metatranscriptomics practical course
+
+##### Input:
+An artificial transcriptomic sample from a human patient.   
+
+##### Goal:
+Find out which viruses infected the patient.  
+
+##### Approaches/Tools:
+- Quality check (FastQC)
+- Sequence similarity (Blast, Hisat2, ...)
+- Read classification (Clark, Kraken2, ...)
+- 
+
+##### Any other ideas?
+
 </div>
 
 <div class="col-sm-6 clearfix">
