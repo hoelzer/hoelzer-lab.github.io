@@ -23,8 +23,8 @@ Content will be added during the course.
 - Figures and tables: [Handout](/assets/teaching/latex/handouts/Handout3_Abbildungen_Tabellen.pdf), [Aufgaben](/assets/teaching/latex/tasks/3_Floats.zip)
 - Mathematics: [Handout](/assets/teaching/latex/handouts/Handout4_Mathematik.pdf), [Aufgaben](/assets/teaching/latex/tasks/4_Mathematik.zip)
 - Informatics: [Handout](/assets/teaching/latex/handouts/Handout5_Informatik.pdf), [Aufgaben](/assets/teaching/latex/tasks/5_Informatik.zip)
-- Bachlor/Master and larger theses: <!--[Handout](/assets/teaching/latex/handouts/Handout6_Abschlussarbeiten.pdf), [Aufgaben](/assets/teaching/latex/tasks/6_Abschlussarbeiten.zip)-->
-- Scientific publication formats, CV, letters: <!--[ShareLaTeX](https://de.sharelatex.com/), [Aufgaben](/assets/teaching/latex/tasks/7_Last.txt.zip)-->
+- Bachlor/Master and larger theses: [Handout](/assets/teaching/latex/handouts/Handout6_Abschlussarbeiten.pdf), [Aufgaben](/assets/teaching/latex/tasks/6_Abschlussarbeiten.zip)
+- Scientific publication formats, CV, letters: [ShareLaTeX](https://de.sharelatex.com/), [Aufgaben](/assets/teaching/latex/tasks/7_Last.txt.zip)
 
 <!--#### Virus metatranscriptomics practical course
 
