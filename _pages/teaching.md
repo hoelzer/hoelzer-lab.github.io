@@ -31,7 +31,7 @@ Content will be added during the course.
 ##### **Input**: An artificial transcriptomic sample from a human patient.   
 
 ##### **Goal**: Find out which viruse(s) infected the patient.  
-<!-->
+<!--
 ##### Approaches/Tools:
 - Quality check (FastQC)
 - Sequence similarity (Blast, Hisat2, ...)
