@@ -10,7 +10,7 @@ yml = File.open('_data/publist.yml','w')
 
 @umlaute = {'o' => 'ö', 'a' => 'ä', 'u' => 'ü', 'O' => 'Ö', 'A' => 'Ä', 'U' => 'Ü', 'ss' => 'ß'}
 special_i = '{\ \'\i}'.gsub(' ','')
-special_o = '{\ \`\o}'.gsub(' ','')
+special_o = '\`{o}'
 @special = {special_i => '&iacute;', special_o => '&ograve;'}
 #Zubir{\'\i}a
 
@@ -57,6 +57,11 @@ def authors(authors)
 			@special.each do |special, replace|
 				firstname = firstname.gsub(special, replace)
 				lastname = lastname.gsub(special, replace)
+				if firstname == "Daniel"
+					puts lastname
+					puts @special
+					end
+
 			end
 			new_authors << "#{firstname} #{lastname}"
 		end

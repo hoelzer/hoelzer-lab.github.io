@@ -10,7 +10,7 @@ permalink: /publications/
 
 This list is also available on [Google Scholar](https://scholar.google.de/citations?user=DMZ7Hc8AAAAJ) and under [ORCID](https://orcid.org/0000-0001-7090-8717).
 
-### Preprints & journal submissions 
+### Submitted journal publications & preprints  
 
 {% for publi in site.data.publist %}
 
