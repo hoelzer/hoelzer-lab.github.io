@@ -10,7 +10,8 @@ yml = File.open('_data/publist.yml','w')
 
 @umlaute = {'o' => 'ö', 'a' => 'ä', 'u' => 'ü', 'O' => 'Ö', 'A' => 'Ä', 'U' => 'Ü', 'ss' => 'ß'}
 special_i = '{\ \'\i}'.gsub(' ','')
-@special = {special_i => '&iacute;'}
+special_o = '{\ \`\o}'.gsub(' ','')
+@special = {special_i => '&iacute;', special_o => '&ograve;'}
 #Zubir{\'\i}a
 
 class Pub
