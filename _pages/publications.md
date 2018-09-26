@@ -14,6 +14,12 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 
 {% for publi in site.data.publist %}
 
+{% if publi.submitted == 2 %}
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }} </em><br />
+  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}})
+  {% endif %}
+
 {% if publi.submitted == 1 %}
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br />

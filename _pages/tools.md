@@ -28,6 +28,10 @@ Interactive web service that allows analysis of RNA-Seq read count data with PCA
 
 **Po**sitive **Se**lect**i**on **D**etecti**on** and recombination analysis of protein-coding genes.
 
+**Attention:** currently the website where PoSeiDon is hosted will undergo
+maintenance. Jobs might be not calculated as regular. The web service will be
+back soon with full functionality. 
+
 - [Go to web server](http://www.rna.uni-jena.de/en/poseidon)
 
 </div><div class="col-sm-6 clearfix">

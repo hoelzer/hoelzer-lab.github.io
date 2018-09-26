@@ -94,7 +94,8 @@ year.each do |y|
 		book = '0'
 		submitted = '0'
 		book = '1' if pub.title.include?('Software')
-		submitted = '1' if pub.journal.include?('Submitted')
+		submitted = '1' if pub.journal.include?('Submitted') 
+		submitted = '2' if pub.journal.include?('bioRxiv') 
 		yml << "- title: \"#{title(pub.title.gsub('"','\"'))}\"\n"
 		yml << "  authors: #{authors(pub.authors)}\n"
 		yml << "  year: #{pub.year}\n"
