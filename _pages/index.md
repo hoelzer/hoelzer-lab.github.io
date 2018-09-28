@@ -10,11 +10,13 @@ We are a fresh, small bioinformatics group at the [FSU Jena](https://www.uni-jen
 
 We focus on the development of algorithms and tools for handling large sequencing data sets. We apply our computational methods to *de novo* genome and transcriptome assembly, the comprehensive analysis of RNA-Seq data, and the identification of pathogens such as viruses.
 
-We strive to combine well-established and novel computational approaches to analyze and visualize large amounts of sequencing data.
+We strive to combine well-established and novel computational approaches to analyze and visualize large amounts of 
+short- and long-read sequencing data.
 <!-- in a comprehensive and handsome way to allow other researchers to understand, interpret and dilate the data.-->
 
 We work closely with the [RNA Bioinformatics/High-Throughput](http://www.rna.uni-jena.de/en/) group of Manja Marz and we are a member of the [European Virus Bioinformatics Center](http://evbc.uni-jena.de/). 
 
+<br><br>
 ![](/images/black_box.svg)
 
 <!--
