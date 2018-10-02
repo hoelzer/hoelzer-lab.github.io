@@ -28,6 +28,16 @@
     url: https://doi.org/10.1101/424002
     display: bioRxiv
 
+- title: "PCAGO: An interactive web service to analyze RNA-Seq data with principal component analysis."
+  authors: Ruman Gerst, Martin Hölzer
+  year: 2018
+  preprint: 0
+  submitted: 1
+  book: 0
+  link:
+    url: 
+    display: Submitted
+
 - title: "Massive effect on lncRNAs in human monocytes during fungal and bacterial infections and in response to vitamins A and D."
   authors: Konstantin Riege, Martin Hölzer, Tilman E Klassert, Emanuel Barth, Julia Bräuer, Maximilian Collatz, Franziska Hufsky, Nelly Mostajo *et al*.
   year: 2017
