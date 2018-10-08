@@ -69,6 +69,13 @@ permalink: /team/
 <tr><td>Anne Muriel Christin Ritsch, since Fall 2018</td></tr>
 </table>
 
+<table align="center" class="table table-condensed">
+<tr><th>Student's project work</th></tr>
+<tr><td>Daria Meyer, since Fall 2018</td></tr>
+<tr><td>Lasse Feldhahn, since Fall 2018</td></tr>
+<tr><td>Jannes Spangenberg, since Spring 2018</td></tr>
+</table>
+
 ### Alumni
 <table align="center" class="table table-condensed">
 <tr><th>Master Students</th><th>Guest Scientists</th></tr>
