@@ -72,7 +72,7 @@ permalink: /team/
 <table align="center" class="table table-condensed">
 <tr><th>Student's project work</th></tr>
 <tr><td>Daria Meyer, since Fall 2018</td></tr>
-<tr><td>Lasse Feldhahn, since Fall 2018</td></tr>
+<tr><td>Lasse Faber, since Fall 2018</td></tr>
 <tr><td>Jannes Spangenberg, since Spring 2018</td></tr>
 </table>
 
