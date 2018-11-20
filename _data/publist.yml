@@ -8,6 +8,26 @@
     url: https://www.sciencedirect.com/science/article/pii/S1569905618318980?via%3Dihub#.#
     display: European Urology Supplements
 
+- title: "SilentMutations (SIM): a tool for analyzing long-range RNA-RNA interactions in viral genomes and structured RNAs."
+  authors: Daniel Desir&ograve;, Martin Hölzer, Bashar Ibrahim, Manja Marz
+  year: 2018
+  preprint: 0
+  submitted: 0
+  book: 0
+  link:
+    url: https://doi.org/10.1016/j.virusres.2018.11.005
+    display: Virus Research
+
+- title: "Cohesin-mediated NF-κB signaling limits hematopoietic stem cell self-renewal in aging and inflammation."
+  authors: Zhiyang Chen, Elias Amro, Friedrich Becker, Martin Hölzer, Sospeter Njeru, Seyed Rasa, Bing Han, Simone Di Sanzo *et al*.
+  year: 2018
+  preprint: 0
+  submitted: 0
+  book: 0
+  link:
+    url: 
+    display: Journal of Experimental Medicine (accepted for publication)
+
 - title: "*De novo* transcriptome assembly: A comprehensive cross-species comparison of short-read RNA-Seq assemblers."
   authors: Martin Hölzer, Manja Marz
   year: 2018
@@ -17,16 +37,6 @@
   link:
     url: 
     display: Submitted
-
-- title: "SilentMutations (SIM): a tool for analyzing long-range RNA-RNA interactions in viral genomes and structural RNAs."
-  authors: Daniel Desir&ograve;, Martin Hölzer, Bashar Ibrahim, Manja Marz
-  year: 2018
-  preprint: 0
-  submitted: 2
-  book: 0
-  link:
-    url: https://doi.org/10.1101/424002
-    display: bioRxiv
 
 - title: "PCAGO: An interactive web service to analyze RNA-Seq data with principal component analysis."
   authors: Ruman Gerst, Martin Hölzer
