@@ -14,6 +14,9 @@ special_o = '\`{o}'
 @special = {special_i => '&iacute;', special_o => '&ograve;'}
 #Zubir{\'\i}a
 
+@team = {'Martin Hölzer' => '<b>Martin Hölzer</b>', 'Ruman Gerst' => '<b>Ruman Gerst</b>', 'Maximilian Collatz' => '<b>Maximilian Collatz</b>', 
+'Sebastian Krautwurst' => '<b>Sebastian Krautwurst</b>'}
+
 class Pub
 	attr_accessor :title, :authors, :year, :url, :journal
 end
@@ -97,7 +100,11 @@ year.each do |y|
 		submitted = '1' if pub.journal.include?('Submitted') 
 		submitted = '2' if pub.journal.include?('bioRxiv') 
 		yml << "- title: \"#{title(pub.title.gsub('"','\"'))}\"\n"
-		yml << "  authors: #{authors(pub.authors)}\n"
+		authors_string = authors(pub.authors)
+		@team.each do |author, bold_author|
+			authors_string = authors_string.sub(author, bold_author)
+		end
+		yml << "  authors: #{authors_string}\n"
 		yml << "  year: #{pub.year}\n"
 		yml << "  preprint: 0\n"
 		yml << "  submitted: #{submitted}\n"
