@@ -17,14 +17,14 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 {% if publi.submitted == 2 %}
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}})
-  {% endif %}
+  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}}){% if publi.supp != 0 %}, <a href="{{ publi.supp }}">supplement</a> {% endif %}  
+{% endif %}
 
 {% if publi.submitted == 1 %}
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br />
-  {{ publi.link.display }} ({{publi.year}})
-  {% endif %}
+  {{ publi.link.display }} ({{publi.year}}){% if publi.supp != 0 %}, <a href="{{ publi.supp }}">supplement</a> {% endif %}
+{% endif %}
 
 {% endfor %}
 
@@ -37,7 +37,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
     {% if publi.submitted == 0 %}
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}})
+  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}}){% if publi.supp != 0 %}, <a href="{{ publi.supp }}">supplement</a> {% endif %}
   {% endif %}  
   {% endif %}
   {% endif %}

@@ -4,6 +4,7 @@
   preprint: 0
   submitted: 0
   book: 0
+  supp: 0
   link:
     url: https://www.sciencedirect.com/science/article/pii/S1569905618318980?via%3Dihub#.#
     display: European Urology Supplements
@@ -14,6 +15,7 @@
   preprint: 0
   submitted: 0
   book: 0
+  supp: 0
   link:
     url: https://doi.org/10.1016/j.virusres.2018.11.005
     display: Virus Research
@@ -24,6 +26,7 @@
   preprint: 0
   submitted: 0
   book: 0
+  supp: 0
   link:
     url: https://doi.org/10.1084/jem.20181505
     display: Journal of Experimental Medicine
@@ -34,6 +37,7 @@
   preprint: 0
   submitted: 1
   book: 0
+  supp: 0
   link:
     url: 
     display: Submitted
@@ -44,6 +48,7 @@
   preprint: 0
   submitted: 2
   book: 0
+  supp: 0
   link:
     url: https://doi.org/10.1101/433078
     display: bioRxiv
@@ -54,6 +59,7 @@
   preprint: 0
   submitted: 2
   book: 0
+  supp: https://doi.org/10.17605/OSF.IO/UP7B4
   link:
     url: https://doi.org/10.1101/483693
     display: bioRxiv
@@ -64,6 +70,7 @@
   preprint: 0
   submitted: 0
   book: 0
+  supp: http://www.rna.uni-jena.de/supplements/fungi_infection
   link:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5240112/pdf/srep40598.pdf
     display: Scientific Reports
@@ -74,6 +81,7 @@
   preprint: 0
   submitted: 0
   book: 0
+  supp: http://www.rna.uni-jena.de/supplements/fungi_infection
   link:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5240108/pdf/srep40599.pdf
     display: Scientific Reports
@@ -84,6 +92,7 @@
   preprint: 0
   submitted: 0
   book: 1
+  supp: 0
   link:
     url: https://www.sciencedirect.com/science/article/pii/S0065352717300222?via%3Dihub
     display: Advances in Virus Research
@@ -94,6 +103,7 @@
   preprint: 0
   submitted: 0
   book: 0
+  supp: 0
   link:
     url: https://doi.org/10.1016/j.vetmic.2017.01.026
     display: Veterinary Microbiology
@@ -104,6 +114,7 @@
   preprint: 0
   submitted: 0
   book: 0
+  supp: http://www.rna.uni-jena.de/supplements/mx1_bats/full_aln/
   link:
     url: https://doi.org/10.1128/JVI.00361-17
     display: Journal of Virology
@@ -114,6 +125,7 @@
   preprint: 0
   submitted: 0
   book: 0
+  supp: 0
   link:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5571421/pdf/e00870-17.pdf
     display: Genome Announcements
@@ -124,6 +136,7 @@
   preprint: 0
   submitted: 0
   book: 0
+  supp: http://www.rna.uni-jena.de/supplements/filovirus_human_bat
   link:
     url: http://dx.doi.org/10.1038/srep34589
     display: Scientific Reports
@@ -134,6 +147,7 @@
   preprint: 0
   submitted: 0
   book: 0
+  supp: 0
   link:
     url: http://dx.doi.org/10.1128/genomeA.00708-16
     display: Genome Announcements
@@ -144,6 +158,7 @@
   preprint: 0
   submitted: 0
   book: 0
+  supp: 0
   link:
     url: http://dx.doi.org/10.1093/nar/gkv746
     display: Nucleic Acids Res.
@@ -154,6 +169,7 @@
   preprint: 0
   submitted: 0
   book: 0
+  supp: http://www.rna.uni-jena.de/supplements/mycobacterium
   link:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4607514/pdf/evv154.pdf
     display: Genome Biology and Evolution
