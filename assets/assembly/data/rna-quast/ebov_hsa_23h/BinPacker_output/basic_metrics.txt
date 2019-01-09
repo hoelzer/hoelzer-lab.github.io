@@ -1,0 +1,12 @@
+METRICS/TRANSCRIPTS                                    BinPacker                
+ == BASIC TRANSCRIPTS METRICS (calculated without reference genome and gene database) == 
+Transcripts                                            12291                    
+
+Transcripts > 500 bp                                   11834                    
+Transcripts > 1000 bp                                  10862                    
+
+Average length of assembled transcripts                3572.808                 
+Longest transcript                                     21781                    
+Total length                                           43913385                 
+
+Transcript N50                                         4356                     

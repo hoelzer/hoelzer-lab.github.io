@@ -1,0 +1,15 @@
+# BUSCO version is: 2.0 
+# The lineage dataset is: embryophyta_odb9 (Creation date: 2016-11-01, number of species: 30, number of BUSCOs: 1440)
+# To reproduce this run: python /mnt/prostlocal/programs/busco/v2.0/BUSCO.py -i /mnt/dessertlocal/projects/transcriptome_assembly/assemblies//ath/final/shannon.fasta -o ath_shannon -l /mnt/prostlocal/programs/busco/v2.0/datasets/embryophyta_odb9/ -m tran -c 1 -sp arabidopsis
+#
+# Summarized benchmarking in BUSCO notation for file /mnt/dessertlocal/projects/transcriptome_assembly/assemblies//ath/final/shannon.fasta
+# BUSCO was run in mode: tran
+
+	C:72.8%[S:55.8%,D:17.0%],F:6.6%,M:20.6%,n:1440
+
+	1049	Complete BUSCOs (C)
+	804	Complete and single-copy BUSCOs (S)
+	245	Complete and duplicated BUSCOs (D)
+	95	Fragmented BUSCOs (F)
+	296	Missing BUSCOs (M)
+	1440	Total BUSCO groups searched

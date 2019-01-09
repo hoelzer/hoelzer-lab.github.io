@@ -1,0 +1,23 @@
+METRICS/TRANSCRIPTS                                    SOAPdenovo-Trans         
+ == ALIGNMENT METRICS (calculated with reference genome but without gene database) == 
+Transcripts                                            101745                   
+
+Aligned                                                100986                   
+
+Uniquely aligned                                       99816                    
+Multiply aligned                                       686                      
+Misassembly candidates reported by GMAP (or BLAT)      482                      
+
+Unaligned                                              759                      
+
+ == ALIGNMENT METRICS FOR NON-MISASSEMBLED TRANSCRIPTS == 
+Average aligned fraction                               0.997                    
+Average alignment length                               519.962                  
+
+Average blocks per alignment                           2.206                    
+Average block length                                   235.663                  
+
+Average mismatches per transcript                      0.163                    
+
+NA50                                                   266                      
+

@@ -1,0 +1,27 @@
+METRICS/TRANSCRIPTS                                    Trinity                  
+ == ASSEMBLY COMPLETENESS (SENSITIVITY) == 
+Database coverage                                      0.511                    
+Duplication ratio                                      1.039                    
+Avg. number of transcripts mapped to one isoform       1.526                    
+
+50%-assembled genes                                    5302                     
+95%-assembled genes                                    4146                     
+50%-covered genes                                      6011                     
+95%-covered genes                                      4585                     
+
+50%-assembled isoforms                                 5302                     
+95%-assembled isoforms                                 4146                     
+50%-covered isoforms                                   6011                     
+95%-covered isoforms                                   4585                     
+
+50%-assembled exons                                    5702                     
+95%-assembled exons                                    4534                     
+
+Mean isoform assembly                                  0.746                    
+
+Mean isoform coverage                                  0.817                    
+Mean exon coverage                                     0.826                    
+
+Avg. percentage of isoform 50%-covered exons           0.813                    
+Avg. percentage of isoform 95%-covered exons           0.624                    
+

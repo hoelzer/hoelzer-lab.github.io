@@ -1,0 +1,8 @@
+METRICS/TRANSCRIPTS                                    SPAdes                   
+ == ALIGNMENT METRICS FOR MISASSEMBLED (CHIMERIC) TRANSCRIPTS (calculated with reference genome or with gene database) == 
+Transcripts                                            353728                   
+
+Misassembly candidates reported by GMAP (or BLAT)      10540                    
+Misassembly candidates reported by BLASTN              27047                    
+Misassemblies                                          2022                     
+

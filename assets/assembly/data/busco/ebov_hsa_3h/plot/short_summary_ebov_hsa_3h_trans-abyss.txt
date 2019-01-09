@@ -1,0 +1,15 @@
+# BUSCO version is: 2.0 
+# The lineage dataset is: euarchontoglires_odb9 (Creation date: 2016-11-01, number of species: 25, number of BUSCOs: 6192)
+# To reproduce this run: python /mnt/prostlocal/programs/busco/v2.0/BUSCO.py -i /mnt/dessertlocal/projects/transcriptome_assembly/review/assemblies/ebov_hsa_3h/final/trans-abyss.fasta -o ebov_hsa_3h_trans-abyss -l /mnt/prostlocal/programs/busco/v2.0/datasets/euarchontoglires_odb9/ -m tran -c 1 -sp human
+#
+# Summarized benchmarking in BUSCO notation for file /mnt/dessertlocal/projects/transcriptome_assembly/review/assemblies/ebov_hsa_3h/final/trans-abyss.fasta
+# BUSCO was run in mode: tran
+
+	C:64.3%[S:37.1%,D:27.2%],F:6.0%,M:29.7%,n:6192
+
+	3982	Complete BUSCOs (C)
+	2300	Complete and single-copy BUSCOs (S)
+	1682	Complete and duplicated BUSCOs (D)
+	372	Fragmented BUSCOs (F)
+	1838	Missing BUSCOs (M)
+	6192	Total BUSCO groups searched

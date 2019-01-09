@@ -1,0 +1,23 @@
+METRICS/TRANSCRIPTS                                    Oases                    
+ == ALIGNMENT METRICS (calculated with reference genome but without gene database) == 
+Transcripts                                            46469                    
+
+Aligned                                                46049                    
+
+Uniquely aligned                                       41196                    
+Multiply aligned                                       48                       
+Misassembly candidates reported by GMAP (or BLAT)      4720                     
+
+Unaligned                                              420                      
+
+ == ALIGNMENT METRICS FOR NON-MISASSEMBLED TRANSCRIPTS == 
+Average aligned fraction                               0.959                    
+Average alignment length                               2090.55                  
+
+Average blocks per alignment                           8.769                    
+Average block length                                   238.398                  
+
+Average mismatches per transcript                      2.105                    
+
+NA50                                                   3604                     
+

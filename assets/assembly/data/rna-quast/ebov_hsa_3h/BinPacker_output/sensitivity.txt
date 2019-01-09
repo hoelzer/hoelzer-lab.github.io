@@ -1,0 +1,30 @@
+METRICS/TRANSCRIPTS                                    BinPacker                
+ == ASSEMBLY COMPLETENESS (SENSITIVITY) == 
+Database coverage                                      0.006                    
+Duplication ratio                                      2.014                    
+Avg. number of transcripts mapped to one isoform       1.906                    
+
+50%-assembled genes                                    453                      
+95%-assembled genes                                    227                      
+50%-covered genes                                      458                      
+95%-covered genes                                      235                      
+
+50%-assembled isoforms                                 550                      
+95%-assembled isoforms                                 255                      
+50%-covered isoforms                                   556                      
+95%-covered isoforms                                   264                      
+
+50%-assembled exons                                    5892                     
+95%-assembled exons                                    5502                     
+
+Mean isoform assembly                                  0.712                    
+
+Mean isoform coverage                                  0.718                    
+Mean exon coverage                                     0.954                    
+
+Avg. percentage of isoform 50%-covered exons           0.768                    
+Avg. percentage of isoform 95%-covered exons           0.688                    
+
+ == GeneMarkS-T METRICS == 
+Genes                                                  1376                     
+

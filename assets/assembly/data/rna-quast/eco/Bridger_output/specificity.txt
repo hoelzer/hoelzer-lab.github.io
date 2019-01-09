@@ -1,0 +1,17 @@
+METRICS/TRANSCRIPTS                                    Bridger                  
+ == ASSEMBLY SPECIFICITY == 
+Unannotated                                            273                      
+
+50%-matched                                            3212                     
+95%-matched                                            1550                     
+
+Mean fraction of transcript matched                    0.749                    
+
+Mean fraction of block matched                         0.795                    
+
+50%-matched blocks                                     0.869                    
+95%-matched blocks                                     0.432                    
+
+Matched length                                         1338116                  
+Unmatched length                                       535978                   
+

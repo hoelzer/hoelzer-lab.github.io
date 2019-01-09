@@ -1,0 +1,23 @@
+METRICS/TRANSCRIPTS                                    rnaSPAdes                
+ == ALIGNMENT METRICS (calculated with reference genome but without gene database) == 
+Transcripts                                            11766                    
+
+Aligned                                                11744                    
+
+Uniquely aligned                                       11306                    
+Multiply aligned                                       7                        
+Misassembly candidates reported by GMAP (or BLAT)      423                      
+
+Unaligned                                              22                       
+
+ == ALIGNMENT METRICS FOR NON-MISASSEMBLED TRANSCRIPTS == 
+Average aligned fraction                               0.968                    
+Average alignment length                               1649.147                 
+
+Average blocks per alignment                           5.605                    
+Average block length                                   294.249                  
+
+Average mismatches per transcript                      1.82                     
+
+NA50                                                   2785                     
+

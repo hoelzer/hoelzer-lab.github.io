@@ -1,0 +1,12 @@
+METRICS/TRANSCRIPTS                                    Shannon                  
+ == BASIC TRANSCRIPTS METRICS (calculated without reference genome and gene database) == 
+Transcripts                                            7255                     
+
+Transcripts > 500 bp                                   3729                     
+Transcripts > 1000 bp                                  2341                     
+
+Average length of assembled transcripts                1075.318                 
+Longest transcript                                     18026                    
+Total length                                           7801435                  
+
+Transcript N50                                         1405                     

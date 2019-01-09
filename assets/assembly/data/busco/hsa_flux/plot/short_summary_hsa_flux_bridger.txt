@@ -1,0 +1,15 @@
+# BUSCO version is: 2.0 
+# The lineage dataset is: euarchontoglires_chr1_odb9 (Creation date: 2017-19-01, number of species: 25, number of BUSCOs: 671)
+# To reproduce this run: python /mnt/prostlocal/programs/busco/v2.0/BUSCO.py -i /mnt/dessertlocal/projects/transcriptome_assembly/assemblies/simulated//hsa_flux/final/bridger.fasta -o hsa_flux_bridger -l /mnt/prostlocal/programs/busco/v2.0/datasets/euarchontoglires_chr1_odb9/ -m tran -c 1 -sp human_chr1
+#
+# Summarized benchmarking in BUSCO notation for file /mnt/dessertlocal/projects/transcriptome_assembly/assemblies/simulated//hsa_flux/final/bridger.fasta
+# BUSCO was run in mode: tran
+
+	C:78.2%[S:47.1%,D:31.1%],F:17.6%,M:4.2%,n:671
+
+	525	Complete BUSCOs (C)
+	316	Complete and single-copy BUSCOs (S)
+	209	Complete and duplicated BUSCOs (D)
+	118	Fragmented BUSCOs (F)
+	28	Missing BUSCOs (M)
+	671	Total BUSCO groups searched

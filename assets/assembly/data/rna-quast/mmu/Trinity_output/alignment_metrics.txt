@@ -1,0 +1,23 @@
+METRICS/TRANSCRIPTS                                    Trinity                  
+ == ALIGNMENT METRICS (calculated with reference genome but without gene database) == 
+Transcripts                                            63305                    
+
+Aligned                                                62410                    
+
+Uniquely aligned                                       60559                    
+Multiply aligned                                       310                      
+Misassembly candidates reported by GMAP (or BLAT)      1495                     
+
+Unaligned                                              895                      
+
+ == ALIGNMENT METRICS FOR NON-MISASSEMBLED TRANSCRIPTS == 
+Average aligned fraction                               0.993                    
+Average alignment length                               1216.863                 
+
+Average blocks per alignment                           4.512                    
+Average block length                                   269.687                  
+
+Average mismatches per transcript                      0.84                     
+
+NA50                                                   2847                     
+

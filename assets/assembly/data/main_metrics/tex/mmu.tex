@@ -1,0 +1,73 @@
+\documentclass{scrartcl}
+
+      \usepackage{lipsum}
+      \usepackage[utf8]{inputenc}
+      \usepackage[pdftex, colorlinks=true, linkcolor=MidnightBlue, citecolor=MidnightBlue, urlcolor=MidnightBlue, pdfauthor={Dr.\ Martin Hoelzer}, pdfpagelayout=SinglePage, bookmarks, bookmarksopen]{hyperref}
+      
+      \usepackage{rotating}
+      \usepackage{booktabs}
+      
+      \usepackage{pdflscape}
+      \usepackage[left=2cm,right=2cm,top=1.5cm,bottom=1.5cm]{geometry}
+    
+      \begin{document}
+      
+      \begin{landscape}
+      \pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%TABLE mmu
+%\begin{sidewaystable}
+\begin{table}
+  \centering
+  \caption[Main statistics and metrics for assembly evaluation]{\begin{scriptsize}
+  Selected metrics based on the output of
+    \texttt{rnaQUAST}, \texttt{HISAT2}, \texttt{DETONATE},
+    \texttt{TransRate} and \texttt{BUSCO} for the transcripts
+    assembled by all ten tools on the \emph{Mus musculus} RNA-Seq
+    data set. Details and much more statistics,
+    complementing this evaluation, can be found in the electronic
+    supplement, content S4--S10. The RSEM-EVAL score is divided by $10^{9}$.
+Number of ambiguous bases is given in thousand. F1 score -- an F1 score of 1 would mean that all
+nucleotides/contigs in the estimated true assembly were recovered
+with at least 90\,\% identity. KC score -- $k$-mer compression
+score reflecting the similarity of each assembly to
+\texttt{DETONATE}s estimated ``true'' assembly.
+The Ex90N50 statistic is computed as usual N50 but limited to the top most highly expressed 
+transcripts that represent 90\,\% of the total normalized expression data. 
+Normalized scores in the range between 0 and 1 are displayed. Raw values for each metric and assembly tool are given in subscript next to the normalized values.
+In the last row, the summarized \emph{metric score} ($MS$) of (0,1)-normalized scores is given for each assembly tool.  
+\end{scriptsize}}
+  \label{tab:mmu_metrics}
+  \begin{scriptsize}
+  \begin{tabular}{llllllllllll}
+    \toprule
+       &                         & \texttt{Trinity}  & \texttt{Oases}  & \texttt{Trans-ABySS} &  \texttt{SOAP-Trans} & \texttt{Bridger}  &  \texttt{BinPacker} &  \texttt{IDBA-Tran} & \texttt{Shannon} & \texttt{SPAdes-sc}  & \texttt{SPAdes-rna} \\
+      \midrule
+       &  $k$-mer size                & default        & 25,35,45,55,65  & 25,35,45,55,65          & default           & default      & default           & 25,35,45,55,65           & default            & default             & default \\ 
+\midrule\multicolumn{11}{l}{\textbf{Evaluation metrics 1--20}}\\ \cmidrule{1-2}
+
+\multicolumn{11}{l}{\texttt{HISAT2}}\\ 
+\midrule
+1 & Overall mapping rate  & 0.89$_{\,92.14}$ & 0.82$_{\,89.29}$ & 0.93$_{\,93.96}$ & 0.86$_{\,90.98}$ & 0.88$_{\,91.66}$ & 0.00$_{\,54.31}$ & 0.38$_{\,70.64}$ & 0.76$_{\,86.6}$ & 0.93$_{\,93.83}$ & 1.00$_{\,96.86}$ \\\midrule
+\multicolumn{11}{l}{\texttt{rnaQUAST}}\\ 
+\midrule
+2 & Transcripts $\geq$1\,000\,nt  & 0.40$_{\,21804}$ & 1.00$_{\,51832}$ & 0.56$_{\,29719}$ & 0.21$_{\,12603}$ & 0.33$_{\,18266}$ & 0.00$_{\,2037}$ & 0.21$_{\,12294}$ & 0.30$_{\,16915}$ & 0.22$_{\,13099}$ & 0.35$_{\,19367}$ \\3 & Misassemblies  & 0.99$_{\,564}$ & 0.00$_{\,52668}$ & 0.99$_{\,612}$ & 1.00$_{\,61}$ & 0.95$_{\,2643}$ & 0.99$_{\,628}$ & 1.00$_{\,41}$ & 0.96$_{\,1927}$ & 0.99$_{\,570}$ & 0.98$_{\,1080}$ \\4 & Mismatches per transcript  & 0.85$_{\,0.84}$ & 0.90$_{\,0.63}$ & 0.97$_{\,0.32}$ & 1.00$_{\,0.16}$ & 0.83$_{\,0.91}$ & 0.00$_{\,4.61}$ & 0.99$_{\,0.19}$ & 0.86$_{\,0.8}$ & 0.88$_{\,0.71}$ & 0.86$_{\,0.8}$ \\5 & Average alignment length  & 0.52$_{\,1216.86}$ & 0.00$_{\,406.08}$ & 0.22$_{\,752.81}$ & 0.07$_{\,519.96}$ & 0.43$_{\,1073.4}$ & 1.00$_{\,1972.81}$ & 0.26$_{\,811.99}$ & 0.30$_{\,877.71}$ & 0.44$_{\,1089.26}$ & 0.32$_{\,910.47}$ \\6 & 95\,\%-assembled isoforms  & 0.96$_{\,6032}$ & 0.02$_{\,183}$ & 1.00$_{\,6281}$ & 0.35$_{\,2244}$ & 0.35$_{\,2236}$ & 0.08$_{\,554}$ & 0.14$_{\,967}$ & 0.00$_{\,71}$ & 0.41$_{\,2633}$ & 0.51$_{\,3269}$ \\7 & Duplication ratio  & 0.39$_{\,1.547}$ & 0.00$_{\,1.9}$ & 0.17$_{\,1.75}$ & 0.97$_{\,1.031}$ & 0.62$_{\,1.348}$ & 0.62$_{\,1.346}$ & 1.00$_{\,1.005}$ & 0.75$_{\,1.23}$ & 1.00$_{\,1.003}$ & 0.85$_{\,1.135}$ \\\midrule
+8 & Ex90N50  & 0.00$_{\,420}$ & 0.48$_{\,2044}$ & 0.03$_{\,530}$ & 0.70$_{\,2796}$ & 0.79$_{\,3100}$ & 0.68$_{\,2715}$ & 0.37$_{\,1672}$ & 0.49$_{\,2067}$ & 1.00$_{\,3814}$ & 0.88$_{\,3418}$ \\9 & \# full-length transcripts  & 0.97$_{\,8210}$ & 0.71$_{\,6293}$ & 1.00$_{\,8401}$ & 0.86$_{\,7375}$ & 0.90$_{\,7639}$ & 0.00$_{\,1014}$ & 0.43$_{\,4208}$ & 0.57$_{\,5248}$ & 0.91$_{\,7736}$ & 0.93$_{\,7859}$ \\\midrule
+\multicolumn{11}{l}{\texttt{TransRate}}\\ 
+\midrule
+10 & Reference coverage  & 0.88$_{\,0.22}$ & 0.09$_{\,0.02}$ & 1.00$_{\,0.25}$ & 0.38$_{\,0.1}$ & 0.40$_{\,0.1}$ & 0.06$_{\,0.02}$ & 0.37$_{\,0.09}$ & 0.00$_{\,0}$ & 0.34$_{\,0.08}$ & 0.43$_{\,0.11}$ \\11 & Mean ORF percentage  & 0.82$_{\,52.21}$ & 0.40$_{\,45.36}$ & 0.92$_{\,53.79}$ & 0.78$_{\,51.45}$ & 0.66$_{\,49.56}$ & 0.00$_{\,38.86}$ & 0.95$_{\,54.28}$ & 1.00$_{\,55.04}$ & 0.37$_{\,44.85}$ & 0.29$_{\,43.58}$ \\12 & Optimal score$^{a}$  & 0.53$_{\,0.22}$ & 0.00$_{\,0.02}$ & 0.25$_{\,0.12}$ & 1.00$_{\,0.4}$ & 0.42$_{\,0.18}$ & 0.29$_{\,0.13}$ & 0.72$_{\,0.29}$ & 0.43$_{\,0.18}$ & 0.94$_{\,0.38}$ & 0.41$_{\,0.18}$ \\13 & Percentage bases uncovered$^{a}$  & 0.43$_{\,0.52}$ & 0.00$_{\,0.91}$ & 0.31$_{\,0.63}$ & 0.88$_{\,0.12}$ & 0.55$_{\,0.41}$ & 0.34$_{\,0.6}$ & 1.00$_{\,0.02}$ & 0.54$_{\,0.43}$ & 1.00$_{\,0.01}$ & 0.64$_{\,0.33}$ \\14 & Number of ambiguous bases  & 0.60$_{\,78726}$ & 0.00$_{\,188947}$ & 0.46$_{\,105153}$ & 0.74$_{\,53611}$ & 0.67$_{\,66954}$ & 1.00$_{\,6514}$ & 0.79$_{\,45526}$ & 0.75$_{\,52948}$ & 0.75$_{\,51575}$ & 0.63$_{\,73461}$ \\\midrule
+\multicolumn{11}{l}{\texttt{DETONATE}}\\ 
+\midrule
+15 & Nucleotide F1  & 0.78$_{\,0.42}$ & 0.26$_{\,0.19}$ & 0.73$_{\,0.4}$ & 0.97$_{\,0.51}$ & 0.84$_{\,0.45}$ & 0.00$_{\,0.07}$ & 0.94$_{\,0.5}$ & 0.69$_{\,0.38}$ & 1.00$_{\,0.52}$ & 0.95$_{\,0.5}$ \\16 & Contig F1  & 0.37$_{\,0.01}$ & 0.07$_{\,0}$ & 1.00$_{\,0.02}$ & 0.95$_{\,0.02}$ & 0.27$_{\,0.01}$ & 0.00$_{\,0}$ & 0.44$_{\,0.01}$ & 0.30$_{\,0.01}$ & 0.21$_{\,0.01}$ & 0.58$_{\,0.01}$ \\17 & KC score  & 0.88$_{\,0.66}$ & 0.42$_{\,0.47}$ & 0.90$_{\,0.67}$ & 0.62$_{\,0.55}$ & 0.74$_{\,0.6}$ & 0.00$_{\,0.28}$ & 0.57$_{\,0.53}$ & 0.64$_{\,0.56}$ & 0.94$_{\,0.69}$ & 1.00$_{\,0.71}$ \\18 & RSEM EVAL  & 0.97$_{\,-2.23}$ & 0.59$_{\,-3.34}$ & 1.00$_{\,-2.15}$ & 0.83$_{\,-2.64}$ & 0.92$_{\,-2.38}$ & 0.05$_{\,-4.89}$ & 0.00$_{\,-5.03}$ & 0.73$_{\,-2.94}$ & 0.70$_{\,-3.01}$ & 0.90$_{\,-2.45}$ \\\midrule
+\multicolumn{11}{l}{\texttt{BUSCO}}\\ 
+\midrule
+19 & Complete BUSCOs  & 0.97$_{\,3895}$ & 0.75$_{\,3066}$ & 1.00$_{\,3992}$ & 0.90$_{\,3616}$ & 0.98$_{\,3914}$ & 0.00$_{\,310}$ & 0.64$_{\,2679}$ & 0.68$_{\,2829}$ & 0.95$_{\,3823}$ & 0.94$_{\,3773}$ \\20 & Missing BUSCOs  & 0.98$_{\,1959}$ & 0.85$_{\,2476}$ & 0.99$_{\,1926}$ & 0.97$_{\,1987}$ & 0.99$_{\,1926}$ & 0.00$_{\,5871}$ & 0.92$_{\,2188}$ & 0.84$_{\,2534}$ & 1.00$_{\,1877}$ & 1.00$_{\,1880}$ \\\midrule
+\multicolumn{2}{l}{\textbf{Summed up metric (0,1)-score}}&14.21&7.36&14.43&15.05&13.5&5.1&12.13&11.58&14.98&14.46\\\bottomrule
+\multicolumn{11}{l}{$^{a}$\begin{scriptsize}Not available for the \emph{E.~coli} and \emph{A.~thaliana} data set because this metric is only calculated by \texttt{TransRate} in the case of paired-end data.\end{scriptsize}}\\\end{tabular}\end{scriptsize}
+%\end{sidewaystable}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{landscape}
+
+\end{document}

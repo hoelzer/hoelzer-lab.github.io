@@ -1,0 +1,23 @@
+METRICS/TRANSCRIPTS                                    Shannon                  
+ == ALIGNMENT METRICS (calculated with reference genome but without gene database) == 
+Transcripts                                            84456                    
+
+Aligned                                                84373                    
+
+Uniquely aligned                                       82753                    
+Multiply aligned                                       421                      
+Misassembly candidates reported by GMAP (or BLAT)      1196                     
+
+Unaligned                                              83                       
+
+ == ALIGNMENT METRICS FOR NON-MISASSEMBLED TRANSCRIPTS == 
+Average aligned fraction                               0.994                    
+Average alignment length                               703.748                  
+
+Average blocks per alignment                           2.994                    
+Average block length                                   235.031                  
+
+Average mismatches per transcript                      0.583                    
+
+NA50                                                   3500                     
+

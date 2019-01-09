@@ -1,0 +1,23 @@
+METRICS/TRANSCRIPTS                                    Trinity                  Trans-ABySS              Oases                    SOAPdenovo-Trans         IDBA-Tran                Bridger                  BinPacker                Shannon                  rnaSPAdes                SPAdes                   
+ == ALIGNMENT METRICS (calculated with reference genome but without gene database) == 
+Transcripts                                            97849                    213005                   178498                   131711                   78116                    83744                    12291                    84456                    206133                   93814                    
+
+Aligned                                                97647                    212044                   177747                   130789                   77999                    83546                    12274                    84373                    203335                   87567                    
+
+Uniquely aligned                                       94046                    204947                   161313                   128896                   77059                    79021                    10437                    82753                    199122                   81873                    
+Multiply aligned                                       549                      1999                     1048                     1263                     407                      404                      19                       421                      1496                     1707                     
+Misassembly candidates reported by GMAP (or BLAT)      3046                     5087                     15194                    628                      532                      4097                     1806                     1196                     2713                     3979                     
+
+Unaligned                                              202                      961                      751                      922                      117                      198                      17                       83                       2798                     6247                     
+
+ == ALIGNMENT METRICS FOR NON-MISASSEMBLED TRANSCRIPTS == 
+Average aligned fraction                               0.984                    0.984                    0.937                    0.995                    0.993                    0.977                    0.929                    0.994                    0.987                    0.984                    
+Average alignment length                               1143.492                 578.881                  1500.776                 482.257                  725.58                   929.857                  3072.898                 703.748                  476.176                  649.419                  
+
+Average blocks per alignment                           4.544                    2.574                    7.262                    2.073                    2.477                    3.777                    13.669                   2.994                    1.962                    2.412                    
+Average block length                                   251.63                   224.924                  206.652                  232.663                  292.951                  246.216                  224.801                  235.031                  242.743                  269.239                  
+
+Average mismatches per transcript                      1.684                    0.769                    2.311                    0.468                    0.866                    1.43                     3.755                    0.583                    1.15                     0.951                    
+
+NA50                                                   4387                     840                      2257                     241                      1098                     481                      3481                     3500                     1032                     1544                     
+

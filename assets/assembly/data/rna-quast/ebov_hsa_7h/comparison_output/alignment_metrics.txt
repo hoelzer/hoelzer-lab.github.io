@@ -1,0 +1,23 @@
+METRICS/TRANSCRIPTS                                    Trinity                  Trans-ABySS              Oases                    SOAPdenovo-Trans         IDBA-Tran                Bridger                  BinPacker                Shannon                  rnaSPAdes                SPAdes                   
+ == ALIGNMENT METRICS (calculated with reference genome but without gene database) == 
+Transcripts                                            121575                   275008                   259024                   165909                   95730                    103284                   28888                    133199                   243604                   125233                   
+
+Aligned                                                121404                   274233                   257703                   165401                   95623                    103098                   28840                    133032                   241562                   124551                   
+
+Uniquely aligned                                       116518                   263913                   229396                   162777                   94239                    96737                    25086                    125839                   236219                   110918                   
+Multiply aligned                                       764                      2838                     1694                     1738                     595                      529                      58                       786                      1806                     7690                     
+Misassembly candidates reported by GMAP (or BLAT)      4102                     7465                     26097                    884                      789                      5799                     3667                     6388                     3525                     5910                     
+
+Unaligned                                              171                      775                      1321                     508                      107                      186                      48                       167                      2042                     682                      
+
+ == ALIGNMENT METRICS FOR NON-MISASSEMBLED TRANSCRIPTS == 
+Average aligned fraction                               0.983                    0.982                    0.92                     0.995                    0.992                    0.975                    0.938                    0.981                    0.987                    0.986                    
+Average alignment length                               1040.875                 534.402                  1364.377                 455.959                  697.748                  866.608                  2505.426                 918.854                  470.161                  489.2                    
+
+Average blocks per alignment                           4.016                    2.373                    7.525                    1.93                     2.283                    3.471                    10.875                   3.814                    1.894                    1.972                    
+Average block length                                   259.203                  225.221                  181.312                  236.249                  305.686                  249.656                  230.388                  240.895                  248.203                  248.064                  
+
+Average mismatches per transcript                      1.746                    0.753                    2.515                    0.443                    0.834                    1.487                    3.674                    1.426                    1.067                    0.72                     
+
+NA50                                                   8583                     1194                     4672                     218                      1013                     1125                     2031                     694                      923                      1169                     
+

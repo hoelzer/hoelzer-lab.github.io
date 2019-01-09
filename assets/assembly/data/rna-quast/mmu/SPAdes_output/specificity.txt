@@ -1,0 +1,17 @@
+METRICS/TRANSCRIPTS                                    SPAdes                   
+ == ASSEMBLY SPECIFICITY == 
+Unannotated                                            27678                    
+
+50%-matched                                            9643                     
+95%-matched                                            7028                     
+
+Mean fraction of transcript matched                    0.221                    
+
+Mean fraction of block matched                         0.758                    
+
+50%-matched blocks                                     0.758                    
+95%-matched blocks                                     0.714                    
+
+Matched length                                         16552868                 
+Unmatched length                                       31864625                 
+

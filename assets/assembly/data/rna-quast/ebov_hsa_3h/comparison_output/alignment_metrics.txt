@@ -1,0 +1,23 @@
+METRICS/TRANSCRIPTS                                    Trinity                  Trans-ABySS              Oases                    SOAPdenovo-Trans         IDBA-Tran                Bridger                  BinPacker                Shannon                  rnaSPAdes                SPAdes                   
+ == ALIGNMENT METRICS (calculated with reference genome but without gene database) == 
+Transcripts                                            96550                    227117                   218483                   132751                   75087                    82495                    1885                     103815                   197477                   85257                    
+
+Aligned                                                96414                    226264                   217524                   132192                   75016                    82359                    1876                     103729                   195967                   85001                    
+
+Uniquely aligned                                       92154                    213998                   186940                   130119                   74003                    77699                    1489                     98368                    191228                   79356                    
+Multiply aligned                                       554                      2151                     1224                     1360                     402                      441                      13                       565                      1543                     1612                     
+Misassembly candidates reported by GMAP (or BLAT)      3694                     10097                    28973                    711                      610                      4207                     371                      4786                     3193                     4024                     
+
+Unaligned                                              136                      853                      959                      559                      71                       136                      9                        86                       1510                     256                      
+
+ == ALIGNMENT METRICS FOR NON-MISASSEMBLED TRANSCRIPTS == 
+Average aligned fraction                               0.982                    0.974                    0.925                    0.993                    0.992                    0.978                    0.908                    0.982                    0.986                    0.983                    
+Average alignment length                               1083.555                 517.916                  1308.216                 464.368                  718.402                  925.619                  2899.392                 921.046                  462.087                  661.322                  
+
+Average blocks per alignment                           4.4                      2.478                    6.991                    2.066                    2.543                    3.801                    12.804                   3.97                     1.949                    2.493                    
+Average block length                                   246.287                  208.986                  187.139                  224.764                  282.541                  243.545                  226.436                  231.981                  237.035                  265.303                  
+
+Average mismatches per transcript                      1.728                    0.704                    2.383                    0.429                    0.799                    1.43                     6.184                    1.313                    1.001                    0.944                    
+
+NA50                                                   5320                     1742                     2701                     219                      1088                     252                      2600                     1871                     967                      1607                     
+

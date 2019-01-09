@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+  <head>
+
+    <style type='text/css'>
+  	details{
+		cursor:pointer;
+		}
+    </style>    
+    
+    <title>The dark art of de novo transcriptome assembly: a comprehensive comparison</title>
+    <link rel="stylesheet" href="../../../../src/css/style.css" type="text/css" media="print, projection, screen" />
+    <link rel="stylesheet" href="../../../../src/css/jq.css" type="text/css" media="print, projection, screen" />
+    
+    <script type="text/javascript" src="../../../../src/jquery/jquery-latest.js"></script> 
+    <script type="text/javascript" src="../../../../src/jquery/jquery.tablesorter.js"></script>
+    <script type="text/javascript" src="../../../../src/jquery/jquery.tablesorter.staticrow.min.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js"></script> <!--NYAPLOT-->
+
+		<script type="text/javascript" src="src/details-shim-master/details-shim.min.js">
+		</script><link rel="stylesheet" type="text/css" href="src/details-shim-master/details-shim.min.css">
+    
+    <script type="text/javascript" language="javascript" class="init">
+   if(window['d3'] === undefined ||
+      window['Nyaplot'] === undefined){
+       var path = {"d3":"http://d3js.org/d3.v3.min","downloadable":"http://cdn.rawgit.com/domitry/d3-downloadable/master/d3-downloadable"};
+
+       var shim = {"d3":{"exports":"d3"},"downloadable":{"exports":"downloadable"}};
+
+       require.config({paths: path, shim:shim});
+
+   require(['d3'], function(d3){window['d3']=d3;console.log('finished loading d3');require(['downloadable'], function(downloadable){window['downloadable']=downloadable;console.log('finished loading downloadable');
+
+	var script = d3.select("head")
+	    .append("script")
+	    .attr("src", "http://cdn.rawgit.com/domitry/Nyaplotjs/master/release/nyaplot.js")
+	    .attr("async", true);
+
+	script[0][0].onload = script[0][0].onreadystatechange = function(){
+
+	    var event = document.createEvent("HTMLEvents");
+	    event.initEvent("load_nyaplot",false,false);
+	    window.dispatchEvent(event);
+	    console.log('Finished loading Nyaplotjs');
+	};
+});});
+}
+
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 500);
+	        return false;
+	      }
+	    }
+	  });
+	});
+
+$(document).ready(function() {
+
+		var headers = {},
+		$table = $('#samplesTab'), i,
+		l = $table.find('thead th').length,
+		sortcolumns = [];
+		for (i = 0; i < l; i++) {
+			if ($.inArray(i, sortcolumns) < 0) {
+				headers[i] = { sorter: false }
+			}
+		}
+		$("#samplesTab").tablesorter({widgets: ['zebra']});
+		$("#shortreportTab1").tablesorter({widgets: ['zebra']});
+$("#shortreportTab2").tablesorter({widgets: ['zebra']});
+$("#sensitivityTab1").tablesorter({widgets: ['zebra']});
+$("#specificityTab1").tablesorter({widgets: ['zebra']});
+$("#plotsTab1").tablesorter({widgets: ['zebra']});
+<!--PLACEHOLDER-->
+});
+</script>
+</head>
+<body>
+<div id="banner">
+<h1 id="top"><em>De novo transcriptome assembly</em>: A comprehensive cross-species comparison of<br>short-read RNA-Seq assemblers</h1>
+<h2>Supplementary Data</b>
+<h3>Martin H&ouml;lzer and Manja Marz</h3>
+<a href="../../../index.html#quast">Back to main supplement page</a>
+</div>
+
+
+<div id="main"><a name="contents"></a>
+<h1>RNA-Quast contents for <i>Escherichia coli</i></h1>
+<ul><li>S5.1: <a href="#shortreport">Short report for <i>Escherichia coli</i> assemblies</a></li> <li>S5.2: <a href="#sensitivity">Assembly completeness (sensitivity, true positive rate) for <i>Escherichia coli</i> assemblies</a></li> <li>S5.3: <a href="#specificity">Assembly specificity (true negative rate) for <i>Escherichia coli</i> assemblies</a></li> <li>S5.4: <a href="#plots">Various comparison and single plots for <i>Escherichia coli</i> assemblies</a></li> </ul><br><br><a name="shortreport">
+<h1>S5.1: Short report for <i>Escherichia coli</i> assemblies</h1>
+<div id="scrolltop"><h3><a href="#top">back to top</a></h3></div><table id="shortreportTab1" class="stablesorter" border="0" cellpadding="0" cellspacing="1" width="100%">
+<thead>
+<tr><th>METRICS/TRANSCRIPTS</th><th>Genes</th><th>Avg. number of exons per isoform</th><th>Transcripts</th><th>Transcripts > 500 bp</th><th>Transcripts > 1000 bp</th><th>Aligned</th><th>Uniquely aligned</th><th>Multiply aligned</th><th>Unaligned</th><th>Avg. aligned fraction</th><th>Avg. alignment length</th><th>Avg. mismatches per transcript</th><th>Misassemblies</th><th>Database coverage</th></tr><tbody>
+<tr><td>Trinity</td><td>4497</td><td>1.015</td><td>4403</td><td>1080</td><td>347</td><td>4173</td><td>4074</td><td>17</td><td>230</td><td>0.99</td><td>467.035</td><td>0.368</td><td>13</td><td>0.334</td></tr>
+<tr><td>Trans-ABySS</td><td>4497</td><td>1.015</td><td>9555</td><td>1273</td><td>446</td><td>9163</td><td>8992</td><td>115</td><td>392</td><td>0.98</td><td>310.442</td><td>0.322</td><td>18</td><td>0.043</td></tr>
+<tr><td>Oases</td><td>4497</td><td>1.015</td><td>7364</td><td>1974</td><td>743</td><td>7139</td><td>6921</td><td>26</td><td>225</td><td>0.988</td><td>457.717</td><td>0.706</td><td>103</td><td>0.334</td></tr>
+<tr><td>SOAPdenovo-Trans</td><td>4497</td><td>1.015</td><td>7007</td><td>1230</td><td>439</td><td>6848</td><td>6799</td><td>31</td><td>159</td><td>0.994</td><td>364.881</td><td>0.134</td><td>1</td><td>0.225</td></tr>
+<tr><td>IDBA-Tran</td><td>4497</td><td>1.015</td><td>3803</td><td>1199</td><td>414</td><td>3757</td><td>3732</td><td>15</td><td>46</td><td>0.996</td><td>540.828</td><td>0.167</td><td>0</td><td>0.183</td></tr>
+<tr><td>Bridger</td><td>4497</td><td>1.015</td><td>4254</td><td>1118</td><td>363</td><td>4048</td><td>3883</td><td>16</td><td>206</td><td>0.991</td><td>472.806</td><td>0.265</td><td>52</td><td>0.319</td></tr>
+<tr><td>BinPacker</td><td>4497</td><td>1.015</td><td>157</td><td>109</td><td>66</td><td>151</td><td>126</td><td>5</td><td>6</td><td>0.947</td><td>1100.774</td><td>2.051</td><td>8</td><td>0.009</td></tr>
+<tr><td>Shannon</td><td>4497</td><td>1.015</td><td>4221</td><td>1123</td><td>372</td><td>4039</td><td>3885</td><td>10</td><td>182</td><td>0.993</td><td>482.659</td><td>0.185</td><td>54</td><td>0.318</td></tr>
+<tr><td>rnaSPAdes</td><td>4497</td><td>1.015</td><td>7067</td><td>1142</td><td>340</td><td>6870</td><td>6821</td><td>21</td><td>197</td><td>0.992</td><td>359.195</td><td>0.212</td><td>10</td><td>0.208</td></tr>
+<tr><td>SPAdes
+</td><td>4497
+</td><td>1.015
+</td><td>4119
+</td><td>1333
+</td><td>489
+</td><td>3984
+</td><td>3893
+</td><td>33
+</td><td>135
+</td><td>0.988
+</td><td>558.904
+</td><td>0.248
+</td><td>12
+</td><td>0.16
+</td></tr>
+</tbody></table>
+
+<table id="shortreportTab2" class="stablesorter" border="0" cellpadding="0" cellspacing="1" width="100%">
+<thead>
+<tr><th>METRICS/TRANSCRIPTS</th><th>50%-assembled genes</th><th>95%-assembled genes</th><th>50%-covered genes</th><th>95%-covered genes</th><th>50%-assembled isoforms</th><th>95%-assembled isoforms</th><th>50%-covered isoforms</th><th>95%-covered isoforms</th><th>Mean isoform coverage</th><th>Mean isoform assembly</th><th>50%-matched</th><th>95%-matched</th><th>Unannotated</th><th>Mean fraction of transcript matched</th></tr><tbody>
+<tr><td>Trinity</td><td>950</td><td>396</td><td>1435</td><td>596</td><td>950</td><td>396</td><td>1435</td><td>596</td><td>0.647</td><td>0.509</td><td>3358</td><td>1619</td><td>303</td><td>0.746</td></tr>
+<tr><td>Trans-ABySS</td><td>96</td><td>32</td><td>126</td><td>38</td><td>96</td><td>32</td><td>126</td><td>38</td><td>0.216</td><td>0.191</td><td>1001</td><td>724</td><td>7494</td><td>0.113</td></tr>
+<tr><td>Oases</td><td>916</td><td>414</td><td>1408</td><td>595</td><td>916</td><td>414</td><td>1408</td><td>595</td><td>0.581</td><td>0.452</td><td>5029</td><td>2492</td><td>882</td><td>0.674</td></tr>
+<tr><td>SOAPdenovo-Trans</td><td>587</td><td>261</td><td>824</td><td>311</td><td>587</td><td>261</td><td>824</td><td>311</td><td>0.447</td><td>0.373</td><td>2941</td><td>1814</td><td>3288</td><td>0.411</td></tr>
+<tr><td>IDBA-Tran</td><td>550</td><td>250</td><td>699</td><td>294</td><td>550</td><td>250</td><td>699</td><td>294</td><td>0.507</td><td>0.45</td><td>1543</td><td>759</td><td>1673</td><td>0.396</td></tr>
+<tr><td>Bridger</td><td>920</td><td>382</td><td>1376</td><td>562</td><td>920</td><td>382</td><td>1376</td><td>562</td><td>0.636</td><td>0.507</td><td>3212</td><td>1550</td><td>273</td><td>0.749</td></tr>
+<tr><td>BinPacker</td><td>47</td><td>34</td><td>47</td><td>36</td><td>47</td><td>34</td><td>47</td><td>36</td><td>0.728</td><td>0.719</td><td>32</td><td>2</td><td>53</td><td>0.272</td></tr>
+<tr><td>Shannon</td><td>907</td><td>393</td><td>1350</td><td>565</td><td>907</td><td>393</td><td>1350</td><td>565</td><td>0.636</td><td>0.509</td><td>3205</td><td>1535</td><td>255</td><td>0.751</td></tr>
+<tr><td>rnaSPAdes</td><td>469</td><td>187</td><td>707</td><td>237</td><td>469</td><td>187</td><td>707</td><td>237</td><td>0.42</td><td>0.345</td><td>2687</td><td>1756</td><td>3511</td><td>0.38</td></tr>
+<tr><td>SPAdes
+</td><td>503
+</td><td>210
+</td><td>591
+</td><td>242
+</td><td>503
+</td><td>210
+</td><td>591
+</td><td>242
+</td><td>0.478
+</td><td>0.436
+</td><td>1292
+</td><td>638
+</td><td>2075
+</td><td>0.322
+</td></tr>
+</tbody></table><br><br><br>
+
+<a name="sensitivity">
+<h1>S5.2: Assembly completeness (sensitivity, true positive rate) for <i>Escherichia coli</i> assemblies</h1>
+<div id="scrolltop"><h3><a href="#top">back to top</a></h3></div><p><b>From the <a target="_blank" href="http://spades.bioinf.spbau.ru/rnaquast/release1.4.0/manual.html#sec4.1">RNA-Quast manual page</a>:</b> "Assembly completeness (sensitivity). For the following metrics (calculated with reference genome and gene database) rnaQUAST attempts to select best-matching database isoforms for every transcript. Note that a single transcript can contribute to multiple isoforms in the case of, for example, paralogous genes or genomic repeats. At the same time, an isoform can be covered by multiple transcripts in the case of fragmented assembly or duplicated transcripts in the assembly." For further details see the RNA-Quast manual.</p><table id="sensitivityTab1" class="stablesorter" border="0" cellpadding="0" cellspacing="1" width="100%">
+<thead>
+<tr><th>METRICS/TRANSCRIPTS</th><th>Database coverage</th><th>Duplication ratio</th><th>Avg. number of transcripts mapped to one isoform</th><th>50%-assembled genes</th><th>95%-assembled genes</th><th>50%-covered genes</th><th>95%-covered genes</th><th>50%-assembled isoforms</th><th>95%-assembled isoforms</th><th>50%-covered isoforms</th><th>95%-covered isoforms</th><th>50%-assembled exons</th><th>95%-assembled exons</th><th>Mean isoform assembly</th><th>Mean isoform coverage</th><th>Mean exon coverage</th><th>Avg. percentage of isoform 50%-covered exons</th><th>Avg. percentage of isoform 95%-covered exons</th></tr><tbody>
+<tr><td>Trinity</td><td>0.334</td><td>1.012</td><td>1.746</td><td>950</td><td>396</td><td>1435</td><td>596</td><td>950</td><td>396</td><td>1435</td><td>596</td><td>959</td><td>400</td><td>0.509</td><td>0.647</td><td>0.649</td><td>0.654</td><td>0.272</td></tr>
+<tr><td>Trans-ABySS</td><td>0.043</td><td>1.044</td><td>1.353</td><td>96</td><td>32</td><td>126</td><td>38</td><td>96</td><td>32</td><td>126</td><td>38</td><td>99</td><td>32</td><td>0.191</td><td>0.216</td><td>0.219</td><td>0.105</td><td>0.031</td></tr>
+<tr><td>Oases</td><td>0.334</td><td>1.443</td><td>2.454</td><td>916</td><td>414</td><td>1408</td><td>595</td><td>916</td><td>414</td><td>1408</td><td>595</td><td>930</td><td>420</td><td>0.452</td><td>0.581</td><td>0.583</td><td>0.564</td><td>0.239</td></tr>
+<tr><td>SOAPdenovo-Trans</td><td>0.225</td><td>1.002</td><td>1.598</td><td>587</td><td>261</td><td>824</td><td>311</td><td>587</td><td>261</td><td>824</td><td>311</td><td>594</td><td>265</td><td>0.373</td><td>0.447</td><td>0.449</td><td>0.368</td><td>0.139</td></tr>
+<tr><td>IDBA-Tran</td><td>0.183</td><td>1.001</td><td>1.32</td><td>550</td><td>250</td><td>699</td><td>294</td><td>550</td><td>250</td><td>699</td><td>294</td><td>556</td><td>254</td><td>0.45</td><td>0.507</td><td>0.509</td><td>0.442</td><td>0.187</td></tr>
+<tr><td>Bridger</td><td>0.319</td><td>1.014</td><td>1.701</td><td>920</td><td>382</td><td>1376</td><td>562</td><td>920</td><td>382</td><td>1376</td><td>562</td><td>929</td><td>386</td><td>0.507</td><td>0.636</td><td>0.638</td><td>0.64</td><td>0.262</td></tr>
+<tr><td>BinPacker</td><td>0.009</td><td>1.267</td><td>1.277</td><td>47</td><td>34</td><td>47</td><td>36</td><td>47</td><td>34</td><td>47</td><td>36</td><td>47</td><td>34</td><td>0.719</td><td>0.728</td><td>0.728</td><td>0.723</td><td>0.554</td></tr>
+<tr><td>Shannon</td><td>0.318</td><td>1.027</td><td>1.713</td><td>907</td><td>393</td><td>1350</td><td>565</td><td>907</td><td>393</td><td>1350</td><td>565</td><td>914</td><td>396</td><td>0.509</td><td>0.636</td><td>0.637</td><td>0.632</td><td>0.265</td></tr>
+<tr><td>rnaSPAdes</td><td>0.208</td><td>1.009</td><td>1.564</td><td>469</td><td>187</td><td>707</td><td>237</td><td>469</td><td>187</td><td>707</td><td>237</td><td>477</td><td>192</td><td>0.345</td><td>0.42</td><td>0.423</td><td>0.33</td><td>0.111</td></tr>
+<tr><td>SPAdes</td><td>0.16</td><td>1.006</td><td>1.277</td><td>503</td><td>210</td><td>591</td><td>242</td><td>503</td><td>210</td><td>591</td><td>242</td><td>509</td><td>213</td><td>0.436</td><td>0.478</td><td>0.481</td><td>0.397</td><td>0.164</td></tr>
+</tbody></table><br><br><br>
+
+<a name="specificity">
+<h1>S5.3: Assembly specificity (true negative rate) for <i>Escherichia coli</i> assemblies</h1>
+<div id="scrolltop"><h3><a href="#top">back to top</a></h3></div><p><b>From the <a target="_blank" href="http://spades.bioinf.spbau.ru/rnaquast/release1.4.0/manual.html#sec4.1">RNA-Quast manual page</a>:</b> "Assembly specificity. To compute the following metrics we use only transcripts that have at least one significant alignment and are not misassembled." For further details see the RNA-Quast manual.</p><table id="specificityTab1" class="stablesorter" border="0" cellpadding="0" cellspacing="1" width="100%">
+<thead>
+<tr><th>METRICS/TRANSCRIPTS</th><th>Unannotated</th><th>50%-matched</th><th>95%-matched</th><th>Mean fraction of transcript matched</th><th>Mean fraction of block matched</th><th>50%-matched blocks</th><th>95%-matched blocks</th><th>Matched length</th><th>Unmatched length</th></tr><tbody>
+<tr><td>Trinity</td><td>303</td><td>3358</td><td>1619</td><td>0.746</td><td>0.806</td><td>0.881</td><td>0.439</td><td>1396466</td><td>553311</td></tr>
+<tr><td>Trans-ABySS</td><td>7494</td><td>1001</td><td>724</td><td>0.113</td><td>0.643</td><td>0.621</td><td>0.46</td><td>185060</td><td>2782497</td></tr>
+<tr><td>Oases</td><td>882</td><td>5029</td><td>2492</td><td>0.674</td><td>0.731</td><td>0.782</td><td>0.415</td><td>1991000</td><td>1260107</td></tr>
+<tr><td>SOAPdenovo-Trans</td><td>3288</td><td>2941</td><td>1814</td><td>0.411</td><td>0.795</td><td>0.828</td><td>0.519</td><td>932146</td><td>1595296</td></tr>
+<tr><td>IDBA-Tran</td><td>1673</td><td>1543</td><td>759</td><td>0.396</td><td>0.716</td><td>0.742</td><td>0.372</td><td>756325</td><td>1299897</td></tr>
+<tr><td>Bridger</td><td>273</td><td>3212</td><td>1550</td><td>0.749</td><td>0.795</td><td>0.869</td><td>0.432</td><td>1338116</td><td>535978</td></tr>
+<tr><td>BinPacker</td><td>53</td><td>32</td><td>2</td><td>0.272</td><td>0.384</td><td>0.37</td><td>0.13</td><td>48781</td><td>109362</td></tr>
+<tr><td>Shannon</td><td>255</td><td>3205</td><td>1535</td><td>0.751</td><td>0.799</td><td>0.873</td><td>0.422</td><td>1350719</td><td>552664</td></tr>
+<tr><td>rnaSPAdes</td><td>3511</td><td>2687</td><td>1756</td><td>0.38</td><td>0.786</td><td>0.808</td><td>0.536</td><td>866505</td><td>1628649</td></tr>
+<tr><td>SPAdes</td><td>2075</td><td>1292</td><td>638</td><td>0.322</td><td>0.693</td><td>0.708</td><td>0.371</td><td>665555</td><td>1588418</td></tr>
+</tbody></table><br><br><br>
+
+<a name="plots">
+<h1>S5.4: Various comparison and single plots for <i>Escherichia coli</i> assemblies</h1>
+<div id="scrolltop"><h3><a href="#top">back to top</a></h3></div><p>Various comparison and single plots for <i>Escherichia coli</i> assemblies. For detailed descriptions of each plot please check the <b><a target="_blank" href="http://spades.bioinf.spbau.ru/rnaquast/release1.5.0/manual.html#sec4.3">RNA-Quast manual page</a>:</b></p>
+<table id="plotsTab11" class="stablesorter" border="0" cellpadding="0" cellspacing="1" width="100%">
+<thead><tr><th>alignment_multiplicity</th><th>mismatch_rate</th></tr></thead><tbody><tr><td><a href="comparison_output/alignment_multiplicity.png"><img src="comparison_output/alignment_multiplicity.png" width="600px"></a></br>Single plots: <a href="Trinity_output/alignment_multiplicity.png">Trinity</a> | <a href="Oases_output/alignment_multiplicity.png">Oases</a> | <a href="Trans-ABySS_output/alignment_multiplicity.png">Trans-ABySS</a> | <a href="SOAPdenovo-Trans_output/alignment_multiplicity.png">SOAPdenovo-Trans</a> | <a href="Bridger_output/alignment_multiplicity.png">Bridger</a> | <a href="BinPacker_output/alignment_multiplicity.png">BinPacker</a> | <a href="IDBA-Tran_output/alignment_multiplicity.png">IDBA-Tran</a> | <a href="Shannon_output/alignment_multiplicity.png">Shannon</a> | <a href="SPAdes_output/alignment_multiplicity.png">SPAdes</a> | <a href="rnaSPAdes_output/alignment_multiplicity.png">rnaSPAdes</a></td><td><a href="comparison_output/mismatch_rate.png"><img src="comparison_output/mismatch_rate.png" width="600px"></a></br>Single plots: <a href="Trinity_output/mismatch_rate.png">Trinity</a> | <a href="Oases_output/mismatch_rate.png">Oases</a> | <a href="Trans-ABySS_output/mismatch_rate.png">Trans-ABySS</a> | <a href="SOAPdenovo-Trans_output/mismatch_rate.png">SOAPdenovo-Trans</a> | <a href="Bridger_output/mismatch_rate.png">Bridger</a> | <a href="BinPacker_output/mismatch_rate.png">BinPacker</a> | <a href="IDBA-Tran_output/mismatch_rate.png">IDBA-Tran</a> | <a href="Shannon_output/mismatch_rate.png">Shannon</a> | <a href="SPAdes_output/mismatch_rate.png">SPAdes</a> | <a href="rnaSPAdes_output/mismatch_rate.png">rnaSPAdes</a></td></tr></tbody><thead><tr><th>x-covered_exons</th><th>blocks_per_alignment</th></tr></thead><tbody><tr><td><a href="comparison_output/x-covered_exons.png"><img src="comparison_output/x-covered_exons.png" width="600px"></a></br>Single plots: <a href="Trinity_output/x-covered_exons.png">Trinity</a> | <a href="Oases_output/x-covered_exons.png">Oases</a> | <a href="Trans-ABySS_output/x-covered_exons.png">Trans-ABySS</a> | <a href="SOAPdenovo-Trans_output/x-covered_exons.png">SOAPdenovo-Trans</a> | <a href="Bridger_output/x-covered_exons.png">Bridger</a> | <a href="BinPacker_output/x-covered_exons.png">BinPacker</a> | <a href="IDBA-Tran_output/x-covered_exons.png">IDBA-Tran</a> | <a href="Shannon_output/x-covered_exons.png">Shannon</a> | <a href="SPAdes_output/x-covered_exons.png">SPAdes</a> | <a href="rnaSPAdes_output/x-covered_exons.png">rnaSPAdes</a></td><td><a href="comparison_output/blocks_per_alignment.png"><img src="comparison_output/blocks_per_alignment.png" width="600px"></a></br>Single plots: <a href="Trinity_output/blocks_per_alignment.png">Trinity</a> | <a href="Oases_output/blocks_per_alignment.png">Oases</a> | <a href="Trans-ABySS_output/blocks_per_alignment.png">Trans-ABySS</a> | <a href="SOAPdenovo-Trans_output/blocks_per_alignment.png">SOAPdenovo-Trans</a> | <a href="Bridger_output/blocks_per_alignment.png">Bridger</a> | <a href="BinPacker_output/blocks_per_alignment.png">BinPacker</a> | <a href="IDBA-Tran_output/blocks_per_alignment.png">IDBA-Tran</a> | <a href="Shannon_output/blocks_per_alignment.png">Shannon</a> | <a href="SPAdes_output/blocks_per_alignment.png">SPAdes</a> | <a href="rnaSPAdes_output/blocks_per_alignment.png">rnaSPAdes</a></td></tr></tbody><thead><tr><th>NAx</th><th>x-assembled_exons</th></tr></thead><tbody><tr><td><a href="comparison_output/NAx.png"><img src="comparison_output/NAx.png" width="600px"></a></br>Single plots: <a href="Trinity_output/NAx.png">Trinity</a> | <a href="Oases_output/NAx.png">Oases</a> | <a href="Trans-ABySS_output/NAx.png">Trans-ABySS</a> | <a href="SOAPdenovo-Trans_output/NAx.png">SOAPdenovo-Trans</a> | <a href="Bridger_output/NAx.png">Bridger</a> | <a href="BinPacker_output/NAx.png">BinPacker</a> | <a href="IDBA-Tran_output/NAx.png">IDBA-Tran</a> | <a href="Shannon_output/NAx.png">Shannon</a> | <a href="SPAdes_output/NAx.png">SPAdes</a> | <a href="rnaSPAdes_output/NAx.png">rnaSPAdes</a></td><td><a href="comparison_output/x-assembled_exons.png"><img src="comparison_output/x-assembled_exons.png" width="600px"></a></br>Single plots: <a href="Trinity_output/x-assembled_exons.png">Trinity</a> | <a href="Oases_output/x-assembled_exons.png">Oases</a> | <a href="Trans-ABySS_output/x-assembled_exons.png">Trans-ABySS</a> | <a href="SOAPdenovo-Trans_output/x-assembled_exons.png">SOAPdenovo-Trans</a> | <a href="Bridger_output/x-assembled_exons.png">Bridger</a> | <a href="BinPacker_output/x-assembled_exons.png">BinPacker</a> | <a href="IDBA-Tran_output/x-assembled_exons.png">IDBA-Tran</a> | <a href="Shannon_output/x-assembled_exons.png">Shannon</a> | <a href="SPAdes_output/x-assembled_exons.png">SPAdes</a> | <a href="rnaSPAdes_output/x-assembled_exons.png">rnaSPAdes</a></td></tr></tbody><thead><tr><th>block_length</th><th>x-covered</th></tr></thead><tbody><tr><td><a href="comparison_output/block_length.png"><img src="comparison_output/block_length.png" width="600px"></a></br>Single plots: <a href="Trinity_output/block_length.png">Trinity</a> | <a href="Oases_output/block_length.png">Oases</a> | <a href="Trans-ABySS_output/block_length.png">Trans-ABySS</a> | <a href="SOAPdenovo-Trans_output/block_length.png">SOAPdenovo-Trans</a> | <a href="Bridger_output/block_length.png">Bridger</a> | <a href="BinPacker_output/block_length.png">BinPacker</a> | <a href="IDBA-Tran_output/block_length.png">IDBA-Tran</a> | <a href="Shannon_output/block_length.png">Shannon</a> | <a href="SPAdes_output/block_length.png">SPAdes</a> | <a href="rnaSPAdes_output/block_length.png">rnaSPAdes</a></td><td><a href="comparison_output/x-covered.png"><img src="comparison_output/x-covered.png" width="600px"></a></br>Single plots: <a href="Trinity_output/x-covered.png">Trinity</a> | <a href="Oases_output/x-covered.png">Oases</a> | <a href="Trans-ABySS_output/x-covered.png">Trans-ABySS</a> | <a href="SOAPdenovo-Trans_output/x-covered.png">SOAPdenovo-Trans</a> | <a href="Bridger_output/x-covered.png">Bridger</a> | <a href="BinPacker_output/x-covered.png">BinPacker</a> | <a href="IDBA-Tran_output/x-covered.png">IDBA-Tran</a> | <a href="Shannon_output/x-covered.png">Shannon</a> | <a href="SPAdes_output/x-covered.png">SPAdes</a> | <a href="rnaSPAdes_output/x-covered.png">rnaSPAdes</a></td></tr></tbody><thead><tr><th>x-matched</th><th>transcript_length</th></tr></thead><tbody><tr><td><a href="comparison_output/x-matched.png"><img src="comparison_output/x-matched.png" width="600px"></a></br>Single plots: <a href="Trinity_output/x-matched.png">Trinity</a> | <a href="Oases_output/x-matched.png">Oases</a> | <a href="Trans-ABySS_output/x-matched.png">Trans-ABySS</a> | <a href="SOAPdenovo-Trans_output/x-matched.png">SOAPdenovo-Trans</a> | <a href="Bridger_output/x-matched.png">Bridger</a> | <a href="BinPacker_output/x-matched.png">BinPacker</a> | <a href="IDBA-Tran_output/x-matched.png">IDBA-Tran</a> | <a href="Shannon_output/x-matched.png">Shannon</a> | <a href="SPAdes_output/x-matched.png">SPAdes</a> | <a href="rnaSPAdes_output/x-matched.png">rnaSPAdes</a></td><td><a href="comparison_output/transcript_length.png"><img src="comparison_output/transcript_length.png" width="600px"></a></br>Single plots: <a href="Trinity_output/transcript_length.png">Trinity</a> | <a href="Oases_output/transcript_length.png">Oases</a> | <a href="Trans-ABySS_output/transcript_length.png">Trans-ABySS</a> | <a href="SOAPdenovo-Trans_output/transcript_length.png">SOAPdenovo-Trans</a> | <a href="Bridger_output/transcript_length.png">Bridger</a> | <a href="BinPacker_output/transcript_length.png">BinPacker</a> | <a href="IDBA-Tran_output/transcript_length.png">IDBA-Tran</a> | <a href="Shannon_output/transcript_length.png">Shannon</a> | <a href="SPAdes_output/transcript_length.png">SPAdes</a> | <a href="rnaSPAdes_output/transcript_length.png">rnaSPAdes</a></td></tr></tbody><thead><tr><th>Nx</th><th>x-aligned</th></tr></thead><tbody><tr><td><a href="comparison_output/Nx.png"><img src="comparison_output/Nx.png" width="600px"></a></br>Single plots: <a href="Trinity_output/Nx.png">Trinity</a> | <a href="Oases_output/Nx.png">Oases</a> | <a href="Trans-ABySS_output/Nx.png">Trans-ABySS</a> | <a href="SOAPdenovo-Trans_output/Nx.png">SOAPdenovo-Trans</a> | <a href="Bridger_output/Nx.png">Bridger</a> | <a href="BinPacker_output/Nx.png">BinPacker</a> | <a href="IDBA-Tran_output/Nx.png">IDBA-Tran</a> | <a href="Shannon_output/Nx.png">Shannon</a> | <a href="SPAdes_output/Nx.png">SPAdes</a> | <a href="rnaSPAdes_output/Nx.png">rnaSPAdes</a></td><td><a href="comparison_output/x-aligned.png"><img src="comparison_output/x-aligned.png" width="600px"></a></br>Single plots: <a href="Trinity_output/x-aligned.png">Trinity</a> | <a href="Oases_output/x-aligned.png">Oases</a> | <a href="Trans-ABySS_output/x-aligned.png">Trans-ABySS</a> | <a href="SOAPdenovo-Trans_output/x-aligned.png">SOAPdenovo-Trans</a> | <a href="Bridger_output/x-aligned.png">Bridger</a> | <a href="BinPacker_output/x-aligned.png">BinPacker</a> | <a href="IDBA-Tran_output/x-aligned.png">IDBA-Tran</a> | <a href="Shannon_output/x-aligned.png">Shannon</a> | <a href="SPAdes_output/x-aligned.png">SPAdes</a> | <a href="rnaSPAdes_output/x-aligned.png">rnaSPAdes</a></td></tr></tbody><thead><tr><th>x-assembled</th><th>x-matched_blocks</th></tr></thead><tbody><tr><td><a href="comparison_output/x-assembled.png"><img src="comparison_output/x-assembled.png" width="600px"></a></br>Single plots: <a href="Trinity_output/x-assembled.png">Trinity</a> | <a href="Oases_output/x-assembled.png">Oases</a> | <a href="Trans-ABySS_output/x-assembled.png">Trans-ABySS</a> | <a href="SOAPdenovo-Trans_output/x-assembled.png">SOAPdenovo-Trans</a> | <a href="Bridger_output/x-assembled.png">Bridger</a> | <a href="BinPacker_output/x-assembled.png">BinPacker</a> | <a href="IDBA-Tran_output/x-assembled.png">IDBA-Tran</a> | <a href="Shannon_output/x-assembled.png">Shannon</a> | <a href="SPAdes_output/x-assembled.png">SPAdes</a> | <a href="rnaSPAdes_output/x-assembled.png">rnaSPAdes</a></td><td><a href="comparison_output/x-matched_blocks.png"><img src="comparison_output/x-matched_blocks.png" width="600px"></a></br>Single plots: <a href="Trinity_output/x-matched_blocks.png">Trinity</a> | <a href="Oases_output/x-matched_blocks.png">Oases</a> | <a href="Trans-ABySS_output/x-matched_blocks.png">Trans-ABySS</a> | <a href="SOAPdenovo-Trans_output/x-matched_blocks.png">SOAPdenovo-Trans</a> | <a href="Bridger_output/x-matched_blocks.png">Bridger</a> | <a href="BinPacker_output/x-matched_blocks.png">BinPacker</a> | <a href="IDBA-Tran_output/x-matched_blocks.png">IDBA-Tran</a> | <a href="Shannon_output/x-matched_blocks.png">Shannon</a> | <a href="SPAdes_output/x-matched_blocks.png">SPAdes</a> | <a href="rnaSPAdes_output/x-matched_blocks.png">rnaSPAdes</a></td></tr></tbody><thead><tr><th>alignments_per_isoform</th><th></th></tr></thead><tbody><tr><td><a href="comparison_output/alignments_per_isoform.png"><img src="comparison_output/alignments_per_isoform.png" width="600px"></a></br>Single plots: <a href="Trinity_output/alignments_per_isoform.png">Trinity</a> | <a href="Oases_output/alignments_per_isoform.png">Oases</a> | <a href="Trans-ABySS_output/alignments_per_isoform.png">Trans-ABySS</a> | <a href="SOAPdenovo-Trans_output/alignments_per_isoform.png">SOAPdenovo-Trans</a> | <a href="Bridger_output/alignments_per_isoform.png">Bridger</a> | <a href="BinPacker_output/alignments_per_isoform.png">BinPacker</a> | <a href="IDBA-Tran_output/alignments_per_isoform.png">IDBA-Tran</a> | <a href="Shannon_output/alignments_per_isoform.png">Shannon</a> | <a href="SPAdes_output/alignments_per_isoform.png">SPAdes</a> | <a href="rnaSPAdes_output/alignments_per_isoform.png">rnaSPAdes</a></td><td></td></tr></tbody></table><br><br><br>
+
+</div></body></html>

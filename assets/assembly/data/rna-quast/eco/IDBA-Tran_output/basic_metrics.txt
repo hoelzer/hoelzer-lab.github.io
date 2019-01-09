@@ -1,0 +1,12 @@
+METRICS/TRANSCRIPTS                                    IDBA-Tran                
+ == BASIC TRANSCRIPTS METRICS (calculated without reference genome and gene database) == 
+Transcripts                                            3803                     
+
+Transcripts > 500 bp                                   1199                     
+Transcripts > 1000 bp                                  414                      
+
+Average length of assembled transcripts                544.151                  
+Longest transcript                                     12555                    
+Total length                                           2069405                  
+
+Transcript N50                                         253                      

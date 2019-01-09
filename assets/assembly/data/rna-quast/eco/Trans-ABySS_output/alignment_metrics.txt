@@ -1,0 +1,23 @@
+METRICS/TRANSCRIPTS                                    Trans-ABySS              
+ == ALIGNMENT METRICS (calculated with reference genome but without gene database) == 
+Transcripts                                            9555                     
+
+Aligned                                                9163                     
+
+Uniquely aligned                                       8992                     
+Multiply aligned                                       115                      
+Misassembly candidates reported by GMAP (or BLAT)      43                       
+
+Unaligned                                              392                      
+
+ == ALIGNMENT METRICS FOR NON-MISASSEMBLED TRANSCRIPTS == 
+Average aligned fraction                               0.98                     
+Average alignment length                               310.442                  
+
+Average blocks per alignment                           1.021                    
+Average block length                                   304.028                  
+
+Average mismatches per transcript                      0.322                    
+
+NA50                                                   3677                     
+

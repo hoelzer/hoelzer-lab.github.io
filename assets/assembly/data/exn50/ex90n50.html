@@ -1,0 +1,61 @@
+<html lang='en'>
+<head>
+  <title>Nyaplot</title>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js"></script>
+  <script>if(window['d3'] === undefined ||
+   window['Nyaplot'] === undefined){
+    var path = {"d3":"https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min","downloadable":"http://cdn.rawgit.com/domitry/d3-downloadable/master/d3-downloadable"};
+
+
+
+    var shim = {"d3":{"exports":"d3"},"downloadable":{"exports":"downloadable"}};
+
+    require.config({paths: path, shim:shim});
+
+
+require(['d3'], function(d3){window['d3']=d3;console.log('finished loading d3');require(['downloadable'], function(downloadable){window['downloadable']=downloadable;console.log('finished loading downloadable');
+
+	var script = d3.select("head")
+	    .append("script")
+	    .attr("src", "http://cdn.rawgit.com/domitry/Nyaplotjs/master/release/nyaplot.js")
+	    .attr("async", true);
+
+	script[0][0].onload = script[0][0].onreadystatechange = function(){
+
+
+	    var event = document.createEvent("HTMLEvents");
+	    event.initEvent("load_nyaplot",false,false);
+	    window.dispatchEvent(event);
+	    console.log('Finished loading Nyaplotjs');
+
+	};
+
+
+});});
+}
+</script>
+</head>
+<body><div id='vis-af49fc07-9752-436c-b403-fc52bdce6d1a'></div>
+<script>
+(function(){
+    var render = function(){
+        var model = {"panes":[{"diagrams":[{"type":"bar","options":{"x":"tool","y":"ex90n50","color":["rgb(102,194,165)","rgb(252,141,98)","rgb(141,160,203)","rgb(231,138,195)","rgb(166,216,84)","rgb(255,217,47)","rgb(229,196,148)","rgb(179,179,179)"]},"data":"0b8ff303-edcd-4443-b003-d44ca0e7b242"}],"options":{"x_label":"Escherichia coli","y_label":"Ex90N50 value","legend":true,"yrange":[0,742.5000000000001],"rotate_x_label":300,"margin":{"left":80,"right":40,"top":40,"bottom":160},"width":800,"xrange":["Trinity","Oases","Trans_ABySS","SOAPdenovo_Trans","Bridger","BinPacker","IDBA_Tran","Shannon","SPAdes_sc","SPAdes_rna"]}},{"diagrams":[{"type":"bar","options":{"x":"tool","y":"ex90n50","color":["rgb(102,194,165)","rgb(252,141,98)","rgb(141,160,203)","rgb(231,138,195)","rgb(166,216,84)","rgb(255,217,47)","rgb(229,196,148)","rgb(179,179,179)"]},"data":"3ffd7473-f031-4705-a59b-c6bfaf5a26c2"}],"options":{"x_label":"Candida albicans","y_label":"Ex90N50 value","legend":true,"yrange":[0,2299.0],"rotate_x_label":300,"margin":{"left":80,"right":40,"top":40,"bottom":160},"width":800,"xrange":["Trinity","Oases","Trans_ABySS","SOAPdenovo_Trans","Bridger","BinPacker","IDBA_Tran","Shannon","SPAdes_sc","SPAdes_rna"]}},{"diagrams":[{"type":"bar","options":{"x":"tool","y":"ex90n50","color":["rgb(102,194,165)","rgb(252,141,98)","rgb(141,160,203)","rgb(231,138,195)","rgb(166,216,84)","rgb(255,217,47)","rgb(229,196,148)","rgb(179,179,179)"]},"data":"fe966c97-b743-4c0a-aa10-adfa40aa2a8e"}],"options":{"x_label":"Arabidopsis thaliana","y_label":"Ex90N50 value","legend":true,"yrange":[0,1819.4],"rotate_x_label":300,"margin":{"left":80,"right":40,"top":40,"bottom":160},"width":800,"xrange":["Trinity","Oases","Trans_ABySS","SOAPdenovo_Trans","Bridger","BinPacker","IDBA_Tran","Shannon","SPAdes_sc","SPAdes_rna"]}},{"diagrams":[{"type":"bar","options":{"x":"tool","y":"ex90n50","color":["rgb(102,194,165)","rgb(252,141,98)","rgb(141,160,203)","rgb(231,138,195)","rgb(166,216,84)","rgb(255,217,47)","rgb(229,196,148)","rgb(179,179,179)"]},"data":"d267bb93-b4f9-4764-b542-c7978bceb039"}],"options":{"x_label":"Mus musculus","y_label":"Ex90N50 value","legend":true,"yrange":[0,4195.400000000001],"rotate_x_label":300,"margin":{"left":80,"right":40,"top":40,"bottom":160},"width":800,"xrange":["Trinity","Oases","Trans_ABySS","SOAPdenovo_Trans","Bridger","BinPacker","IDBA_Tran","Shannon","SPAdes_sc","SPAdes_rna"]}},{"diagrams":[{"type":"bar","options":{"x":"tool","y":"ex90n50","color":["rgb(102,194,165)","rgb(252,141,98)","rgb(141,160,203)","rgb(231,138,195)","rgb(166,216,84)","rgb(255,217,47)","rgb(229,196,148)","rgb(179,179,179)"]},"data":"b6ee76dc-38b2-44f4-a57a-e5a8a6567063"}],"options":{"x_label":"H. sapiens","y_label":"Ex90N50 value","legend":true,"yrange":[0,2619.1000000000004],"rotate_x_label":300,"margin":{"left":80,"right":40,"top":40,"bottom":160},"width":800,"xrange":["Trinity","Oases","Trans_ABySS","SOAPdenovo_Trans","Bridger","BinPacker","IDBA_Tran","Shannon","SPAdes_sc","SPAdes_rna"]}},{"diagrams":[{"type":"bar","options":{"x":"tool","y":"ex90n50","color":["rgb(102,194,165)","rgb(252,141,98)","rgb(141,160,203)","rgb(231,138,195)","rgb(166,216,84)","rgb(255,217,47)","rgb(229,196,148)","rgb(179,179,179)"]},"data":"5c86e55a-911d-431b-a992-2f86fa2a47e2"}],"options":{"x_label":"H. sapiens+EBOV 3h","y_label":"Ex90N50 value","legend":true,"yrange":[0,3883.0000000000005],"rotate_x_label":300,"margin":{"left":80,"right":40,"top":40,"bottom":160},"width":800,"xrange":["Trinity","Oases","Trans_ABySS","SOAPdenovo_Trans","Bridger","BinPacker","IDBA_Tran","Shannon","SPAdes_sc","SPAdes_rna"]}},{"diagrams":[{"type":"bar","options":{"x":"tool","y":"ex90n50","color":["rgb(102,194,165)","rgb(252,141,98)","rgb(141,160,203)","rgb(231,138,195)","rgb(166,216,84)","rgb(255,217,47)","rgb(229,196,148)","rgb(179,179,179)"]},"data":"9d28f1e6-2dda-4bb5-bc0c-5a9d7db2a380"}],"options":{"x_label":"H. sapiens+EBOV 7h","y_label":"Ex90N50 value","legend":true,"yrange":[0,4140.400000000001],"rotate_x_label":300,"margin":{"left":80,"right":40,"top":40,"bottom":160},"width":800,"xrange":["Trinity","Oases","Trans_ABySS","SOAPdenovo_Trans","Bridger","BinPacker","IDBA_Tran","Shannon","SPAdes_sc","SPAdes_rna"]}},{"diagrams":[{"type":"bar","options":{"x":"tool","y":"ex90n50","color":["rgb(102,194,165)","rgb(252,141,98)","rgb(141,160,203)","rgb(231,138,195)","rgb(166,216,84)","rgb(255,217,47)","rgb(229,196,148)","rgb(179,179,179)"]},"data":"f155e226-9857-4a9f-a3b7-d72a81ef3f3a"}],"options":{"x_label":"H. sapiens+EBOV 23h","y_label":"Ex90N50 value","legend":true,"yrange":[0,4361.5],"rotate_x_label":300,"margin":{"left":80,"right":40,"top":40,"bottom":160},"width":800,"xrange":["Trinity","Oases","Trans_ABySS","SOAPdenovo_Trans","Bridger","BinPacker","IDBA_Tran","Shannon","SPAdes_sc","SPAdes_rna"]}},{"diagrams":[{"type":"bar","options":{"x":"tool","y":"ex90n50","color":["rgb(102,194,165)","rgb(252,141,98)","rgb(141,160,203)","rgb(231,138,195)","rgb(166,216,84)","rgb(255,217,47)","rgb(229,196,148)","rgb(179,179,179)"]},"data":"054b5e81-5d83-4ea6-9e74-5768f82e069b"}],"options":{"x_label":"H. sapiens simulated","y_label":"Ex90N50 value","legend":true,"yrange":[0,3646.5000000000005],"rotate_x_label":300,"margin":{"left":80,"right":40,"top":40,"bottom":160},"width":800,"xrange":["Trinity","Oases","Trans_ABySS","SOAPdenovo_Trans","Bridger","BinPacker","IDBA_Tran","Shannon","SPAdes_sc","SPAdes_rna"]}}],"data":{"0b8ff303-edcd-4443-b003-d44ca0e7b242":[{"tool":"Trinity","ex90n50":369},{"tool":"Oases","ex90n50":229},{"tool":"Trans_ABySS","ex90n50":177},{"tool":"SOAPdenovo_Trans","ex90n50":173},{"tool":"Bridger","ex90n50":393},{"tool":"BinPacker","ex90n50":675},{"tool":"IDBA_Tran","ex90n50":304},{"tool":"Shannon","ex90n50":363},{"tool":"SPAdes_sc","ex90n50":111},{"tool":"SPAdes_rna","ex90n50":245}],"3ffd7473-f031-4705-a59b-c6bfaf5a26c2":[{"tool":"Trinity","ex90n50":1862},{"tool":"Oases","ex90n50":1588},{"tool":"Trans_ABySS","ex90n50":1664},{"tool":"SOAPdenovo_Trans","ex90n50":1374},{"tool":"Bridger","ex90n50":1923},{"tool":"BinPacker","ex90n50":1876},{"tool":"IDBA_Tran","ex90n50":1257},{"tool":"Shannon","ex90n50":1321},{"tool":"SPAdes_sc","ex90n50":2090},{"tool":"SPAdes_rna","ex90n50":2034}],"fe966c97-b743-4c0a-aa10-adfa40aa2a8e":[{"tool":"Trinity","ex90n50":1451},{"tool":"Oases","ex90n50":1305},{"tool":"Trans_ABySS","ex90n50":940},{"tool":"SOAPdenovo_Trans","ex90n50":449},{"tool":"Bridger","ex90n50":1636},{"tool":"BinPacker","ex90n50":1452},{"tool":"IDBA_Tran","ex90n50":805},{"tool":"Shannon","ex90n50":1654},{"tool":"SPAdes_sc","ex90n50":1030},{"tool":"SPAdes_rna","ex90n50":1239}],"d267bb93-b4f9-4764-b542-c7978bceb039":[{"tool":"Trinity","ex90n50":420},{"tool":"Oases","ex90n50":2044},{"tool":"Trans_ABySS","ex90n50":530},{"tool":"SOAPdenovo_Trans","ex90n50":2796},{"tool":"Bridger","ex90n50":3100},{"tool":"BinPacker","ex90n50":2715},{"tool":"IDBA_Tran","ex90n50":1672},{"tool":"Shannon","ex90n50":2067},{"tool":"SPAdes_sc","ex90n50":3814},{"tool":"SPAdes_rna","ex90n50":3418}],"b6ee76dc-38b2-44f4-a57a-e5a8a6567063":[{"tool":"Trinity","ex90n50":326},{"tool":"Oases","ex90n50":666},{"tool":"Trans_ABySS","ex90n50":441},{"tool":"SOAPdenovo_Trans","ex90n50":711},{"tool":"Bridger","ex90n50":1370},{"tool":"BinPacker","ex90n50":2381},{"tool":"IDBA_Tran","ex90n50":708},{"tool":"Shannon","ex90n50":1324},{"tool":"SPAdes_sc","ex90n50":1186},{"tool":"SPAdes_rna","ex90n50":782}],"5c86e55a-911d-431b-a992-2f86fa2a47e2":[{"tool":"Trinity","ex90n50":2753},{"tool":"Oases","ex90n50":2461},{"tool":"Trans_ABySS","ex90n50":1947},{"tool":"SOAPdenovo_Trans","ex90n50":2372},{"tool":"Bridger","ex90n50":2676},{"tool":"BinPacker","ex90n50":3530},{"tool":"IDBA_Tran","ex90n50":1924},{"tool":"Shannon","ex90n50":2236},{"tool":"SPAdes_sc","ex90n50":2735},{"tool":"SPAdes_rna","ex90n50":1603}],"9d28f1e6-2dda-4bb5-bc0c-5a9d7db2a380":[{"tool":"Trinity","ex90n50":2839},{"tool":"Oases","ex90n50":3003},{"tool":"Trans_ABySS","ex90n50":2039},{"tool":"SOAPdenovo_Trans","ex90n50":2385},{"tool":"Bridger","ex90n50":2745},{"tool":"BinPacker","ex90n50":3764},{"tool":"IDBA_Tran","ex90n50":1967},{"tool":"Shannon","ex90n50":2328},{"tool":"SPAdes_sc","ex90n50":2766},{"tool":"SPAdes_rna","ex90n50":1647}],"f155e226-9857-4a9f-a3b7-d72a81ef3f3a":[{"tool":"Trinity","ex90n50":2958},{"tool":"Oases","ex90n50":3115},{"tool":"Trans_ABySS","ex90n50":2178},{"tool":"SOAPdenovo_Trans","ex90n50":2489},{"tool":"Bridger","ex90n50":2841},{"tool":"BinPacker","ex90n50":3965},{"tool":"IDBA_Tran","ex90n50":2048},{"tool":"Shannon","ex90n50":1714},{"tool":"SPAdes_sc","ex90n50":3071},{"tool":"SPAdes_rna","ex90n50":2203}],"054b5e81-5d83-4ea6-9e74-5768f82e069b":[{"tool":"Trinity","ex90n50":3234},{"tool":"Oases","ex90n50":3300},{"tool":"Trans_ABySS","ex90n50":2902},{"tool":"SOAPdenovo_Trans","ex90n50":2836},{"tool":"Bridger","ex90n50":3252},{"tool":"BinPacker","ex90n50":2909},{"tool":"IDBA_Tran","ex90n50":1397},{"tool":"Shannon","ex90n50":2368},{"tool":"SPAdes_sc","ex90n50":3315},{"tool":"SPAdes_rna","ex90n50":2549}]},"extension":[]}
+        var id_name = '#vis-af49fc07-9752-436c-b403-fc52bdce6d1a';
+        Nyaplot.core.parse(model, id_name);
+
+        require(['downloadable'], function(downloadable){
+          var svg = d3.select(id_name).select("svg");
+	  if(!svg.empty())
+	    svg.call(downloadable().filename('fig'));
+	});
+    };
+    if(window['Nyaplot']==undefined){
+        window.addEventListener('load_nyaplot', render, false);
+	return;
+    } else {
+       render();
+    }
+})();
+</script>
+</body>
+</html>

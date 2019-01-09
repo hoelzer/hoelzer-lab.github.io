@@ -1,0 +1,17 @@
+METRICS/TRANSCRIPTS                                    rnaSPAdes                
+ == ASSEMBLY SPECIFICITY == 
+Unannotated                                            128667                   
+
+50%-matched                                            56981                    
+95%-matched                                            40135                    
+
+Mean fraction of transcript matched                    0.277                    
+
+Mean fraction of block matched                         0.847                    
+
+50%-matched blocks                                     0.845                    
+95%-matched blocks                                     0.795                    
+
+Matched length                                         53516525                 
+Unmatched length                                       44975343                 
+

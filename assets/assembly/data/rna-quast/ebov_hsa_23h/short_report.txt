@@ -1,0 +1,48 @@
+SHORT SUMMARY REPORT 
+
+METRICS/TRANSCRIPTS                                    Trinity                  Trans-ABySS              Oases                    SOAPdenovo-Trans         IDBA-Tran                Bridger                  BinPacker                Shannon                  rnaSPAdes                SPAdes                   
+
+ == DATABASE METRICS == 
+Genes                                                  57992                    57992                    57992                    57992                    57992                    57992                    57992                    57992                    57992                    57992                    
+Avg. number of exons per isoform                       5.971                    5.971                    5.971                    5.971                    5.971                    5.971                    5.971                    5.971                    5.971                    5.971
+
+ == BASIC TRANSCRIPTS METRICS == 
+Transcripts                                            97849                    213005                   178498                   131711                   78116                    83744                    12291                    84456                    206133                   93814                    
+Transcripts > 500 bp                                   42497                    58213                    114976                   24636                    31500                    33578                    11834                    27820                    32697                    25204                    
+Transcripts > 1000 bp                                  27785                    32866                    83530                    13418                    14196                    20560                    10862                    15007                    18629                    13245
+
+ == ALIGNMENT METRICS == 
+Aligned                                                97647                    212044                   177747                   130789                   77999                    83546                    12274                    84373                    203335                   87567                    
+Uniquely aligned                                       94046                    204947                   161313                   128896                   77059                    79021                    10437                    82753                    199122                   81873                    
+Multiply aligned                                       549                      1999                     1048                     1263                     407                      404                      19                       421                      1496                     1707                     
+Unaligned                                              202                      961                      751                      922                      117                      198                      17                       83                       2798                     6247
+
+ == ALIGNMENT METRICS FOR NON-MISASSEMBLED TRANSCRIPTS == 
+Avg. aligned fraction                                  0.984                    0.984                    0.937                    0.995                    0.993                    0.977                    0.929                    0.994                    0.987                    0.984                    
+Avg. alignment length                                  1143.492                 578.881                  1500.776                 482.257                  725.58                   929.857                  3072.898                 703.748                  476.176                  649.419                  
+Avg. mismatches per transcript                         1.684                    0.769                    2.311                    0.468                    0.866                    1.43                     3.755                    0.583                    1.15                     0.951
+
+ == ALIGNMENT METRICS FOR MISASSEMBLED (CHIMERIC) TRANSCRIPTS == 
+Misassemblies                                          1066                     3253                     11194                    94                       134                      1844                     1436                     381                      908                      1206
+
+ == ASSEMBLY COMPLETENESS (SENSITIVITY) == 
+Database coverage                                      0.161                    0.188                    0.176                    0.143                    0.136                    0.131                    0.048                    0.116                    0.159                    0.126                    
+50%-assembled genes                                    8947                     9467                     9166                     8582                     7964                     7837                     3054                     6519                     9283                     8232                     
+95%-assembled genes                                    3486                     3292                     3579                     2667                     710                      2492                     1353                     1502                     3363                     2650                     
+50%-covered genes                                      10329                    11000                    10167                    10251                    10120                    9192                     3115                     8262                     11020                    9329                     
+95%-covered genes                                      4299                     4434                     4451                     3404                     1744                     2981                     1415                     2188                     4217                     3034                     
+50%-assembled isoforms                                 12623                    15475                    15176                    9979                     9764                     9616                     3794                     8309                     11326                    9031                     
+95%-assembled isoforms                                 4065                     3575                     4330                     2749                     714                      2736                     1523                     1631                     3535                     2654                     
+50%-covered isoforms                                   14765                    19493                    17208                    12503                    13253                    11421                    3874                     10900                    13922                    10517                    
+95%-covered isoforms                                   4991                     4943                     5457                     3512                     1755                     3246                     1591                     2369                     4440                     3039                     
+Mean isoform coverage                                  0.515                    0.461                    0.551                    0.385                    0.451                    0.444                    0.719                    0.473                    0.403                    0.439                    
+Mean isoform assembly                                  0.462                    0.401                    0.504                    0.335                    0.382                    0.399                    0.707                    0.402                    0.354                    0.398
+
+ == GeneMarkS-T METRICS == 
+Predicted genes                                        30009                    43585                    73686                    16066                    23174                    21088                    8375                     23879                    21429                    15644
+
+ == ASSEMBLY SPECIFICITY == 
+50%-matched                                            51949                    99617                    109483                   55068                    43657                    40396                    9462                     56036                    56981                    33929                    
+95%-matched                                            33810                    70234                    57036                    46001                    36242                    28362                    4836                     48039                    40135                    25755                    
+Unannotated                                            33696                    90840                    35015                    60913                    24679                    29047                    202                      23378                    128667                   42074                    
+Mean fraction of transcript matched                    0.524                    0.462                    0.623                    0.419                    0.559                    0.492                    0.83                     0.658                    0.277                    0.379

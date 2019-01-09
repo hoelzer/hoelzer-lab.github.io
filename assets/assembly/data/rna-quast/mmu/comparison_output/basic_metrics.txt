@@ -1,0 +1,12 @@
+METRICS/TRANSCRIPTS                                    Trinity                  Trans-ABySS              Oases                    SOAPdenovo-Trans         IDBA-Tran                Bridger                  BinPacker                Shannon                  rnaSPAdes                SPAdes                   
+ == BASIC TRANSCRIPTS METRICS (calculated without reference genome and gene database) == 
+Transcripts                                            63305                    135402                   243196                   101745                   55639                    54182                    2503                     53069                    76473                    44567                    
+
+Transcripts > 500 bp                                   30976                    47157                    100314                   20648                    23040                    27127                    2394                     26641                    28354                    20542                    
+Transcripts > 1000 bp                                  21804                    29719                    51832                    12603                    12294                    18266                    2037                     16915                    19367                    13099                    
+
+Average length of assembled transcripts                1243.601                 776.601                  776.936                  526.924                  818.245                  1235.724                 2602.805                 997.724                  960.618                  1157.26                  
+Longest transcript                                     15758                    16948                    18273                    15709                    13519                    20000                    14728                    10156                    19132                    20853                    
+Total length                                           78726179                 105153277                188947779                53611903                 45526327                 66954024                 6514820                  52948200                 73461333                 51575587                 
+
+Transcript N50                                         3536                     4623                     261                      6485                     292                      1510                     2941                     1375                     379                      429                      

@@ -1,0 +1,12 @@
+METRICS/TRANSCRIPTS                                    Trinity                  
+ == BASIC TRANSCRIPTS METRICS (calculated without reference genome and gene database) == 
+Transcripts                                            97849                    
+
+Transcripts > 500 bp                                   42497                    
+Transcripts > 1000 bp                                  27785                    
+
+Average length of assembled transcripts                1181.191                 
+Longest transcript                                     20401                    
+Total length                                           115578380                
+
+Transcript N50                                         8031                     

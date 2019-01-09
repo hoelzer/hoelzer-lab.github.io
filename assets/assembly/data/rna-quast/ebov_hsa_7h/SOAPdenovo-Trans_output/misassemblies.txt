@@ -1,0 +1,8 @@
+METRICS/TRANSCRIPTS                                    SOAPdenovo-Trans         
+ == ALIGNMENT METRICS FOR MISASSEMBLED (CHIMERIC) TRANSCRIPTS (calculated with reference genome or with gene database) == 
+Transcripts                                            165909                   
+
+Misassembly candidates reported by GMAP (or BLAT)      884                      
+Misassembly candidates reported by BLASTN              4150                     
+Misassemblies                                          125                      
+

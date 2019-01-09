@@ -1,0 +1,21 @@
+ == GENE DATABASE METRICS ==
+Genes                                                  3119
+Protein coding genes                                   2044
+
+Isoforms                                               14645
+Protein coding isoforms                                6922
+
+Exons                                                  102370
+
+Introns                                                87725
+
+Avg. length of all isoforms                            1757.932
+
+Total length of all isoforms                           25744908
+Avg. exon length                                       251.489
+
+Avg. intron length                                     5418.24
+
+Avg. number of exons per isoform                       6.99
+Max. number of exons per isoform                       138
+

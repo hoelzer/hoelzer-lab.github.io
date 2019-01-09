@@ -1,0 +1,15 @@
+# BUSCO version is: 2.0 
+# The lineage dataset is: saccharomycetales_odb9 (Creation date: 2016-10-21, number of species: 30, number of BUSCOs: 1711)
+# To reproduce this run: python /mnt/prostlocal/programs/busco/v2.0/BUSCO.py -i /mnt/dessertlocal/projects/transcriptome_assembly/assemblies//cal3/final/idba-tran.fasta -o cal3_idba-tran -l /mnt/prostlocal/programs/busco/v2.0/datasets/saccharomycetales_odb9/ -m tran -c 1 -sp saccharomyces_cerevisiae_S288C
+#
+# Summarized benchmarking in BUSCO notation for file /mnt/dessertlocal/projects/transcriptome_assembly/assemblies//cal3/final/idba-tran.fasta
+# BUSCO was run in mode: tran
+
+	C:62.6%[S:62.5%,D:0.1%],F:23.4%,M:14.0%,n:1711
+
+	1070	Complete BUSCOs (C)
+	1069	Complete and single-copy BUSCOs (S)
+	1	Complete and duplicated BUSCOs (D)
+	401	Fragmented BUSCOs (F)
+	240	Missing BUSCOs (M)
+	1711	Total BUSCO groups searched

@@ -1,0 +1,17 @@
+METRICS/TRANSCRIPTS                                    IDBA-Tran                
+ == ASSEMBLY SPECIFICITY == 
+Unannotated                                            6                        
+
+50%-matched                                            12072                    
+95%-matched                                            8280                     
+
+Mean fraction of transcript matched                    0.934                    
+
+Mean fraction of block matched                         0.949                    
+
+50%-matched blocks                                     0.973                    
+95%-matched blocks                                     0.858                    
+
+Matched length                                         9968961                  
+Unmatched length                                       477422                   
+

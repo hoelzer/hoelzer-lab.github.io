@@ -1,0 +1,17 @@
+METRICS/TRANSCRIPTS                                    Trinity                  Trans-ABySS              Oases                    SOAPdenovo-Trans         IDBA-Tran                Bridger                  BinPacker                Shannon                  rnaSPAdes                SPAdes                   
+ == ASSEMBLY SPECIFICITY == 
+Unannotated                                            887                      3066                     788                      2479                     801                      876                      23                       854                      1938                     1100                     
+
+50%-matched                                            30436                    50342                    46508                    44555                    30039                    24213                    3808                     24594                    32784                    25910                    
+95%-matched                                            26763                    41811                    39238                    42150                    28142                    21017                    2929                     22274                    28995                    22414                    
+
+Mean fraction of transcript matched                    0.92                     0.866                    0.933                    0.887                    0.929                    0.911                    0.917                    0.929                    0.896                    0.902                    
+
+Mean fraction of block matched                         0.961                    0.96                     0.956                    0.966                    0.975                    0.962                    0.942                    0.971                    0.968                    0.965                    
+
+50%-matched blocks                                     0.963                    0.961                    0.959                    0.963                    0.976                    0.964                    0.945                    0.973                    0.972                    0.969                    
+95%-matched blocks                                     0.94                     0.938                    0.937                    0.95                     0.96                     0.943                    0.918                    0.955                    0.944                    0.94                     
+
+Matched length                                         30013045                 39985550                 56614558                 26902613                 26093803                 24386684                 4857682                  25918151                 27457743                 25038690                 
+Unmatched length                                       1997896                  2854902                  3847059                  1538113                  1200078                  1678489                  495914                   1383207                  1771614                  1699469                  
+

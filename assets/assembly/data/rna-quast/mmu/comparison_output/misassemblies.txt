@@ -1,0 +1,8 @@
+METRICS/TRANSCRIPTS                                    Trinity                  Trans-ABySS              Oases                    SOAPdenovo-Trans         IDBA-Tran                Bridger                  BinPacker                Shannon                  rnaSPAdes                SPAdes                   
+ == ALIGNMENT METRICS FOR MISASSEMBLED (CHIMERIC) TRANSCRIPTS (calculated with reference genome or with gene database) == 
+Transcripts                                            63305                    135402                   243196                   101745                   55639                    54182                    2503                     53069                    76473                    44567                    
+
+Misassembly candidates reported by GMAP (or BLAT)      1495                     1388                     56481                    482                      174                      5302                     868                      5009                     2033                     2245                     
+Misassembly candidates reported by BLASTN              8471                     13673                    104179                   1951                     2935                     8396                     1140                     4499                     9773                     5888                     
+Misassemblies                                          564                      612                      52668                    61                       41                       2643                     628                      1927                     1080                     570                      
+

@@ -1,0 +1,12 @@
+METRICS/TRANSCRIPTS                                    Oases                    
+ == BASIC TRANSCRIPTS METRICS (calculated without reference genome and gene database) == 
+Transcripts                                            7364                     
+
+Transcripts > 500 bp                                   1974                     
+Transcripts > 1000 bp                                  743                      
+
+Average length of assembled transcripts                489.178                  
+Longest transcript                                     15113                    
+Total length                                           3602307                  
+
+Transcript N50                                         7110                     

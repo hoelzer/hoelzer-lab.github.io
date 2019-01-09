@@ -1,0 +1,30 @@
+METRICS/TRANSCRIPTS                                    SPAdes                   
+ == ASSEMBLY COMPLETENESS (SENSITIVITY) == 
+Database coverage                                      0.086                    
+Duplication ratio                                      1.015                    
+Avg. number of transcripts mapped to one isoform       1.45                     
+
+50%-assembled genes                                    6626                     
+95%-assembled genes                                    1747                     
+50%-covered genes                                      7556                     
+95%-covered genes                                      2115                     
+
+50%-assembled isoforms                                 7725                     
+95%-assembled isoforms                                 1755                     
+50%-covered isoforms                                   9207                     
+95%-covered isoforms                                   2124                     
+
+50%-assembled exons                                    69623                    
+95%-assembled exons                                    55091                    
+
+Mean isoform assembly                                  0.306                    
+
+Mean isoform coverage                                  0.337                    
+Mean exon coverage                                     0.782                    
+
+Avg. percentage of isoform 50%-covered exons           0.295                    
+Avg. percentage of isoform 95%-covered exons           0.187                    
+
+ == GeneMarkS-T METRICS == 
+Genes                                                  33968                    
+

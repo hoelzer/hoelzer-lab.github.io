@@ -1,0 +1,23 @@
+METRICS/TRANSCRIPTS                                    Bridger                  
+ == ALIGNMENT METRICS (calculated with reference genome but without gene database) == 
+Transcripts                                            103284                   
+
+Aligned                                                103098                   
+
+Uniquely aligned                                       96737                    
+Multiply aligned                                       529                      
+Misassembly candidates reported by GMAP (or BLAT)      5799                     
+
+Unaligned                                              186                      
+
+ == ALIGNMENT METRICS FOR NON-MISASSEMBLED TRANSCRIPTS == 
+Average aligned fraction                               0.975                    
+Average alignment length                               866.608                  
+
+Average blocks per alignment                           3.471                    
+Average block length                                   249.656                  
+
+Average mismatches per transcript                      1.487                    
+
+NA50                                                   1125                     
+

@@ -1,0 +1,17 @@
+METRICS/TRANSCRIPTS                                    Shannon                  
+ == ASSEMBLY SPECIFICITY == 
+Unannotated                                            23378                    
+
+50%-matched                                            56036                    
+95%-matched                                            48039                    
+
+Mean fraction of transcript matched                    0.658                    
+
+Mean fraction of block matched                         0.953                    
+
+50%-matched blocks                                     0.954                    
+95%-matched blocks                                     0.929                    
+
+Matched length                                         48828104                 
+Unmatched length                                       10803470                 
+

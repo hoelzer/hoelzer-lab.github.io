@@ -1,0 +1,23 @@
+METRICS/TRANSCRIPTS                                    IDBA-Tran                
+ == ALIGNMENT METRICS (calculated with reference genome but without gene database) == 
+Transcripts                                            95730                    
+
+Aligned                                                95623                    
+
+Uniquely aligned                                       94239                    
+Multiply aligned                                       595                      
+Misassembly candidates reported by GMAP (or BLAT)      789                      
+
+Unaligned                                              107                      
+
+ == ALIGNMENT METRICS FOR NON-MISASSEMBLED TRANSCRIPTS == 
+Average aligned fraction                               0.992                    
+Average alignment length                               697.748                  
+
+Average blocks per alignment                           2.283                    
+Average block length                                   305.686                  
+
+Average mismatches per transcript                      0.834                    
+
+NA50                                                   1013                     
+

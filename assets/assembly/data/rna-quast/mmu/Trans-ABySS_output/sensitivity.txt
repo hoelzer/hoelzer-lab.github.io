@@ -1,0 +1,30 @@
+METRICS/TRANSCRIPTS                                    Trans-ABySS              
+ == ASSEMBLY COMPLETENESS (SENSITIVITY) == 
+Database coverage                                      0.244                    
+Duplication ratio                                      1.75                     
+Avg. number of transcripts mapped to one isoform       2.847                    
+
+50%-assembled genes                                    9765                     
+95%-assembled genes                                    5721                     
+50%-covered genes                                      10804                    
+95%-covered genes                                      7145                     
+
+50%-assembled isoforms                                 14134                    
+95%-assembled isoforms                                 6281                     
+50%-covered isoforms                                   16495                    
+95%-covered isoforms                                   8075                     
+
+50%-assembled exons                                    125715                   
+95%-assembled exons                                    111197                   
+
+Mean isoform assembly                                  0.539                    
+
+Mean isoform coverage                                  0.607                    
+Mean exon coverage                                     0.92                     
+
+Avg. percentage of isoform 50%-covered exons           0.597                    
+Avg. percentage of isoform 95%-covered exons           0.485                    
+
+ == GeneMarkS-T METRICS == 
+Genes                                                  35418                    
+

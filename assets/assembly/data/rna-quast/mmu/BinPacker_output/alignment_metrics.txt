@@ -1,0 +1,23 @@
+METRICS/TRANSCRIPTS                                    BinPacker                
+ == ALIGNMENT METRICS (calculated with reference genome but without gene database) == 
+Transcripts                                            2503                     
+
+Aligned                                                2489                     
+
+Uniquely aligned                                       1590                     
+Multiply aligned                                       5                        
+Misassembly candidates reported by GMAP (or BLAT)      868                      
+
+Unaligned                                              14                       
+
+ == ALIGNMENT METRICS FOR NON-MISASSEMBLED TRANSCRIPTS == 
+Average aligned fraction                               0.946                    
+Average alignment length                               1972.809                 
+
+Average blocks per alignment                           8.253                    
+Average block length                                   239.052                  
+
+Average mismatches per transcript                      4.609                    
+
+NA50                                                   2056                     
+

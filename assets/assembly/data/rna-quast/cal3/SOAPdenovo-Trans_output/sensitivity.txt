@@ -1,0 +1,27 @@
+METRICS/TRANSCRIPTS                                    SOAPdenovo-Trans         
+ == ASSEMBLY COMPLETENESS (SENSITIVITY) == 
+Database coverage                                      0.564                    
+Duplication ratio                                      1.007                    
+Avg. number of transcripts mapped to one isoform       2.147                    
+
+50%-assembled genes                                    5362                     
+95%-assembled genes                                    3290                     
+50%-covered genes                                      6742                     
+95%-covered genes                                      4522                     
+
+50%-assembled isoforms                                 5362                     
+95%-assembled isoforms                                 3290                     
+50%-covered isoforms                                   6742                     
+95%-covered isoforms                                   4522                     
+
+50%-assembled exons                                    5826                     
+95%-assembled exons                                    3730                     
+
+Mean isoform assembly                                  0.629                    
+
+Mean isoform coverage                                  0.756                    
+Mean exon coverage                                     0.766                    
+
+Avg. percentage of isoform 50%-covered exons           0.758                    
+Avg. percentage of isoform 95%-covered exons           0.513                    
+

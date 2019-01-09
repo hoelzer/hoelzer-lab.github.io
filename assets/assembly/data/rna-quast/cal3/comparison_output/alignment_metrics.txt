@@ -1,0 +1,23 @@
+METRICS/TRANSCRIPTS                                    Trinity                  Trans-ABySS              Oases                    SOAPdenovo-Trans         IDBA-Tran                Bridger                  BinPacker                Shannon                  rnaSPAdes                SPAdes                   
+ == ALIGNMENT METRICS (calculated with reference genome but without gene database) == 
+Transcripts                                            8970                     26356                    24818                    14927                    9408                     8413                     8324                     17225                    8297                     6821                     
+
+Aligned                                                8786                     25928                    24192                    14724                    9238                     8226                     8138                     17071                    8092                     6502                     
+
+Uniquely aligned                                       5000                     14459                    14556                    7606                     5725                     4853                     4905                     8573                     4847                     3983                     
+Multiply aligned                                       3565                     10667                    8399                     7073                     3484                     2796                     2610                     7282                     2961                     2393                     
+Misassembly candidates reported by GMAP (or BLAT)      206                      773                      1187                     42                       25                       558                      602                      1201                     265                      109                      
+
+Unaligned                                              184                      428                      626                      203                      170                      187                      186                      154                      205                      319                      
+
+ == ALIGNMENT METRICS FOR NON-MISASSEMBLED TRANSCRIPTS == 
+Average aligned fraction                               0.994                    0.988                    0.986                    0.997                    0.996                    0.987                    0.985                    0.993                    0.988                    0.99                     
+Average alignment length                               969.327                  773.584                  941.6                    567.169                  922.096                  1131.326                 1189.552                 678.947                  1171.714                 1279.411                 
+
+Average blocks per alignment                           1.273                    1.254                    1.389                    1.125                    1.152                    1.329                    1.374                    1.14                     1.504                    1.389                    
+Average block length                                   761.215                  616.74                   677.754                  503.973                  800.656                  851.018                  865.47                   595.689                  778.908                  920.816                  
+
+Average mismatches per transcript                      1.819                    1.288                    2.121                    0.569                    0.807                    1.996                    2.283                    0.999                    1.959                    1.799                    
+
+NA50                                                   952                      3829                     1803                     892                      1342                     4676                     1569                     494                      1936                     1990                     
+

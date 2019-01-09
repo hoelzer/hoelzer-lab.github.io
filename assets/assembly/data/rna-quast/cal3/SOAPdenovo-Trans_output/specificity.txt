@@ -1,0 +1,17 @@
+METRICS/TRANSCRIPTS                                    SOAPdenovo-Trans         
+ == ASSEMBLY SPECIFICITY == 
+Unannotated                                            1706                     
+
+50%-matched                                            12185                    
+95%-matched                                            7596                     
+
+Mean fraction of transcript matched                    0.775                    
+
+Mean fraction of block matched                         0.851                    
+
+50%-matched blocks                                     0.895                    
+95%-matched blocks                                     0.592                    
+
+Matched length                                         10285384                 
+Unmatched length                                       2118354                  
+

@@ -1,0 +1,17 @@
+METRICS/TRANSCRIPTS                                    BinPacker                
+ == ASSEMBLY SPECIFICITY == 
+Unannotated                                            62                       
+
+50%-matched                                            11761                    
+95%-matched                                            5451                     
+
+Mean fraction of transcript matched                    0.87                     
+
+Mean fraction of block matched                         0.831                    
+
+50%-matched blocks                                     0.844                    
+95%-matched blocks                                     0.767                    
+
+Matched length                                         18651818                 
+Unmatched length                                       3621382                  
+

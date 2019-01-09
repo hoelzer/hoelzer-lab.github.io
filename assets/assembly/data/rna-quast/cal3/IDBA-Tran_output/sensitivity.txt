@@ -1,0 +1,27 @@
+METRICS/TRANSCRIPTS                                    IDBA-Tran                
+ == ASSEMBLY COMPLETENESS (SENSITIVITY) == 
+Database coverage                                      0.527                    
+Duplication ratio                                      1.003                    
+Avg. number of transcripts mapped to one isoform       1.486                    
+
+50%-assembled genes                                    5380                     
+95%-assembled genes                                    3238                     
+50%-covered genes                                      6229                     
+95%-covered genes                                      4003                     
+
+50%-assembled isoforms                                 5380                     
+95%-assembled isoforms                                 3238                     
+50%-covered isoforms                                   6229                     
+95%-covered isoforms                                   4003                     
+
+50%-assembled exons                                    5742                     
+95%-assembled exons                                    3631                     
+
+Mean isoform assembly                                  0.687                    
+
+Mean isoform coverage                                  0.771                    
+Mean exon coverage                                     0.781                    
+
+Avg. percentage of isoform 50%-covered exons           0.774                    
+Avg. percentage of isoform 95%-covered exons           0.507                    
+

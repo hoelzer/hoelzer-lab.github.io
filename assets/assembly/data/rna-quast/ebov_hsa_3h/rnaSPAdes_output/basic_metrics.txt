@@ -1,0 +1,12 @@
+METRICS/TRANSCRIPTS                                    rnaSPAdes                
+ == BASIC TRANSCRIPTS METRICS (calculated without reference genome and gene database) == 
+Transcripts                                            197477                   
+
+Transcripts > 500 bp                                   30090                    
+Transcripts > 1000 bp                                  17195                    
+
+Average length of assembled transcripts                477.394                  
+Longest transcript                                     22330                    
+Total length                                           94274289                 
+
+Transcript N50                                         6331                     

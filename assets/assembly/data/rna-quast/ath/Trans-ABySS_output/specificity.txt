@@ -1,0 +1,17 @@
+METRICS/TRANSCRIPTS                                    Trans-ABySS              
+ == ASSEMBLY SPECIFICITY == 
+Unannotated                                            3066                     
+
+50%-matched                                            50342                    
+95%-matched                                            41811                    
+
+Mean fraction of transcript matched                    0.866                    
+
+Mean fraction of block matched                         0.96                     
+
+50%-matched blocks                                     0.961                    
+95%-matched blocks                                     0.938                    
+
+Matched length                                         39985550                 
+Unmatched length                                       2854902                  
+

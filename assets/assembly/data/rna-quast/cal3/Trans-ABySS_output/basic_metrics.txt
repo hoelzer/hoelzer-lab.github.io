@@ -1,0 +1,12 @@
+METRICS/TRANSCRIPTS                                    Trans-ABySS              
+ == BASIC TRANSCRIPTS METRICS (calculated without reference genome and gene database) == 
+Transcripts                                            26356                    
+
+Transcripts > 500 bp                                   13304                    
+Transcripts > 1000 bp                                  7979                     
+
+Average length of assembled transcripts                856.782                  
+Longest transcript                                     11036                    
+Total length                                           22581342                 
+
+Transcript N50                                         1097                     

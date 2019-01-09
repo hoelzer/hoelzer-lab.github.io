@@ -1,0 +1,12 @@
+METRICS/TRANSCRIPTS                                    SOAPdenovo-Trans         
+ == BASIC TRANSCRIPTS METRICS (calculated without reference genome and gene database) == 
+Transcripts                                            14927                    
+
+Transcripts > 500 bp                                   5424                     
+Transcripts > 1000 bp                                  2769                     
+
+Average length of assembled transcripts                599.423                  
+Longest transcript                                     10036                    
+Total length                                           8947594                  
+
+Transcript N50                                         717                      

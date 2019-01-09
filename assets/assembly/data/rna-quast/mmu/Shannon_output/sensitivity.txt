@@ -1,0 +1,30 @@
+METRICS/TRANSCRIPTS                                    Shannon                  
+ == ASSEMBLY COMPLETENESS (SENSITIVITY) == 
+Database coverage                                      0.004                    
+Duplication ratio                                      1.23                     
+Avg. number of transcripts mapped to one isoform       1.506                    
+
+50%-assembled genes                                    203                      
+95%-assembled genes                                    71                       
+50%-covered genes                                      259                      
+95%-covered genes                                      85                       
+
+50%-assembled isoforms                                 206                      
+95%-assembled isoforms                                 71                       
+50%-covered isoforms                                   264                      
+95%-covered isoforms                                   85                       
+
+50%-assembled exons                                    1085                     
+95%-assembled exons                                    595                      
+
+Mean isoform assembly                                  0.195                    
+
+Mean isoform coverage                                  0.217                    
+Mean exon coverage                                     0.474                    
+
+Avg. percentage of isoform 50%-covered exons           0.151                    
+Avg. percentage of isoform 95%-covered exons           0.086                    
+
+ == GeneMarkS-T METRICS == 
+Genes                                                  8919                     
+

@@ -1,0 +1,17 @@
+METRICS/TRANSCRIPTS                                    Oases                    
+ == ASSEMBLY SPECIFICITY == 
+Unannotated                                            149381                   
+
+50%-matched                                            24164                    
+95%-matched                                            10182                    
+
+Mean fraction of transcript matched                    0.122                    
+
+Mean fraction of block matched                         0.736                    
+
+50%-matched blocks                                     0.738                    
+95%-matched blocks                                     0.697                    
+
+Matched length                                         8570424                  
+Unmatched length                                       78587711                 
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+  <head>
+
+    <style type='text/css'>
+  	details{
+		cursor:pointer;
+		}
+    </style>    
+    
+    <title>The dark art of de novo transcriptome assembly: a comprehensive comparison</title>
+    <link rel="stylesheet" href="../../../../src/css/style.css" type="text/css" media="print, projection, screen" />
+    <link rel="stylesheet" href="../../../../src/css/jq.css" type="text/css" media="print, projection, screen" />
+    
+    <script type="text/javascript" src="../../../../src/jquery/jquery-latest.js"></script> 
+    <script type="text/javascript" src="../../../../src/jquery/jquery.tablesorter.js"></script>
+    <script type="text/javascript" src="../../../../src/jquery/jquery.tablesorter.staticrow.min.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js"></script> <!--NYAPLOT-->
+
+		<script type="text/javascript" src="src/details-shim-master/details-shim.min.js">
+		</script><link rel="stylesheet" type="text/css" href="src/details-shim-master/details-shim.min.css">
+    
+    <script type="text/javascript" language="javascript" class="init">
+   if(window['d3'] === undefined ||
+      window['Nyaplot'] === undefined){
+       var path = {"d3":"http://d3js.org/d3.v3.min","downloadable":"http://cdn.rawgit.com/domitry/d3-downloadable/master/d3-downloadable"};
+
+       var shim = {"d3":{"exports":"d3"},"downloadable":{"exports":"downloadable"}};
+
+       require.config({paths: path, shim:shim});
+
+   require(['d3'], function(d3){window['d3']=d3;console.log('finished loading d3');require(['downloadable'], function(downloadable){window['downloadable']=downloadable;console.log('finished loading downloadable');
+
+	var script = d3.select("head")
+	    .append("script")
+	    .attr("src", "http://cdn.rawgit.com/domitry/Nyaplotjs/master/release/nyaplot.js")
+	    .attr("async", true);
+
+	script[0][0].onload = script[0][0].onreadystatechange = function(){
+
+	    var event = document.createEvent("HTMLEvents");
+	    event.initEvent("load_nyaplot",false,false);
+	    window.dispatchEvent(event);
+	    console.log('Finished loading Nyaplotjs');
+	};
+});});
+}
+
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 500);
+	        return false;
+	      }
+	    }
+	  });
+	});
+
+$(document).ready(function() {
+
+		var headers = {},
+		$table = $('#samplesTab'), i,
+		l = $table.find('thead th').length,
+		sortcolumns = [];
+		for (i = 0; i < l; i++) {
+			if ($.inArray(i, sortcolumns) < 0) {
+				headers[i] = { sorter: false }
+			}
+		}
+		$("#samplesTab").tablesorter({widgets: ['zebra']});
+		$("#reportTab1").tablesorter({widgets: ['zebra']});
+$("#reportTab2").tablesorter({widgets: ['zebra']});
+$("#reportTab3").tablesorter({widgets: ['zebra']});
+$("#reportTab4").tablesorter({widgets: ['zebra']});
+<!--PLACEHOLDER-->
+});
+</script>
+</head>
+<body>
+<div id="banner">
+<h1 id="top"><em>De novo transcriptome assembly</em>: A comprehensive cross-species comparison of<br>short-read RNA-Seq assemblers</h1>
+<h2>Supplementary Data</b>
+<h3>Martin H&ouml;lzer and Manja Marz</h3>
+<a href="../../../index.html#transrate">Back to main supplement page</a>
+</div>
+
+
+<div id="main"><a name="contents"></a>
+<h1>TransRate contents for <i>Arabidopsis thaliana</i></h1>
+<ul><li>S6.1: <a href="#report">TransRate results for <i>Arabidopsis thaliana</i> assemblies</a></li> </ul><br><br><a name="report">
+<h1>S6.1: TransRate results for <i>Arabidopsis thaliana</i> assemblies</h1>
+<div id="scrolltop"><h3><a href="#top">back to top</a></h3></div><p>Scores and read-based metrics can only be calculated for paired-end data. This data set consists of single-end data.</p>
+<table id="reportTab1" class="stablesorter" border="0" cellpadding="0" cellspacing="1" width="100%">
+<thead>
+<tr><th>assembly</th><th>n_seqs</th><th>smallest</th><th>largest</th><th>n_bases</th><th>mean_len</th><th>n_under_200</th><th>n_over_1k</th><th>n_over_10k</th><th>n_with_orf</th><th>mean_orf_percent</th><th>n90</th><th>n70</th><th>n50</th><th>n30</th></tr><tbody>
+<tr><td>trinity</td><td>34617</td><td>201</td><td>10819</td><td>35964287</td><td>1038.91981</td><td>0</td><td>13342</td><td>2</td><td>19270</td><td>74.79009</td><td>459</td><td>1032</td><td>1576</td><td>2213</td></tr>
+<tr><td>oases</td><td>57809</td><td>101</td><td>14892</td><td>78762767</td><td>1355.39494</td><td>2723</td><td>32622</td><td>23</td><td>41459</td><td>72.07497</td><td>770</td><td>1335</td><td>1832</td><td>2526</td></tr>
+<tr><td>trans-abyss</td><td>66004</td><td>100</td><td>9650</td><td>53180949</td><td>766.50761</td><td>19819</td><td>19689</td><td>0</td><td>26933</td><td>72.50447</td><td>545</td><td>1124</td><td>1653</td><td>2350</td></tr>
+<tr><td>soap-trans-default</td><td>50876</td><td>100</td><td>7576</td><td>28632860</td><td>513.59853</td><td>18627</td><td>8697</td><td>0</td><td>15449</td><td>80.77778</td><td>369</td><td>803</td><td>1318</td><td>2016</td></tr>
+<tr><td>rna-spades</td><td>36953</td><td>49</td><td>8674</td><td>30621356</td><td>797.35318</td><td>6606</td><td>11146</td><td>0</td><td>15804</td><td>75.67217</td><td>427</td><td>1040</td><td>1578</td><td>2190</td></tr>
+<tr><td>spades</td><td>29929</td><td>55</td><td>10645</td><td>29569509</td><td>980.87477</td><td>1659</td><td>11159</td><td>1</td><td>15323</td><td>74.47182</td><td>451</td><td>1096</td><td>1638</td><td>2261</td></tr>
+<tr><td>idba-tran</td><td>32447</td><td>200</td><td>10599</td><td>27666394</td><td>852.66416</td><td>0</td><td>9564</td><td>1</td><td>16230</td><td>80.70797</td><td>369</td><td>803</td><td>1282</td><td>1839</td></tr>
+<tr><td>bridger</td><td>30017</td><td>201</td><td>10044</td><td>33008527</td><td>1099.66109</td><td>0</td><td>12874</td><td>1</td><td>17635</td><td>74.66313</td><td>523</td><td>1115</td><td>1628</td><td>2226</td></tr>
+<tr><td>binpacker</td><td>5914</td><td>200</td><td>9766</td><td>9081798</td><td>1535.6439</td><td>0</td><td>3775</td><td>0</td><td>4510</td><td>66.83681</td><td>838</td><td>1375</td><td>1879</td><td>2617</td></tr>
+<tr><td>shannon</td><td>27685</td><td>200</td><td>10604</td><td>30178020</td><td>1090.04949</td><td>0</td><td>12001</td><td>3</td><td>16495</td><td>76.08368</td><td>524</td><td>1116</td><td>1607</td><td>2176</td></tr>
+</tbody></table>
+<table id="reportTab2" class="stablesorter" border="0" cellpadding="0" cellspacing="1" width="100%">
+<thead>
+<tr><th>assembly</th><th>n10</th><th>gc</th><th>bases_n</th><th>proportion_n</th><th>CRBB_hits</th><th>n_contigs_with_CRBB</th><th>p_contigs_with_CRBB</th><th>rbh_per_reference</th><th>n_refs_with_CRBB</th><th>p_refs_with_CRBB</th><th>cov25</th><th>p_cov25</th><th>cov50</th><th>p_cov50</th><th>cov75</th></tr><tbody>
+<tr><td>trinity</td><td>3491</td><td>0.42463</td><td>0</td><td>0.0</td><td>31053</td><td>31053</td><td>0.89704</td><td>0.64213</td><td>20829</td><td>0.43072</td><td>9275</td><td>0.19179</td><td>7209</td><td>0.14907</td><td>5317</td></tr>
+<tr><td>oases</td><td>3945</td><td>0.42777</td><td>0</td><td>0.0</td><td>54291</td><td>54291</td><td>0.93914</td><td>1.12267</td><td>20281</td><td>0.41938</td><td>10802</td><td>0.22337</td><td>9454</td><td>0.1955</td><td>7372</td></tr>
+<tr><td>trans-abyss</td><td>4091</td><td>0.42773</td><td>0</td><td>0.0</td><td>53643</td><td>53643</td><td>0.81272</td><td>1.10927</td><td>24186</td><td>0.50013</td><td>12529</td><td>0.25908</td><td>9882</td><td>0.20435</td><td>7142</td></tr>
+<tr><td>soap-trans-default</td><td>4953</td><td>0.4242</td><td>0</td><td>0.0</td><td>40960</td><td>40960</td><td>0.80509</td><td>0.847</td><td>22266</td><td>0.46043</td><td>9353</td><td>0.19341</td><td>6404</td><td>0.13243</td><td>4032</td></tr>
+<tr><td>rna-spades</td><td>3662</td><td>0.42403</td><td>500</td><td>2.0e-05</td><td>31615</td><td>31615</td><td>0.85555</td><td>0.65376</td><td>20578</td><td>0.42553</td><td>9195</td><td>0.19014</td><td>7147</td><td>0.14779</td><td>5109</td></tr>
+<tr><td>spades</td><td>3585</td><td>0.4241</td><td>500</td><td>2.0e-05</td><td>26496</td><td>26496</td><td>0.8853</td><td>0.5479</td><td>19578</td><td>0.40485</td><td>8737</td><td>0.18067</td><td>7064</td><td>0.14607</td><td>5260</td></tr>
+<tr><td>idba-tran</td><td>2955</td><td>0.42679</td><td>0</td><td>0.0</td><td>29438</td><td>29438</td><td>0.90726</td><td>0.60874</td><td>20089</td><td>0.41541</td><td>9180</td><td>0.18983</td><td>6714</td><td>0.13884</td><td>4372</td></tr>
+<tr><td>bridger</td><td>3482</td><td>0.42512</td><td>0</td><td>0.0</td><td>26811</td><td>26811</td><td>0.89319</td><td>0.55442</td><td>19265</td><td>0.39837</td><td>7750</td><td>0.16026</td><td>6256</td><td>0.12937</td><td>4596</td></tr>
+<tr><td>binpacker</td><td>4024</td><td>0.42792</td><td>0</td><td>0.0</td><td>5726</td><td>5726</td><td>0.96821</td><td>0.11841</td><td>4189</td><td>0.08662</td><td>1850</td><td>0.03826</td><td>1650</td><td>0.03412</td><td>1258</td></tr>
+<tr><td>shannon</td><td>3355</td><td>0.42529</td><td>0</td><td>0.0</td><td>25053</td><td>25053</td><td>0.90493</td><td>0.51806</td><td>16671</td><td>0.34473</td><td>8601</td><td>0.17786</td><td>7175</td><td>0.14837</td><td>5550</td></tr>
+</tbody></table>
+<table id="reportTab3" class="stablesorter" border="0" cellpadding="0" cellspacing="1" width="100%">
+<thead>
+<tr><th>assembly</th><th>p_cov75</th><th>cov85</th><th>p_cov85</th><th>cov95</th><th>p_cov95</th><th>reference_coverage</th><th>score</th><th>optimal_score</th><th>cutoff</th><th>weighted
+</th></tr><tbody>
+<tr><td>trinity</td><td>0.10995</td><td>3848</td><td>0.07957</td><td>1194</td><td>0.02469</td><td>0.15512</td><td>NA</td><td>NA</td><td>NA</td><td>NA
+</td></tr>
+<tr><td>oases</td><td>0.15244</td><td>5389</td><td>0.11144</td><td>1623</td><td>0.03356</td><td>0.19207</td><td>NA</td><td>NA</td><td>NA</td><td>NA
+</td></tr>
+<tr><td>trans-abyss</td><td>0.14769</td><td>4926</td><td>0.10186</td><td>1190</td><td>0.02461</td><td>0.20992</td><td>NA</td><td>NA</td><td>NA</td><td>NA
+</td></tr>
+<tr><td>soap-trans-default</td><td>0.08338</td><td>2583</td><td>0.05341</td><td>630</td><td>0.01303</td><td>0.1479</td><td>NA</td><td>NA</td><td>NA</td><td>NA
+</td></tr>
+<tr><td>rna-spades</td><td>0.10565</td><td>3691</td><td>0.07632</td><td>1049</td><td>0.02169</td><td>0.15415</td><td>NA</td><td>NA</td><td>NA</td><td>NA
+</td></tr>
+<tr><td>spades</td><td>0.10877</td><td>3890</td><td>0.08044</td><td>1137</td><td>0.02351</td><td>0.151</td><td>NA</td><td>NA</td><td>NA</td><td>NA
+</td></tr>
+<tr><td>idba-tran</td><td>0.09041</td><td>2845</td><td>0.05883</td><td>626</td><td>0.01294</td><td>0.14613</td><td>NA</td><td>NA</td><td>NA</td><td>NA
+</td></tr>
+<tr><td>bridger</td><td>0.09504</td><td>3260</td><td>0.06741</td><td>955</td><td>0.01975</td><td>0.132</td><td>NA</td><td>NA</td><td>NA</td><td>NA
+</td></tr>
+<tr><td>binpacker</td><td>0.02601</td><td>850</td><td>0.01758</td><td>250</td><td>0.00517</td><td>0.03029</td><td>NA</td><td>NA</td><td>NA</td><td>NA
+</td></tr>
+<tr><td>shannon</td><td>0.11477</td><td>3997</td><td>0.08265</td><td>1099</td><td>0.02273</td><td>0.14777</td><td>NA</td><td>NA</td><td>NA</td><td>NA
+</td></tr>
+</tbody></table><br><br><br>
+
+</div></body></html>

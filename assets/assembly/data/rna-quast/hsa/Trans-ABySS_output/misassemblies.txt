@@ -1,0 +1,8 @@
+METRICS/TRANSCRIPTS                                    Trans-ABySS              
+ == ALIGNMENT METRICS FOR MISASSEMBLED (CHIMERIC) TRANSCRIPTS (calculated with reference genome or with gene database) == 
+Transcripts                                            1762439                  
+
+Misassembly candidates reported by GMAP (or BLAT)      11276                    
+Misassembly candidates reported by BLASTN              62405                    
+Misassemblies                                          2743                     
+

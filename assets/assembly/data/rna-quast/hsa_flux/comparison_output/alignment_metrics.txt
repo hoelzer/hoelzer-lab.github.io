@@ -1,0 +1,23 @@
+METRICS/TRANSCRIPTS                                    Trinity                  Trans-ABySS              Oases                    SOAPdenovo-Trans         IDBA-Tran                Bridger                  BinPacker                Shannon                  rnaSPAdes                SPAdes                   
+ == ALIGNMENT METRICS (calculated with reference genome but without gene database) == 
+Transcripts                                            13484                    25272                    46469                    14965                    12151                    10457                    13415                    7255                     11766                    10537                    
+
+Aligned                                                13454                    25150                    46049                    14792                    12134                    10307                    13252                    7196                     11744                    10503                    
+
+Uniquely aligned                                       13214                    24896                    41196                    14692                    12099                    9537                     12174                    7035                     11306                    10347                    
+Multiply aligned                                       12                       39                       48                       18                       11                       7                        10                       7                        7                        87                       
+Misassembly candidates reported by GMAP (or BLAT)      227                      210                      4720                     80                       24                       746                      1046                     148                      423                      68                       
+
+Unaligned                                              30                       122                      420                      173                      17                       150                      163                      59                       22                       34                       
+
+ == ALIGNMENT METRICS FOR NON-MISASSEMBLED TRANSCRIPTS == 
+Average aligned fraction                               0.989                    0.994                    0.959                    0.994                    0.998                    0.983                    0.981                    0.996                    0.968                    0.995                    
+Average alignment length                               2261.332                 939.312                  2090.55                  1009.08                  859.966                  1581.299                 1755.155                 1061.013                 1649.147                 979.981                  
+
+Average blocks per alignment                           8.014                    3.626                    8.769                    3.832                    2.656                    5.66                     6.831                    3.335                    5.605                    3.273                    
+Average block length                                   282.187                  259.069                  238.398                  263.3                    323.729                  279.359                  256.958                  318.169                  294.249                  299.396                  
+
+Average mismatches per transcript                      1.231                    0.459                    2.105                    0.308                    0.096                    1.652                    1.849                    0.394                    1.82                     0.215                    
+
+NA50                                                   4201                     844                      3604                     2531                     1438                     5285                     573                      580                      2785                     2790                     
+

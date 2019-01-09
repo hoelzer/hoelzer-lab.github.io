@@ -1,0 +1,17 @@
+METRICS/TRANSCRIPTS                                    Trinity                  
+ == ASSEMBLY SPECIFICITY == 
+Unannotated                                            193800                   
+
+50%-matched                                            95985                    
+95%-matched                                            49795                    
+
+Mean fraction of transcript matched                    0.284                    
+
+Mean fraction of block matched                         0.88                     
+
+50%-matched blocks                                     0.88                     
+95%-matched blocks                                     0.815                    
+
+Matched length                                         152502879                
+Unmatched length                                       107403504                
+

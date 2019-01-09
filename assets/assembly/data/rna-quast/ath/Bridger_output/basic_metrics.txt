@@ -1,0 +1,12 @@
+METRICS/TRANSCRIPTS                                    Bridger                  
+ == BASIC TRANSCRIPTS METRICS (calculated without reference genome and gene database) == 
+Transcripts                                            30017                    
+
+Transcripts > 500 bp                                   20235                    
+Transcripts > 1000 bp                                  12882                    
+
+Average length of assembled transcripts                1099.661                 
+Longest transcript                                     10044                    
+Total length                                           33008527                 
+
+Transcript N50                                         1705                     

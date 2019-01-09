@@ -1,0 +1,30 @@
+METRICS/TRANSCRIPTS                                    Bridger                  
+ == ASSEMBLY COMPLETENESS (SENSITIVITY) == 
+Database coverage                                      0.346                    
+Duplication ratio                                      1.507                    
+Avg. number of transcripts mapped to one isoform       1.643                    
+
+50%-assembled genes                                    2247                     
+95%-assembled genes                                    1353                     
+50%-covered genes                                      2427                     
+95%-covered genes                                      1527                     
+
+50%-assembled isoforms                                 3362                     
+95%-assembled isoforms                                 1570                     
+50%-covered isoforms                                   3725                     
+95%-covered isoforms                                   1786                     
+
+50%-assembled exons                                    21962                    
+95%-assembled exons                                    19881                    
+
+Mean isoform assembly                                  0.61                     
+
+Mean isoform coverage                                  0.655                    
+Mean exon coverage                                     0.933                    
+
+Avg. percentage of isoform 50%-covered exons           0.614                    
+Avg. percentage of isoform 95%-covered exons           0.497                    
+
+ == GeneMarkS-T METRICS == 
+Genes                                                  4400                     
+
