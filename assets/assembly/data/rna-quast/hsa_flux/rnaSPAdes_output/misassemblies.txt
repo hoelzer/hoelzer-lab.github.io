@@ -1,8 +1,0 @@
-METRICS/TRANSCRIPTS                                    rnaSPAdes                
- == ALIGNMENT METRICS FOR MISASSEMBLED (CHIMERIC) TRANSCRIPTS (calculated with reference genome or with gene database) == 
-Transcripts                                            11766                    
-
-Misassembly candidates reported by GMAP (or BLAT)      423                      
-Misassembly candidates reported by BLASTN              4328                     
-Misassemblies                                          351                      
-

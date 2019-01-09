@@ -1,8 +1,0 @@
-METRICS/TRANSCRIPTS                                    BinPacker                
- == ALIGNMENT METRICS FOR MISASSEMBLED (CHIMERIC) TRANSCRIPTS (calculated with reference genome or with gene database) == 
-Transcripts                                            157                      
-
-Misassembly candidates reported by GMAP (or BLAT)      13                       
-Misassembly candidates reported by BLASTN              85                       
-Misassemblies                                          8                        
-

@@ -1,8 +1,0 @@
-METRICS/TRANSCRIPTS                                    Shannon                  
- == ALIGNMENT METRICS FOR MISASSEMBLED (CHIMERIC) TRANSCRIPTS (calculated with reference genome or with gene database) == 
-Transcripts                                            27685                    
-
-Misassembly candidates reported by GMAP (or BLAT)      1515                     
-Misassembly candidates reported by BLASTN              2072                     
-Misassemblies                                          769                      
-

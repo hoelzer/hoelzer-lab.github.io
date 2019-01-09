@@ -1,8 +1,0 @@
-METRICS/TRANSCRIPTS                                    Bridger                  
- == ALIGNMENT METRICS FOR MISASSEMBLED (CHIMERIC) TRANSCRIPTS (calculated with reference genome or with gene database) == 
-Transcripts                                            103284                   
-
-Misassembly candidates reported by GMAP (or BLAT)      5799                     
-Misassembly candidates reported by BLASTN              14264                    
-Misassemblies                                          2509                     
-

@@ -1,8 +1,0 @@
-METRICS/TRANSCRIPTS                                    IDBA-Tran                
- == ALIGNMENT METRICS FOR MISASSEMBLED (CHIMERIC) TRANSCRIPTS (calculated with reference genome or with gene database) == 
-Transcripts                                            55639                    
-
-Misassembly candidates reported by GMAP (or BLAT)      174                      
-Misassembly candidates reported by BLASTN              2935                     
-Misassemblies                                          41                       
-

@@ -1,8 +1,0 @@
-METRICS/TRANSCRIPTS                                    Trinity                  
- == ALIGNMENT METRICS FOR MISASSEMBLED (CHIMERIC) TRANSCRIPTS (calculated with reference genome or with gene database) == 
-Transcripts                                            121575                   
-
-Misassembly candidates reported by GMAP (or BLAT)      4102                     
-Misassembly candidates reported by BLASTN              18985                    
-Misassemblies                                          1294                     
-

@@ -1,8 +1,0 @@
-METRICS/TRANSCRIPTS                                    Oases                    
- == ALIGNMENT METRICS FOR MISASSEMBLED (CHIMERIC) TRANSCRIPTS (calculated with reference genome or with gene database) == 
-Transcripts                                            178498                   
-
-Misassembly candidates reported by GMAP (or BLAT)      15194                    
-Misassembly candidates reported by BLASTN              58470                    
-Misassemblies                                          11194                    
-
