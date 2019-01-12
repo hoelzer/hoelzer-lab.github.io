@@ -1,3 +1,14 @@
+- title: "Cohesin-mediated NF-κB signaling limits hematopoietic stem cell self-renewal in aging and inflammation."
+  authors: Zhiyang Chen, Elias Moris Amro, Friedrich Becker, <b>Martin Hölzer</b>, Seyed Mohammad Mahdi Rasa, Sospeter Ngoci Njeru, Bing Han, Simone Di Sanzo *et al*.
+  year: 2019
+  preprint: 0
+  submitted: 0
+  book: 0
+  supp: 0
+  link:
+    url: https://doi.org/10.1084/jem.20181505
+    display: Journal of Experimental Medicine
+
 - title: "Analysis of molecular mechanism of progression of non-muscle-invasive bladder cancer (NMIBC) by genome-wide exome and UTR mutation analysis."
   authors: Daniel Steinbach, <b>Martin Hölzer</b>, Manja Marz, Mieczyslaw Gajda, Friedrich-Carl von Rundstedt, Marc-Oliver Grimm
   year: 2018
@@ -19,17 +30,6 @@
   link:
     url: https://doi.org/10.1016/j.virusres.2018.11.005
     display: Virus Research
-
-- title: "Cohesin-mediated NF-κB signaling limits hematopoietic stem cell self-renewal in aging and inflammation."
-  authors: Zhiyang Chen, Elias Moris Amro, Friedrich Becker, <b>Martin Hölzer</b>, Seyed Mohammad Mahdi Rasa, Sospeter Ngoci Njeru, Bing Han, Simone Di Sanzo *et al*.
-  year: 2018
-  preprint: 0
-  submitted: 0
-  book: 0
-  supp: 0
-  link:
-    url: https://doi.org/10.1084/jem.20181505
-    display: Journal of Experimental Medicine
 
 - title: "*De novo* transcriptome assembly: A comprehensive cross-species comparison of short-read RNA-Seq assemblers."
   authors: <b>Martin Hölzer</b>, Manja Marz
