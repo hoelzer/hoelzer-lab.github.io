@@ -14,7 +14,7 @@ We strive to combine well-established and novel computational approaches to anal
 short- and long-read sequencing data.
 <!-- in a comprehensive and handsome way to allow other researchers to understand, interpret and dilate the data.-->
 
-We work closely with the [RNA Bioinformatics/High-Throughput](http://www.rna.uni-jena.de/en/) group of Manja Marz and we are a member of the [European Virus Bioinformatics Center](http://evbc.uni-jena.de/). 
+We work closely with the [RNA Bioinformatics/High-Throughput](https://www.rna.uni-jena.de/) group of Manja Marz and we are a member of the [European Virus Bioinformatics Center](http://evbc.uni-jena.de/). 
 
 <br><br>
 ![](/images/black_box.svg)
