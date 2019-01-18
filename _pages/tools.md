@@ -18,8 +18,24 @@ Interactive web service that allows analysis of RNA-Seq read count data with PCA
 - [Source code @GitLab](https://gitlab.com/rumangerst/pcago)
 - [Run PCAGO as standalone desktop application using the Electron framework](https://github.com/rumangerst/pcago-electron/)
 
+- [Preprint @bioRxiv](https://doi.org/10.1101/433078)
+
 </div><div class="col-sm-6 clearfix">
 [![PCAGO Logo](/assets/tools/pcago.png)](http://pcago.bioinf.uni-jena.de/)
+</div></div>
+
+<div class="row"><div class="col-sm-6 clearfix">
+
+### SIM
+
+SilentMutations (SIM) automatically constructs disrupting and restoring synonymous (silent) mutation pairs within coding regions for combinatorial _in silico_ analysis of (viral) RNA-RNA interactions.
+
+- [Source code @GitHub](https://github.com/desiro/silentMutations)
+
+- [Publication @VirusResearch](https://doi.org/10.1016/j.virusres.2018.11.005)
+
+</div><div class="col-sm-6 clearfix">
+[![PCAGO Logo](/assets/tools/sim.png)](https://github.com/desiro/silentMutations)
 </div></div>
 
 <div class="row"><div class="col-sm-6 clearfix">
