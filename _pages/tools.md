@@ -14,14 +14,14 @@ permalink: /tools/
 
 Interactive web service that allows analysis of RNA-Seq read count data with PCA and clustering.
 
-- [Go to web server](http://pcago.bioinf.uni-jena.de/)
-- [Source code @GitLab](https://gitlab.com/rumangerst/pcago)
-- [Run PCAGO as standalone desktop application using the Electron framework](https://github.com/rumangerst/pcago-electron/)
+- [Go to web server](https://pcago.bioinf.uni-jena.de/)
+- [Source code @GitLab](https://gitlab.com/rumangerst/pcago-unified)
+- [Run PCAGO as standalone desktop application using the Electron framework](https://github.com/rumangerst/pcago-unified/tree/master/src-electron)
 
 - [Preprint @bioRxiv](https://doi.org/10.1101/433078)
 
 </div><div class="col-sm-6 clearfix">
-[![PCAGO Logo](/assets/tools/pcago.png)](http://pcago.bioinf.uni-jena.de/)
+[![PCAGO Logo](/assets/tools/pcago.png)](https://pcago.bioinf.uni-jena.de/)
 </div></div>
 
 <div class="row"><div class="col-sm-6 clearfix">
