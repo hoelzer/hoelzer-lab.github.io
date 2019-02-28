@@ -20,7 +20,7 @@ permalink: /team/
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>{% if member.github != 0 %}
-  <a target="_blank" href="{{ member.github }}/"><i class="fab fa-github" style="color:black; font-size:24px;"></i></a> {% endif %}{% if member.twitter != 0 %}<a target="_blank" href="{{ member.twitter }}/"><i class="fab fa-twitter" style="color:#0084b4; font-size:24px;"></i></a> {% endif %}{% if member.orcid != 0 %}<a target="_blank" href="{{ member.orcid }}/"> <i class="fas fa-dot-circle" style="color:#a6ce39;font-size:24px;"></i></a> {% endif %}{% if member.cv != 0 %}<a target="_blank" href="{{ site.url }}{{ site.baseurl }}{{ member.cv }}"> <i class="fas fa-file-pdf" style="color:#f45c42;font-size:22px;"></i></a>{% endif %}
+  <a target="_blank" href="{{ member.github }}/"><i class="fab fa-github" style="color:black; font-size:24px;"></i></a> {% endif %}{% if member.twitter != 0 %}<a target="_blank" href="{{ member.twitter }}/"><i class="fab fa-twitter" style="color:#0084b4; font-size:24px;"></i></a> {% endif %}{% if member.orcid != 0 %}<a target="_blank" href="{{ member.orcid }}/"> <i class="fas fa-dot-circle" style="color:#a6ce39;font-size:24px;"></i></a> {% endif %}{% if member.cv != 0 %}<a target="_blank" href="{{ site.url }}{{ site.baseurl }}{{ member.cv }}"> <i class="fas fa-file-pdf" style="color:#f45c42;font-size:22px;"></i></a>{% endif %}{% if member.thesis != 0 %}<a target="_blank" href="{{ site.url }}{{ site.baseurl }}{{ member.thesis }}"> <i class="fas fa-book" style="color:#A4A4A4;font-size:22px;"></i></a>{% endif %}
   <br>
   <i>{{ member.info }}<br>email: <{{ member.email }}></i>
   <ul style="overflow: hidden">
@@ -64,14 +64,14 @@ permalink: /team/
 {% endif %}
 
 <table align="center" class="table table-condensed">
-<tr><th>Shared research assistants</th></tr>
-<tr><td>Tassilo Dellnitz, since Spring 2017</td></tr>
-<tr><td>Anne Muriel Christin Ritsch, since Fall 2018</td></tr>
+<tr><th>Research assistants</th></tr>
+<tr><td>Lasse Faber, since Spring 2019</td></tr>
+<tr><td>Maximilian Arlt, since Spring 2019</td></tr>
 </table>
 
 <table align="center" class="table table-condensed">
 <tr><th>Student's project work</th></tr>
-<tr><td>Lasse Faber, since Fall 2018</td></tr>
+<tr><td>Anne Muriel Christin Ritsch, since Spring 2019</td></tr>
 <tr><td>Jannes Spangenberg, since Spring 2018</td></tr>
 </table>
 
@@ -81,6 +81,7 @@ permalink: /team/
 <tr><td>Marie Lataretu, Summer 2018</td><td>Fabien Vorimore, Winter 2016 & 2017</td></tr>
 <tr><td>Ruman Gerst, Fall 2017</td><td></td></tr>
 <tr><th>Project work</th><th></th></tr>
+<tr><td>Lasse Faber, Spring 2019</td></tr>
 <tr><td>Daria Meyer, Winter 2018</td></tr>
 </table>
 <br>

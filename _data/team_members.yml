@@ -3,21 +3,23 @@
   info: Head
   email: martin.hoelzer@uni-jena.de
   github: https://github.com/hoelzer
-  twitter: https://twitter.com/MartinHoelzer
+  twitter: https://twitter.com/martinhoelzer
   orcid: https://orcid.org/0000-0001-7090-8717
   cv: /assets/hoelzer_cv.pdf
+  thesis: /assets/hoelzer-thesis-2017.pdf
   number_educ: 2
   education1: Ph.D., University of Jena
   education2: Diploma Bioinf, University of Jena
 
 - name: Maximilian Collatz
-  photo: Max.png
+  photo: Max2.png
   info: Ph.D., started May 2016
   email: maximilian.collatz@uni-jena.de
   github: 0
   twitter: 0
   orcid: 0
   cv: 0
+  thesis: 0
   number_educ: 1
   education1: M.Sc. Bioinf, University of Jena
 
@@ -25,10 +27,11 @@
   photo: Basti.png
   info: Ph.D., started Feb 2017
   email: sebastian.krautwurst@uni-jena.de
-  github: 0
-  twitter: 0
+  github: https://github.com/RaverJay
+  twitter: https://twitter.com/SKrautw 
   orcid: 0
   cv: 0
+  thesis: 0
   number_educ: 1
   education1: M.Sc. Bioinf, University of Jena
 
@@ -37,9 +40,10 @@
   info: M.Sc., started Oct 2017
   email: lisa-marie.barf@uni-jena.de
   github: 0
-  twitter: 0
+  twitter: https://twitter.com/Lisa95586643 ‏
   orcid: 0
   cv: 0
+  thesis: 0
   number_educ: 1
   education1: B.Sc. Biochem, University of Jena
 
@@ -51,6 +55,7 @@
   twitter: 0
   orcid: 0
   cv: 0
+  thesis: 0
   number_educ: 0
   
 #- name: "This could be you !"
