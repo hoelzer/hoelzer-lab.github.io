@@ -18,6 +18,7 @@ We work closely with the [RNA Bioinformatics/High-Throughput](https://www.rna.un
 
 <br><br>
 ![](/images/black_box.svg)
+<!--![](/images/gatc_resistance.png)-->
 
 <!--
 We apply our computational methods to de novo genome assembly, cancer genomics and (most recently) infectious disease. We collaborate closely with [Nick Loman's group at the University of Birmingham](http://lab.loman.net/), [Winston Timp's lab at Johns Hopkins University](http://www.timplab.org/) and [Conrad Nieduszynski at the University of Oxford](http://www.path.ox.ac.uk/content/conrad-nieduszynski).
