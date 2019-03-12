@@ -5,6 +5,7 @@
   submitted: 0
   book: 0
   supp: 0
+  acknow: 0
   link:
     url: https://www.sciencedirect.com/science/article/pii/S1569905618318980?via%3Dihub#.#
     display: European Urology Supplements
@@ -16,6 +17,7 @@
   submitted: 0
   book: 0
   supp: 0
+  acknow: 0
   link:
     url: https://doi.org/10.1016/j.virusres.2018.11.005
     display: Virus Research
@@ -27,6 +29,7 @@
   submitted: 0
   book: 0
   supp: 0
+  acknow: 0
   link:
     url: https://doi.org/10.1084/jem.20181505
     display: Journal of Experimental Medicine
@@ -37,7 +40,8 @@
   preprint: 0
   submitted: 1
   book: 0
-  supp: 0
+  supp: http://www.rna.uni-jena.de/supplements/assembly
+  acknow: 0
   link:
     url: 
     display: Submitted
@@ -49,6 +53,7 @@
   submitted: 2
   book: 0
   supp: 0
+  acknow: 0
   link:
     url: https://doi.org/10.1101/433078
     display: bioRxiv
@@ -60,9 +65,34 @@
   submitted: 2
   book: 0
   supp: https://doi.org/10.17605/OSF.IO/UP7B4
+  acknow: 0
   link:
     url: https://doi.org/10.1101/483693
     display: bioRxiv
+
+- title: "The Definition of Open Reading Frame Revisited"
+  authors: Patricia Sieber, Matthias Platzer, Stefan Schuster
+  year: 2018
+  preprint: 0
+  submitted: 0
+  book: 0
+  supp: 0
+  acknow: 1
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S0168952517302299
+    display: Trends in Genetics
+
+- title: "A host subtraction database for virus discovery in human cell line sequencing data"
+  authors: Jason R Miller, Kari A Dilley, Derek M Harkins, Timothy B Stockwell, Reed S Shabman, Granger G Sutton
+  year: 2018
+  preprint: 0
+  submitted: 0
+  book: 0
+  supp: 0
+  acknow: 1
+  link:
+    url: https://f1000research.com/articles/7-98
+    display: F1000Research
 
 - title: "Massive effect on lncRNAs in human monocytes during fungal and bacterial infections and in response to vitamins A and D."
   authors: Konstantin Riege, <b>Martin Hölzer</b>, Tilman E Klassert, Emanuel Barth, Julia Bräuer, <b>Maximilian Collatz</b>, Franziska Hufsky, Nelly Mostajo *et al*.
@@ -71,6 +101,7 @@
   submitted: 0
   book: 0
   supp: http://www.rna.uni-jena.de/supplements/fungi_infection
+  acknow: 0
   link:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5240112/pdf/srep40598.pdf
     display: Scientific Reports
@@ -82,6 +113,7 @@
   submitted: 0
   book: 0
   supp: http://www.rna.uni-jena.de/supplements/fungi_infection
+  acknow: 0
   link:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5240108/pdf/srep40599.pdf
     display: Scientific Reports
@@ -93,6 +125,7 @@
   submitted: 0
   book: 1
   supp: 0
+  acknow: 0
   link:
     url: https://www.sciencedirect.com/science/article/pii/S0065352717300222?via%3Dihub
     display: Advances in Virus Research
@@ -104,6 +137,7 @@
   submitted: 0
   book: 0
   supp: 0
+  acknow: 0
   link:
     url: https://doi.org/10.1016/j.vetmic.2017.01.026
     display: Veterinary Microbiology
@@ -115,6 +149,7 @@
   submitted: 0
   book: 0
   supp: http://www.rna.uni-jena.de/supplements/mx1_bats/full_aln/
+  acknow: 0
   link:
     url: https://doi.org/10.1128/JVI.00361-17
     display: Journal of Virology
@@ -126,6 +161,7 @@
   submitted: 0
   book: 0
   supp: 0
+  acknow: 0
   link:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5571421/pdf/e00870-17.pdf
     display: Genome Announcements
@@ -137,6 +173,7 @@
   submitted: 0
   book: 0
   supp: http://www.rna.uni-jena.de/supplements/filovirus_human_bat
+  acknow: 0
   link:
     url: http://dx.doi.org/10.1038/srep34589
     display: Scientific Reports
@@ -148,6 +185,7 @@
   submitted: 0
   book: 0
   supp: 0
+  acknow: 0
   link:
     url: http://dx.doi.org/10.1128/genomeA.00708-16
     display: Genome Announcements
@@ -159,6 +197,7 @@
   submitted: 0
   book: 0
   supp: 0
+  acknow: 0
   link:
     url: http://dx.doi.org/10.1093/nar/gkv746
     display: Nucleic Acids Res.
@@ -170,6 +209,7 @@
   submitted: 0
   book: 0
   supp: http://www.rna.uni-jena.de/supplements/mycobacterium
+  acknow: 0
   link:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4607514/pdf/evv154.pdf
     display: Genome Biology and Evolution

@@ -28,7 +28,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 
 {% endfor %}
 
-### Peer Reviewed
+### Peer reviewed
 
 {% for publi in site.data.publist %}
 
@@ -44,7 +44,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
   
 {% endfor %}
 
-### Book Chapter
+### Book chapter
 
 {% for publi in site.data.publist %}
 
@@ -54,4 +54,16 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
   <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}})
   {% endif %}
 
+{% endfor %}
+
+### Publications with acknowledgement
+
+{% for publi in site.data.publist %}
+
+  {% if publi.acknow == 1 %}
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }} </em><br />
+  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}}){% if publi.supp != 0 %}, <a href="{{ publi.supp }}">supplement</a> {% endif %}
+  {% endif %}  
+  
 {% endfor %}

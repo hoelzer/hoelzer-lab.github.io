@@ -18,7 +18,7 @@ special_o = '\`{o}'
 'Sebastian Krautwurst' => '<b>Sebastian Krautwurst</b>'}
 
 class Pub
-	attr_accessor :title, :authors, :year, :url, :journal, :supp
+	attr_accessor :title, :authors, :year, :url, :journal, :supp, :acknow
 end
 
 publist = {}
@@ -40,6 +40,11 @@ bib.each do |entry|
 		else
 			publist[id].supp = '0'
 		end
+		if entry.acknow
+			publist[id].acknow = entry.acknow.to_i
+		else
+			publist[id].acknow = '0'
+		end		
 		year.push(entry.year.to_s)
 	end
 end
@@ -100,9 +105,11 @@ year.each do |y|
 		next if pub.year.to_s != y
 		book = '0'
 		submitted = '0'
+		acknow = '0'
 		book = '1' if pub.title.include?('Software')
 		submitted = '1' if pub.journal.include?('Submitted') 
-		submitted = '2' if pub.journal.include?('bioRxiv')
+		submitted = '2' if pub.journal.include?('bioRxiv') && pub.acknow != 1
+		acknow = '1' if pub.acknow == 1
 		yml << "- title: \"#{title(pub.title.gsub('"','\"'))}\"\n"
 		authors_string = authors(pub.authors)
 		@team.each do |author, bold_author|
@@ -114,6 +121,7 @@ year.each do |y|
 		yml << "  submitted: #{submitted}\n"
 		yml << "  book: #{book}\n"
 		yml << "  supp: #{pub.supp}\n"
+		yml << "  acknow: #{acknow}\n"
 		yml << "  link:\n"
 		yml << "    url: #{pub.url}\n"
 		yml << "    display: #{pub.journal}\n\n"
