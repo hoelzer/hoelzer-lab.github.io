@@ -57,7 +57,18 @@
   cv: 0
   thesis: 0
   number_educ: 0
-  
+
+- name: Sandra Triebel
+  photo: Sandra.png
+  info: B.Sc., started Mar 2019
+  email: sandra.triebel@uni-jena.de
+  github: 0
+  twitter: 0
+  orcid: 0
+  cv: 0
+  thesis: 0
+  number_educ: 0  
+
 #- name: "This could be you !"
 #  photo: rock.jpg
 #  info: See <a href="http://www.allanlab.org/vacancies">openings</a> for more info
