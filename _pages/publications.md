@@ -35,10 +35,12 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
   {% if publi.preprint == 0 %}
     {% if publi.book == 0 %}
     {% if publi.submitted == 0 %}
+    {% if publi.acknow == 0 %}
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br />
   <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}}){% if publi.supp != 0 %}, <a href="{{ publi.supp }}">supplement</a> {% endif %}
   {% endif %}  
+  {% endif %}
   {% endif %}
   {% endif %}
   
