@@ -49,6 +49,8 @@ maintenance. The web service will be back soon with full functionality.
 
 <!--- [Go to web server](http://www.rna.uni-jena.de/en/poseidon)-->
 
+- [Source code @GitHub](https://github.com/hoelzer/poseidon)
+
 </div><div class="col-sm-6 clearfix">
 <!--[![PoSeiDon logo](/assets/tools/poseidon.png)](http://www.rna.uni-jena.de/en/poseidon)-->
 <!--<div align="right">[<img src="/assets/tools/poseidon.svg" width="220px">](http://www.rna.uni-jena.de/en/poseidon)-->
