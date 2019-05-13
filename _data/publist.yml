@@ -1,3 +1,15 @@
+- title: "*De novo* transcriptome assembly: A comprehensive cross-species comparison of short-read RNA-Seq assemblers."
+  authors: <b>Martin Hölzer</b>, Manja Marz
+  year: 2019
+  preprint: 0
+  submitted: 0
+  book: 0
+  supp: http://www.rna.uni-jena.de/supplements/assembly
+  acknow: 0
+  link:
+    url: https://doi.org/10.1093/gigascience/giz039
+    display: Giga Science
+
 - title: "Structure and hierarchy of influenza virus models revealed by reaction network analysis."
   authors: Stephan Peter, <b>Martin Hölzer</b>, Kevin Lamkiewicz, Pietro Speroni di Fenizio, Hassan Al Hwaeer, Manja Marz, Stefan Schuster, Peter Dittrich *et al*.
   year: 2019
@@ -81,18 +93,6 @@
   link:
     url: https://doi.org/10.1084/jem.20181505
     display: Journal of Experimental Medicine
-
-- title: "*De novo* transcriptome assembly: A comprehensive cross-species comparison of short-read RNA-Seq assemblers."
-  authors: <b>Martin Hölzer</b>, Manja Marz
-  year: 2018
-  preprint: 0
-  submitted: 1
-  book: 0
-  supp: http://www.rna.uni-jena.de/supplements/assembly
-  acknow: 0
-  link:
-    url: 
-    display: Submitted
 
 - title: "PCAGO: An interactive web service to analyze RNA-Seq data with principal component analysis."
   authors: <b>Ruman Gerst</b>, <b>Martin Hölzer</b>
