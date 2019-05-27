@@ -62,12 +62,24 @@
   photo: Sandra.png
   info: B.Sc., started Apr 2019
   email: sandra.triebel@uni-jena.de
-  github: 0
+  github: https://github.com/sandraTriebel
   twitter: 0
   orcid: 0
   cv: 0
   thesis: 0
   number_educ: 0  
+
+- name: Lasse Faber
+  photo: Lasse.png
+  info: M.Sc., started Apr 2019
+  email: lasse.faber@uni-jena.de
+  github: https://github.com/lmfaber
+  twitter: 0
+  orcid: 0
+  cv: 0
+  thesis: 0
+  number_educ: 1
+  education1: B.Sc. Biology, University of Jena
 
 #- name: "This could be you !"
 #  photo: rock.jpg

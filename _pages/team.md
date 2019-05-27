@@ -65,7 +65,6 @@ permalink: /team/
 
 <table align="center" class="table table-condensed">
 <tr><th>Research assistants</th></tr>
-<tr><td>Lasse Faber, since Spring 2019</td></tr>
 <tr><td>Maximilian Arlt, since Spring 2019</td></tr>
 </table>
 
