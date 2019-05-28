@@ -46,17 +46,17 @@
     url: 
     display: Submitted
 
-- title: "Identification of viral populations from pristine groundwater aquifers using a combination of viral DNA enrichment techniques."
+- title: "Evaluation of sequencing library preparation protocols for viral metagenomic analysis from pristine aquifer groundwaters."
   authors: René Kallies, <b>Martin Hölzer</b>, Rodolfo Brizola Toscan, Ulisses Nunes da Rocha, John Anders, Manja Marz, Antonis Chatzinotas
   year: 2019
   preprint: 0
-  submitted: 1
+  submitted: 0
   book: 0
   supp: 0
   acknow: 0
   link:
-    url: 
-    display: Submitted
+    url: https://www.mdpi.com/1999-4915/11/6/484
+    display: Viruses
 
 - title: "Analysis of molecular mechanism of progression of non-muscle-invasive bladder cancer (NMIBC) by genome-wide exome and UTR mutation analysis."
   authors: Daniel Steinbach, <b>Martin Hölzer</b>, Manja Marz, Mieczyslaw Gajda, Friedrich-Carl von Rundstedt, Marc-Oliver Grimm
