@@ -1,5 +1,4 @@
 # A paper per day
-_Martin H&ouml;lzer_
 
 To succeed in science, reading is of paramount importance. However, I always
 lack the time (or I find other excuses) to read all the interesting sounding
@@ -12,6 +11,8 @@ I'm trying to update this list to 1) keep track of myself, 2) provide some
 [TL;DR](https://www.urbandictionary.com/define.php?term=tl%3Bdr) notes for the
 impatient and for me to rember, and 3) perhaps inspire others to do the same and
 to join the _a paper per day_ challenge.  
+
+_Martin H&ouml;lzer_
 
 ## 2019-06-07, _metagenomics_
 
