@@ -22,7 +22,7 @@ We work closely with the [RNA Bioinformatics/High-Throughput](https://www.rna.un
 ![](/images/black_box.svg)
 <!--![](/images/gatc_resistance.png)-->
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 [![](/images/logos.svg)](/support)
 
 
