@@ -82,3 +82,9 @@ _Martin H&ouml;lzer_
 
 * BiosyntheticSPAdes: Reconstructing Biosynthetic Gene Clusters From Assembly Graphs
     * 
+
+* Exploiting orthology and de novo transcriptome assembly to refine target sequence information
+    * https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-019-0524-5
+
+* MULKSG: MULtiple KSimultaneous Graph Assembly
+    * https://link.springer.com/chapter/10.1007/978-3-030-18174-1_9
