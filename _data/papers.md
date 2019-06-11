@@ -88,3 +88,16 @@ _Martin H&ouml;lzer_
 
 * MULKSG: MULtiple KSimultaneous Graph Assembly
     * https://link.springer.com/chapter/10.1007/978-3-030-18174-1_9
+
+* Overview of Virus Metagenomic Classification Methods and Their Biological Applications
+    * https://www.frontiersin.org/articles/10.3389/fmicb.2018.00749/full
+
+* NanoPlot
+    * https://academic.oup.com/bioinformatics/article/34/15/2666/4934939
+
+* Longitudinal comparative transcriptomics reveals unique mechanisms underlying extended healthspan in bats
+    * https://www.nature.com/articles/s41559-019-0913-3
+
+* metaplasmidspades; Plasmid detection and assembly in genomic and metagenomic data sets
+    * https://genome.cshlp.org/content/29/6/961
+    * no paywall: https://sci-hub.tw/https://www.nature.com/articles/s41559-019-0913-3
