@@ -1,23 +1,15 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>A paper per day</title>
-  <style>
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
-  </style>
-  <link rel="stylesheet" href="pandoc.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="pandoc.css" type="text/css" />
 </head>
 <body>
-<nav id="TOC">
+<div id="TOC">
 <ul>
 <li><a href="#a-paper-per-day">A paper per day</a><ul>
 <li><a href="#metagenomics">2019-06-07, <em>metagenomics</em></a></li>
@@ -25,17 +17,17 @@
 </ul></li>
 <li><a href="#read">Read</a></li>
 </ul>
-</nav>
+</div>
 <h1 id="a-paper-per-day">A paper per day</h1>
 <p>To succeed in science, reading is of paramount importance. However, I always lack the time (or I find other excuses) to read all the interesting sounding manuscripts I stumble across every day on Twitter or bioRxiv. Inspired by a tweet of @<a href="https://twitter.com/BeAScientist/status/1136657979317448705">BeAScientist</a> I will challenge myself to read <em>a scientific paper per (work)day</em>.</p>
-<p>I’m trying to update this list to 1) keep track of myself, 2) provide some <a href="https://www.urbandictionary.com/define.php?term=tl%3Bdr">TL;DR</a> notes for the impatient and for me to rember, and 3) perhaps inspire others to do the same and to join the <em>a paper per day</em> challenge.</p>
+<p>I'm trying to update this list to 1) keep track of myself, 2) provide some <a href="https://www.urbandictionary.com/define.php?term=tl%3Bdr">TL;DR</a> notes for the impatient and for me to rember, and 3) perhaps inspire others to do the same and to join the <em>a paper per day</em> challenge.</p>
 <p><em>Martin Hölzer</em></p>
 <h2 id="metagenomics">2019-06-07, <em>metagenomics</em></h2>
-<p><a href="https://academic.oup.com/nar/article/46/D1/D726/4561650">Mitchell, Alex L., et al. “EBI Metagenomics in 2017: enriching the analysis of microbial communities, from sequence reads to assemblies.” Nucleic acids research 46.D1 (2017): D726-D735.</a></p>
+<p><a href="https://academic.oup.com/nar/article/46/D1/D726/4561650">Mitchell, Alex L., et al. &quot;EBI Metagenomics in 2017: enriching the analysis of microbial communities, from sequence reads to assemblies.&quot; Nucleic acids research 46.D1 (2017): D726-D735.</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<span class="citation" data-cites="article">@article</span>{Mitchell:17,<br /> title={{E}{B}{I} {M}etagenomics in 2017: enriching the analysis of microbial communities, from sequence reads to assemblies},<br /> author={Mitchell, Alex L and Scheremetjew, Maxim and Denise, Hubert and Potter, Simon and Tarkowska, Aleksandra and Qureshi, Matloob and Salazar, Gustavo A and Pesseat, Sebastien and Boland, Miguel A and Hunter, Fiona M I and others},<br /> journal={Nucleic Acids Res},<br /> volume={46},<br /> number={D1},<br /> pages={D726–D735},<br /> year={2017},<br /> }
+<span class="citation">@article</span>{Mitchell:17,<br /> title={{E}{B}{I} {M}etagenomics in 2017: enriching the analysis of microbial communities, from sequence reads to assemblies},<br /> author={Mitchell, Alex L and Scheremetjew, Maxim and Denise, Hubert and Potter, Simon and Tarkowska, Aleksandra and Qureshi, Matloob and Salazar, Gustavo A and Pesseat, Sebastien and Boland, Miguel A and Hunter, Fiona M I and others},<br /> journal={Nucleic Acids Res},<br /> volume={46},<br /> number={D1},<br /> pages={D726--D735},<br /> year={2017},<br /> }
 </blockquote>
 </div>
 <ul>
@@ -43,29 +35,29 @@
 <li>the paper presents updates from the last 2 years (~2015-2017) to the service, <a href="https://www.ebi.ac.uk/metagenomics/">MGnify</a></li>
 <li>analyis and archive sequencing data from microbial environments</li>
 <li>new: taxonomic assignment by 16S and 23S rRNA assignments using Infernal and Rfam</li>
-<li>also new: metagenomic assembly (w metaSPAdes, MEGAHIT and Minia) upon request –&gt; 50mio non-redundant protein sequences
+<li>also new: metagenomic assembly (w metaSPAdes, MEGAHIT and Minia) upon request --&gt; 50mio non-redundant protein sequences
 <ul>
 <li>selection of optimal assembly pipeline using a neural network</li>
 </ul></li>
 <li>metagenome analysis problems
 <ul>
 <li>need high computational power</li>
-<li>different tools/pipelines –&gt; hard to compare results</li>
+<li>different tools/pipelines --&gt; hard to compare results</li>
 </ul></li>
 <li>majority of data is 16S rRNA amplicons, followed by WGS</li>
 <li>improved search interface</li>
 </ul>
 <h2 id="transcriptomics">2019-06-08, <em>transcriptomics</em></h2>
-<p><a href="https://academic.oup.com/bioinformatics/article/35/11/1960/5150437#.XPnnedggr9c.twitter">Vera Alvarez, Roberto, et al. “TPMCalculator: one-step software to quantify mRNA abundance of genomic features.” Bioinformatics (2018).</a></p>
+<p><a href="https://academic.oup.com/bioinformatics/article/35/11/1960/5150437#.XPnnedggr9c.twitter">Vera Alvarez, Roberto, et al. &quot;TPMCalculator: one-step software to quantify mRNA abundance of genomic features.&quot; Bioinformatics (2018).</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<span class="citation" data-cites="article">@article</span>{Vera:18,<br /> title={{T}{P}{M}{C}alculator: one-step software to quantify m{R}{N}{A} abundance of genomic features},<br /> author={Vera Alvarez, Roberto and Pongor, Lorinc Sandor and Mari{~n}o-Ram{'}rez, Leonardo and Landsman, David},<br /> journal={Bioinformatics},<br /> year={2018}<br /> }
+<span class="citation">@article</span>{Vera:18,<br /> title={{T}{P}{M}{C}alculator: one-step software to quantify m{R}{N}{A} abundance of genomic features},<br /> author={Vera Alvarez, Roberto and Pongor, Lorinc Sandor and Mari{~n}o-Ram{'}rez, Leonardo and Landsman, David},<br /> journal={Bioinformatics},<br /> year={2018}<br /> }
 </blockquote>
 </div>
 <ul>
 <li>input: BAM, output: TPM values, raw counts, feature lengths for genes, transcripts, exons and introns</li>
-<li><a href="https://github.com/ncbi/TPMCalculator">https://github.com/ncbi/TPMCalculator</a></li>
+<li><a href="https://github.com/ncbi/TPMCalculator" class="uri">https://github.com/ncbi/TPMCalculator</a></li>
 <li>RNA-Seq raw count normalization evolved from RPKM, FPKM, to TPM
 <ul>
 <li>R/F-PKM are biased when comparing multiple samples</li>
@@ -89,6 +81,31 @@
 <li>BiosyntheticSPAdes: Reconstructing Biosynthetic Gene Clusters From Assembly Graphs
 <ul>
 <li></li>
+</ul></li>
+<li>Exploiting orthology and de novo transcriptome assembly to refine target sequence information
+<ul>
+<li>https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-019-0524-5</li>
+</ul></li>
+<li>MULKSG: MULtiple KSimultaneous Graph Assembly
+<ul>
+<li>https://link.springer.com/chapter/10.1007/978-3-030-18174-1_9</li>
+</ul></li>
+<li>Overview of Virus Metagenomic Classification Methods and Their Biological Applications
+<ul>
+<li>https://www.frontiersin.org/articles/10.3389/fmicb.2018.00749/full</li>
+</ul></li>
+<li>NanoPlot
+<ul>
+<li>https://academic.oup.com/bioinformatics/article/34/15/2666/4934939</li>
+</ul></li>
+<li>Longitudinal comparative transcriptomics reveals unique mechanisms underlying extended healthspan in bats
+<ul>
+<li>https://www.nature.com/articles/s41559-019-0913-3</li>
+</ul></li>
+<li>metaplasmidspades; Plasmid detection and assembly in genomic and metagenomic data sets
+<ul>
+<li>https://genome.cshlp.org/content/29/6/961</li>
+<li>no paywall: https://sci-hub.tw/https://www.nature.com/articles/s41559-019-0913-3</li>
 </ul></li>
 </ul>
 </body>
