@@ -16,7 +16,7 @@ short- and long-read sequencing data.
 
 We work closely with the [RNA Bioinformatics/High-Throughput](https://www.rna.uni-jena.de/) group of Manja Marz and we are a member of the [European Virus Bioinformatics Center](http://evbc.uni-jena.de/). 
 
-[__new__: A paper per day challenge](https://hoelzer-lab.github.io/papers)
+[__A paper per day challenge__](https://hoelzer-lab.github.io/papers)
 
 <br><br>
 ![](/images/black_box.svg)

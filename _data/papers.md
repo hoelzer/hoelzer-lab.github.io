@@ -99,10 +99,13 @@ _Martin H&ouml;lzer_
     * 50mill reads, 2x 125bp
     * 8mill reads, 1x 50bp for small
     * 100 transcriptomes, 50 miRNomes from 150 blood samples
-    * old tools, TopHat, Cufflinks, ...
+    * TopHat, Cufflinks, ...
     * Metascape for functional enrichment analysis
     * miRNA-mRNA interaction analysis: ExUTR, miRanda
     * raw data: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA503704
+* supplement
+    * only 30% mapping rate with smallRNA-Seq (why?)
+    * 
 
 ## 2019-06-12, 
 
