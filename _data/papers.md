@@ -195,3 +195,6 @@ _Martin H&ouml;lzer_
 
 * New approaches for metagenome assembly with short reads
     * https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz020/5363831
+
+* MetaWRAP — a flexible pipeline for genome-resolved metagenomic data analysis
+    * https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1
