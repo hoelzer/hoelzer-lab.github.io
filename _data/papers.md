@@ -14,7 +14,7 @@ to join the _a paper per day_ challenge.
 
 _Martin H&ouml;lzer_
 
-## 2019-06-07, _metagenomics_
+## 2019-06-07, _metagenomics_ | _web service_
 
 [Mitchell, Alex L., et al. "EBI Metagenomics in 2017: enriching the analysis of microbial communities, from sequence reads to assemblies." Nucleic acids research 46.D1 (2017): D726-D735.](https://academic.oup.com/nar/article/46/D1/D726/4561650)
 
@@ -45,7 +45,7 @@ _Martin H&ouml;lzer_
 * majority of data is 16S rRNA amplicons, followed by WGS
 * improved search interface
 
-## 2019-06-08, _transcriptomics_
+## 2019-06-08, _transcriptomics_ | _tool_
 
 [Vera Alvarez, Roberto, et al. "TPMCalculator: one-step software to quantify mRNA abundance of genomic features." Bioinformatics (2018).](https://academic.oup.com/bioinformatics/article/35/11/1960/5150437#.XPnnedggr9c.twitter)
 
@@ -67,7 +67,72 @@ _Martin H&ouml;lzer_
     * R/F-PKM are biased when comparing multiple samples
     * but still, many tools use them instead of TPM
 
+## 2019-06-11, _transriptomics_ | _bats_ | _miRNA_ | _longevity_
 
+[Zixia Huang et al. "Longitudinal comparative transcriptomics reveals unique mechanisms underlying extended healthspan in bats." Nature Ecology & Evolution (2019).](https://sci-hub.tw/10.1038/s41559-019-0913-3) 
+
+<label for="trigger">Show BibTeX</label>
+<input id="trigger" type="checkbox">
+<div class="box">
+<blockquote class="" cite=""> 
+@Article{Huang:19,<br />
+  author        = {Huang, Zixia and Whelan, Conor V and Foley, Nicole M and Jebb, David and Touzalin, Fr{\'e}d{\'e}ric and Petit, Eric J and Puechmaille, S{\'e}bastien J and Teeling, Emma C},<br />
+  title         = {Longitudinal comparative transcriptomics reveals unique mechanisms underlying extended healthspan in bats},<br />
+  journal       = {Nat Ecol Evol},<br />
+  year          = {2019},<br />
+}</blockquote>
+</div>
+
+* bats are longest-lived mammals
+* 8-year study of ageing in _Myotis myotis_
+* 150 blood samples, RNA-Seq
+* also compared with ~300 longitudinal RNA-Seq samples of other mammals (human, mouse, wolf)
+* bats show a unique age-related gene expression
+* partial regulated by miRNAs
+* _Myotis_ maintain length of telomeres with age without developing cancer
+* like humans, 75% of the transcriptional output derived from the top 100 expressed transcripts (enriched DNA repair!)
+* _Myotis_ might have evolved an elaborate DNA repair machinery and a distinct immune system (no increased inflammation in age)
+* genome maintenance and cell cycle regulation down-regulated in the other mammals, not in bats
+* GenAge database, 207 human ageing-associated genes
+* M&Ms
+    * rRNA- and smallRNA-Seq Illumina
+    * 50mill reads, 2x 125bp
+    * 8mill reads, 1x 50bp for small
+    * 100 transcriptomes, 50 miRNomes from 150 blood samples
+    * old tools, TopHat, Cufflinks, ...
+    * Metascape for functional enrichment analysis
+    * miRNA-mRNA interaction analysis: ExUTR, miRanda
+    * raw data: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA503704
+
+## 2019-06-12, 
+
+[]()
+
+<label for="trigger">Show BibTeX</label>
+<input id="trigger" type="checkbox">
+<div class="box">
+<blockquote class="" cite=""> 
+@Article{
+    
+}</blockquote>
+</div>
+
+*
+
+## 2019-06-13, 
+
+[]()
+
+<label for="trigger">Show BibTeX</label>
+<input id="trigger" type="checkbox">
+<div class="box">
+<blockquote class="" cite=""> 
+@Article{
+
+}</blockquote>
+</div>
+
+*
 
 # Read
 
@@ -95,9 +160,13 @@ _Martin H&ouml;lzer_
 * NanoPlot
     * https://academic.oup.com/bioinformatics/article/34/15/2666/4934939
 
-* Longitudinal comparative transcriptomics reveals unique mechanisms underlying extended healthspan in bats
-    * https://www.nature.com/articles/s41559-019-0913-3
-
 * metaplasmidspades; Plasmid detection and assembly in genomic and metagenomic data sets
     * https://genome.cshlp.org/content/29/6/961
-    * no paywall: https://sci-hub.tw/https://www.nature.com/articles/s41559-019-0913-3
+
+* Next-generation transcriptome assembly and analysis: impact of ploidy
+    * https://reader.elsevier.com/reader/sd/pii/S1046202318303803?token=6B56E6005D125657F75FF7A2651B28BF62C680FC2F24D7C3B2EE0034EAFCB86DCAF3B31892D544BF29986452407FC383
+
+* Population level mitogenomics of long-lived bats reveals dynamic heteroplasmy and challenges the free radical theory of ageing.
+
+* Metascape provides a biologist-oriented resource for the analysis of systems-level datasets
+    * https://www.nature.com/articles/s41467-019-09234-6

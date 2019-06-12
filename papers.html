@@ -12,8 +12,11 @@
 <div id="TOC">
 <ul>
 <li><a href="#a-paper-per-day">A paper per day</a><ul>
-<li><a href="#metagenomics">2019-06-07, <em>metagenomics</em></a></li>
-<li><a href="#transcriptomics">2019-06-08, <em>transcriptomics</em></a></li>
+<li><a href="#metagenomics-web-service">2019-06-07, <em>metagenomics</em> | <em>web service</em></a></li>
+<li><a href="#transcriptomics-tool">2019-06-08, <em>transcriptomics</em> | <em>tool</em></a></li>
+<li><a href="#transriptomics-bats-mirna-longevity">2019-06-11, <em>transriptomics</em> | <em>bats</em> | <em>miRNA</em> | <em>longevity</em></a></li>
+<li><a href="#section">2019-06-12,</a></li>
+<li><a href="#section-1">2019-06-13,</a></li>
 </ul></li>
 <li><a href="#read">Read</a></li>
 </ul>
@@ -22,7 +25,7 @@
 <p>To succeed in science, reading is of paramount importance. However, I always lack the time (or I find other excuses) to read all the interesting sounding manuscripts I stumble across every day on Twitter or bioRxiv. Inspired by a tweet of @<a href="https://twitter.com/BeAScientist/status/1136657979317448705">BeAScientist</a> I will challenge myself to read <em>a scientific paper per (work)day</em>.</p>
 <p>I'm trying to update this list to 1) keep track of myself, 2) provide some <a href="https://www.urbandictionary.com/define.php?term=tl%3Bdr">TL;DR</a> notes for the impatient and for me to rember, and 3) perhaps inspire others to do the same and to join the <em>a paper per day</em> challenge.</p>
 <p><em>Martin Hölzer</em></p>
-<h2 id="metagenomics">2019-06-07, <em>metagenomics</em></h2>
+<h2 id="metagenomics-web-service">2019-06-07, <em>metagenomics</em> | <em>web service</em></h2>
 <p><a href="https://academic.oup.com/nar/article/46/D1/D726/4561650">Mitchell, Alex L., et al. &quot;EBI Metagenomics in 2017: enriching the analysis of microbial communities, from sequence reads to assemblies.&quot; Nucleic acids research 46.D1 (2017): D726-D735.</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
@@ -47,7 +50,7 @@
 <li>majority of data is 16S rRNA amplicons, followed by WGS</li>
 <li>improved search interface</li>
 </ul>
-<h2 id="transcriptomics">2019-06-08, <em>transcriptomics</em></h2>
+<h2 id="transcriptomics-tool">2019-06-08, <em>transcriptomics</em> | <em>tool</em></h2>
 <p><a href="https://academic.oup.com/bioinformatics/article/35/11/1960/5150437#.XPnnedggr9c.twitter">Vera Alvarez, Roberto, et al. &quot;TPMCalculator: one-step software to quantify mRNA abundance of genomic features.&quot; Bioinformatics (2018).</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
@@ -63,6 +66,62 @@
 <li>R/F-PKM are biased when comparing multiple samples</li>
 <li>but still, many tools use them instead of TPM</li>
 </ul></li>
+</ul>
+<h2 id="transriptomics-bats-mirna-longevity">2019-06-11, <em>transriptomics</em> | <em>bats</em> | <em>miRNA</em> | <em>longevity</em></h2>
+<p><a href="https://sci-hub.tw/10.1038/s41559-019-0913-3">Zixia Huang et al. &quot;Longitudinal comparative transcriptomics reveals unique mechanisms underlying extended healthspan in bats.&quot; Nature Ecology &amp; Evolution (2019).</a></p>
+<label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
+<div class="box">
+<blockquote class cite>
+<span class="citation">@Article</span>{Huang:19,<br /> author = {Huang, Zixia and Whelan, Conor V and Foley, Nicole M and Jebb, David and Touzalin, Fr{'e}d{'e}ric and Petit, Eric J and Puechmaille, S{'e}bastien J and Teeling, Emma C},<br /> title = {Longitudinal comparative transcriptomics reveals unique mechanisms underlying extended healthspan in bats},<br /> journal = {Nat Ecol Evol},<br /> year = {2019},<br /> }
+</blockquote>
+</div>
+<ul>
+<li>bats are longest-lived mammals</li>
+<li>8-year study of ageing in <em>Myotis myotis</em></li>
+<li>150 blood samples, RNA-Seq</li>
+<li>also compared with ~300 longitudinal RNA-Seq samples of other mammals (human, mouse, wolf)</li>
+<li>bats show a unique age-related gene expression</li>
+<li>partial regulated by miRNAs</li>
+<li><em>Myotis</em> maintain length of telomeres with age without developing cancer</li>
+<li>like humans, 75% of the transcriptional output derived from the top 100 expressed transcripts (enriched DNA repair!)</li>
+<li><em>Myotis</em> might have evolved an elaborate DNA repair machinery and a distinct immune system (no increased inflammation in age)</li>
+<li>genome maintenance and cell cycle regulation down-regulated in the other mammals, not in bats</li>
+<li>GenAge database, 207 human ageing-associated genes</li>
+<li>M&amp;Ms
+<ul>
+<li>rRNA- and smallRNA-Seq Illumina</li>
+<li>50mill reads, 2x 125bp</li>
+<li>8mill reads, 1x 50bp for small</li>
+<li>100 transcriptomes, 50 miRNomes from 150 blood samples</li>
+<li>old tools, TopHat, Cufflinks, ...</li>
+<li>Metascape for functional enrichment analysis</li>
+<li>miRNA-mRNA interaction analysis: ExUTR, miRanda</li>
+<li>raw data: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA503704</li>
+</ul></li>
+</ul>
+<h2 id="section">2019-06-12,</h2>
+<p><a href=""></a></p>
+<label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
+<div class="box">
+<blockquote class cite>
+<p><span class="citation">@Article</span>{</p>
+}
+</blockquote>
+</div>
+<ul>
+<li></li>
+</ul>
+<h2 id="section-1">2019-06-13,</h2>
+<p><a href=""></a></p>
+<label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
+<div class="box">
+<blockquote class cite>
+<p><span class="citation">@Article</span>{</p>
+}
+</blockquote>
+</div>
+<ul>
+<li></li>
 </ul>
 <h1 id="read">Read</h1>
 <ul>
@@ -98,14 +157,18 @@
 <ul>
 <li>https://academic.oup.com/bioinformatics/article/34/15/2666/4934939</li>
 </ul></li>
-<li>Longitudinal comparative transcriptomics reveals unique mechanisms underlying extended healthspan in bats
-<ul>
-<li>https://www.nature.com/articles/s41559-019-0913-3</li>
-</ul></li>
 <li>metaplasmidspades; Plasmid detection and assembly in genomic and metagenomic data sets
 <ul>
 <li>https://genome.cshlp.org/content/29/6/961</li>
-<li>no paywall: https://sci-hub.tw/https://www.nature.com/articles/s41559-019-0913-3</li>
+</ul></li>
+<li>Next-generation transcriptome assembly and analysis: impact of ploidy
+<ul>
+<li>https://reader.elsevier.com/reader/sd/pii/S1046202318303803?token=6B56E6005D125657F75FF7A2651B28BF62C680FC2F24D7C3B2EE0034EAFCB86DCAF3B31892D544BF29986452407FC383</li>
+</ul></li>
+<li><p>Population level mitogenomics of long-lived bats reveals dynamic heteroplasmy and challenges the free radical theory of ageing.</p></li>
+<li>Metascape provides a biologist-oriented resource for the analysis of systems-level datasets
+<ul>
+<li>https://www.nature.com/articles/s41467-019-09234-6</li>
 </ul></li>
 </ul>
 </body>
