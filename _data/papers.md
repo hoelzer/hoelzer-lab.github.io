@@ -107,20 +107,30 @@ _Martin H&ouml;lzer_
     * only 30% mapping rate with smallRNA-Seq (why?)
     * 
 
-## 2019-06-12, 
+## 2019-06-12, _metagenomics_ | _assembly_ | _tool_
 
-[]()
+[Li, Dinghua, et al. "MEGAHIT: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph." Bioinformatics 31.10 (2015): 1674-1676.](https://academic.oup.com/bioinformatics/article/31/10/1674/177884)
 
 <label for="trigger">Show BibTeX</label>
 <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class="" cite=""> 
-@Article{
-    
+@Article{Li:15,
+  title={{MEGAHIT}: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de {B}ruijn graph},
+  author={Li, Dinghua and Liu, Chi-Man and Luo, Ruibang and Sadakane, Kunihiko and Lam, Tak-Wah},
+  journal={Bioinformatics},
+  volume={31},
+  number={10},
+  pages={1674--1676},
+  year={2015}
 }</blockquote>
 </div>
 
-*
+* [GitHub](https://github.com/voutcn/megahit)
+* de novo assembler for large and complex metagenomics data
+* GPU support
+* based on _succinct de Brujin_ graphs: compressed representations of _de Brujin_
+* build SdBGs iteratively from a small to a large _k_-mer
 
 ## 2019-06-13, 
 
@@ -173,3 +183,15 @@ _Martin H&ouml;lzer_
 
 * Metascape provides a biologist-oriented resource for the analysis of systems-level datasets
     * https://www.nature.com/articles/s41467-019-09234-6
+
+* Overview of Virus Metagenomic Classification Methods and Their Biological Applications
+    * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5924777/pdf/fmicb-09-00749.pdf
+
+* FastViromeExplorer: a pipeline for virus and phage identification and abundance profiling in metagenomics data
+    * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5768174/
+
+* Choice of assembly software has a critical impact on virome characterisation.
+    * https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-019-0626-5
+
+* New approaches for metagenome assembly with short reads
+    * https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz020/5363831
