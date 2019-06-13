@@ -132,7 +132,45 @@ _Martin H&ouml;lzer_
 * based on _succinct de Brujin_ graphs: compressed representations of _de Brujin_
 * build SdBGs iteratively from a small to a large _k_-mer
 
-## 2019-06-13, 
+## 2019-06-13, _metagenomics_ | _pipeline_
+
+[Uritskiy, Gherman V., Jocelyne DiRuggiero, and James Taylor. "MetaWRAP—a flexible pipeline for genome-resolved metagenomic data analysis." Microbiome 6.1 (2018): 158.](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1)
+
+<label for="trigger">Show BibTeX</label>
+<input id="trigger" type="checkbox">
+<div class="box">
+<blockquote class="" cite=""> 
+@Article{Uritskiy:18,
+  title={Meta{WRAP} - a flexible pipeline for genome-resolved metagenomic data analysis},
+  author={Uritskiy, Gherman V and DiRuggiero, Jocelyne and Taylor, James},
+  journal={Microbiome},
+  volume={6},
+  number={1},
+  pages={158},
+  year={2018},
+  publisher={BioMed Central}
+}</blockquote>
+</div>
+
+* genome-resolved metagenomic data analysis
+* [MetaWRAP](https://github.com/bxlab/metaWRAP)
+* extract individual draft genomes (bins)
+* from raw reads to metagenomic bins
+* binning: often clustering togehter similar scaffolds e.g. by _k_-mer, codon usage, and similar coverage
+* highly modular, each modul is a shell script
+* custom python2.7 scripts
+* conda, docker
+* database download guide
+* reassemble_bins module (map reads to bins and assemble again with SPAdes instead of metaSPAdes/MegaHit); highly improves bin quality
+    * The Reassemble_bins module improved upon 78%, 98%, and 2% of the bins in the water, gut, and soil bin sets, respectively.
+    * soil is so diverse, that the re-assembly step confuses
+    * own idea: integrate long reads in the re-assembly step
+* metagenomic binning software: MaxBin2, metaBAT2, CONCOCT
+* test data: water, gut, soil
+    * water samples were dominated by _Proteobacteria_
+* Bin_refinement module produced 235, 175, and 134 acceptable quality bins in the water, gut, and soil samples
+
+## 2019-06-14, 
 
 []()
 
@@ -146,6 +184,7 @@ _Martin H&ouml;lzer_
 </div>
 
 *
+
 
 # Read
 
@@ -187,14 +226,17 @@ _Martin H&ouml;lzer_
 * Overview of Virus Metagenomic Classification Methods and Their Biological Applications
     * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5924777/pdf/fmicb-09-00749.pdf
 
-* FastViromeExplorer: a pipeline for virus and phage identification and abundance profiling in metagenomics data
-    * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5768174/
-
 * Choice of assembly software has a critical impact on virome characterisation.
     * https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-019-0626-5
 
 * New approaches for metagenome assembly with short reads
     * https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz020/5363831
 
-* MetaWRAP — a flexible pipeline for genome-resolved metagenomic data analysis
-    * https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1
+* Software engineering for scientific big data analysis
+    * https://academic.oup.com/gigascience/article/8/5/giz054/5497810
+
+* An improved pig reference genome sequence to enable pig genetics and genomics research
+    * https://www.biorxiv.org/content/10.1101/668921v1
+
+* MEGAN-LR: new algorithms allow accurate binning and easy interactive exploration of metagenomic long reads and contigs
+    * https://link.springer.com/article/10.1186/s13062-018-0208-7

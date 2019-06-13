@@ -16,7 +16,8 @@
 <li><a href="#transcriptomics-tool">2019-06-08, <em>transcriptomics</em> | <em>tool</em></a></li>
 <li><a href="#transriptomics-bats-mirna-longevity">2019-06-11, <em>transriptomics</em> | <em>bats</em> | <em>miRNA</em> | <em>longevity</em></a></li>
 <li><a href="#metagenomics-assembly-tool">2019-06-12, <em>metagenomics</em> | <em>assembly</em> | <em>tool</em></a></li>
-<li><a href="#section">2019-06-13,</a></li>
+<li><a href="#metagenomics-pipeline">2019-06-13, <em>metagenomics</em> | <em>pipeline</em></a></li>
+<li><a href="#section">2019-06-14,</a></li>
 </ul></li>
 <li><a href="#read">Read</a></li>
 </ul>
@@ -119,7 +120,38 @@
 <li>based on <em>succinct de Brujin</em> graphs: compressed representations of <em>de Brujin</em></li>
 <li>build SdBGs iteratively from a small to a large <em>k</em>-mer</li>
 </ul>
-<h2 id="section">2019-06-13,</h2>
+<h2 id="metagenomics-pipeline">2019-06-13, <em>metagenomics</em> | <em>pipeline</em></h2>
+<p><a href="https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1">Uritskiy, Gherman V., Jocelyne DiRuggiero, and James Taylor. &quot;MetaWRAP—a flexible pipeline for genome-resolved metagenomic data analysis.&quot; Microbiome 6.1 (2018): 158.</a></p>
+<label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
+<div class="box">
+<blockquote class cite>
+<span class="citation">@Article</span>{Uritskiy:18, title={Meta{WRAP} - a flexible pipeline for genome-resolved metagenomic data analysis}, author={Uritskiy, Gherman V and DiRuggiero, Jocelyne and Taylor, James}, journal={Microbiome}, volume={6}, number={1}, pages={158}, year={2018}, publisher={BioMed Central} }
+</blockquote>
+</div>
+<ul>
+<li>genome-resolved metagenomic data analysis</li>
+<li><a href="https://github.com/bxlab/metaWRAP">MetaWRAP</a></li>
+<li>extract individual draft genomes (bins)</li>
+<li>from raw reads to metagenomic bins</li>
+<li>binning: often clustering togehter similar scaffolds e.g. by <em>k</em>-mer, codon usage, and similar coverage</li>
+<li>highly modular, each modul is a shell script</li>
+<li>custom python2.7 scripts</li>
+<li>conda, docker</li>
+<li>database download guide</li>
+<li>reassemble_bins module (map reads to bins and assemble again with SPAdes instead of metaSPAdes/MegaHit); highly improves bin quality
+<ul>
+<li>The Reassemble_bins module improved upon 78%, 98%, and 2% of the bins in the water, gut, and soil bin sets, respectively.</li>
+<li>soil is so diverse, that the re-assembly step confuses</li>
+<li>own idea: integrate long reads in the re-assembly step</li>
+</ul></li>
+<li>metagenomic binning software: MaxBin2, metaBAT2, CONCOCT</li>
+<li>test data: water, gut, soil
+<ul>
+<li>water samples were dominated by <em>Proteobacteria</em></li>
+</ul></li>
+<li>Bin_refinement module produced 235, 175, and 134 acceptable quality bins in the water, gut, and soil samples</li>
+</ul>
+<h2 id="section">2019-06-14,</h2>
 <p><a href=""></a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
@@ -182,10 +214,6 @@
 <ul>
 <li>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5924777/pdf/fmicb-09-00749.pdf</li>
 </ul></li>
-<li>FastViromeExplorer: a pipeline for virus and phage identification and abundance profiling in metagenomics data
-<ul>
-<li>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5768174/</li>
-</ul></li>
 <li>Choice of assembly software has a critical impact on virome characterisation.
 <ul>
 <li>https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-019-0626-5</li>
@@ -194,9 +222,17 @@
 <ul>
 <li>https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz020/5363831</li>
 </ul></li>
-<li>MetaWRAP — a flexible pipeline for genome-resolved metagenomic data analysis
+<li>Software engineering for scientific big data analysis
 <ul>
-<li>https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1</li>
+<li>https://academic.oup.com/gigascience/article/8/5/giz054/5497810</li>
+</ul></li>
+<li>An improved pig reference genome sequence to enable pig genetics and genomics research
+<ul>
+<li>https://www.biorxiv.org/content/10.1101/668921v1</li>
+</ul></li>
+<li>MEGAN-LR: new algorithms allow accurate binning and easy interactive exploration of metagenomic long reads and contigs
+<ul>
+<li>https://link.springer.com/article/10.1186/s13062-018-0208-7</li>
 </ul></li>
 </ul>
 </body>
