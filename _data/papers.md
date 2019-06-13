@@ -240,3 +240,6 @@ _Martin H&ouml;lzer_
 
 * MEGAN-LR: new algorithms allow accurate binning and easy interactive exploration of metagenomic long reads and contigs
     * https://link.springer.com/article/10.1186/s13062-018-0208-7
+
+* Long-Read Sequencing - A Powerful Tool in Viral Transcriptome Research
+    * https://www.cell.com/trends/microbiology/fulltext/S0966-842X(19)30036-8
