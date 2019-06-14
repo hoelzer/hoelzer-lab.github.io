@@ -172,6 +172,43 @@ _Martin H&ouml;lzer_
 
 ## 2019-06-14, 
 
+[Johnson, Lisa Kristine, Harriet Alexander, and C. Titus Brown. "Re-assembly, quality evaluation, and annotation of 678 microbial eukaryotic reference transcriptomes." GigaScience (2018): giy158.](https://academic.oup.com/gigascience/article/8/4/giy158/5241890)
+
+<label for="trigger">Show BibTeX</label>
+<input id="trigger" type="checkbox">
+<div class="box">
+<blockquote class="" cite=""> 
+@article{Johnson:18,
+  title={Re-assembly, quality evaluation, and annotation of 678 microbial eukaryotic reference transcriptomes},
+  author={Johnson, Lisa Kristine and Alexander, Harriet and Brown, C Titus},
+  journal={GigaScience},
+  volume={8},
+  number={4},
+  pages={giy158},
+  year={2018}
+}</blockquote>
+</div>
+
+With the growing volume of sequencing data, the development of reusable software
+is becoming increasingly important. A great demonstration of how re-assembly of
+old RNA-Seq data by new tools improves the whole analysis!
+
+* short-read RNA-Seq pipeline for Marine Microbial Eukaryotic Transcriptomes
+* evaluation and comparison
+* newer transcriptome assemblies contained the majority of previous contigs as well as new content, ~8% more genes
+* no single “best” reference transcriptome
+* we need pipelines to re-assemble!
+* Trimmomatic -- khmer -- Trinity v2.2.0
+* re-analyzed 678 samples of sequenced marine protists, spanning more than 40 eukaryotic phyla ([MMETSP](https://github.com/dib-lab/dib-MMETSP))
+* raw reads: [PRJNA231566](https://www.ncbi.nlm.nih.gov/bioproject?term=PRJNA231566)
+* previously assembled with Trans-ABySS
+* Transcriptomes were annotated using the [dammit pipeline](https://github.com/dib-lab/dammit)
+* eval with Transrate
+* Trinity-based re-assemblies generally outperform Trans-ABySS-based assemblies
+
+
+## 2019-06-17, 
+
 []()
 
 <label for="trigger">Show BibTeX</label>
@@ -184,7 +221,6 @@ _Martin H&ouml;lzer_
 </div>
 
 *
-
 
 # Read
 
@@ -240,3 +276,6 @@ _Martin H&ouml;lzer_
 
 * MEGAN-LR: new algorithms allow accurate binning and easy interactive exploration of metagenomic long reads and contigs
     * https://link.springer.com/article/10.1186/s13062-018-0208-7
+
+* A Reference-Free Algorithm for Computational Normalization of Shotgun Sequencing Data
+    * https://arxiv.org/abs/1203.4802

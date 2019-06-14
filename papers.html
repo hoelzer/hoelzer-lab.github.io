@@ -18,6 +18,7 @@
 <li><a href="#metagenomics-assembly-tool">2019-06-12, <em>metagenomics</em> | <em>assembly</em> | <em>tool</em></a></li>
 <li><a href="#metagenomics-pipeline">2019-06-13, <em>metagenomics</em> | <em>pipeline</em></a></li>
 <li><a href="#section">2019-06-14,</a></li>
+<li><a href="#section-1">2019-06-17,</a></li>
 </ul></li>
 <li><a href="#read">Read</a></li>
 </ul>
@@ -152,6 +153,29 @@
 <li>Bin_refinement module produced 235, 175, and 134 acceptable quality bins in the water, gut, and soil samples</li>
 </ul>
 <h2 id="section">2019-06-14,</h2>
+<p><a href="https://academic.oup.com/gigascience/article/8/4/giy158/5241890">Johnson, Lisa Kristine, Harriet Alexander, and C. Titus Brown. &quot;Re-assembly, quality evaluation, and annotation of 678 microbial eukaryotic reference transcriptomes.&quot; GigaScience (2018): giy158.</a></p>
+<label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
+<div class="box">
+<blockquote class cite>
+<span class="citation">@article</span>{Johnson:18, title={Re-assembly, quality evaluation, and annotation of 678 microbial eukaryotic reference transcriptomes}, author={Johnson, Lisa Kristine and Alexander, Harriet and Brown, C Titus}, journal={GigaScience}, volume={8}, number={4}, pages={giy158}, year={2018} }
+</blockquote>
+</div>
+<p>With the growing volume of sequencing data, the development of reusable software is becoming increasingly important. A great demonstration of how re-assembly of old RNA-Seq data by new tools improves the whole analysis!</p>
+<ul>
+<li>short-read RNA-Seq pipeline for Marine Microbial Eukaryotic Transcriptomes</li>
+<li>evaluation and comparison</li>
+<li>newer transcriptome assemblies contained the majority of previous contigs as well as new content, ~8% more genes</li>
+<li>no single “best” reference transcriptome</li>
+<li>we need pipelines to re-assemble!</li>
+<li>Trimmomatic -- khmer -- Trinity v2.2.0</li>
+<li>re-analyzed 678 samples of sequenced marine protists, spanning more than 40 eukaryotic phyla (<a href="https://github.com/dib-lab/dib-MMETSP">MMETSP</a>)</li>
+<li>raw reads: <a href="https://www.ncbi.nlm.nih.gov/bioproject?term=PRJNA231566">PRJNA231566</a></li>
+<li>previously assembled with Trans-ABySS</li>
+<li>Transcriptomes were annotated using the <a href="https://github.com/dib-lab/dammit">dammit pipeline</a></li>
+<li>eval with Transrate</li>
+<li>Trinity-based re-assemblies generally outperform Trans-ABySS-based assemblies</li>
+</ul>
+<h2 id="section-1">2019-06-17,</h2>
 <p><a href=""></a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
@@ -233,6 +257,10 @@
 <li>MEGAN-LR: new algorithms allow accurate binning and easy interactive exploration of metagenomic long reads and contigs
 <ul>
 <li>https://link.springer.com/article/10.1186/s13062-018-0208-7</li>
+</ul></li>
+<li>A Reference-Free Algorithm for Computational Normalization of Shotgun Sequencing Data
+<ul>
+<li>https://arxiv.org/abs/1203.4802</li>
 </ul></li>
 </ul>
 </body>
