@@ -279,3 +279,6 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * A Reference-Free Algorithm for Computational Normalization of Shotgun Sequencing Data
     * https://arxiv.org/abs/1203.4802
+
+* Long-Read Sequencing - A Powerful Tool in Viral Transcriptome Research
+    * https://www.cell.com/trends/microbiology/fulltext/S0966-842X(19)30036-8

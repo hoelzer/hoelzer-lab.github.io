@@ -1,15 +1,23 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>A paper per day</title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="pandoc.css" type="text/css" />
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="pandoc.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
-<div id="TOC">
+<nav id="TOC">
 <ul>
 <li><a href="#a-paper-per-day">A paper per day</a><ul>
 <li><a href="#metagenomics-web-service">2019-06-07, <em>metagenomics</em> | <em>web service</em></a></li>
@@ -22,17 +30,17 @@
 </ul></li>
 <li><a href="#read">Read</a></li>
 </ul>
-</div>
+</nav>
 <h1 id="a-paper-per-day">A paper per day</h1>
 <p>To succeed in science, reading is of paramount importance. However, I always lack the time (or I find other excuses) to read all the interesting sounding manuscripts I stumble across every day on Twitter or bioRxiv. Inspired by a tweet of @<a href="https://twitter.com/BeAScientist/status/1136657979317448705">BeAScientist</a> I will challenge myself to read <em>a scientific paper per (work)day</em>.</p>
-<p>I'm trying to update this list to 1) keep track of myself, 2) provide some <a href="https://www.urbandictionary.com/define.php?term=tl%3Bdr">TL;DR</a> notes for the impatient and for me to rember, and 3) perhaps inspire others to do the same and to join the <em>a paper per day</em> challenge.</p>
+<p>I’m trying to update this list to 1) keep track of myself, 2) provide some <a href="https://www.urbandictionary.com/define.php?term=tl%3Bdr">TL;DR</a> notes for the impatient and for me to rember, and 3) perhaps inspire others to do the same and to join the <em>a paper per day</em> challenge.</p>
 <p><em>Martin Hölzer</em></p>
 <h2 id="metagenomics-web-service">2019-06-07, <em>metagenomics</em> | <em>web service</em></h2>
-<p><a href="https://academic.oup.com/nar/article/46/D1/D726/4561650">Mitchell, Alex L., et al. &quot;EBI Metagenomics in 2017: enriching the analysis of microbial communities, from sequence reads to assemblies.&quot; Nucleic acids research 46.D1 (2017): D726-D735.</a></p>
+<p><a href="https://academic.oup.com/nar/article/46/D1/D726/4561650">Mitchell, Alex L., et al. “EBI Metagenomics in 2017: enriching the analysis of microbial communities, from sequence reads to assemblies.” Nucleic acids research 46.D1 (2017): D726-D735.</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<span class="citation">@article</span>{Mitchell:17,<br /> title={{E}{B}{I} {M}etagenomics in 2017: enriching the analysis of microbial communities, from sequence reads to assemblies},<br /> author={Mitchell, Alex L and Scheremetjew, Maxim and Denise, Hubert and Potter, Simon and Tarkowska, Aleksandra and Qureshi, Matloob and Salazar, Gustavo A and Pesseat, Sebastien and Boland, Miguel A and Hunter, Fiona M I and others},<br /> journal={Nucleic Acids Res},<br /> volume={46},<br /> number={D1},<br /> pages={D726--D735},<br /> year={2017},<br /> }
+<span class="citation" data-cites="article">@article</span>{Mitchell:17,<br /> title={{E}{B}{I} {M}etagenomics in 2017: enriching the analysis of microbial communities, from sequence reads to assemblies},<br /> author={Mitchell, Alex L and Scheremetjew, Maxim and Denise, Hubert and Potter, Simon and Tarkowska, Aleksandra and Qureshi, Matloob and Salazar, Gustavo A and Pesseat, Sebastien and Boland, Miguel A and Hunter, Fiona M I and others},<br /> journal={Nucleic Acids Res},<br /> volume={46},<br /> number={D1},<br /> pages={D726–D735},<br /> year={2017},<br /> }
 </blockquote>
 </div>
 <ul>
@@ -40,29 +48,29 @@
 <li>the paper presents updates from the last 2 years (~2015-2017) to the service, <a href="https://www.ebi.ac.uk/metagenomics/">MGnify</a></li>
 <li>analyis and archive sequencing data from microbial environments</li>
 <li>new: taxonomic assignment by 16S and 23S rRNA assignments using Infernal and Rfam</li>
-<li>also new: metagenomic assembly (w metaSPAdes, MEGAHIT and Minia) upon request --&gt; 50mio non-redundant protein sequences
+<li>also new: metagenomic assembly (w metaSPAdes, MEGAHIT and Minia) upon request –&gt; 50mio non-redundant protein sequences
 <ul>
 <li>selection of optimal assembly pipeline using a neural network</li>
 </ul></li>
 <li>metagenome analysis problems
 <ul>
 <li>need high computational power</li>
-<li>different tools/pipelines --&gt; hard to compare results</li>
+<li>different tools/pipelines –&gt; hard to compare results</li>
 </ul></li>
 <li>majority of data is 16S rRNA amplicons, followed by WGS</li>
 <li>improved search interface</li>
 </ul>
 <h2 id="transcriptomics-tool">2019-06-08, <em>transcriptomics</em> | <em>tool</em></h2>
-<p><a href="https://academic.oup.com/bioinformatics/article/35/11/1960/5150437#.XPnnedggr9c.twitter">Vera Alvarez, Roberto, et al. &quot;TPMCalculator: one-step software to quantify mRNA abundance of genomic features.&quot; Bioinformatics (2018).</a></p>
+<p><a href="https://academic.oup.com/bioinformatics/article/35/11/1960/5150437#.XPnnedggr9c.twitter">Vera Alvarez, Roberto, et al. “TPMCalculator: one-step software to quantify mRNA abundance of genomic features.” Bioinformatics (2018).</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<span class="citation">@article</span>{Vera:18,<br /> title={{T}{P}{M}{C}alculator: one-step software to quantify m{R}{N}{A} abundance of genomic features},<br /> author={Vera Alvarez, Roberto and Pongor, Lorinc Sandor and Mari{~n}o-Ram{'}rez, Leonardo and Landsman, David},<br /> journal={Bioinformatics},<br /> year={2018}<br /> }
+<span class="citation" data-cites="article">@article</span>{Vera:18,<br /> title={{T}{P}{M}{C}alculator: one-step software to quantify m{R}{N}{A} abundance of genomic features},<br /> author={Vera Alvarez, Roberto and Pongor, Lorinc Sandor and Mari{~n}o-Ram{'}rez, Leonardo and Landsman, David},<br /> journal={Bioinformatics},<br /> year={2018}<br /> }
 </blockquote>
 </div>
 <ul>
 <li>input: BAM, output: TPM values, raw counts, feature lengths for genes, transcripts, exons and introns</li>
-<li><a href="https://github.com/ncbi/TPMCalculator" class="uri">https://github.com/ncbi/TPMCalculator</a></li>
+<li><a href="https://github.com/ncbi/TPMCalculator">https://github.com/ncbi/TPMCalculator</a></li>
 <li>RNA-Seq raw count normalization evolved from RPKM, FPKM, to TPM
 <ul>
 <li>R/F-PKM are biased when comparing multiple samples</li>
@@ -70,11 +78,11 @@
 </ul></li>
 </ul>
 <h2 id="transriptomics-bats-mirna-longevity">2019-06-11, <em>transriptomics</em> | <em>bats</em> | <em>miRNA</em> | <em>longevity</em></h2>
-<p><a href="https://sci-hub.tw/10.1038/s41559-019-0913-3">Zixia Huang et al. &quot;Longitudinal comparative transcriptomics reveals unique mechanisms underlying extended healthspan in bats.&quot; Nature Ecology &amp; Evolution (2019).</a></p>
+<p><a href="https://sci-hub.tw/10.1038/s41559-019-0913-3">Zixia Huang et al. “Longitudinal comparative transcriptomics reveals unique mechanisms underlying extended healthspan in bats.” Nature Ecology &amp; Evolution (2019).</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<span class="citation">@Article</span>{Huang:19,<br /> author = {Huang, Zixia and Whelan, Conor V and Foley, Nicole M and Jebb, David and Touzalin, Fr{'e}d{'e}ric and Petit, Eric J and Puechmaille, S{'e}bastien J and Teeling, Emma C},<br /> title = {Longitudinal comparative transcriptomics reveals unique mechanisms underlying extended healthspan in bats},<br /> journal = {Nat Ecol Evol},<br /> year = {2019},<br /> }
+<span class="citation" data-cites="Article">@Article</span>{Huang:19,<br /> author = {Huang, Zixia and Whelan, Conor V and Foley, Nicole M and Jebb, David and Touzalin, Fr{'e}d{'e}ric and Petit, Eric J and Puechmaille, S{'e}bastien J and Teeling, Emma C},<br /> title = {Longitudinal comparative transcriptomics reveals unique mechanisms underlying extended healthspan in bats},<br /> journal = {Nat Ecol Evol},<br /> year = {2019},<br /> }
 </blockquote>
 </div>
 <ul>
@@ -95,7 +103,7 @@
 <li>50mill reads, 2x 125bp</li>
 <li>8mill reads, 1x 50bp for small</li>
 <li>100 transcriptomes, 50 miRNomes from 150 blood samples</li>
-<li>TopHat, Cufflinks, ...</li>
+<li>TopHat, Cufflinks, …</li>
 <li>Metascape for functional enrichment analysis</li>
 <li>miRNA-mRNA interaction analysis: ExUTR, miRanda</li>
 <li>raw data: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA503704</li>
@@ -107,11 +115,11 @@
 </ul></li>
 </ul>
 <h2 id="metagenomics-assembly-tool">2019-06-12, <em>metagenomics</em> | <em>assembly</em> | <em>tool</em></h2>
-<p><a href="https://academic.oup.com/bioinformatics/article/31/10/1674/177884">Li, Dinghua, et al. &quot;MEGAHIT: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph.&quot; Bioinformatics 31.10 (2015): 1674-1676.</a></p>
+<p><a href="https://academic.oup.com/bioinformatics/article/31/10/1674/177884">Li, Dinghua, et al. “MEGAHIT: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph.” Bioinformatics 31.10 (2015): 1674-1676.</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<span class="citation">@Article</span>{Li:15, title={{MEGAHIT}: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de {B}ruijn graph}, author={Li, Dinghua and Liu, Chi-Man and Luo, Ruibang and Sadakane, Kunihiko and Lam, Tak-Wah}, journal={Bioinformatics}, volume={31}, number={10}, pages={1674--1676}, year={2015} }
+<span class="citation" data-cites="Article">@Article</span>{Li:15, title={{MEGAHIT}: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de {B}ruijn graph}, author={Li, Dinghua and Liu, Chi-Man and Luo, Ruibang and Sadakane, Kunihiko and Lam, Tak-Wah}, journal={Bioinformatics}, volume={31}, number={10}, pages={1674–1676}, year={2015} }
 </blockquote>
 </div>
 <ul>
@@ -122,11 +130,11 @@
 <li>build SdBGs iteratively from a small to a large <em>k</em>-mer</li>
 </ul>
 <h2 id="metagenomics-pipeline">2019-06-13, <em>metagenomics</em> | <em>pipeline</em></h2>
-<p><a href="https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1">Uritskiy, Gherman V., Jocelyne DiRuggiero, and James Taylor. &quot;MetaWRAP—a flexible pipeline for genome-resolved metagenomic data analysis.&quot; Microbiome 6.1 (2018): 158.</a></p>
+<p><a href="https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1">Uritskiy, Gherman V., Jocelyne DiRuggiero, and James Taylor. “MetaWRAP—a flexible pipeline for genome-resolved metagenomic data analysis.” Microbiome 6.1 (2018): 158.</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<span class="citation">@Article</span>{Uritskiy:18, title={Meta{WRAP} - a flexible pipeline for genome-resolved metagenomic data analysis}, author={Uritskiy, Gherman V and DiRuggiero, Jocelyne and Taylor, James}, journal={Microbiome}, volume={6}, number={1}, pages={158}, year={2018}, publisher={BioMed Central} }
+<span class="citation" data-cites="Article">@Article</span>{Uritskiy:18, title={Meta{WRAP} - a flexible pipeline for genome-resolved metagenomic data analysis}, author={Uritskiy, Gherman V and DiRuggiero, Jocelyne and Taylor, James}, journal={Microbiome}, volume={6}, number={1}, pages={158}, year={2018}, publisher={BioMed Central} }
 </blockquote>
 </div>
 <ul>
@@ -134,7 +142,7 @@
 <li><a href="https://github.com/bxlab/metaWRAP">MetaWRAP</a></li>
 <li>extract individual draft genomes (bins)</li>
 <li>from raw reads to metagenomic bins</li>
-<li>binning: often clustering togehter similar scaffolds e.g. by <em>k</em>-mer, codon usage, and similar coverage</li>
+<li>binning: often clustering togehter similar scaffolds e.g. by <em>k</em>-mer, codon usage, and similar coverage</li>
 <li>highly modular, each modul is a shell script</li>
 <li>custom python2.7 scripts</li>
 <li>conda, docker</li>
@@ -180,7 +188,7 @@
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<p><span class="citation">@Article</span>{</p>
+<p><span class="citation" data-cites="Article">@Article</span>{</p>
 }
 </blockquote>
 </div>
@@ -258,9 +266,15 @@
 <ul>
 <li>https://link.springer.com/article/10.1186/s13062-018-0208-7</li>
 </ul></li>
+<<<<<<< HEAD
 <li>A Reference-Free Algorithm for Computational Normalization of Shotgun Sequencing Data
 <ul>
 <li>https://arxiv.org/abs/1203.4802</li>
+=======
+<li>Long-Read Sequencing - A Powerful Tool in Viral Transcriptome Research
+<ul>
+<li>https://www.cell.com/trends/microbiology/fulltext/S0966-842X(19)30036-8</li>
+>>>>>>> e9c6cb12839327103fc24336c602904125dee7e3
 </ul></li>
 </ul>
 </body>
