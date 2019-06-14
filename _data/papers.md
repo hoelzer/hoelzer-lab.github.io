@@ -170,7 +170,7 @@ _Martin H&ouml;lzer_
     * water samples were dominated by _Proteobacteria_
 * Bin_refinement module produced 235, 175, and 134 acceptable quality bins in the water, gut, and soil samples
 
-## 2019-06-14, 
+## 2019-06-14, _meta-transcriptomics_ | _pipeline_ | _re-assembly_
 
 [Johnson, Lisa Kristine, Harriet Alexander, and C. Titus Brown. "Re-assembly, quality evaluation, and annotation of 678 microbial eukaryotic reference transcriptomes." GigaScience (2018): giy158.](https://academic.oup.com/gigascience/article/8/4/giy158/5241890)
 
@@ -282,3 +282,6 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * Long-Read Sequencing - A Powerful Tool in Viral Transcriptome Research
     * https://www.cell.com/trends/microbiology/fulltext/S0966-842X(19)30036-8
+
+* Effect of de novo transcriptome assembly on transcript quantification
+    * https://www.biorxiv.org/content/10.1101/380998v4
