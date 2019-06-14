@@ -115,14 +115,14 @@ _Martin H&ouml;lzer_
 <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class="" cite=""> 
-@Article{Li:15,
-  title={{MEGAHIT}: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de {B}ruijn graph},
-  author={Li, Dinghua and Liu, Chi-Man and Luo, Ruibang and Sadakane, Kunihiko and Lam, Tak-Wah},
-  journal={Bioinformatics},
-  volume={31},
-  number={10},
-  pages={1674--1676},
-  year={2015}
+@Article{Li:15,<br />
+  title={{MEGAHIT}: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de {B}ruijn graph},<br />
+  author={Li, Dinghua and Liu, Chi-Man and Luo, Ruibang and Sadakane, Kunihiko and Lam, Tak-Wah},<br />
+  journal={Bioinformatics},<br />
+  volume={31},<br />
+  number={10},<br />
+  pages={1674--1676},<br />
+  year={2015}<br />
 }</blockquote>
 </div>
 
@@ -140,15 +140,15 @@ _Martin H&ouml;lzer_
 <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class="" cite=""> 
-@Article{Uritskiy:18,
-  title={Meta{WRAP} - a flexible pipeline for genome-resolved metagenomic data analysis},
-  author={Uritskiy, Gherman V and DiRuggiero, Jocelyne and Taylor, James},
-  journal={Microbiome},
-  volume={6},
-  number={1},
-  pages={158},
-  year={2018},
-  publisher={BioMed Central}
+@Article{Uritskiy:18,<br />
+  title={Meta{WRAP} - a flexible pipeline for genome-resolved metagenomic data analysis},<br />
+  author={Uritskiy, Gherman V and DiRuggiero, Jocelyne and Taylor, James},<br />
+  journal={Microbiome},<br />
+  volume={6},<br />
+  number={1},<br />
+  pages={158},<br />
+  year={2018},<br />
+  publisher={BioMed Central}<br />
 }</blockquote>
 </div>
 
@@ -178,14 +178,14 @@ _Martin H&ouml;lzer_
 <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class="" cite=""> 
-@article{Johnson:18,
-  title={Re-assembly, quality evaluation, and annotation of 678 microbial eukaryotic reference transcriptomes},
-  author={Johnson, Lisa Kristine and Alexander, Harriet and Brown, C Titus},
-  journal={GigaScience},
-  volume={8},
-  number={4},
-  pages={giy158},
-  year={2018}
+@article{Johnson:18,<br />
+  title={Re-assembly, quality evaluation, and annotation of 678 microbial eukaryotic reference transcriptomes},<br />
+  author={Johnson, Lisa Kristine and Alexander, Harriet and Brown, C Titus},<br />
+  journal={GigaScience},<br />
+  volume={8},<br />
+  number={4},<br />
+  pages={giy158},<br />
+  year={2018}<br />
 }</blockquote>
 </div>
 
