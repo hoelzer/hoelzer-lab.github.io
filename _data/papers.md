@@ -207,7 +207,42 @@ old RNA-Seq data by new tools improves the whole analysis!
 * Trinity-based re-assemblies generally outperform Trans-ABySS-based assemblies
 
 
-## 2019-06-17, 
+## 2019-06-17, _genome assembly_ | _prokaryotic_ | _de novo_
+
+[Schmid, Michael, et al. "Pushing the limits of de novo genome assembly for complex prokaryotic genomes harboring very long, near identical repeats." Nucleic acids research 46.17 (2018): 8953-8965.](https://academic.oup.com/nar/article/46/17/8953/5078241)
+
+<label for="trigger">Show BibTeX</label>
+<input id="trigger" type="checkbox">
+<div class="box">
+<blockquote class="" cite=""> 
+@Article{schmid2018pushing,<br />
+  title={Pushing the limits of \emph{de novo} genome assembly for complex prokaryotic genomes harboring very long, near identical repeats},<br />
+  author={Schmid, Michael and Frei, Daniel and Patrignani, Andrea and Schlapbach, Ralph and Frey, Juerg E and Remus-Emsermann, Mitja NP and Ahrens, Christian H},<br />
+  journal={Nucleic Acids Res},<br />
+  volume={46},<br />
+  number={17},<br />
+  pages={8953--8965},<br />
+  year={2018},<br />
+  publisher={Oxford University Press}<br />
+}</blockquote>
+</div>
+
+* Pseudomonas koreensis P19E3, containing several near identical 70kbp repeats
+* also a variable shufflon region
+* not able to assemble with PacBio, but with Nanopore
+* very complex genome structures seem a general phenomenon among _Pseudomonas_ (gammaproteobacteria)
+* further: repeat complexity analysis of 9,331 bacterial genomes revealed: ~10% that are particularly difficult to assemble
+* genome assembly:
+    * PacBio: HGAP and Flye, no further polishing
+    * ONT reads: were filtered (>30kb) and assembled w/ Flye followed by three Racon runs and a last Illumina-based polishing using FreeBayes
+    * Illumina: SPAdes
+* QC: quast, sniffles (SVs) --> mapping ONT back to the assembly
+* single misassmbled repeat (flye) --> __manually corrected__ with proovread (ONT+Ill)
+* rDNA operon typically 7 kb
+* of 270 _Pseudomonas_ genomes, 245 had >30kb repeats and up to 300 500 bp repeats
+* 
+
+## 2019-06-18, 
 
 []()
 
