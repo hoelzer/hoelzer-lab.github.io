@@ -259,8 +259,8 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 # Read
 
-* Phushing Limits of de novo assembly
-    * https://t.co/ZSsiqJVjil?amp=1
+* ganon: continuously up-to-date with database growth for precise short read classification in metagenomics
+    * https://www.biorxiv.org/content/10.1101/406017v2
 
 * A metaanalysis of bat phylogenetics and positive selection based on genomes and transcriptomes from 18 species
     * https://www.pnas.org/content/pnas/early/2019/05/20/1814995116.full.pdf
