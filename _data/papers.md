@@ -240,7 +240,7 @@ old RNA-Seq data by new tools improves the whole analysis!
 * single misassmbled repeat (flye) --> __manually corrected__ with proovread (ONT+Ill)
 * rDNA operon typically 7 kb
 * of 270 _Pseudomonas_ genomes, 245 had >30kb repeats and up to 300 500 bp repeats
-* 
+* list of hard to assemble bacteria (many long repeats), Tab. 5
 
 ## 2019-06-18, 
 
@@ -257,7 +257,33 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 *
 
+## 2019-06-19, 
+
+[]()
+
+<label for="trigger">Show BibTeX</label>
+<input id="trigger" type="checkbox">
+<div class="box">
+<blockquote class="" cite=""> 
+@Article{
+
+}</blockquote>
+</div>
+
+*
 # Read
+
+* Circos: an information aesthetic for comparative genomics.
+    * https://genome.cshlp.org/content/19/9/1639.long
+
+* Comprehensive comparison of Pacific Biosciences and Oxford Nanopore Technologies and their applications to transcriptome analysis
+    * https://f1000researchdata.s3.amazonaws.com/manuscripts/12836/ef4d405a-7dd0-4de7-b4f7-7b222886c1f2_10571_-_kin_fai_au_v2.pdf?doi=10.12688/f1000research.10571.2&numberOfBrowsableCollections=17&numberOfBrowsableGateways=23
+
+* The advantages and disadvantages of short- and long-read metagenomics to infer bacterial and eukaryotic community composition
+    * https://www.biorxiv.org/content/10.1101/650788v2
+
+* Nanopype: A modular and scalable nanopore data processing pipeline
+    * https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz461/5514474#.XQIhqWpUgjA.twitter
 
 * ganon: continuously up-to-date with database growth for precise short read classification in metagenomics
     * https://www.biorxiv.org/content/10.1101/406017v2
