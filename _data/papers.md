@@ -273,6 +273,9 @@ old RNA-Seq data by new tools improves the whole analysis!
 *
 # Read
 
+* A technology-agnostic long-read analysis pipeline for transcriptome discovery and quantification
+    * https://www.biorxiv.org/content/10.1101/672931v1
+
 * Circos: an information aesthetic for comparative genomics.
     * https://genome.cshlp.org/content/19/9/1639.long
 
