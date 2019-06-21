@@ -244,18 +244,27 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 ## 2019-06-18, 
 
-[]()
+[Mikheenko, Alla, and Mikhail Kolmogorov. "Assembly Graph Browser: interactive visualization of assembly graphs." Bioinformatics (2019).](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz072/5306331)
 
 <label for="trigger">Show BibTeX</label>
 <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class="" cite=""> 
-@Article{
-
+@Article{Mikheenko:19,<br />
+  title={Assembly {G}raph {B}rowser: interactive visualization of assembly graphs},<br />
+  author={Mikheenko, Alla and Kolmogorov, Mikhail},<br />
+  journal={Bioinformatics},<br />
+  year={2019}<br />
 }</blockquote>
 </div>
 
-*
+* [GitHub](https://github.com/almiheenko/AGB)
+* most genome assembly projects focus on contigs/scaffolds
+* however, more information is included in the assembly graph that is difficult to explore
+* AGB helps to visualize (large) graphs including repeat analysis, construction of contracted assembly graphs, ...
+* Bandage is also a good tool, but difficult to explore large assembly graphs
+* AGB splits assembly graph in sub-graphs (connected components of the full graph)
+* GFA, FASTG, and Graphviz format allowed
 
 ## 2019-06-19, 
 
@@ -271,7 +280,24 @@ old RNA-Seq data by new tools improves the whole analysis!
 </div>
 
 *
-# Read
+
+## 2019-06-20, 
+
+[]()
+
+<label for="trigger">Show BibTeX</label>
+<input id="trigger" type="checkbox">
+<div class="box">
+<blockquote class="" cite=""> 
+@Article{
+
+}</blockquote>
+</div>
+
+* 
+
+
+# ToDo list
 
 * A technology-agnostic long-read analysis pipeline for transcriptome discovery and quantification
     * https://www.biorxiv.org/content/10.1101/672931v1
@@ -350,3 +376,7 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * Effect of de novo transcriptome assembly on transcript quantification
     * https://www.biorxiv.org/content/10.1101/380998v4
+
+* What are the most influencing factors in reconstructing a reliable transcriptome assembly?
+    * https://www.biorxiv.org/content/10.1101/220269v1
+
