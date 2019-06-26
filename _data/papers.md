@@ -329,6 +329,9 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 # ToDo list
 
+* Increasing the efficiency of long-read sequencing for hybrid assembly with k-mer-based multiplexing
+    * https://www.biorxiv.org/content/10.1101/680827v2
+
 * Towards a gold standard for benchmarking gene set enrichment analysis
     * https://www.biorxiv.org/content/10.1101/674267v1
 
