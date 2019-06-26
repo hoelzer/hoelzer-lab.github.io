@@ -242,7 +242,7 @@ old RNA-Seq data by new tools improves the whole analysis!
 * of 270 _Pseudomonas_ genomes, 245 had >30kb repeats and up to 300 500 bp repeats
 * list of hard to assemble bacteria (many long repeats), Tab. 5
 
-## 2019-06-18, 
+## 2019-06-18, _assembly graph_ | _tool_ | _visualization_
 
 [Mikheenko, Alla, and Mikhail Kolmogorov. "Assembly Graph Browser: interactive visualization of assembly graphs." Bioinformatics (2019).](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz072/5306331)
 
@@ -266,7 +266,37 @@ old RNA-Seq data by new tools improves the whole analysis!
 * AGB splits assembly graph in sub-graphs (connected components of the full graph)
 * GFA, FASTG, and Graphviz format allowed
 
-## 2019-06-19, 
+## 2019-06-19, _genome assembly_ | _tool_ | _visualization_
+
+[Krzywinski, Martin, et al. "Circos: an information aesthetic for comparative genomics." Genome research 19.9 (2009): 1639-1645.](https://genome.cshlp.org/content/19/9/1639.full.pdf+html)
+
+<label for="trigger">Show BibTeX</label>
+<input id="trigger" type="checkbox">
+<div class="box">
+<blockquote class="" cite=""> 
+@Article{Krzywinski:09,<br />
+  title={Circos: an information aesthetic for comparative genomics},<br />
+  author={Krzywinski, Martin and Schein, Jacqueline and Birol, Inanc and Connors, Joseph and Gascoyne, Randy and Horsman, Doug and Jones, Steven J and Marra, Marco A},<br />
+  journal={Genome research},<br />
+  volume={19},<br />
+  number={9},<br />
+  pages={1639--1645},<br />
+  year={2009}<br />
+}</blockquote>
+</div>
+
+* [Circos](http://circos.ca/)
+* circular representation of genomes, annotations, ...
+* visualization is important, we generate new data so fast but lack appropriate methods to analyze, store, and visualize
+    * e.g.: comparative genomics
+* linear representations are difficult to read
+* Circos applies a circular ideogram layout to display relationships between genomic intervals
+* flat-text config files as input are possible
+* input: GFF-style data and Apache-like config files
+* output: PNG and SVG
+* _fazit_ fancy images
+
+## 2019-06-20, 
 
 []()
 
@@ -279,9 +309,9 @@ old RNA-Seq data by new tools improves the whole analysis!
 }</blockquote>
 </div>
 
-*
+* 
 
-## 2019-06-20, 
+## 2019-06-21, 
 
 []()
 
@@ -299,12 +329,18 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 # ToDo list
 
+* Towards a gold standard for benchmarking gene set enrichment analysis
+    * https://www.biorxiv.org/content/10.1101/674267v1
+
+* Current best practices in single-cell RNA-seq analysis: a tutorial
+    * https://www.embopress.org/doi/pdf/10.15252/msb.20188746
+
+* Discovery and inhibition of an interspecies gut bacterial pathway for Levodopa metabolism
+    * https://science.sciencemag.org/content/sci/364/6445/eaau6323.full.pdf
+
 * A technology-agnostic long-read analysis pipeline for transcriptome discovery and quantification
     * https://www.biorxiv.org/content/10.1101/672931v1
     * https://github.com/ENCODE-DCC/long-rna-seq-pipeline
-
-* Circos: an information aesthetic for comparative genomics.
-    * https://genome.cshlp.org/content/19/9/1639.long
 
 * Comprehensive comparison of Pacific Biosciences and Oxford Nanopore Technologies and their applications to transcriptome analysis
     * https://f1000researchdata.s3.amazonaws.com/manuscripts/12836/ef4d405a-7dd0-4de7-b4f7-7b222886c1f2_10571_-_kin_fai_au_v2.pdf?doi=10.12688/f1000research.10571.2&numberOfBrowsableCollections=17&numberOfBrowsableGateways=23
@@ -346,6 +382,7 @@ old RNA-Seq data by new tools improves the whole analysis!
     * https://reader.elsevier.com/reader/sd/pii/S1046202318303803?token=6B56E6005D125657F75FF7A2651B28BF62C680FC2F24D7C3B2EE0034EAFCB86DCAF3B31892D544BF29986452407FC383
 
 * Population level mitogenomics of long-lived bats reveals dynamic heteroplasmy and challenges the free radical theory of ageing.
+    * https://www.nature.com/articles/s41598-018-31093-2.pdf
 
 * Metascape provides a biologist-oriented resource for the analysis of systems-level datasets
     * https://www.nature.com/articles/s41467-019-09234-6
@@ -380,3 +417,8 @@ old RNA-Seq data by new tools improves the whole analysis!
 * What are the most influencing factors in reconstructing a reliable transcriptome assembly?
     * https://www.biorxiv.org/content/10.1101/220269v1
 
+* Assembly-free single-molecule nanopore sequencing recovers complete virus genomes from natural microbial communities
+    * https://www.biorxiv.org/content/10.1101/619684v1
+
+* Performance of neural network basecalling tools for Oxford Nanopore sequencing
+    * https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1727-y
