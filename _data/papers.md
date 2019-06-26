@@ -329,6 +329,9 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 # ToDo list
 
+* Protein-level assembly increases protein sequence recovery from metagenomic samples manyfold
+    * https://www.nature.com/articles/s41592-019-0437-4
+
 * Increasing the efficiency of long-read sequencing for hybrid assembly with k-mer-based multiplexing
     * https://www.biorxiv.org/content/10.1101/680827v2
 
