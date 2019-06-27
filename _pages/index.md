@@ -23,6 +23,7 @@ We work closely with the [RNA Bioinformatics/High-Throughput](https://www.rna.un
 * Transcriptomics & comparative genomics
 * _de novo_ assembly & annotation
 * Microbes & viruses
+* Metagenomics & -transcriptomics
 * Oxford Nanopore Sequencing
 * Non-coding RNA & RNA secondary structure
 * Automation & visualization
