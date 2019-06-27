@@ -329,6 +329,9 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 # ToDo list
 
+* Advantages of meta-total RNA sequencing (MeTRS) over shotgun metagenomics and amplicon-based sequencing in the profiling of complex microbial communities
+    * https://www.nature.com/articles/s41522-017-0046-x
+
 * Protein-level assembly increases protein sequence recovery from metagenomic samples manyfold
     * https://www.nature.com/articles/s41592-019-0437-4
 
