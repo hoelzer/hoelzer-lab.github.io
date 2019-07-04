@@ -28,7 +28,7 @@ We work closely with the [RNA Bioinformatics/High-Throughput](https://www.rna.un
 * Non-coding RNA & RNA secondary structure
 * Automation & visualization
 
-[__A paper per day challenge__](https://hoelzer-lab.github.io/papers)
+<!--[__A paper per day challenge__](https://hoelzer-lab.github.io/papers)-->
 
 <!--
 <br><br>
