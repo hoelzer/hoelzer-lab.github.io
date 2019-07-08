@@ -432,3 +432,5 @@ old RNA-Seq data by new tools improves the whole analysis!
 * Performance of neural network basecalling tools for Oxford Nanopore sequencing
     * https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1727-y
 
+* Transcriptome assembly from long-read RNA-seq alignments with StringTie2
+    * https://www.biorxiv.org/content/10.1101/694554v1
