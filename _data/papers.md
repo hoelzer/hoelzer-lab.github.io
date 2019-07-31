@@ -434,3 +434,6 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * Transcriptome assembly from long-read RNA-seq alignments with StringTie2
     * https://www.biorxiv.org/content/10.1101/694554v1
+
+* Exploring neighborhoods in large metagenome assembly graphs reveals hidden sequence diversity
+    * https://www.biorxiv.org/content/10.1101/462788v2
