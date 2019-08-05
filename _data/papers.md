@@ -437,3 +437,9 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * Exploring neighborhoods in large metagenome assembly graphs reveals hidden sequence diversity
     * https://www.biorxiv.org/content/10.1101/462788v2
+
+* Hybrid metagenomic assembly enables high-resolution analysis of resistance determinants and mobile elements in human microbiomes
+    * https://www.nature.com/articles/s41587-019-0191-2
+
+* Assembly methods for nanopore-based metagenomic sequencing: a comparative study
+    * https://www.biorxiv.org/content/10.1101/722405v1?rss=1
