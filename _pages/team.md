@@ -70,7 +70,6 @@ permalink: /team/
 
 <table align="center" class="table table-condensed">
 <tr><th>Student's project work</th></tr>
-<tr><td>Anne Muriel Christin Ritsch, since Spring 2019</td></tr>
 <tr><td>Jannes Spangenberg, since Spring 2018</td></tr>
 </table>
 
@@ -80,6 +79,7 @@ permalink: /team/
 <tr><td>Marie Lataretu, Summer 2018</td><td>Fabien Vorimore, Winter 2016 & 2017</td></tr>
 <tr><td>Ruman Gerst, Fall 2017</td><td></td></tr>
 <tr><th>Project work</th><th></th></tr>
+<tr><td>Anne Muriel Christin Ritsch, Summer 2019</td></tr>
 <tr><td>Lasse Faber, Spring 2019</td></tr>
 <tr><td>Daria Meyer, Winter 2018</td></tr>
 </table>
