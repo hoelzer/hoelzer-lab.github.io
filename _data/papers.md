@@ -348,6 +348,9 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 # ToDo list
 
+* Large-scale sequence comparisons with sourmash
+    * https://www.biorxiv.org/content/10.1101/687285v1
+
 * Advantages of meta-total RNA sequencing (MeTRS) over shotgun metagenomics and amplicon-based sequencing in the profiling of complex microbial communities
     * https://www.nature.com/articles/s41522-017-0046-x
 
