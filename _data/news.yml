@@ -1,3 +1,5 @@
+- date: 16. August 2019
+  headline: Our tool PCAGO for the interactive analysis and visualization of RNA-Seq expression data (<a target="_blank" href="https://doi.org/10.1101/433078">preprint</a>) can now be simply used <a href="https://hoelzer-lab.github.io/tools/">locally with the help of an Docker image</a>. Thanks, Lasse! 
 - date: 13. August 2019
   headline: Bats are impressive! Our manuscript dealing with the RNA-Seq analysis of cells from a small bat species, <i><a href="https://en.wikipedia.org/wiki/Daubenton%27s_bat">Myotis daubentonii</a></i>, got accepted in <a href="https://www.cell.com/iscience/fulltext/S2589-0042(19)30294-9#secsectitle0020">iScience</a>! We investigated the transcriptome response to a viral infection or stimulation with interferon (IFN) at two time points. Many thanks to our partners at the <a href="https://www.uni-giessen.de/fbz/fb10/institute_klinikum/institute/virologie/forschung/ag-weber">Institute for Virology, JLU Giessen</a>.     
 - date: 26. June 2019
