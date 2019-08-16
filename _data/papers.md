@@ -298,7 +298,7 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 ## 2019-06-20, 
 
-[]()
+[Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype]()
 
 <label for="trigger">Show BibTeX</label>
 <input id="trigger" type="checkbox">
@@ -309,11 +309,22 @@ old RNA-Seq data by new tools improves the whole analysis!
 }</blockquote>
 </div>
 
-* 
+* human ref genome  represents only few individuals, limiting its usage for genotyping
+* HISAT2 using a Ferragina Manzini index
+* used HISAT2 to search an expanded model of the human genome including 14.5 million SNVs, thus representing a population of genomes
+* human ref genome does not reflect the diversity of individuals or populations
+* genome indexing scheme using a graph-based approach to incorporate SNVs
+* usage of small sub-genome indexes (~57kb each)
+* only 50-60% slower HISAT2 mapping when incoporating million of SNVs
+* greater aln accuracy for reads w/ SNPs
+* indexing repeat sequences to have a memory-less representation of multiple mapped reads
+* a genotype-genome build by HISAT-genotype should only be used for genotyping!
+* using HISAT2.graph increased aln rates by 1-5% and is fastest
+* per default up to 3 mismatches (known SNPs are not counted as mismatches)
 
 ## 2019-06-21, 
 
-[]()
+[Assembly methods for nanopore-based metagenomic sequencing: a comparative study]()
 
 <label for="trigger">Show BibTeX</label>
 <input id="trigger" type="checkbox">
@@ -324,7 +335,15 @@ old RNA-Seq data by new tools improves the whole analysis!
 }</blockquote>
 </div>
 
-* 
+* short reads result often in highly fragmented metagenomes, long reads can help
+* but: which available assembly tool might work good?
+* two commercially available mock communities
+* _flye_ and _canu_ performed well in all data sets tested
+* metagenomes: existence of intergenomic repeats makes short-read assembly even more difficult
+* ont is more frequently used, however, evaluations are mainly done for single bacterial genomes and not metagenomes
+* all reads trimmed with porechop
+* six short- and six long-read tools
+* nanopore sequences polished with Illumina reads had a similar error profile to MiSeq-only assemblies (Goldstein 2019)
 
 
 # ToDo list
@@ -434,3 +453,21 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * Performance of neural network basecalling tools for Oxford Nanopore sequencing
     * https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1727-y
+
+* Transcriptome assembly from long-read RNA-seq alignments with StringTie2
+    * https://www.biorxiv.org/content/10.1101/694554v1
+
+* Exploring neighborhoods in large metagenome assembly graphs reveals hidden sequence diversity
+    * https://www.biorxiv.org/content/10.1101/462788v2
+
+* Hybrid metagenomic assembly enables high-resolution analysis of resistance determinants and mobile elements in human microbiomes
+    * https://www.nature.com/articles/s41587-019-0191-2
+
+* FORGe: prioritizing variants for graph genomes
+    * https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1595-x
+
+* Metagenomic binning and association of plasmids with bacterial host genomes using DNA methylation
+    * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5762413/pdf/nihms920168.pdf
+
+* Isolation of an archaeon at the prokaryote-eukaryote interface
+    * https://www.biorxiv.org/content/biorxiv/early/2019/08/06/726976.full.pdf
