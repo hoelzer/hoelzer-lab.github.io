@@ -468,3 +468,9 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * Isolation of an archaeon at the prokaryote-eukaryote interface
     * https://www.biorxiv.org/content/biorxiv/early/2019/08/06/726976.full.pdf
+
+* The evaluation of RNA-Seq de novo assembly by PacBio long read sequencing 
+    * https://www.biorxiv.org/content/10.1101/735621v1
+
+* Defining the human gut host–phage network through single-cell viral tagging
+    * https://www.nature.com/articles/s41564-019-0526-2
