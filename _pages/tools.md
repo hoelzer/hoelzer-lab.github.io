@@ -17,7 +17,7 @@ Interactive web service that allows analysis of RNA-Seq read count data with PCA
 - [Go to web server](https://pcago.bioinf.uni-jena.de/)
 - [Source code @GitHub](https://github.com/hoelzer-lab/pcago)
 - [Run PCAGO as standalone desktop application using the Electron framework](https://github.com/rumangerst/pcago-unified/tree/master/src-electron)
-- __NEW: Run PCAGO locally using Docker:__ (thx lasse!)
+- __Recommendation__: run PCAGO locally using Docker (thx Lasse!)
 
 </div><div class="col-sm-6 clearfix">
 [![PCAGO Logo](/assets/tools/pcago.png)](https://pcago.bioinf.uni-jena.de/)
@@ -25,15 +25,17 @@ Interactive web service that allows analysis of RNA-Seq read count data with PCA
 
 We recommend to use [Docker](https://www.docker.com/) to run PCAGO on your local machine. If Docker is installed on your system, simply run:
 
-```
-docker run --rm --network="host" -expose=8000 --user $(id -u):$(id -g) -it mhoelzer/pcago:1.0--8c5dd42 ./run_packrat.sh
-```
+<code>
+docker run --rm -it --network="host" -expose=8000 mhoelzer/pcago:1.0--8c5dd42 ./run_packrat.sh
+</code>
 
-If you execute this on a server, simply connect to this server with port forwarding (not needed on your local machine):
+Depending on your system permissions you might need to add <code>--user $(id -u):$(id -g)</code> as a parameter.
 
-```
+If you execute the Docker image on a server, simply connect to this server with port forwarding (not needed on your local machine):
+
+<code>
 ssh -L 8000:127.0.0.1:8000 your@your.server.com
-```
+</code>
 
 In both cases you will then be able to access PCAGO via the following address in your browser: http://127.0.0.1:8000
 
