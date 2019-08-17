@@ -16,7 +16,7 @@ Interactive web service that allows analysis of RNA-Seq read count data with PCA
 
 - [Go to web server](https://pcago.bioinf.uni-jena.de/)
 - [Source code @GitHub](https://github.com/hoelzer-lab/pcago)
-- [Run PCAGO as standalone desktop application using the Electron framework](https://github.com/rumangerst/pcago-unified/tree/master/src-electron)
+- [Run PCAGO as standalone desktop application using the Electron framework](https://github.com/hoelzer-lab/pcago/tree/master/src-electron)
 - __Recommendation__: run PCAGO locally using Docker (thx Lasse!)
 
 </div><div class="col-sm-6 clearfix">
@@ -38,6 +38,8 @@ ssh -L 8000:127.0.0.1:8000 your@your.server.com
 </code>
 
 In both cases you will then be able to access PCAGO via the following address in your browser: http://127.0.0.1:8000
+
+Attention: currently the Docker image seems not to work under Mac. 
 
 - [Preprint @bioRxiv](https://doi.org/10.1101/433078)
 
