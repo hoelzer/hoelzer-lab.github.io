@@ -12,7 +12,7 @@ permalink: /tools/
 
 ### PCAGO
 
-Interactive web service that allows analysis of RNA-Seq read count data with PCA and clustering.
+Interactive web service that allows analysis of RNA-Seq read count data with [https://towardsdatascience.com/a-step-by-step-explanation-of-principal-component-analysis-b836fb9c97e2](PCA) and clustering.
 
 - [Go to web server](https://pcago.bioinf.uni-jena.de/)
 - [Source code @GitHub](https://github.com/hoelzer-lab/pcago)
