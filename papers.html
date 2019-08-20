@@ -1,15 +1,23 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>A paper per day</title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="pandoc.css" type="text/css" />
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="pandoc.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
-<div id="TOC">
+<nav id="TOC">
 <ul>
 <li><a href="#a-paper-per-day">A paper per day</a><ul>
 <li><a href="#metagenomics-web-service">2019-06-07, <em>metagenomics</em> | <em>web service</em></a></li>
@@ -21,22 +29,22 @@
 <li><a href="#genome-assembly-prokaryotic-de-novo">2019-06-17, <em>genome assembly</em> | <em>prokaryotic</em> | <em>de novo</em></a></li>
 <li><a href="#assembly-graph-tool-visualization">2019-06-18, <em>assembly graph</em> | <em>tool</em> | <em>visualization</em></a></li>
 <li><a href="#genome-assembly-tool-visualization">2019-06-19, <em>genome assembly</em> | <em>tool</em> | <em>visualization</em></a></li>
-<li><a href="#section">2019-06-20,</a></li>
-<li><a href="#section-1">2019-06-21,</a></li>
+<li><a href="#mapping-graph-based-genotyping-hisat2">2019-06-20, <em>Mapping</em> | <em>graph-based</em> | <em>genotyping</em> | <em>HISAT2</em></a></li>
+<li><a href="#assembly-metagenomics-tool-comparison">2019-06-21, <em>Assembly</em> | <em>Metagenomics</em> | <em>Tool comparison</em></a></li>
 </ul></li>
 <li><a href="#todo-list">ToDo list</a></li>
 </ul>
-</div>
+</nav>
 <h1 id="a-paper-per-day">A paper per day</h1>
 <p>To succeed in science, reading is of paramount importance. However, I always lack the time (or I find other excuses) to read all the interesting sounding manuscripts I stumble across every day on Twitter or bioRxiv. Inspired by a tweet of @<a href="https://twitter.com/BeAScientist/status/1136657979317448705">BeAScientist</a> I will challenge myself to read <em>a scientific paper per (work)day</em>.</p>
-<p>I'm trying to update this list to 1) keep track of myself, 2) provide some <a href="https://www.urbandictionary.com/define.php?term=tl%3Bdr">TL;DR</a> notes for the impatient and for me to rember, and 3) perhaps inspire others to do the same and to join the <em>a paper per day</em> challenge.</p>
+<p>I’m trying to update this list to 1) keep track of myself, 2) provide some <a href="https://www.urbandictionary.com/define.php?term=tl%3Bdr">TL;DR</a> notes for the impatient and for me to rember, and 3) perhaps inspire others to do the same and to join the <em>a paper per day</em> challenge.</p>
 <p><em>Martin Hölzer</em></p>
 <h2 id="metagenomics-web-service">2019-06-07, <em>metagenomics</em> | <em>web service</em></h2>
-<p><a href="https://academic.oup.com/nar/article/46/D1/D726/4561650">Mitchell, Alex L., et al. &quot;EBI Metagenomics in 2017: enriching the analysis of microbial communities, from sequence reads to assemblies.&quot; Nucleic acids research 46.D1 (2017): D726-D735.</a></p>
+<p><a href="https://academic.oup.com/nar/article/46/D1/D726/4561650">Mitchell, Alex L., et al. “EBI Metagenomics in 2017: enriching the analysis of microbial communities, from sequence reads to assemblies.” Nucleic acids research 46.D1 (2017): D726-D735.</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<span class="citation">@article</span>{Mitchell:17,<br /> title={{E}{B}{I} {M}etagenomics in 2017: enriching the analysis of microbial communities, from sequence reads to assemblies},<br /> author={Mitchell, Alex L and Scheremetjew, Maxim and Denise, Hubert and Potter, Simon and Tarkowska, Aleksandra and Qureshi, Matloob and Salazar, Gustavo A and Pesseat, Sebastien and Boland, Miguel A and Hunter, Fiona M I and others},<br /> journal={Nucleic Acids Res},<br /> volume={46},<br /> number={D1},<br /> pages={D726--D735},<br /> year={2017},<br /> }
+<span class="citation" data-cites="article">@article</span>{Mitchell:17,<br /> title={{E}{B}{I} {M}etagenomics in 2017: enriching the analysis of microbial communities, from sequence reads to assemblies},<br /> author={Mitchell, Alex L and Scheremetjew, Maxim and Denise, Hubert and Potter, Simon and Tarkowska, Aleksandra and Qureshi, Matloob and Salazar, Gustavo A and Pesseat, Sebastien and Boland, Miguel A and Hunter, Fiona M I and others},<br /> journal={Nucleic Acids Res},<br /> volume={46},<br /> number={D1},<br /> pages={D726–D735},<br /> year={2017},<br /> }
 </blockquote>
 </div>
 <ul>
@@ -44,29 +52,29 @@
 <li>the paper presents updates from the last 2 years (~2015-2017) to the service, <a href="https://www.ebi.ac.uk/metagenomics/">MGnify</a></li>
 <li>analyis and archive sequencing data from microbial environments</li>
 <li>new: taxonomic assignment by 16S and 23S rRNA assignments using Infernal and Rfam</li>
-<li>also new: metagenomic assembly (w metaSPAdes, MEGAHIT and Minia) upon request --&gt; 50mio non-redundant protein sequences
+<li>also new: metagenomic assembly (w metaSPAdes, MEGAHIT and Minia) upon request –&gt; 50mio non-redundant protein sequences
 <ul>
 <li>selection of optimal assembly pipeline using a neural network</li>
 </ul></li>
 <li>metagenome analysis problems
 <ul>
 <li>need high computational power</li>
-<li>different tools/pipelines --&gt; hard to compare results</li>
+<li>different tools/pipelines –&gt; hard to compare results</li>
 </ul></li>
 <li>majority of data is 16S rRNA amplicons, followed by WGS</li>
 <li>improved search interface</li>
 </ul>
 <h2 id="transcriptomics-tool">2019-06-08, <em>transcriptomics</em> | <em>tool</em></h2>
-<p><a href="https://academic.oup.com/bioinformatics/article/35/11/1960/5150437#.XPnnedggr9c.twitter">Vera Alvarez, Roberto, et al. &quot;TPMCalculator: one-step software to quantify mRNA abundance of genomic features.&quot; Bioinformatics (2018).</a></p>
+<p><a href="https://academic.oup.com/bioinformatics/article/35/11/1960/5150437#.XPnnedggr9c.twitter">Vera Alvarez, Roberto, et al. “TPMCalculator: one-step software to quantify mRNA abundance of genomic features.” Bioinformatics (2018).</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<span class="citation">@article</span>{Vera:18,<br /> title={{T}{P}{M}{C}alculator: one-step software to quantify m{R}{N}{A} abundance of genomic features},<br /> author={Vera Alvarez, Roberto and Pongor, Lorinc Sandor and Mari{~n}o-Ram{'}rez, Leonardo and Landsman, David},<br /> journal={Bioinformatics},<br /> year={2018}<br /> }
+<span class="citation" data-cites="article">@article</span>{Vera:18,<br /> title={{T}{P}{M}{C}alculator: one-step software to quantify m{R}{N}{A} abundance of genomic features},<br /> author={Vera Alvarez, Roberto and Pongor, Lorinc Sandor and Mari{~n}o-Ram{'}rez, Leonardo and Landsman, David},<br /> journal={Bioinformatics},<br /> year={2018}<br /> }
 </blockquote>
 </div>
 <ul>
 <li>input: BAM, output: TPM values, raw counts, feature lengths for genes, transcripts, exons and introns</li>
-<li><a href="https://github.com/ncbi/TPMCalculator" class="uri">https://github.com/ncbi/TPMCalculator</a></li>
+<li><a href="https://github.com/ncbi/TPMCalculator">https://github.com/ncbi/TPMCalculator</a></li>
 <li>RNA-Seq raw count normalization evolved from RPKM, FPKM, to TPM
 <ul>
 <li>R/F-PKM are biased when comparing multiple samples</li>
@@ -74,11 +82,11 @@
 </ul></li>
 </ul>
 <h2 id="transriptomics-bats-mirna-longevity">2019-06-11, <em>transriptomics</em> | <em>bats</em> | <em>miRNA</em> | <em>longevity</em></h2>
-<p><a href="https://sci-hub.tw/10.1038/s41559-019-0913-3">Zixia Huang et al. &quot;Longitudinal comparative transcriptomics reveals unique mechanisms underlying extended healthspan in bats.&quot; Nature Ecology &amp; Evolution (2019).</a></p>
+<p><a href="https://sci-hub.tw/10.1038/s41559-019-0913-3">Zixia Huang et al. “Longitudinal comparative transcriptomics reveals unique mechanisms underlying extended healthspan in bats.” Nature Ecology &amp; Evolution (2019).</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<span class="citation">@Article</span>{Huang:19,<br /> author = {Huang, Zixia and Whelan, Conor V and Foley, Nicole M and Jebb, David and Touzalin, Fr{'e}d{'e}ric and Petit, Eric J and Puechmaille, S{'e}bastien J and Teeling, Emma C},<br /> title = {Longitudinal comparative transcriptomics reveals unique mechanisms underlying extended healthspan in bats},<br /> journal = {Nat Ecol Evol},<br /> year = {2019},<br /> }
+<span class="citation" data-cites="Article">@Article</span>{Huang:19,<br /> author = {Huang, Zixia and Whelan, Conor V and Foley, Nicole M and Jebb, David and Touzalin, Fr{'e}d{'e}ric and Petit, Eric J and Puechmaille, S{'e}bastien J and Teeling, Emma C},<br /> title = {Longitudinal comparative transcriptomics reveals unique mechanisms underlying extended healthspan in bats},<br /> journal = {Nat Ecol Evol},<br /> year = {2019},<br /> }
 </blockquote>
 </div>
 <ul>
@@ -99,7 +107,7 @@
 <li>50mill reads, 2x 125bp</li>
 <li>8mill reads, 1x 50bp for small</li>
 <li>100 transcriptomes, 50 miRNomes from 150 blood samples</li>
-<li>TopHat, Cufflinks, ...</li>
+<li>TopHat, Cufflinks, …</li>
 <li>Metascape for functional enrichment analysis</li>
 <li>miRNA-mRNA interaction analysis: ExUTR, miRanda</li>
 <li>raw data: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA503704</li>
@@ -111,11 +119,11 @@
 </ul></li>
 </ul>
 <h2 id="metagenomics-assembly-tool">2019-06-12, <em>metagenomics</em> | <em>assembly</em> | <em>tool</em></h2>
-<p><a href="https://academic.oup.com/bioinformatics/article/31/10/1674/177884">Li, Dinghua, et al. &quot;MEGAHIT: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph.&quot; Bioinformatics 31.10 (2015): 1674-1676.</a></p>
+<p><a href="https://academic.oup.com/bioinformatics/article/31/10/1674/177884">Li, Dinghua, et al. “MEGAHIT: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph.” Bioinformatics 31.10 (2015): 1674-1676.</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<span class="citation">@Article</span>{Li:15,<br /> title={{MEGAHIT}: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de {B}ruijn graph},<br /> author={Li, Dinghua and Liu, Chi-Man and Luo, Ruibang and Sadakane, Kunihiko and Lam, Tak-Wah},<br /> journal={Bioinformatics},<br /> volume={31},<br /> number={10},<br /> pages={1674--1676},<br /> year={2015}<br /> }
+<span class="citation" data-cites="Article">@Article</span>{Li:15,<br /> title={{MEGAHIT}: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de {B}ruijn graph},<br /> author={Li, Dinghua and Liu, Chi-Man and Luo, Ruibang and Sadakane, Kunihiko and Lam, Tak-Wah},<br /> journal={Bioinformatics},<br /> volume={31},<br /> number={10},<br /> pages={1674–1676},<br /> year={2015}<br /> }
 </blockquote>
 </div>
 <ul>
@@ -126,11 +134,11 @@
 <li>build SdBGs iteratively from a small to a large <em>k</em>-mer</li>
 </ul>
 <h2 id="metagenomics-pipeline">2019-06-13, <em>metagenomics</em> | <em>pipeline</em></h2>
-<p><a href="https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1">Uritskiy, Gherman V., Jocelyne DiRuggiero, and James Taylor. &quot;MetaWRAP—a flexible pipeline for genome-resolved metagenomic data analysis.&quot; Microbiome 6.1 (2018): 158.</a></p>
+<p><a href="https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1">Uritskiy, Gherman V., Jocelyne DiRuggiero, and James Taylor. “MetaWRAP—a flexible pipeline for genome-resolved metagenomic data analysis.” Microbiome 6.1 (2018): 158.</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<span class="citation">@Article</span>{Uritskiy:18,<br /> title={Meta{WRAP} - a flexible pipeline for genome-resolved metagenomic data analysis},<br /> author={Uritskiy, Gherman V and DiRuggiero, Jocelyne and Taylor, James},<br /> journal={Microbiome},<br /> volume={6},<br /> number={1},<br /> pages={158},<br /> year={2018},<br /> publisher={BioMed Central}<br /> }
+<span class="citation" data-cites="Article">@Article</span>{Uritskiy:18,<br /> title={Meta{WRAP} - a flexible pipeline for genome-resolved metagenomic data analysis},<br /> author={Uritskiy, Gherman V and DiRuggiero, Jocelyne and Taylor, James},<br /> journal={Microbiome},<br /> volume={6},<br /> number={1},<br /> pages={158},<br /> year={2018},<br /> publisher={BioMed Central}<br /> }
 </blockquote>
 </div>
 <ul>
@@ -138,7 +146,7 @@
 <li><a href="https://github.com/bxlab/metaWRAP">MetaWRAP</a></li>
 <li>extract individual draft genomes (bins)</li>
 <li>from raw reads to metagenomic bins</li>
-<li>binning: often clustering togehter similar scaffolds e.g. by <em>k</em>-mer, codon usage, and similar coverage</li>
+<li>binning: often clustering togehter similar scaffolds e.g. by <em>k</em>-mer, codon usage, and similar coverage</li>
 <li>highly modular, each modul is a shell script</li>
 <li>custom python2.7 scripts</li>
 <li>conda, docker</li>
@@ -157,11 +165,11 @@
 <li>Bin_refinement module produced 235, 175, and 134 acceptable quality bins in the water, gut, and soil samples</li>
 </ul>
 <h2 id="meta-transcriptomics-pipeline-re-assembly">2019-06-14, <em>meta-transcriptomics</em> | <em>pipeline</em> | <em>re-assembly</em></h2>
-<p><a href="https://academic.oup.com/gigascience/article/8/4/giy158/5241890">Johnson, Lisa Kristine, Harriet Alexander, and C. Titus Brown. &quot;Re-assembly, quality evaluation, and annotation of 678 microbial eukaryotic reference transcriptomes.&quot; GigaScience (2018): giy158.</a></p>
+<p><a href="https://academic.oup.com/gigascience/article/8/4/giy158/5241890">Johnson, Lisa Kristine, Harriet Alexander, and C. Titus Brown. “Re-assembly, quality evaluation, and annotation of 678 microbial eukaryotic reference transcriptomes.” GigaScience (2018): giy158.</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<span class="citation">@article</span>{Johnson:18,<br /> title={Re-assembly, quality evaluation, and annotation of 678 microbial eukaryotic reference transcriptomes},<br /> author={Johnson, Lisa Kristine and Alexander, Harriet and Brown, C Titus},<br /> journal={GigaScience},<br /> volume={8},<br /> number={4},<br /> pages={giy158},<br /> year={2018}<br /> }
+<span class="citation" data-cites="article">@article</span>{Johnson:18,<br /> title={Re-assembly, quality evaluation, and annotation of 678 microbial eukaryotic reference transcriptomes},<br /> author={Johnson, Lisa Kristine and Alexander, Harriet and Brown, C Titus},<br /> journal={GigaScience},<br /> volume={8},<br /> number={4},<br /> pages={giy158},<br /> year={2018}<br /> }
 </blockquote>
 </div>
 <p>With the growing volume of sequencing data, the development of reusable software is becoming increasingly important. A great demonstration of how re-assembly of old RNA-Seq data by new tools improves the whole analysis!</p>
@@ -171,7 +179,7 @@
 <li>newer transcriptome assemblies contained the majority of previous contigs as well as new content, ~8% more genes</li>
 <li>no single “best” reference transcriptome</li>
 <li>we need pipelines to re-assemble!</li>
-<li>Trimmomatic -- khmer -- Trinity v2.2.0</li>
+<li>Trimmomatic – khmer – Trinity v2.2.0</li>
 <li>re-analyzed 678 samples of sequenced marine protists, spanning more than 40 eukaryotic phyla (<a href="https://github.com/dib-lab/dib-MMETSP">MMETSP</a>)</li>
 <li>raw reads: <a href="https://www.ncbi.nlm.nih.gov/bioproject?term=PRJNA231566">PRJNA231566</a></li>
 <li>previously assembled with Trans-ABySS</li>
@@ -180,11 +188,11 @@
 <li>Trinity-based re-assemblies generally outperform Trans-ABySS-based assemblies</li>
 </ul>
 <h2 id="genome-assembly-prokaryotic-de-novo">2019-06-17, <em>genome assembly</em> | <em>prokaryotic</em> | <em>de novo</em></h2>
-<p><a href="https://academic.oup.com/nar/article/46/17/8953/5078241">Schmid, Michael, et al. &quot;Pushing the limits of de novo genome assembly for complex prokaryotic genomes harboring very long, near identical repeats.&quot; Nucleic acids research 46.17 (2018): 8953-8965.</a></p>
+<p><a href="https://academic.oup.com/nar/article/46/17/8953/5078241">Schmid, Michael, et al. “Pushing the limits of de novo genome assembly for complex prokaryotic genomes harboring very long, near identical repeats.” Nucleic acids research 46.17 (2018): 8953-8965.</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<span class="citation">@Article</span>{schmid2018pushing,<br /> title={Pushing the limits of  genome assembly for complex prokaryotic genomes harboring very long, near identical repeats},<br /> author={Schmid, Michael and Frei, Daniel and Patrignani, Andrea and Schlapbach, Ralph and Frey, Juerg E and Remus-Emsermann, Mitja NP and Ahrens, Christian H},<br /> journal={Nucleic Acids Res},<br /> volume={46},<br /> number={17},<br /> pages={8953--8965},<br /> year={2018},<br /> publisher={Oxford University Press}<br /> }
+<span class="citation" data-cites="Article">@Article</span>{schmid2018pushing,<br /> title={Pushing the limits of  genome assembly for complex prokaryotic genomes harboring very long, near identical repeats},<br /> author={Schmid, Michael and Frei, Daniel and Patrignani, Andrea and Schlapbach, Ralph and Frey, Juerg E and Remus-Emsermann, Mitja NP and Ahrens, Christian H},<br /> journal={Nucleic Acids Res},<br /> volume={46},<br /> number={17},<br /> pages={8953–8965},<br /> year={2018},<br /> publisher={Oxford University Press}<br /> }
 </blockquote>
 </div>
 <ul>
@@ -199,40 +207,40 @@
 <li>ONT reads: were filtered (&gt;30kb) and assembled w/ Flye followed by three Racon runs and a last Illumina-based polishing using FreeBayes</li>
 <li>Illumina: SPAdes</li>
 </ul></li>
-<li>QC: quast, sniffles (SVs) --&gt; mapping ONT back to the assembly</li>
-<li>single misassmbled repeat (flye) --&gt; <strong>manually corrected</strong> with proovread (ONT+Ill)</li>
+<li>QC: quast, sniffles (SVs) –&gt; mapping ONT back to the assembly</li>
+<li>single misassmbled repeat (flye) –&gt; <strong>manually corrected</strong> with proovread (ONT+Ill)</li>
 <li>rDNA operon typically 7 kb</li>
 <li>of 270 <em>Pseudomonas</em> genomes, 245 had &gt;30kb repeats and up to 300 500 bp repeats</li>
 <li>list of hard to assemble bacteria (many long repeats), Tab. 5</li>
 </ul>
 <h2 id="assembly-graph-tool-visualization">2019-06-18, <em>assembly graph</em> | <em>tool</em> | <em>visualization</em></h2>
-<p><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz072/5306331">Mikheenko, Alla, and Mikhail Kolmogorov. &quot;Assembly Graph Browser: interactive visualization of assembly graphs.&quot; Bioinformatics (2019).</a></p>
+<p><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz072/5306331">Mikheenko, Alla, and Mikhail Kolmogorov. “Assembly Graph Browser: interactive visualization of assembly graphs.” Bioinformatics (2019).</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<span class="citation">@Article</span>{Mikheenko:19,<br /> title={Assembly {G}raph {B}rowser: interactive visualization of assembly graphs},<br /> author={Mikheenko, Alla and Kolmogorov, Mikhail},<br /> journal={Bioinformatics},<br /> year={2019}<br /> }
+<span class="citation" data-cites="Article">@Article</span>{Mikheenko:19,<br /> title={Assembly {G}raph {B}rowser: interactive visualization of assembly graphs},<br /> author={Mikheenko, Alla and Kolmogorov, Mikhail},<br /> journal={Bioinformatics},<br /> year={2019}<br /> }
 </blockquote>
 </div>
 <ul>
 <li><a href="https://github.com/almiheenko/AGB">GitHub</a></li>
 <li>most genome assembly projects focus on contigs/scaffolds</li>
 <li>however, more information is included in the assembly graph that is difficult to explore</li>
-<li>AGB helps to visualize (large) graphs including repeat analysis, construction of contracted assembly graphs, ...</li>
+<li>AGB helps to visualize (large) graphs including repeat analysis, construction of contracted assembly graphs, …</li>
 <li>Bandage is also a good tool, but difficult to explore large assembly graphs</li>
 <li>AGB splits assembly graph in sub-graphs (connected components of the full graph)</li>
 <li>GFA, FASTG, and Graphviz format allowed</li>
 </ul>
 <h2 id="genome-assembly-tool-visualization">2019-06-19, <em>genome assembly</em> | <em>tool</em> | <em>visualization</em></h2>
-<p><a href="https://genome.cshlp.org/content/19/9/1639.full.pdf+html">Krzywinski, Martin, et al. &quot;Circos: an information aesthetic for comparative genomics.&quot; Genome research 19.9 (2009): 1639-1645.</a></p>
+<p><a href="https://genome.cshlp.org/content/19/9/1639.full.pdf+html">Krzywinski, Martin, et al. “Circos: an information aesthetic for comparative genomics.” Genome research 19.9 (2009): 1639-1645.</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<span class="citation">@Article</span>{Krzywinski:09,<br /> title={Circos: an information aesthetic for comparative genomics},<br /> author={Krzywinski, Martin and Schein, Jacqueline and Birol, Inanc and Connors, Joseph and Gascoyne, Randy and Horsman, Doug and Jones, Steven J and Marra, Marco A},<br /> journal={Genome research},<br /> volume={19},<br /> number={9},<br /> pages={1639--1645},<br /> year={2009}<br /> }
+<span class="citation" data-cites="Article">@Article</span>{Krzywinski:09,<br /> title={Circos: an information aesthetic for comparative genomics},<br /> author={Krzywinski, Martin and Schein, Jacqueline and Birol, Inanc and Connors, Joseph and Gascoyne, Randy and Horsman, Doug and Jones, Steven J and Marra, Marco A},<br /> journal={Genome research},<br /> volume={19},<br /> number={9},<br /> pages={1639–1645},<br /> year={2009}<br /> }
 </blockquote>
 </div>
 <ul>
 <li><a href="http://circos.ca/">Circos</a></li>
-<li>circular representation of genomes, annotations, ...</li>
+<li>circular representation of genomes, annotations, …</li>
 <li>visualization is important, we generate new data so fast but lack appropriate methods to analyze, store, and visualize
 <ul>
 <li>e.g.: comparative genomics</li>
@@ -244,12 +252,12 @@
 <li>output: PNG and SVG</li>
 <li><em>fazit</em> fancy images</li>
 </ul>
-<h2 id="section">2019-06-20,</h2>
+<h2 id="mapping-graph-based-genotyping-hisat2">2019-06-20, <em>Mapping</em> | <em>graph-based</em> | <em>genotyping</em> | <em>HISAT2</em></h2>
 <p><a href="">Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<p><span class="citation">@Article</span>{</p>
+<p><span class="citation" data-cites="Article">@Article</span>{</p>
 }
 </blockquote>
 </div>
@@ -267,12 +275,12 @@
 <li>using HISAT2.graph increased aln rates by 1-5% and is fastest</li>
 <li>per default up to 3 mismatches (known SNPs are not counted as mismatches)</li>
 </ul>
-<h2 id="section-1">2019-06-21,</h2>
+<h2 id="assembly-metagenomics-tool-comparison">2019-06-21, <em>Assembly</em> | <em>Metagenomics</em> | <em>Tool comparison</em></h2>
 <p><a href="">Assembly methods for nanopore-based metagenomic sequencing: a comparative study</a></p>
 <label for="trigger">Show BibTeX</label> <input id="trigger" type="checkbox">
 <div class="box">
 <blockquote class cite>
-<p><span class="citation">@Article</span>{</p>
+<p><span class="citation" data-cites="Article">@Article</span>{</p>
 }
 </blockquote>
 </div>
@@ -289,6 +297,10 @@
 </ul>
 <h1 id="todo-list">ToDo list</h1>
 <ul>
+<li>Large-scale sequence comparisons with sourmash
+<ul>
+<li>https://www.biorxiv.org/content/10.1101/687285v1</li>
+</ul></li>
 <li>Advantages of meta-total RNA sequencing (MeTRS) over shotgun metagenomics and amplicon-based sequencing in the profiling of complex microbial communities
 <ul>
 <li>https://www.nature.com/articles/s41522-017-0046-x</li>
@@ -449,6 +461,14 @@
 <li>Isolation of an archaeon at the prokaryote-eukaryote interface
 <ul>
 <li>https://www.biorxiv.org/content/biorxiv/early/2019/08/06/726976.full.pdf</li>
+</ul></li>
+<li>The evaluation of RNA-Seq de novo assembly by PacBio long read sequencing
+<ul>
+<li>https://www.biorxiv.org/content/10.1101/735621v1</li>
+</ul></li>
+<li>Defining the human gut host–phage network through single-cell viral tagging
+<ul>
+<li>https://www.nature.com/articles/s41564-019-0526-2</li>
 </ul></li>
 </ul>
 </body>

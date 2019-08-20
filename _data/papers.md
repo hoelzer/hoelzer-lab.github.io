@@ -296,7 +296,7 @@ old RNA-Seq data by new tools improves the whole analysis!
 * output: PNG and SVG
 * _fazit_ fancy images
 
-## 2019-06-20, 
+## 2019-06-20, _Mapping_ | _graph-based_ | _genotyping_ | _HISAT2_
 
 [Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype]()
 
@@ -322,7 +322,7 @@ old RNA-Seq data by new tools improves the whole analysis!
 * using HISAT2.graph increased aln rates by 1-5% and is fastest
 * per default up to 3 mismatches (known SNPs are not counted as mismatches)
 
-## 2019-06-21, 
+## 2019-06-21, _Assembly_ | _Metagenomics_ | _Tool comparison_
 
 [Assembly methods for nanopore-based metagenomic sequencing: a comparative study]()
 
