@@ -477,3 +477,6 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * Defining the human gut host–phage network through single-cell viral tagging
     * https://www.nature.com/articles/s41564-019-0526-2
+
+* ATLAS: a Snakemake workflow for assembly, annotation, and genomic binning of metagenome sequence data
+    * https://www.biorxiv.org/content/10.1101/737528v1
