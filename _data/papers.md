@@ -480,3 +480,6 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * ATLAS: a Snakemake workflow for assembly, annotation, and genomic binning of metagenome sequence data
     * https://www.biorxiv.org/content/10.1101/737528v1
+
+* N6-methyladenosine RNA modification–mediated cellular metabolism rewiring inhibits viral replication
+    * https://science.sciencemag.org/content/early/2019/08/21/science.aax4468
