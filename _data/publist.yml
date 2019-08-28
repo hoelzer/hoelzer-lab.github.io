@@ -58,6 +58,30 @@
     url: https://www.cell.com/iscience/fulltext/S2589-0042(19)30294-9#secsectitle0020
     display: iScience
 
+- title: "Direct RNA nanopore sequencing of full-length coronavirus genomes provides novel insights into structural variants and enables modification analysis."
+  authors: Adrian Viehweger, <b>Sebastian Krautwurst</b>, Kevin Lamkiewicz, Ramakanth Madhugiri, John Ziebuhr, <b>Martin Hölzer</b>, Manja Marz
+  year: 2019
+  preprint: 0
+  submitted: 0
+  book: 0
+  supp: https://doi.org/10.17605/OSF.IO/UP7B4
+  acknow: 0
+  link:
+    url: https://genome.cshlp.org/content/early/2019/08/22/gr.247064.118.full.pdf+html
+    display: Genome Research
+
+- title: "A comprehensive annotation and differential expression analysis of short and long non-coding RNAs in 16 bat genomes"
+  authors: Nelly Mostajo Berrospi, Marie Lataretu, <b>Sebastian Krautwurst</b>, Florian Mock, Daniel Desir{\`o}, Kevin Lamkiewicz, <b>Maximilian Collatz</b>, Andreas Schoen *et al*.
+  year: 2019
+  preprint: 0
+  submitted: 2
+  book: 0
+  supp: http://www.rna.uni-jena.de/supplements/bats
+  acknow: 0
+  link:
+    url: https://doi.org/10.1101/738526
+    display: bioRxiv
+
 - title: "Analysis of molecular mechanism of progression of non-muscle-invasive bladder cancer (NMIBC) by genome-wide exome and UTR mutation analysis."
   authors: Daniel Steinbach, <b>Martin Hölzer</b>, Manja Marz, Mieczyslaw Gajda, Friedrich-Carl von Rundstedt, Marc-Oliver Grimm
   year: 2018
@@ -104,18 +128,6 @@
   acknow: 0
   link:
     url: https://doi.org/10.1101/433078
-    display: bioRxiv
-
-- title: "Direct RNA nanopore sequencing of full-length coronavirus genomes provides novel insights into structural variants and enables modification analysis."
-  authors: Adrian Viehweger, <b>Sebastian Krautwurst</b>, Kevin Lamkiewicz, Ramakanth Madhugiri, John Ziebuhr, <b>Martin Hölzer</b>, Manja Marz
-  year: 2018
-  preprint: 0
-  submitted: 2
-  book: 0
-  supp: https://doi.org/10.17605/OSF.IO/UP7B4
-  acknow: 0
-  link:
-    url: https://doi.org/10.1101/483693
     display: bioRxiv
 
 - title: "The Definition of Open Reading Frame Revisited."
