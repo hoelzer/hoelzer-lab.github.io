@@ -1,5 +1,5 @@
 - title: "*Chlamydia buteonis*, a new *Chlamydia* species isolated from a red-shouldered hawk."
-  authors: K Laroucau, F Vorimore, R Aaziz, L Solmonson, RC Hsia, PM Bavoil, P Fach, <b>Martin Hölzer</b> *et al*.
+  authors: K Laroucau, F Vorimore, R Aaziz, L Solmonson, RC Hsia, PM Bavoil, P Fach, <b>Martin Hölzer</b>, A Wuenschmann, K Sachse
   year: 2019
   preprint: 0
   submitted: 0
@@ -23,7 +23,7 @@
     display: GigaScience
 
 - title: "Structure and hierarchy of influenza virus models revealed by reaction network analysis."
-  authors: Stephan Peter, <b>Martin Hölzer</b>, Kevin Lamkiewicz, Pietro Speroni di Fenizio, Hassan Al Hwaeer, Manja Marz, Stefan Schuster, Peter Dittrich *et al*.
+  authors: Stephan Peter, <b>Martin Hölzer</b>, Kevin Lamkiewicz, Pietro Speroni di Fenizio, Hassan Al Hwaeer, Manja Marz, Stefan Schuster, Peter Dittrich, Bashar Ibrahim
   year: 2019
   preprint: 0
   submitted: 0
@@ -71,7 +71,7 @@
     display: Genome Research
 
 - title: "A comprehensive annotation and differential expression analysis of short and long non-coding RNAs in 16 bat genomes"
-  authors: Nelly Mostajo Berrospi, Marie Lataretu, <b>Sebastian Krautwurst</b>, Florian Mock, Daniel Desir{\`o}, Kevin Lamkiewicz, <b>Maximilian Collatz</b>, Andreas Schoen *et al*.
+  authors: Nelly Mostajo Berrospi, Marie Lataretu, <b>Sebastian Krautwurst</b>, Florian Mock, Daniel Desir&ograve;, Kevin Lamkiewicz, <b>Maximilian Collatz</b>, Andreas Schoen, Friedemann Weber, Manja Marz *et al*.
   year: 2019
   preprint: 0
   submitted: 2
@@ -107,7 +107,7 @@
     display: Virus Research
 
 - title: "Cohesin-mediated NF-κB signaling limits hematopoietic stem cell self-renewal in aging and inflammation."
-  authors: Zhiyang Chen, Elias Moris Amro, Friedrich Becker, <b>Martin Hölzer</b>, Seyed Mohammad Mahdi Rasa, Sospeter Ngoci Njeru, Bing Han, Simone Di Sanzo *et al*.
+  authors: Zhiyang Chen, Elias Moris Amro, Friedrich Becker, <b>Martin Hölzer</b>, Seyed Mohammad Mahdi Rasa, Sospeter Ngoci Njeru, Bing Han, Simone Di Sanzo, Yulin Chen, Duozhuang Tang *et al*.
   year: 2018
   preprint: 0
   submitted: 0
@@ -167,7 +167,7 @@
     display: Frontiers in microbiology
 
 - title: "Massive effect on lncRNAs in human monocytes during fungal and bacterial infections and in response to vitamins A and D."
-  authors: Konstantin Riege, <b>Martin Hölzer</b>, Tilman E Klassert, Emanuel Barth, Julia Bräuer, <b>Maximilian Collatz</b>, Franziska Hufsky, Nelly Mostajo *et al*.
+  authors: Konstantin Riege, <b>Martin Hölzer</b>, Tilman E Klassert, Emanuel Barth, Julia Bräuer, <b>Maximilian Collatz</b>, Franziska Hufsky, Nelly Mostajo, Magdalena Stock, Bertram Vogel *et al*.
   year: 2017
   preprint: 0
   submitted: 0
@@ -179,7 +179,7 @@
     display: Scientific Reports
 
 - title: "Differential Effects of Vitamins A and D on the Transcriptional Landscape of Human Monocytes during Infection."
-  authors: Tilman E Klassert, Julia Bräuer, <b>Martin Hölzer</b>, Magdalena Stock, Konstantin Riege, Cristina Zubir&iacute;a-Barrera, Mario M Müller, Silke Rummler *et al*.
+  authors: Tilman E Klassert, Julia Bräuer, <b>Martin Hölzer</b>, Magdalena Stock, Konstantin Riege, Cristina Zubir&iacute;a-Barrera, Mario M Müller, Silke Rummler, Christine Skerka, Manja Marz *et al*.
   year: 2017
   preprint: 0
   submitted: 0
@@ -215,7 +215,7 @@
     display: Veterinary Microbiology
 
 - title: "Evolution and antiviral specificity of interferon-induced Mx proteins of bats against Ebola-, Influenza-, and other RNA viruses."
-  authors: Jonas Fuchs, <b>Martin Hölzer</b>, Mirjam Schilling, Corinna Patzina, Andreas Schoen, Thomas Hoenen, Gert Zimmer, Manja Marz *et al*.
+  authors: Jonas Fuchs, <b>Martin Hölzer</b>, Mirjam Schilling, Corinna Patzina, Andreas Schoen, Thomas Hoenen, Gert Zimmer, Manja Marz, Friedemann Weber, Marcel A Müller *et al*.
   year: 2017
   preprint: 0
   submitted: 0
@@ -239,7 +239,7 @@
     display: Genome Announcements
 
 - title: "Differential transcriptional responses to Ebola and Marburg virus infection in bat and human cells."
-  authors: <b>Martin Hölzer</b>, Verena Krähling, Fabian Amman, Emanuel Barth, Stephan H Bernhart, Victor A O Carmelo, <b>Maximilian Collatz</b>, Gero Doose *et al*.
+  authors: <b>Martin Hölzer</b>, Verena Krähling, Fabian Amman, Emanuel Barth, Stephan H Bernhart, Victor A O Carmelo, <b>Maximilian Collatz</b>, Gero Doose, Florian Eggenhofer, Jan Ewald *et al*.
   year: 2016
   preprint: 0
   submitted: 0
@@ -263,7 +263,7 @@
     display: Genome Announcements
 
 - title: "Towards a comprehensive picture of alloacceptor tRNA remolding in metazoan mitochondrial genomes."
-  authors: Abdullah H Sahyoun, <b>Martin Hölzer</b>, Frank Jühling, Christian Höner Zu Siederdissen, Marwa Al-Arab, Kifah Tout, Manja Marz, Martin Middendorf *et al*.
+  authors: Abdullah H Sahyoun, <b>Martin Hölzer</b>, Frank Jühling, Christian Höner Zu Siederdissen, Marwa Al-Arab, Kifah Tout, Manja Marz, Martin Middendorf, Peter F. Stadler, Matthias Bernt
   year: 2015
   preprint: 0
   submitted: 0
@@ -275,7 +275,7 @@
     display: Nucleic Acids Res.
 
 - title: "Comprehensive insights in the *Mycobacterium avium* subsp. *paratuberculosis* genome using new WGS data of sheep strain JIII-386 from Germany."
-  authors: Petra Möbius, <b>Martin Hölzer</b>, Marius Felder, Gabriele Nordsiek, Marco Groth, Heike Köhler, Kathrin Reichwald, Matthias Platzer *et al*.
+  authors: Petra Möbius, <b>Martin Hölzer</b>, Marius Felder, Gabriele Nordsiek, Marco Groth, Heike Köhler, Kathrin Reichwald, Matthias Platzer, Manja Marz
   year: 2015
   preprint: 0
   submitted: 0

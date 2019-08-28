@@ -11,7 +11,8 @@ yml = File.open('_data/publist.yml','w')
 @umlaute = {'o' => 'ö', 'a' => 'ä', 'u' => 'ü', 'O' => 'Ö', 'A' => 'Ä', 'U' => 'Ü', 'ss' => 'ß'}
 special_i = '{\ \'\i}'.gsub(' ','')
 special_o = '\`{o}'
-@special = {special_i => '&iacute;', special_o => '&ograve;'}
+special_o_diff = '{\`o}'
+@special = {special_i => '&iacute;', special_o => '&ograve;', special_o_diff => '&ograve;'}
 #Zubir{\'\i}a
 
 @team = {'Martin Hölzer' => '<b>Martin Hölzer</b>', 'Ruman Gerst' => '<b>Ruman Gerst</b>', 'Maximilian Collatz' => '<b>Maximilian Collatz</b>', 
@@ -55,7 +56,7 @@ def authors(authors)
 	c = 0
 	authors.split(' and ').each do |author|
 		c += 1
-		if c > 8
+		if c > 10
 			new_authors << " *et al*."
 			break
 		else	
