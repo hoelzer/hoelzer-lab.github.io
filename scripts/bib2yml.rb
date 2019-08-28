@@ -56,10 +56,11 @@ def authors(authors)
 	c = 0
 	authors.split(' and ').each do |author|
 		c += 1
-		if c > 10
+		if c > 12
 			new_authors << " *et al*."
 			break
 		else	
+			puts author
 			new_authors << ", " if new_authors.size > 1
 			firstname = author.split(',')[1].strip
 			lastname = author.split(',')[0].strip
