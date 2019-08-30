@@ -39,7 +39,7 @@ ssh -L 8000:127.0.0.1:8000 your@your.server.com
 
 In both cases you will then be able to access PCAGO via the following address in your browser: http://127.0.0.1:8000
 
-Attention: currently the Docker image seems not to work under Mac. 
+Attention: currently the Docker image is only working under Linux. We are working on a version for Windows and Mac.  
 
 - [Preprint @bioRxiv](https://doi.org/10.1101/433078)
 
