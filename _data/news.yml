@@ -1,3 +1,5 @@
+- date: 05. September 2019
+  headline: Yeah! We made it onto the <a target="_blank" href="https://genome.cshlp.org/content/29/9.cover-expansion">cover of Genome Research</a> by sequencing and analyzing large and highly complex RNA genomes of <a href="https://genome.cshlp.org/content/29/9/1545.full">coronaviruses in their native form using nanopores</a>! Thx to <a target="_blank" href="http://blog.beetlebum.de/">Beetlebum</a> for the great art and the <a target="_blank" href="https://rna.uni-jena.de">Jena RNA</a> group for the great science! Thx at John Ziebuhr and Rama Madhugiri, our wet lab partners at the <a target="_blank" href="https://www.uni-giessen.de/fbz/fb11/institute/klinik/virologie/mitarbeiter/agleiter/ziebuhr">JLU Giessen</a>.
 - date: 16. August 2019
   headline: Our tool PCAGO for the interactive analysis and visualization of RNA-Seq expression data (<a target="_blank" href="https://doi.org/10.1101/433078">preprint</a>) can now be simply used <a href="https://hoelzer-lab.github.io/tools/">locally with the help of an Docker image</a>. Thanks, Lasse! 
 - date: 13. August 2019
