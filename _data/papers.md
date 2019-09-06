@@ -392,7 +392,7 @@ old RNA-Seq data by new tools improves the whole analysis!
     * https://www.nature.com/articles/s41591-019-0457-8
 
 * BiosyntheticSPAdes: Reconstructing Biosynthetic Gene Clusters From Assembly Graphs
-    * 
+    * https://genome.cshlp.org/content/29/8/1352.abstract?platform=hootsuite
 
 * Exploiting orthology and de novo transcriptome assembly to refine target sequence information
     * https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-019-0524-5
@@ -483,3 +483,9 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * N6-methyladenosine RNA modification–mediated cellular metabolism rewiring inhibits viral replication
     * https://science.sciencemag.org/content/early/2019/08/21/science.aax4468
+
+* rnaSPAdes: a de novo transcriptome assembler and its application to RNA-Seq data
+    * https://academic.oup.com/gigascience/article/8/9/giz100/5559527
+
+* A Pan-cancer Transcriptome Analysis Reveals Pervasive Regulation through Alternative Promoters
+    * https://www.cell.com/action/showPdf?pii=S0092-8674%2819%2930906-7
