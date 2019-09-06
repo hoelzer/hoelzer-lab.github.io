@@ -17,6 +17,8 @@ short- and long-read sequencing data.
 We work closely with the [RNA Bioinformatics/High-Throughput](https://www.rna.uni-jena.de/) group of Manja Marz and we are a member of the [European Virus Bioinformatics Center](http://evbc.uni-jena.de/). 
 
 <br>
+<div class="row"><div class="col-sm-6 clearfix">
+
 #### Research Interests
 
 * Bioinformatics
@@ -27,6 +29,11 @@ We work closely with the [RNA Bioinformatics/High-Throughput](https://www.rna.un
 * Oxford Nanopore Sequencing
 * Non-coding RNA & RNA secondary structure
 * Automation & visualization
+
+</div><div class="col-sm-6 clearfix">
+[![GR cover art](/images/gr_cover.gif)](https://genome.cshlp.org/content/29/9.cover-expansion)
+</div></div>
+
 
 <!--[__A paper per day challenge__](https://hoelzer-lab.github.io/papers)-->
 
