@@ -11,9 +11,9 @@ permalink: /teaching/
 
 ## Teaching
 
-### Summer term 2018
+### Summer term 2019
 
-#### LaTeX basics for natural scientists
+<!--#### LaTeX basics for natural scientists
 
 Content will be added during the course.
 
@@ -25,7 +25,7 @@ Content will be added during the course.
 - Informatics: <!--[Handout](/assets/teaching/latex/handouts/Handout5_Informatik.pdf), [Aufgaben](/assets/teaching/latex/tasks/5_Informatik.zip)-->
 - Bachlor/Master and larger theses: <!--[Handout](/assets/teaching/latex/handouts/Handout6_Abschlussarbeiten.pdf), [Aufgaben](/assets/teaching/latex/tasks/6_Abschlussarbeiten.zip)-->
 - Scientific publication formats, CV, letters: <!--[ShareLaTeX](https://de.sharelatex.com/), [Aufgaben](/assets/teaching/latex/tasks/7_Last.txt.zip)-->
-
+-->
 #### Virusinformatics
 
 Practical course on the analysis of meta-transcriptomic patient samples.
