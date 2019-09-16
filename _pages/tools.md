@@ -26,7 +26,7 @@ Interactive web service that allows analysis of RNA-Seq read count data with [PC
 We recommend to use [Docker](https://www.docker.com/) to run PCAGO on your local machine. If Docker is installed on your system, simply run:
 
 <code>
-docker run --rm -it --network="host" -expose=8000 mhoelzer/pcago:1.0--8c5dd42 ./run_packrat.sh
+docker run -p 8000:8000 --rm -it mhoelzer/pcago:1.0--c1e506c ./run_packrat.sh
 </code>
 
 Depending on your system permissions you might need to add <code>--user $(id -u):$(id -g)</code> as a parameter.
@@ -37,9 +37,7 @@ If you execute the Docker image on a server, simply connect to this server with 
 ssh -L 8000:127.0.0.1:8000 your@your.server.com
 </code>
 
-In both cases you will then be able to access PCAGO via the following address in your browser: http://127.0.0.1:8000
-
-Attention: currently the Docker image is only working under Linux. We are working on a version for Windows and Mac.  
+In both cases you will then be able to access PCAGO via the following address in your browser: [http://127.0.0.1:8000](127.0.0.1:8000).
 
 - [Preprint @bioRxiv](https://doi.org/10.1101/433078)
 
