@@ -37,7 +37,7 @@ If you execute the Docker image on a server, simply connect to this server with 
 ssh -L 8000:127.0.0.1:8000 your@your.server.com
 </code>
 
-In both cases you will then be able to access PCAGO via the following address in your browser: [http://127.0.0.1:8000](127.0.0.1:8000).
+In both cases you will then be able to access PCAGO via the following address in your browser: 127.0.0.1:8000.
 
 - [Preprint @bioRxiv](https://doi.org/10.1101/433078)
 
