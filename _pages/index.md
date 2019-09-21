@@ -19,8 +19,6 @@ We work closely with the [RNA Bioinformatics/High-Throughput](https://www.rna.un
 <br>
 <div class="row"><div class="col-sm-6 clearfix">
 
-https://docs.google.com/presentation/d/1u59KK6ydeQjnvuMvdMcZMFMh_gdf-3SiaIbgSczBErY/edit#slide=id.p
-
 #### Research Interests
 
 * Bioinformatics
