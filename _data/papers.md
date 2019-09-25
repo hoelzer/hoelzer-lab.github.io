@@ -489,3 +489,13 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * A Pan-cancer Transcriptome Analysis Reveals Pervasive Regulation through Alternative Promoters
     * https://www.cell.com/action/showPdf?pii=S0092-8674%2819%2930906-7
+
+* 12 Grand Challenges in Single-Cell Data Science
+    * https://peerj.com/preprints/27885/
+
+* Bat influenza viruses transmit among bats but are poorly adapted to non-bat species
+  * https://www.nature.com/articles/s41564-019-0556-9
+  * https://sci-hub.se/https://www.nature.com/articles/s41564-019-0556-9
+
+* Illuminating the dark side of the human transcriptome with TAMA Iso-Seq analysis
+    * https://www.biorxiv.org/content/10.1101/780015v1
