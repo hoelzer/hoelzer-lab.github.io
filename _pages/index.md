@@ -29,6 +29,7 @@ We work closely with the [RNA Bioinformatics/High-Throughput](https://www.rna.un
 * Oxford Nanopore Sequencing
 * Non-coding RNA & RNA secondary structure
 * Automation & visualization
+* [tmp](https://docs.google.com/presentation/d/1b2CTF1G_ALb9yBySaVO7INRWG48k2stiGGyqv8srKZ8/edit?usp=sharing)
 
 </div><div class="col-sm-6 clearfix">
 [![GR cover art](/images/gr_cover.gif)](https://genome.cshlp.org/content/29/9.cover-expansion)
