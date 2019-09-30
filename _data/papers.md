@@ -499,3 +499,9 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * Illuminating the dark side of the human transcriptome with TAMA Iso-Seq analysis
     * https://www.biorxiv.org/content/10.1101/780015v1
+
+* Assembly-free single-molecule nanopore sequencing recovers complete virus genomes from natural microbial communities
+    * https://www.biorxiv.org/content/10.1101/619684v1
+
+* High-definition spatial transcriptomics for in situ tissue profiling
+    * https://www.nature.com/articles/s41592-019-0548-y
