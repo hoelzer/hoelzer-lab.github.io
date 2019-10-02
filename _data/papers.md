@@ -505,3 +505,12 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * High-definition spatial transcriptomics for in situ tissue profiling
     * https://www.nature.com/articles/s41592-019-0548-y
+
+* A unified sequence catalogue of over 280,000 genomes obtained from the human gut microbiome
+    * https://www.biorxiv.org/content/biorxiv/early/2019/09/19/762682.full.pdf
+
+* Microbial abundance, activity and population genomic profiling with mOTUs2
+    * https://www.nature.com/articles/s41467-019-08844-4.pdf
+
+* Ultrafast search of all deposited bacterial and viral genomic data
+    * https://www.nature.com/articles/s41587-018-0010-1
