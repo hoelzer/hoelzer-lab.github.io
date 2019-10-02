@@ -71,16 +71,16 @@
     display: Genome Research
 
 - title: "A comprehensive annotation and differential expression analysis of short and long non-coding RNAs in 16 bat genomes"
-  authors: Nelly Mostajo Berrospi, Marie Lataretu, <b>Sebastian Krautwurst</b>, Florian Mock, Daniel Desir&ograve;, Kevin Lamkiewicz, <b>Maximilian Collatz</b>, Andreas Schoen, Friedemann Weber, Manja Marz, <b>Martin Hölzer</b>
+  authors: Nelly F Mostajo, Marie Lataretu, <b>Sebastian Krautwurst</b>, Florian Mock, Daniel Desir&ograve;, Kevin Lamkiewicz, <b>Maximilian Collatz</b>, Andreas Schoen, Friedemann Weber, Manja Marz, <b>Martin Hölzer</b>
   year: 2019
   preprint: 0
-  submitted: 2
+  submitted: 0
   book: 0
   supp: http://www.rna.uni-jena.de/supplements/bats
   acknow: 0
   link:
-    url: https://doi.org/10.1101/738526
-    display: bioRxiv
+    url: https://doi.org/10.1093/nargab/lqz006
+    display: NAR Genomics and Bioinformatics
 
 - title: "Analysis of molecular mechanism of progression of non-muscle-invasive bladder cancer (NMIBC) by genome-wide exome and UTR mutation analysis."
   authors: Daniel Steinbach, <b>Martin Hölzer</b>, Manja Marz, Mieczyslaw Gajda, Friedrich-Carl von Rundstedt, Marc-Oliver Grimm
