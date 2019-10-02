@@ -499,3 +499,6 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * Illuminating the dark side of the human transcriptome with TAMA Iso-Seq analysis
     * https://www.biorxiv.org/content/10.1101/780015v1
+
+* DART-seq: an antibody-free method for global m6A detection
+    * https://www.nature.com/articles/s41592-019-0570-0
