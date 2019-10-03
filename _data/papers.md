@@ -514,3 +514,6 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * Ultrafast search of all deposited bacterial and viral genomic data
     * https://www.nature.com/articles/s41587-018-0010-1
+
+* Interplay between the human gut microbiome and host metabolism
+    * https://www.nature.com/articles/s41467-019-12476-z
