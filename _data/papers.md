@@ -517,3 +517,6 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * Interplay between the human gut microbiome and host metabolism
     * https://www.nature.com/articles/s41467-019-12476-z
+
+* The Human Gut Virome Is Highly Diverse, Stable, and Individual Specific
+    * https://doi.org/10.1016/j.chom.2019.09.009
