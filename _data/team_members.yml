@@ -11,29 +11,41 @@
   education1: Ph.D., University of Jena
   education2: Diploma Bioinf, University of Jena
 
-- name: Maximilian Collatz
-  photo: Max2.png
-  info: Ph.D., started May 2016
-  email: maximilian.collatz@uni-jena.de
-  github: 0
+- name: Marie Lataretu
+  photo: Marie.png
+  info: Ph.D., started Oct 2018
+  email: marie.lataretu@uni-jena.de
+  github: https://github.com/MarieLataretu
   twitter: 0
-  orcid: 0
+  orcid: https://orcid.org/0000-0002-3637-5870
   cv: 0
   thesis: 0
   number_educ: 1
   education1: M.Sc. Bioinf, University of Jena
 
-- name: Sebastian Krautwurst
-  photo: Basti.png
-  info: Ph.D., started Feb 2017
-  email: sebastian.krautwurst@uni-jena.de
-  github: https://github.com/RaverJay
-  twitter: https://twitter.com/SKrautw 
-  orcid: 0
-  cv: 0
-  thesis: 0
-  number_educ: 1
-  education1: M.Sc. Bioinf, University of Jena
+#- name: Maximilian Collatz
+#  photo: Max2.png
+#  info: Ph.D., started May 2016
+#  email: maximilian.collatz@uni-jena.de
+#  github: 0
+#  twitter: 0
+#  orcid: 0
+#  cv: 0
+#  thesis: 0
+#  number_educ: 1
+#  education1: M.Sc. Bioinf, University of Jena
+
+#- name: Sebastian Krautwurst
+#  photo: Basti.png
+#  info: Ph.D., started Feb 2017
+#  email: sebastian.krautwurst@uni-jena.de
+#  github: https://github.com/RaverJay
+#  twitter: https://twitter.com/SKrautw 
+#  orcid: 0
+#  cv: 0
+#  thesis: 0
+#  number_educ: 1
+#  education1: M.Sc. Bioinf, University of Jena
 
 - name: Lisa-Marie Barf
   photo: Lisa.png
