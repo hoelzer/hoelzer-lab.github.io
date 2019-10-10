@@ -520,3 +520,6 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * The Human Gut Virome Is Highly Diverse, Stable, and Individual Specific
     * https://doi.org/10.1016/j.chom.2019.09.009
+
+* CodAn: predictive models for the characterization of mRNA transcripts in Eukaryotes
+    * https://www.biorxiv.org/content/10.1101/794107v1
