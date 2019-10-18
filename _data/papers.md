@@ -523,3 +523,9 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * CodAn: predictive models for the characterization of mRNA transcripts in Eukaryotes
     * https://www.biorxiv.org/content/10.1101/794107v1
+
+* Accurate and Complete Genomes from Metagenomes 
+    * https://www.biorxiv.org/content/biorxiv/early/2019/10/17/808410.full.pdf
+
+* Recovery of gene haplotypes from a metagenome
+    * https://www.biorxiv.org/content/10.1101/223404v3
