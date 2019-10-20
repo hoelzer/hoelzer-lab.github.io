@@ -514,3 +514,18 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * Ultrafast search of all deposited bacterial and viral genomic data
     * https://www.nature.com/articles/s41587-018-0010-1
+
+* Interplay between the human gut microbiome and host metabolism
+    * https://www.nature.com/articles/s41467-019-12476-z
+
+* The Human Gut Virome Is Highly Diverse, Stable, and Individual Specific
+    * https://doi.org/10.1016/j.chom.2019.09.009
+
+* CodAn: predictive models for the characterization of mRNA transcripts in Eukaryotes
+    * https://www.biorxiv.org/content/10.1101/794107v1
+
+* Accurate and Complete Genomes from Metagenomes 
+    * https://www.biorxiv.org/content/biorxiv/early/2019/10/17/808410.full.pdf
+
+* Recovery of gene haplotypes from a metagenome
+    * https://www.biorxiv.org/content/10.1101/223404v3
