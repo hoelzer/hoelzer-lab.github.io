@@ -529,3 +529,6 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * Recovery of gene haplotypes from a metagenome
     * https://www.biorxiv.org/content/10.1101/223404v3
+
+* Pangenome review
+    * https://www.sciencedirect.com/science/article/pii/S0960982219310280?dgcid=author
