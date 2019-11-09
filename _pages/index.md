@@ -1,7 +1,7 @@
 ---
-title: "Hölzer Lab - Home"
+title: "Hölzer Team - Home"
 layout: homelay
-excerpt: "Hölzer Lab - Bioinformatics."
+excerpt: "Hölzer Team - Bioinformatics."
 sitemap: false
 permalink: /
 ---
