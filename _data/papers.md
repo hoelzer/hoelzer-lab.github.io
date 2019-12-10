@@ -529,3 +529,21 @@ old RNA-Seq data by new tools improves the whole analysis!
 
 * Recovery of gene haplotypes from a metagenome
     * https://www.biorxiv.org/content/10.1101/223404v3
+
+* Transcriptome reconstruction and functional analysis of eukaryotic marine plankton communities via high-throughput metagenomics and metatranscriptomics
+    * https://www.biorxiv.org/content/10.1101/812974v1
+
+* Reference-free resolution of long-read metagenomic data
+    * https://www.biorxiv.org/content/10.1101/811760v1
+
+* MEGAN-LR: new algorithms allow accurate binning and easy interactive exploration of metagenomic long reads and contigs
+    * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5910613/pdf/13062_2018_Article_208.pdf
+
+* Metavir 2: new tools for viral metagenome comparison and assembled virome analysis
+    * https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-15-76
+
+* Reagent and laboratory contamination can critically impact sequence-based microbiome analyses
+    * https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-014-0087-z
+
+* Parallel and scalable workflow for the analysis of Oxford Nanopore direct RNA sequencing datasets
+    * https://www.biorxiv.org/content/10.1101/818336v1
