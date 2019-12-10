@@ -82,6 +82,18 @@
     url: https://doi.org/10.1093/nargab/lqz006
     display: NAR Genomics and Bioinformatics
 
+- title: "Addressing dereplication crisis: Taxonomy-free reduction of massive genome collections using embeddings of protein content."
+  authors: Adrian Viehweger, <b>Martin Hölzer</b>, Christian Brandt
+  year: 2019
+  preprint: 0
+  submitted: 2
+  book: 0
+  supp: https://github.com/phiweger/thinspace
+  acknow: 0
+  link:
+    url: https://www.biorxiv.org/content/10.1101/855262v2
+    display: bioRxiv
+
 - title: "Analysis of molecular mechanism of progression of non-muscle-invasive bladder cancer (NMIBC) by genome-wide exome and UTR mutation analysis."
   authors: Daniel Steinbach, <b>Martin Hölzer</b>, Manja Marz, Mieczyslaw Gajda, Friedrich-Carl von Rundstedt, Marc-Oliver Grimm
   year: 2018
@@ -118,7 +130,7 @@
     url: https://doi.org/10.1084/jem.20181505
     display: Journal of Experimental Medicine
 
-- title: "PCAGO: An interactive web service to analyze RNA-Seq data with principal component analysis."
+- title: "PCAGO: An interactive tool to analyze RNA-Seq data with principal component analysis."
   authors: <b>Ruman Gerst</b>, <b>Martin Hölzer</b>
   year: 2018
   preprint: 0
