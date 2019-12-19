@@ -82,6 +82,18 @@
     url: https://doi.org/10.1093/nargab/lqz006
     display: NAR Genomics and Bioinformatics
 
+- title: "Inclusion of Oxford Nanopore long reads improves all microbial and phage metagenome-assembled genomes from a complex aquifer system."
+  authors: Will A Overholt, <b>Martin Hölzer</b>, Patricia Geesink, Celia Diezel, Manja Marz, Kirsten Küsel
+  year: 2019
+  preprint: 0
+  submitted: 2
+  book: 0
+  supp: 0
+  acknow: 0
+  link:
+    url: https://www.biorxiv.org/content/10.1101/2019.12.18.880807v1
+    display: bioRxiv
+
 - title: "Addressing dereplication crisis: Taxonomy-free reduction of massive genome collections using embeddings of protein content."
   authors: Adrian Viehweger, <b>Martin Hölzer</b>, Christian Brandt
   year: 2019
