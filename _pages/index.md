@@ -31,7 +31,8 @@ We work closely with the [RNA Bioinformatics/High-Throughput](https://www.rna.un
 * Automation & visualization
 
 </div><div class="col-sm-6 clearfix">
-[![GR cover art](/images/gr_cover.gif)](https://genome.cshlp.org/content/29/9.cover-expansion)
+<!--[![GR cover art](/images/gr_cover.gif)](https://genome.cshlp.org/content/29/9.cover-expansion)-->
+[![ONT hybrid MAGs](/images/hybrid.svg)](https://www.biorxiv.org/content/10.1101/2019.12.18.880807v1)
 </div></div>
 
 
