@@ -59,11 +59,11 @@
   number_educ: 1
   education1: M.Sc. Mol. Life Sciences, University of Jena
 
-- name: Lasse Faber
-  photo: Lasse.png
-  info: M.Sc., started Apr 2019
-  email: lasse.faber@uni-jena.de
-  github: https://github.com/lmfaber
+- name: Maximilian Arlt
+  photo: KaffeeMax.png
+  info: Research assistant, started Apr 2019
+  email: maximilian.arlt@uni-jena.de
+  github: https://github.com/CoffeeMA2go
   twitter: 0
   orcid: 0
   cv: 0
@@ -71,27 +71,40 @@
   number_educ: 1
   education1: B.Sc. applied Biology, University of Jena
 
-- name: Rebekka Köhl
-  photo: Rebekka.png
-  info: B.Sc., started Jul 2018
-  email: rebekka.koehl@uni-jena.de
-  github: 0
-  twitter: 0
-  orcid: 0
-  cv: 0
-  thesis: 0
-  number_educ: 0
+#- name: Lasse Faber
+#  photo: Lasse.png
+#  info: M.Sc., started Apr 2019
+#  email: lasse.faber@uni-jena.de
+#  github: https://github.com/lmfaber
+#  twitter: 0
+#  orcid: 0
+#  cv: 0
+#  thesis: 0
+#  number_educ: 1
+#  education1: B.Sc. applied Biology, University of Jena
+
+#- name: Rebekka Köhl
+#  photo: Rebekka.png
+#  info: B.Sc., started Jul 2018
+#  email: rebekka.koehl@uni-jena.de
+#  github: 0
+#  twitter: 0
+#  orcid: 0
+#  cv: 0
+#  thesis: 0
+#  number_educ: 0
 
 - name: Sandra Triebel
   photo: Sandra.png
-  info: B.Sc., started Apr 2019
+  info: Research assistant, started Jan 2020
   email: sandra.triebel@uni-jena.de
   github: https://github.com/sandraTriebel
-  twitter: 0
+  twitter: https://twitter.com/sandraLutaLivre
   orcid: 0
   cv: 0
   thesis: 0
-  number_educ: 0  
+  number_educ: 1  
+  education1: B.Sc. Bioinformatics, University of Jena
 
 #- name: "This could be you !"
 #  photo: rock.jpg

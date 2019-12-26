@@ -6,9 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-We are a fresh, small bioinformatics group at the [FSU Jena](https://www.uni-jena.de/en/start.html?). 
+We are a fresh, small bioinformatics team at the [FSU Jena](https://www.uni-jena.de/en/start.html?). 
 
-We focus on the development of algorithms and tools for handling large sequencing data sets. We apply our computational methods to *de novo* genome and transcriptome assembly, the comprehensive analysis of RNA-Seq data, and the identification of pathogens such as viruses.
+We focus on the development of algorithms and tools for handling large sequencing data sets. We apply our computational methods to *de novo* genome and transcriptome assembly, the comprehensive analysis of RNA-Seq data, and the identification and characterization of pathogens such as viruses and bacteria.
 
 We strive to combine well-established and novel computational approaches to analyze and visualize large amounts of 
 short- and long-read sequencing data.
