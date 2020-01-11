@@ -8,7 +8,7 @@ permalink: /support/
 
 ## Support
 
-I would like to thank all donors and supporters without whom my research would not be possible. [Martin](/team) is currently funded and supported by:
+I would like to thank all supporters without whom my research would not be possible. [Martin](/team) is currently funded and supported by:
 
 <div class="row"><div class="col-sm-6 clearfix">
 
