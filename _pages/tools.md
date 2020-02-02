@@ -13,6 +13,7 @@ permalink: /tools/
 ### RIBAP
 
 **R**oary **I**LP **B**acterial **A**nnotation **P**ipeline
+
 (This tool is currently under heavy development, so expect some bugs but feel free to [report issues](https://github.com/hoelzer-lab/ribap/issues))
 
 - [Source code @GitHub](https://github.com/hoelzer-lab/ribap)
@@ -26,7 +27,7 @@ nextflow run hoelzer-lab/ribap --fasta '*.fasta' --outdir ~/ribap_out
 Please see the [GitHub](https://github.com/hoelzer-lab/ribap) page for more detailed instructions and examples.
 
 </div><div class="col-sm-6 clearfix">
-![RIBAP example output](/assets/tools/upsetr.svg)
+[![RIBAP example output](/assets/tools/upsetr.svg)](/assets/tools/upsetr.svg)
 </div></div>
 
 
