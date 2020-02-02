@@ -1,3 +1,5 @@
+- date: 02. February 2020
+  headline: Our pipeline RIBAP for the automatic annotation and core gene set calculation/visualization of bacterial genomes is now available as a <a href="https://github.com/hoelzer-lab/ribap">Nextflow/Docker/Conda workflow</a>. Annotate your protein sequences with Prokka and determine a pan genome with Roary. This genome is refined with the usage of ILPs that solve the best matching for each pairwise strain mmseqs2 comparison.   
 - date: 06. January 2020
   headline: Already in the old year Lasse submitted his master's thesis, which dealt with the efficient clustering of multi-tool transcriptome assemblies. Now he is about to take his bioinformatics knowledge out into the world. We wish him all the best and much success for his future career!    
 - date: 19. December 2019
