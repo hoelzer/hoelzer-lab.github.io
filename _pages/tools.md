@@ -10,6 +10,29 @@ permalink: /tools/
 
 <div class="row"><div class="col-sm-6 clearfix">
 
+### RIBAP
+
+**R**oary **I**LP **B**acterial **A**nnotation **P**ipeline
+(This tool is currently under heavy development, so expect some bugs but feel free to [report issues](https://github.com/hoelzer-lab/ribap/issues))
+
+- [Source code @GitHub](https://github.com/hoelzer-lab/ribap)
+
+The pipeline needs only [Nextflow](https://www.nextflow.io/) and [Docker](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/#install-docker-ce) or [Conda](https://docs.conda.io/en/latest/miniconda.html) installed:
+
+```bash
+nextflow run hoelzer-lab/ribap --fasta '*.fasta' --outdir ~/ribap_out
+```
+
+Please see the [GitHub](https://github.com/hoelzer-lab/ribap) page for more detailed instructions and examples.
+
+</div><div class="col-sm-6 clearfix">
+<div align="right"><img src="/assets/tools/upsetr.svg" width="220px">
+</div></div>
+
+
+
+<div class="row"><div class="col-sm-6 clearfix">
+
 ### PCAGO
 
 Interactive web service that allows analysis of RNA-Seq read count data with [PCA](https://towardsdatascience.com/a-step-by-step-explanation-of-principal-component-analysis-b836fb9c97e2) and clustering.
@@ -42,6 +65,7 @@ In both cases you will then be able to access PCAGO via the following address in
 - [Preprint @bioRxiv](https://doi.org/10.1101/433078)
 
 
+
 <div class="row"><div class="col-sm-6 clearfix">
 
 ### SIM
@@ -55,6 +79,8 @@ SilentMutations (SIM) automatically constructs disrupting and restoring synonymo
 </div><div class="col-sm-6 clearfix">
 [![PCAGO Logo](/assets/tools/sim.png)](https://github.com/desiro/silentMutations)
 </div></div>
+
+
 
 <div class="row"><div class="col-sm-6 clearfix">
 
