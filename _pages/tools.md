@@ -19,14 +19,14 @@ permalink: /tools/
 
 The pipeline needs only [Nextflow](https://www.nextflow.io/) and [Docker](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/#install-docker-ce) or [Conda](https://docs.conda.io/en/latest/miniconda.html) installed:
 
-```bash
+<code>
 nextflow run hoelzer-lab/ribap --fasta '*.fasta' --outdir ~/ribap_out
-```
+</code>
 
 Please see the [GitHub](https://github.com/hoelzer-lab/ribap) page for more detailed instructions and examples.
 
 </div><div class="col-sm-6 clearfix">
-<div align="right"><img src="/assets/tools/upsetr.svg" width="220px">
+![RIBAP example output](/assets/tools/upsetr.svg)
 </div></div>
 
 
