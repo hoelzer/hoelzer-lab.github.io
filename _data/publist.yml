@@ -1,3 +1,15 @@
+- title: "Metagenomics workflow for hybrid assembly, differential coverage binning, transcriptomics and pathway analysis (MUFFIN)."
+  authors: Renaud Van Damme, <b>Martin Hölzer</b>, Adrian Viehweger, M\"uller Bettina, Erik Bongcam-Rudloff, Christian Brandt
+  year: 2020
+  preprint: 0
+  submitted: 2
+  book: 0
+  supp: https://github.com/RVanDamme/MUFFIN
+  acknow: 0
+  link:
+    url: https://www.biorxiv.org/content/10.1101/2020.02.08.939843v1
+    display: bioRxiv
+
 - title: "*Chlamydia buteonis*, a new *Chlamydia* species isolated from a red-shouldered hawk."
   authors: K Laroucau, F Vorimore, R Aaziz, L Solmonson, RC Hsia, PM Bavoil, P Fach, <b>Martin Hölzer</b>, A Wuenschmann, K Sachse
   year: 2019
