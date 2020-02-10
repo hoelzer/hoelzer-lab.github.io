@@ -1,3 +1,5 @@
+- date: 10. February 2020
+  headline: Are you looking for some easy to run tool w/o dependency-struggle to analyze your hybrid metagenomics data? Including state-of-the-art principals of diff binning and pathways? Check out <a href="https://github.com/RVanDamme/MUFFIN">MUFFIN</a>!   
 - date: 02. February 2020
   headline: Our pipeline RIBAP for the automatic annotation and core gene set calculation/visualization of bacterial genomes is now available as a <a href="https://github.com/hoelzer-lab/ribap">Nextflow/Docker/Conda workflow</a>. Annotate your protein sequences with Prokka and determine a pan genome with Roary. This genome is refined with the usage of ILPs that solve the best matching for each pairwise strain mmseqs2 comparison.   
 - date: 06. January 2020
