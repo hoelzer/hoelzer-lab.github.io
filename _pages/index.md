@@ -6,9 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-We are a fresh, small bioinformatics team at the [FSU Jena](https://www.uni-jena.de/en/start.html?). 
+We are a bioinformatics team at the [FSU Jena](https://www.uni-jena.de/en/start.html?) focusing on transcriptomics and metagenomics using short and long reads. 
 
-We focus on the development of algorithms and tools for handling large sequencing data sets. We apply our computational methods to *de novo* genome and transcriptome assembly, the comprehensive analysis of RNA-Seq data, and the identification and characterization of pathogens such as viruses and bacteria.
+We develope tools and workflows to handle large sequencing data sets. We apply our computational methods to *de novo* genome and transcriptome assembly, the comprehensive analysis of RNA-Seq data, and the identification and characterization of pathogens such as viruses and bacteria from environmental samples.
 
 We strive to combine well-established and novel computational approaches to analyze and visualize large amounts of 
 short- and long-read sequencing data.
