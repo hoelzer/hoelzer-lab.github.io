@@ -15,8 +15,8 @@ special_o_diff = '{\`o}'
 @special = {special_i => '&iacute;', special_o => '&ograve;', special_o_diff => '&ograve;'}
 #Zubir{\'\i}a
 
-@team = {'Martin Hölzer' => '<b>Martin Hölzer</b>', 'Ruman Gerst' => '<b>Ruman Gerst</b>', 'Maximilian Collatz' => '<b>Maximilian Collatz</b>', 
-'Sebastian Krautwurst' => '<b>Sebastian Krautwurst</b>'}
+@team = {'Martin Hölzer' => '<b>Martin Hölzer</b>', 'Ruman Gerst' => '<b>Ruman Gerst</b>', 'Marie Lataretu' => '<b>Marie Lataretu</b>', 
+'Sebastian Krautwurst' => '<b>Sebastian Krautwurst</b>', 'Lisa-Marie Barf' => '<b>Lisa-Marie Barf</b>', 'Sandra Triebel' => '<b>Sandra Triebel</b>'}
 
 class Pub
 	attr_accessor :title, :authors, :year, :url, :journal, :supp, :acknow

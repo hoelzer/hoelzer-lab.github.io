@@ -1,5 +1,5 @@
 - title: "EpiDope: A Deep neural network for linear B-cell epitope prediction."
-  authors: <b>Maximilian Collatz</b>, Forian Mock, <b>Martin Hölzer</b>, Emmanuel Barth, Konrad Sachse, Manja Marz
+  authors: Maximilian Collatz, Forian Mock, <b>Martin Hölzer</b>, Emmanuel Barth, Konrad Sachse, Manja Marz
   year: 2020
   preprint: 0
   submitted: 2
@@ -95,7 +95,7 @@
     display: Genome Research
 
 - title: "A comprehensive annotation and differential expression analysis of short and long non-coding RNAs in 16 bat genomes"
-  authors: Nelly F Mostajo, Marie Lataretu, <b>Sebastian Krautwurst</b>, Florian Mock, Daniel Desir&ograve;, Kevin Lamkiewicz, <b>Maximilian Collatz</b>, Andreas Schoen, Friedemann Weber, Manja Marz, <b>Martin Hölzer</b>
+  authors: Nelly F Mostajo, <b>Marie Lataretu</b>, <b>Sebastian Krautwurst</b>, Florian Mock, Daniel Desir&ograve;, Kevin Lamkiewicz, Maximilian Collatz, Andreas Schoen, Friedemann Weber, Manja Marz, <b>Martin Hölzer</b>
   year: 2019
   preprint: 0
   submitted: 0
@@ -215,7 +215,7 @@
     display: Frontiers in microbiology
 
 - title: "Massive effect on lncRNAs in human monocytes during fungal and bacterial infections and in response to vitamins A and D."
-  authors: Konstantin Riege, <b>Martin Hölzer</b>, Tilman E Klassert, Emanuel Barth, Julia Bräuer, <b>Maximilian Collatz</b>, Franziska Hufsky, Nelly Mostajo, Magdalena Stock, Bertram Vogel, Hortense Slevogt, Manja Marz.
+  authors: Konstantin Riege, <b>Martin Hölzer</b>, Tilman E Klassert, Emanuel Barth, Julia Bräuer, Maximilian Collatz, Franziska Hufsky, Nelly Mostajo, Magdalena Stock, Bertram Vogel, Hortense Slevogt, Manja Marz.
   year: 2017
   preprint: 0
   submitted: 0
@@ -287,7 +287,7 @@
     display: Genome Announcements
 
 - title: "Differential transcriptional responses to Ebola and Marburg virus infection in bat and human cells."
-  authors: <b>Martin Hölzer</b>, Verena Krähling, Fabian Amman, Emanuel Barth, Stephan H Bernhart, Victor A O Carmelo, <b>Maximilian Collatz</b>, Gero Doose, Florian Eggenhofer, Jan Ewald, Jörg Fallmann, Lasse M Feldhahn *et al*.
+  authors: <b>Martin Hölzer</b>, Verena Krähling, Fabian Amman, Emanuel Barth, Stephan H Bernhart, Victor A O Carmelo, Maximilian Collatz, Gero Doose, Florian Eggenhofer, Jan Ewald, Jörg Fallmann, Lasse M Feldhahn *et al*.
   year: 2016
   preprint: 0
   submitted: 0
