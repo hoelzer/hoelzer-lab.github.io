@@ -1,5 +1,17 @@
+- title: "EpiDope: A Deep neural network for linear B-cell epitope prediction."
+  authors: <b>Maximilian Collatz</b>, Forian Mock, <b>Martin Hölzer</b>, Emmanuel Barth, Konrad Sachse, Manja Marz
+  year: 2020
+  preprint: 0
+  submitted: 2
+  book: 0
+  supp: https://github.com/mcollatz/EpiDope
+  acknow: 0
+  link:
+    url: https://www.biorxiv.org/content/10.1101/2020.05.12.090019v1
+    display: bioRxiv
+
 - title: "Metagenomics workflow for hybrid assembly, differential coverage binning, transcriptomics and pathway analysis (MUFFIN)."
-  authors: Renaud Van Damme, <b>Martin Hölzer</b>, Adrian Viehweger, M\"uller Bettina, Erik Bongcam-Rudloff, Christian Brandt
+  authors: Renaud Van Damme, <b>Martin Hölzer</b>, Adrian Viehweger, Müller Bettina, Erik Bongcam-Rudloff, Christian Brandt
   year: 2020
   preprint: 0
   submitted: 2
