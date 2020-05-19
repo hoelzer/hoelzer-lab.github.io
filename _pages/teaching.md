@@ -11,7 +11,6 @@ permalink: /teaching/
 
 ## Teaching
 
-### Summer term 2019
 
 <!--#### LaTeX basics for natural scientists
 
