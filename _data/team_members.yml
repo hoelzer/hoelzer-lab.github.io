@@ -59,17 +59,17 @@
   number_educ: 1
   education1: M.Sc. Mol. Life Sciences, University of Jena
 
-- name: Maximilian Arlt
-  photo: KaffeeMax.png
-  info: Research assistant, started Apr 2019
-  email: maximilian.arlt@uni-jena.de
-  github: https://github.com/CoffeeMA2go
-  twitter: 0
-  orcid: 0
-  cv: 0
-  thesis: 0
-  number_educ: 1
-  education1: B.Sc. applied Biology, University of Jena
+#- name: Maximilian Arlt
+#  photo: KaffeeMax.png
+#  info: Research assistant, started Apr 2019
+#  email: maximilian.arlt@uni-jena.de
+#  github: https://github.com/CoffeeMA2go
+#  twitter: 0
+#  orcid: 0
+#  cv: 0
+#  thesis: 0
+#  number_educ: 1
+#  education1: B.Sc. applied Biology, University of Jena
 
 #- name: Lasse Faber
 #  photo: Lasse.png
@@ -94,17 +94,17 @@
 #  thesis: 0
 #  number_educ: 0
 
-- name: Sandra Triebel
-  photo: Sandra.png
-  info: Research assistant, started Jan 2020
-  email: sandra.triebel@uni-jena.de
-  github: https://github.com/sandraTriebel
-  twitter: https://twitter.com/sandraLutaLivre
-  orcid: 0
-  cv: 0
-  thesis: 0
-  number_educ: 1  
-  education1: B.Sc. Bioinformatics, University of Jena
+#- name: Sandra Triebel
+#  photo: Sandra.png
+#  info: Research assistant, started Jan 2020
+#  email: sandra.triebel@uni-jena.de
+#  github: https://github.com/sandraTriebel
+#  twitter: https://twitter.com/sandraLutaLivre
+#  orcid: 0
+#  cv: 0
+#  thesis: 0
+#  number_educ: 1  
+#  education1: B.Sc. Bioinformatics, University of Jena
 
 #- name: "This could be you !"
 #  photo: rock.jpg

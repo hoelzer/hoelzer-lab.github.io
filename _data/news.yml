@@ -1,3 +1,5 @@
+- date: 19. May 2020
+  headline: Interested in the detection of B-cell epitopes? The identification of this small but diagnostically relevant protein regions is a challenging task that usually involves extensive laboratory work. By using a deep neural network <a href="https://github.com/mcollatz/EpiDope">EpiDope</a> detects B-cell epitope regions on individual protein sequences!  
 - date: 10. February 2020
   headline: Are you looking for some easy to run tool w/o dependency-struggle to analyze your hybrid metagenomics data? Including state-of-the-art principals of diff binning and pathways? Check out <a href="https://github.com/RVanDamme/MUFFIN">MUFFIN</a>!   
 - date: 02. February 2020
