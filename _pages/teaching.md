@@ -26,13 +26,20 @@ Content will be added during the course.
 - Bachlor/Master and larger theses: <!--[Handout](/assets/teaching/latex/handouts/Handout6_Abschlussarbeiten.pdf), [Aufgaben](/assets/teaching/latex/tasks/6_Abschlussarbeiten.zip)
 - Scientific publication formats, CV, letters: <!--[ShareLaTeX](https://de.sharelatex.com/), [Aufgaben](/assets/teaching/latex/tasks/7_Last.txt.zip)
 -->
-#### Virusinformatics
+
+<!--#### Virusinformatics
 
 Practical course on the analysis of meta-transcriptomic patient samples.
 
 ##### *Input*: An artificial transcriptomic sample from a human patient.   
 
 ##### *Goal*: Find out which viruse(s) infected the patient.  
+-->
+
+Currently no teaching! (so much time for research, wuhuhu)
+
+Checkout the teaching provided by the <a href="https://www.rna.uni-jena.de/studium/lehre/">RNA Bioinformatics group</a> - it's great fun and science!
+
 <!--
 ##### Approaches/Tools:
 - Quality check (FastQC)
