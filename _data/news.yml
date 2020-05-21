@@ -1,3 +1,7 @@
+- date: 22. May 2020
+  headline: I am happy to announce that <a href="https://github.com/hoelzer/poseidon">PoSeiDon</a>, a pipeline to detect significantly positive selected sites and possible recombination events in an alignment of multiple protein-coding sequences, is now available as a Nextflow w/ Dockers! And a small <a href="https://www.biorxiv.org/content/10.1101/2020.05.18.102731v1">preprint</a> is also out. 
+- date: 21. May 2020
+  headline: You really like <a href="https://github.com/tseemann/prokka">Prokka</a> to annotate your bacterial genomes? But sometimes there are so many hypothetical proteins? Try out our small tool <a href="https://github.com/hoelzer-lab/hypro">HyPro</a> where we extend hypothetical protein annotations from Prokka using additional homology searches against larger databases.  
 - date: 19. May 2020
   headline: Interested in the detection of B-cell epitopes? The identification of this small but diagnostically relevant protein regions is a challenging task that usually involves extensive laboratory work. By using a deep neural network <a href="https://github.com/mcollatz/EpiDope">EpiDope</a> detects B-cell epitope regions on individual protein sequences!  
 - date: 10. February 2020

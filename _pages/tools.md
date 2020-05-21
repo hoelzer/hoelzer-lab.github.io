@@ -34,6 +34,32 @@ Please see the [GitHub](https://github.com/hoelzer-lab/ribap) page for more deta
 
 <div class="row"><div class="col-sm-6 clearfix">
 
+### PoSeiDon
+
+**Po**sitive **Se**lect**i**on **D**etecti**on** and recombination analysis of protein-coding genes.
+
+- [Source code @GitHub](https://github.com/hoelzer/poseidon)
+
+- [Preprint @bioRxiv](https://www.biorxiv.org/content/10.1101/2020.05.18.102731v1)
+
+PoSeiDon now runs w/ [Nextflow](https://www.nextflow.io/) and [Docker](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/#install-docker-ce):
+
+<code>
+nextflow run hoelzer/poseidon --help
+</code>
+
+Please see the [GitHub](https://github.com/hoelzer/poseidon) page for more detailed instructions and examples.
+
+</div><div class="col-sm-6 clearfix">
+<!--[![PoSeiDon logo](/assets/tools/poseidon.png)](http://www.rna.uni-jena.de/en/poseidon)-->
+<!--<div align="right">[<img src="/assets/tools/poseidon.svg" width="220px">](http://www.rna.uni-jena.de/en/poseidon)-->
+<div align="right"><img src="/assets/tools/poseidon.svg" width="220px">
+</div></div></div>
+
+
+
+<div class="row"><div class="col-sm-6 clearfix">
+
 ### PCAGO
 
 Interactive web service that allows analysis of RNA-Seq read count data with [PCA](https://towardsdatascience.com/a-step-by-step-explanation-of-principal-component-analysis-b836fb9c97e2) and clustering.
@@ -82,22 +108,3 @@ SilentMutations (SIM) automatically constructs disrupting and restoring synonymo
 </div></div>
 
 
-
-<div class="row"><div class="col-sm-6 clearfix">
-
-### PoSeiDon
-
-**Po**sitive **Se**lect**i**on **D**etecti**on** and recombination analysis of protein-coding genes.
-
-**Attention:** currently the website where PoSeiDon is hosted will undergo
-maintenance. The web service will be back soon with full functionality. 
-
-<!--- [Go to web server](http://www.rna.uni-jena.de/en/poseidon)-->
-
-- [Source code @GitHub](https://github.com/hoelzer/poseidon)
-
-</div><div class="col-sm-6 clearfix">
-<!--[![PoSeiDon logo](/assets/tools/poseidon.png)](http://www.rna.uni-jena.de/en/poseidon)-->
-<!--<div align="right">[<img src="/assets/tools/poseidon.svg" width="220px">](http://www.rna.uni-jena.de/en/poseidon)-->
-<div align="right"><img src="/assets/tools/poseidon.svg" width="220px">
-</div></div></div>

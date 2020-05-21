@@ -1,3 +1,15 @@
+- title: "PoSeiDon: a Nextflow pipeline for the detection of evolutionary recombination events and positive selection"
+  authors: <b>Martin Hölzer</b>, Manja Marz
+  year: 2020
+  preprint: 0
+  submitted: 2
+  book: 0
+  supp: https://github.com/hoelzer/poseidon
+  acknow: 0
+  link:
+    url: https://www.biorxiv.org/content/10.1101/2020.05.18.102731
+    display: bioRxiv
+
 - title: "EpiDope: A Deep neural network for linear B-cell epitope prediction."
   authors: Maximilian Collatz, Forian Mock, <b>Martin Hölzer</b>, Emmanuel Barth, Konrad Sachse, Manja Marz
   year: 2020
