@@ -1,4 +1,4 @@
-- title: "Computational strategies to combat COVID-19: Useful tools to accelerate SARS-CoV-2 and coronavirus research"
+- title: "Computational strategies to combat COVID-19: Useful tools to accelerate SARS-CoV-2 and coronavirus research."
   authors: F. Hufsky, K. Lamkiewicz, A. Almeida, A. Aouacheria, C. Arighi, A. Bateman, J. Baumbach, N. Beerenwinkel, C. Brandt, M. Cacciabue, S. Chuguransky, O. Drechsel *et al*.
   year: 2020
   preprint: 0
@@ -10,7 +10,7 @@
     url: https://www.preprints.org/manuscript/202005.0376/v1
     display: Preprints
 
-- title: "PoSeiDon: a Nextflow pipeline for the detection of evolutionary recombination events and positive selection"
+- title: "PoSeiDon: a Nextflow pipeline for the detection of evolutionary recombination events and positive selection."
   authors: <b>Martin Hölzer</b>, Manja Marz
   year: 2020
   preprint: 0
