@@ -1,3 +1,5 @@
+- date: 26. July 2020
+  headline: Have you ever had trouble getting a number of virus detection tools to work? Stop it! Test "What the Phage"! The <a href="https://www.biorxiv.org/content/10.1101/2020.07.24.219899v1">preprint</a> of our multitool approach for phage identification and analysis is now available. <a href="https://github.com/replikation/What_the_Phage">Implemented in Nextflow with Docker/Singularity support</a>.  
 - date: 24. May 2020
   headline: I am very happy to be able to contribute to this <a href="https://www.preprints.org/manuscript/202005.0376/v1">review</a> on workflows and tools that have been developed by the virus bioinformatics community as a rapid reaction to the COVID19 pandemic! Also check this comprehensive (yet incomplete) <a href="http://evbc.uni-jena.de/tools/coronavirus-tools/">collection of tools and resources</a> for virus detection, annotation, tracking and drug design. 
 - date: 22. May 2020

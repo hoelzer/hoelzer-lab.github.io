@@ -1,15 +1,3 @@
-- title: "Computational strategies to combat COVID-19: Useful tools to accelerate SARS-CoV-2 and coronavirus research."
-  authors: F. Hufsky, K. Lamkiewicz, A. Almeida, A. Aouacheria, C. Arighi, A. Bateman, J. Baumbach, N. Beerenwinkel, C. Brandt, M. Cacciabue, S. Chuguransky, O. Drechsel *et al*.
-  year: 2020
-  preprint: 0
-  submitted: 2
-  book: 0
-  supp: http://evbc.uni-jena.de/tools/coronavirus-tools/
-  acknow: 0
-  link:
-    url: https://www.preprints.org/manuscript/202005.0376/v1
-    display: Preprints
-
 - title: "PoSeiDon: a Nextflow pipeline for the detection of evolutionary recombination events and positive selection."
   authors: <b>Martin Hölzer</b>, Manja Marz
   year: 2020
@@ -21,6 +9,30 @@
   link:
     url: https://doi.org/10.1101/2020.05.18.102731
     display: bioRxiv
+
+- title: "What the Phage: A scalable workflow for the identification and analysis of phage sequences."
+  authors: Maik Marquet, <b>Martin Hölzer</b>, Mathias W Pletz, Adrian Viehweger, Oliwia Makarewicz, Ralf Ehricht, Christian Brandt
+  year: 2020
+  preprint: 0
+  submitted: 2
+  book: 0
+  supp: https://github.com/replikation/What_the_Phage
+  acknow: 0
+  link:
+    url: https://doi.org/10.1101/2020.07.24.219899
+    display: bioRxiv
+
+- title: "Computational strategies to combat COVID-19: Useful tools to accelerate SARS-CoV-2 and coronavirus research."
+  authors: F. Hufsky, K. Lamkiewicz, A. Almeida, A. Aouacheria, C. Arighi, A. Bateman, J. Baumbach, N. Beerenwinkel, C. Brandt, M. Cacciabue, S. Chuguransky, O. Drechsel *et al*.
+  year: 2020
+  preprint: 0
+  submitted: 2
+  book: 0
+  supp: http://evbc.uni-jena.de/tools/coronavirus-tools/
+  acknow: 0
+  link:
+    url: https://www.preprints.org/manuscript/202005.0376/v1
+    display: Preprints
 
 - title: "EpiDope: A Deep neural network for linear B-cell epitope prediction."
   authors: Maximilian Collatz, Forian Mock, <b>Martin Hölzer</b>, Emmanuel Barth, Konrad Sachse, Manja Marz
