@@ -6,28 +6,28 @@ sitemap: false
 permalink: /
 ---
 
-We are a bioinformatics team at the [FSU Jena](https://www.uni-jena.de/en/start.html?) focusing on transcriptomics and metagenomics using short and long reads. 
+In 2018, we formed a bioinformatics team focusing on microbial transcriptomics and metagenomics in collaboration with the [RNA Bioinformatics & High-Throughput Analysis group](https://www.rna.uni-jena.de/) at the [FSU Jena](https://www.uni-jena.de/en/start.html?).
 
-We develope tools and workflows to handle large sequencing data sets. We apply our computational methods to *de novo* genome and transcriptome assembly, the comprehensive analysis of RNA-Seq data, and the identification and characterization of pathogens such as viruses and bacteria from environmental samples.
+With [Martin's](https://twitter.com/martinhoelzer) move to the [bioinformatics department of the Robert Koch Institute](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/MF/MF1/mf1_node.html) in 2020, the team will no longer exist in its original form, but the science will continue at the RKI. 
 
-We strive to combine well-established and novel computational approaches to analyze and visualize large amounts of 
-short- and long-read sequencing data.
+We develop novel tools and workflows for handling large amounts of sequence data. We apply computational methods to automate *de novo* (meta-)genome and transcriptome assembly, analysis and annotation of RNA Seq data, identification and characterization of pathogens such as viruses and bacteria from environmental samples and (more recently) molecular monitoring of infectious diseases.
+
+We strive to combine well-established and novel computational approaches into reproducible workflows to analyze and visualize large amounts of short- and long-read sequencing data.
 <!-- in a comprehensive and handsome way to allow other researchers to understand, interpret and dilate the data.-->
 
-We work closely with the [RNA Bioinformatics/High-Throughput](https://www.rna.uni-jena.de/) group of Manja Marz and we are a member of the [European Virus Bioinformatics Center](http://evbc.uni-jena.de/). 
+<!--We work closely with the [RNA Bioinformatics/High-Throughput](https://www.rna.uni-jena.de/) group of Manja Marz and--> We are a member of the [European Virus Bioinformatics Center](http://evbc.uni-jena.de/). 
 
 <br>
 <div class="row"><div class="col-sm-6 clearfix">
 
-#### Research Interests
+#### Research interests
 
-* Bioinformatics
-* Transcriptomics & comparative genomics
+* Microbial bioinformatics
 * _de novo_ assembly & annotation
-* Microbes & viruses
+* Transcriptomics & comparative genomics
 * Metagenomics & -transcriptomics
-* Oxford Nanopore Sequencing
-* Non-coding RNA & RNA secondary structure
+* Real-time nanopore sequencing
+* Workflow management & reproducibility
 * Automation & visualization
 
 </div><div class="col-sm-6 clearfix">
