@@ -6,14 +6,13 @@ sitemap: false
 permalink: /
 ---
 
-In 2018 we formed a bioinformatics team in association with the [RNA Bioinformatics & High-Throughput Analysis group](https://www.rna.uni-jena.de/) located at the [FSU Jena](https://www.uni-jena.de/en/start.html?), focusing on microbial transcriptomics and metagenomics.
+In 2018, we formed a bioinformatics team focusing on microbial transcriptomics and metagenomics in collaboration with the [RNA Bioinformatics & High-Throughput Analysis group](https://www.rna.uni-jena.de/) at the [FSU Jena](https://www.uni-jena.de/en/start.html?).
 
-With [Martin](https://twitter.com/martinhoelzer) moving to the [bioinformatics department of the Robert Koch Institute (RKI)](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/MF/MF1/mf1_node.html), the team in its original fom will no longer exist, however the science will continue at the RKI. 
+With [Martin's](https://twitter.com/martinhoelzer) move to the [bioinformatics department of the Robert Koch Institute](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/MF/MF1/mf1_node.html) in 2020, the team will no longer exist in its original form, but the science will continue at the RKI. 
 
-Here, we develope novel tools and workflows to handle large sequencing data sets. We apply computational methods to automate *de novo* (meta-)genome and transcriptome assembly, the analysis and annotation of RNA-Seq data, the identification and characterization of pathogens such as viruses and bacteria from environmental samples and (most recently) molecular surveillance and infectious diseases.
+We develop novel tools and workflows for handling large amounts of sequence data. We apply computational methods to automate *de novo* (meta-)genome and transcriptome assembly, analysis and annotation of RNA Seq data, identification and characterization of pathogens such as viruses and bacteria from environmental samples and (more recently) molecular monitoring of infectious diseases.
 
-We strive to combine well-established and novel computational approaches to analyze and visualize large amounts of 
-short- and long-read sequencing data.
+We strive to combine well-established and novel computational approaches into reproducible workflows to analyze and visualize large amounts of short- and long-read sequencing data.
 <!-- in a comprehensive and handsome way to allow other researchers to understand, interpret and dilate the data.-->
 
 <!--We work closely with the [RNA Bioinformatics/High-Throughput](https://www.rna.uni-jena.de/) group of Manja Marz and--> We are a member of the [European Virus Bioinformatics Center](http://evbc.uni-jena.de/). 
@@ -21,7 +20,7 @@ short- and long-read sequencing data.
 <br>
 <div class="row"><div class="col-sm-6 clearfix">
 
-#### Research Interests
+#### Research interests
 
 * Microbial bioinformatics
 * _de novo_ assembly & annotation

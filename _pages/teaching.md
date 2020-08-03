@@ -37,9 +37,9 @@ Practical course on the analysis of meta-transcriptomic patient samples.
 
 Currently no teaching! (so much time for research, wuhuhu)
 
+<!--
 Checkout the teaching provided by the <a href="https://www.rna.uni-jena.de/studium/lehre/">RNA Bioinformatics group</a> - it's great fun and science!
 
-<!--
 ##### Approaches/Tools:
 - Quality check (FastQC)
 - Sequence similarity (Blast, Hisat2, ...)
