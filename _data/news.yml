@@ -1,3 +1,5 @@
+- date: 02. August 2020
+  headline: Detect sites under positive selection with <a href="https://github.com/hoelzer/poseidon">PoSeiDon</a>! Implemented via Nextflow and Docker and now accepted as an Application Note in <a href="https://doi.org/10.1093/bioinformatics/btaa695">Bioinformatics</a>. 
 - date: 26. July 2020
   headline: Have you ever had trouble getting a number of virus detection tools to work? Stop it! Test "What the Phage"! The <a href="https://www.biorxiv.org/content/10.1101/2020.07.24.219899v1">preprint</a> of our multitool approach for phage identification and analysis is now available. <a href="https://github.com/replikation/What_the_Phage">Implemented in Nextflow with Docker/Singularity support</a>.  
 - date: 24. May 2020

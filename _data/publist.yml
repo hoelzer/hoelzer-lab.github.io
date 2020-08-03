@@ -2,13 +2,13 @@
   authors: <b>Martin Hölzer</b>, Manja Marz
   year: 2020
   preprint: 0
-  submitted: 2
+  submitted: 0
   book: 0
   supp: https://github.com/hoelzer/poseidon
   acknow: 0
   link:
-    url: https://doi.org/10.1101/2020.05.18.102731
-    display: bioRxiv
+    url: https://doi.org/10.1093/bioinformatics/btaa695
+    display: Bioinformatics
 
 - title: "What the Phage: A scalable workflow for the identification and analysis of phage sequences."
   authors: Maik Marquet, <b>Martin Hölzer</b>, Mathias W Pletz, Adrian Viehweger, Oliwia Makarewicz, Ralf Ehricht, Christian Brandt

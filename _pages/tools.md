@@ -40,7 +40,7 @@ Please see the [GitHub](https://github.com/hoelzer-lab/ribap) page for more deta
 
 - [Source code @GitHub](https://github.com/hoelzer/poseidon)
 - [Preprint @bioRxiv](https://www.biorxiv.org/content/10.1101/2020.05.18.102731v1)
-- [App Note @Bioinformatics]()
+- [App Note @Bioinformatics](https://doi.org/10.1093/bioinformatics/btaa695)
 
 PoSeiDon now runs w/ [Nextflow](https://www.nextflow.io/) and [Docker](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/#install-docker-ce):
 
