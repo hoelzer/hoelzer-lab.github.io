@@ -1,7 +1,7 @@
 - name: Dr. Martin Hölzer
   photo: Martin_2019.png
   info: Head (<a href="/assets/hoelzer_cv.pdf">CV</a>)
-  email: martin.hoelzer@uni-jena.de
+  email: hoelzerm@rki.de
   github: https://github.com/hoelzer
   twitter: https://twitter.com/martinhoelzer
   orcid: https://orcid.org/0000-0001-7090-8717
@@ -13,7 +13,7 @@
 
 - name: Marie Lataretu
   photo: Marie.png
-  info: associated Ph.D., started Oct 2018
+  info: co-supervised Ph.D., started Oct 2018
   email: marie.lataretu@uni-jena.de
   github: https://github.com/MarieLataretu
   twitter: 0
@@ -49,7 +49,7 @@
 
 - name: Lisa-Marie Barf
   photo: Lisa.png
-  info: associated Ph.D., started Jul 2019
+  info: co-supervised Ph.D., started Jul 2019
   email: lisa-marie.barf@uni-jena.de
   github: 0
   twitter: https://twitter.com/Lisa95586643 ‏
