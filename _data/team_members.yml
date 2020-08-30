@@ -59,6 +59,19 @@
   number_educ: 1
   education1: M.Sc. Mol. Life Sciences, University of Jena
 
+- name: Kunaphas "Note" Kongkitimanon
+  photo: note.png
+  info: Research internship, started Sep 2020
+  email: KongkitimanonK@rki.de
+  github: 0
+  twitter: 0
+  orcid: 0
+  cv: 0
+  thesis: 0
+  number_educ: 1
+  education1: M.Sc. Computer Science, Mahidol University
+
+
 #- name: Maximilian Arlt
 #  photo: KaffeeMax.png
 #  info: Research assistant, started Apr 2019
