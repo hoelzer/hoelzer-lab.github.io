@@ -58,6 +58,18 @@
     url: https://www.biorxiv.org/content/10.1101/2020.05.12.090019v1
     display: bioRxiv
 
+- title: "A marine *Chlamydomonas* sp. emerging as an algal model."
+  authors: David C Flores, Markus Fricke, Valentin Wesp, Daniel Desir&ograve;, Anja Kniewasser, <b>Martin Hölzer</b>, Manja Marz, Maria Mittag
+  year: 2020
+  preprint: 0
+  submitted: 0
+  book: 0
+  supp: 
+  acknow: 0
+  link:
+    url: 
+    display: Journal of Phycology
+
 - title: "Metagenomics workflow for hybrid assembly, differential coverage binning, transcriptomics and pathway analysis (MUFFIN)."
   authors: Renaud Van Damme, <b>Martin Hölzer</b>, Adrian Viehweger, Müller Bettina, Erik Bongcam-Rudloff, Christian Brandt
   year: 2020
