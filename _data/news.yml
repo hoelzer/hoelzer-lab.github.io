@@ -1,3 +1,7 @@
+- date: 01. September 2020
+  headline: Welcome Kunaphas! For his bioinformatics research internship at the <a href="https://www.fu-berlin.de/en/index.html">FU Berlin</a> he joins the <a href="https://hoelzer-lab.github.io/team/">team</a> to work on the detection of antimicrobial peptides from large collections of publicly available RNA-Seq data.    
+- date: 07. August 2020
+  headline: After 7 years at the <a href="https://www.uni-jena.de/">FSU</a> and the legendary <a href="https://www.rna.uni-jena.de/">RNA Bioinformatics</a> team, I'm pleased to announce that I've just moved to the <a href="https://www.rki.de/EN/Content/Institute/DepartmentsUnits/MF/MF1/mf1_node.html">Robert Koch Institute</a> to support the central scientific institution of our government in the field of infectious diseases with applied bioinformatics and research. Great times in Jena, which I will certainly miss, but now new tasks are waiting!  
 - date: 02. August 2020
   headline: Detect sites under positive selection with <a href="https://github.com/hoelzer/poseidon">PoSeiDon</a>! Implemented via Nextflow and Docker and now accepted as an Application Note in <a href="https://doi.org/10.1093/bioinformatics/btaa695">Bioinformatics</a>. 
 - date: 26. July 2020
