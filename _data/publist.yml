@@ -28,11 +28,23 @@
   preprint: 0
   submitted: 0
   book: 0
-  supp: 
+  supp: 0
   acknow: 0
   link:
     url: https://dummyimage.com/
     display: Journal of Phycology
+
+- title: "A decade of *de novo* transcriptome assembly: Are we there yet?"
+  authors: <b>Martin Hölzer</b>
+  year: 2020
+  preprint: 0
+  submitted: 2
+  book: 0
+  supp: 0
+  acknow: 0
+  link:
+    url: https://doi.org/10.22541/au.159985808.82655112
+    display: Authorea
 
 - title: "What the Phage: A scalable workflow for the identification and analysis of phage sequences."
   authors: Maik Marquet, <b>Martin Hölzer</b>, Mathias W Pletz, Adrian Viehweger, Oliwia Makarewicz, Ralf Ehricht, Christian Brandt
