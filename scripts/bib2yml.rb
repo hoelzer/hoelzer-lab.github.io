@@ -108,7 +108,7 @@ year.each do |y|
 		book = '0'
 		submitted = '0'
 		acknow = '0'
-		book = '1' if pub.title.include?('Software')
+		book = '1' if pub.title.include?('Software {D}edicated') || pub.title.include?('Virus {B}ioinformatics')
 		submitted = '1' if pub.journal.include?('Submitted') 
 		submitted = '2' if pub.journal.include?('bioRxiv') || pub.journal.include?('Preprints') || pub.journal.include?('Authorea') && pub.acknow != 1
 		acknow = '1' if pub.acknow == 1

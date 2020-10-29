@@ -1,3 +1,15 @@
+- title: "Virus Bioinformatics"
+  authors: Nikolaos Pappas, Simon Roux, <b>Martin Hölzer</b>, Kevin Lamkiewicz, Florian Mock, Manja Marz, Bas E Dutilh
+  year: 2020
+  preprint: 0
+  submitted: 0
+  book: 1
+  supp: 0
+  acknow: 0
+  link:
+    url: https://doi.org/10.1016/B978-0-12-814515-9.00034-5
+    display: Reference Module in Life Sciences
+
 - title: "PoSeiDon: a Nextflow pipeline for the detection of evolutionary recombination events and positive selection."
   authors: <b>Martin Hölzer</b>, Manja Marz
   year: 2020
@@ -38,13 +50,25 @@
   authors: <b>Martin Hölzer</b>
   year: 2020
   preprint: 0
-  submitted: 2
+  submitted: 0
   book: 0
   supp: 0
   acknow: 0
   link:
-    url: https://doi.org/10.22541/au.159985808.82655112
-    display: Authorea
+    url: https://doi.org/10.1111/1755-0998.13268
+    display: Molecular Ecology Resources
+
+- title: "Comparative genome analysis of 33 *Chlamydia* strains reveals characteristic features of *Chlamydia psittaci* and closely related species."
+  authors: <b>Martin Hölzer</b>, Lisa Barf, Kevin Lamkiewicz, Fabien Vorimore, <b>Marie Lataretu</b>, Alison Favaroni, Christiane Schnee, Karine Laroucau, Manja Marz, Konrad Sachse
+  year: 2020
+  preprint: 0
+  submitted: 0
+  book: 0
+  supp: 0
+  acknow: 0
+  link:
+    url: https://doi.org/10.3390/pathogens9110899
+    display: MDPI Pathogens
 
 - title: "What the Phage: A scalable workflow for the identification and analysis of phage sequences."
   authors: Maik Marquet, <b>Martin Hölzer</b>, Mathias W Pletz, Adrian Viehweger, Oliwia Makarewicz, Ralf Ehricht, Christian Brandt
