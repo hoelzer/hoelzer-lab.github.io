@@ -1,3 +1,7 @@
+- date: 29. October 2020
+  headline: <a href="https://www.mdpi.com/2076-0817/9/11/899">Freshly out</a>! Our genome comparison of 33 <i>Chlamydia</i> strains! All started with Lisa's master thesis, we run into issues defining proper core gene sets (roary n = 7, really?!) and developed <a href="https://github.com/hoelzer-lab/ribap">RIBAP</a> together with Kevin! All would not have been possible without the supervision of the great post-prof Konrad! Thx to all involved!    
+- date: 20. October 2020
+  headline: Martin's <a href="https://doi.org/10.1111/1755-0998.13268">first paper as a single author</a> (invited perspective in <i>Molecular Ecology Resources</i>)! Based on a recent publication by <a href="https://doi.org/10.1111/1755-0998.13156">Freedman <i>et al.</i></a> on errors in <i>de novo</i> transcriptome assemblies, Martin shares some thoughts on the current status and future of this area.    
 - date: 01. September 2020
   headline: Welcome Kunaphas! For his bioinformatics research internship at the <a href="https://www.fu-berlin.de/en/index.html">FU Berlin</a> he joins the <a href="https://hoelzer-lab.github.io/team/">team</a> to work on the detection of antimicrobial peptides from large collections of publicly available RNA-Seq data.    
 - date: 26. August 2020
