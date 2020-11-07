@@ -19,7 +19,7 @@ special_o_diff = '{\`o}'
 'Sebastian Krautwurst' => '<b>Sebastian Krautwurst</b>', 'Lisa-Marie Barf' => '<b>Lisa-Marie Barf</b>', 'Sandra Triebel' => '<b>Sandra Triebel</b>'}
 
 class Pub
-	attr_accessor :title, :authors, :year, :url, :journal, :supp, :acknow
+	attr_accessor :title, :authors, :year, :url, :journal, :supp, :acknow, :section
 end
 
 publist = {}
@@ -46,6 +46,11 @@ bib.each do |entry|
 		else
 			publist[id].acknow = '0'
 		end		
+		if entry.section
+			publist[id].section = entry.section.to_i
+		else
+			publist[id].section = '0'
+		end
 		year.push(entry.year.to_s)
 	end
 end
@@ -124,6 +129,7 @@ year.each do |y|
 		yml << "  book: #{book}\n"
 		yml << "  supp: #{pub.supp}\n"
 		yml << "  acknow: #{acknow}\n"
+		yml << "  section: #{pub.section}\n" # 0 == Misc, 1 == Transcriptomics, ...
 		yml << "  link:\n"
 		yml << "    url: #{pub.url}\n"
 		yml << "    display: #{pub.journal}\n\n"
