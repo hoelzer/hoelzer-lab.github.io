@@ -31,6 +31,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 ### Peer reviewed
 
 <!--TRANSCRIPTOMICS-->
+  <h4>Transcriptomics</h4>
 {% for publi in site.data.publist %}
 
   {% if publi.preprint == 0 %}
@@ -38,7 +39,6 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
     {% if publi.submitted == 0 %}
     {% if publi.acknow == 0 %}
     {% if publi.section == 1 %}
-  <h4>Transcriptomics</h4>
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br />
   <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}}){% if publi.supp != 0 %}, <a href="{{ publi.supp }}">supplement</a> {% endif %}
@@ -51,6 +51,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 {% endfor %}
 
 <!--GENOMICS-->
+  <h4>Genomics & metagenomics</h4>
 {% for publi in site.data.publist %}
 
   {% if publi.preprint == 0 %}
@@ -58,7 +59,6 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
     {% if publi.submitted == 0 %}
     {% if publi.acknow == 0 %}
     {% if publi.section == 2 %}
-  <h4>Genomics & metagenomics</h4>
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br />
   <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}}){% if publi.supp != 0 %}, <a href="{{ publi.supp }}">supplement</a> {% endif %}
@@ -71,6 +71,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 {% endfor %}
 
 <!--VIRUSES-->
+  <h4>Viruses</h4>
 {% for publi in site.data.publist %}
 
   {% if publi.preprint == 0 %}
@@ -78,7 +79,6 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
     {% if publi.submitted == 0 %}
     {% if publi.acknow == 0 %}
     {% if publi.section == 3 %}
-  <h4>Viruses</h4>
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br />
   <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}}){% if publi.supp != 0 %}, <a href="{{ publi.supp }}">supplement</a> {% endif %}
@@ -91,6 +91,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 {% endfor %}
 
 <!--TOOLS-->
+  <h4>Bioinformatic tools & workflows</h4>
 {% for publi in site.data.publist %}
 
   {% if publi.preprint == 0 %}
@@ -98,7 +99,6 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
     {% if publi.submitted == 0 %}
     {% if publi.acknow == 0 %}
     {% if publi.section == 4 %}
-  <h4>Bioinformatic tools & workflows</h4>
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br />
   <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}}){% if publi.supp != 0 %}, <a href="{{ publi.supp }}">supplement</a> {% endif %}
@@ -112,6 +112,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 
 
 <!--MISC-->
+  <h4>Other</h4>
 {% for publi in site.data.publist %}
 
   {% if publi.preprint == 0 %}
@@ -119,7 +120,6 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
     {% if publi.submitted == 0 %}
     {% if publi.acknow == 0 %}
     {% if publi.section == 0 %}
-  <h4>Misc</h4>
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br />
   <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}}){% if publi.supp != 0 %}, <a href="{{ publi.supp }}">supplement</a> {% endif %}
