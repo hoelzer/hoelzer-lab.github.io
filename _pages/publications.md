@@ -45,6 +45,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
   {% endif %}
   {% endif %}
   {% endif %}
+  {% endif %}
   
 {% endfor %}
 
