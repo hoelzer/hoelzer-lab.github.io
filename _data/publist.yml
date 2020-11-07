@@ -6,7 +6,7 @@
   book: 1
   supp: 0
   acknow: 0
-  section: 0
+  section: 3
   link:
     url: https://doi.org/10.1016/B978-0-12-814515-9.00034-5
     display: Reference Module in Life Sciences
@@ -19,7 +19,7 @@
   book: 0
   supp: https://github.com/hoelzer/poseidon
   acknow: 0
-  section: 0
+  section: 4
   link:
     url: https://doi.org/10.1093/bioinformatics/btaa695
     display: OUP Bioinformatics
@@ -32,7 +32,7 @@
   book: 0
   supp: https://www.ebi.ac.uk/ena/browser/view/PRJEB35315
   acknow: 0
-  section: 0
+  section: 2
   link:
     url: https://doi.org/10.1111/1462-2920.15186
     display: Environmental Microbiology
@@ -71,7 +71,7 @@
   book: 0
   supp: https://osf.io/j9zas/
   acknow: 0
-  section: 0
+  section: 2
   link:
     url: https://doi.org/10.3390/pathogens9110899
     display: MDPI Pathogens
@@ -84,7 +84,7 @@
   book: 0
   supp: https://github.com/replikation/What_the_Phage
   acknow: 0
-  section: 0
+  section: 4
   link:
     url: https://doi.org/10.1101/2020.07.24.219899
     display: bioRxiv
@@ -97,7 +97,7 @@
   book: 0
   supp: http://evbc.uni-jena.de/tools/coronavirus-tools/
   acknow: 0
-  section: 0
+  section: 3
   link:
     url: https://www.preprints.org/manuscript/202005.0376/v1
     display: Preprints
@@ -110,7 +110,7 @@
   book: 0
   supp: https://github.com/mcollatz/EpiDope
   acknow: 0
-  section: 0
+  section: 4
   link:
     url: https://www.biorxiv.org/content/10.1101/2020.05.12.090019v1
     display: bioRxiv
@@ -123,7 +123,7 @@
   book: 0
   supp: https://github.com/RVanDamme/MUFFIN
   acknow: 0
-  section: 0
+  section: 4
   link:
     url: https://www.biorxiv.org/content/10.1101/2020.02.08.939843v1
     display: bioRxiv
@@ -136,7 +136,7 @@
   book: 0
   supp: 0
   acknow: 0
-  section: 0
+  section: 2
   link:
     url: https://doi.org/10.1016/j.syapm.2019.06.002
     display: Systematic and Applied Microbiology
@@ -149,7 +149,7 @@
   book: 0
   supp: http://www.rna.uni-jena.de/supplements/assembly
   acknow: 0
-  section: 0
+  section: 1
   link:
     url: https://doi.org/10.1093/gigascience/giz039
     display: GigaScience
@@ -162,7 +162,7 @@
   book: 0
   supp: 0
   acknow: 0
-  section: 0
+  section: 3
   link:
     url: https://www.mdpi.com/1999-4915/11/5/449
     display: Viruses
@@ -175,7 +175,7 @@
   book: 0
   supp: 0
   acknow: 0
-  section: 0
+  section: 3
   link:
     url: https://www.mdpi.com/1999-4915/11/6/484
     display: Viruses
@@ -188,7 +188,7 @@
   book: 0
   supp: http://www.rna.uni-jena.de/supplements/mda
   acknow: 0
-  section: 0
+  section: 1
   link:
     url: https://www.cell.com/iscience/fulltext/S2589-0042(19)30294-9#secsectitle0020
     display: iScience
@@ -201,7 +201,7 @@
   book: 0
   supp: https://doi.org/10.17605/OSF.IO/UP7B4
   acknow: 0
-  section: 0
+  section: 3
   link:
     url: https://genome.cshlp.org/content/early/2019/08/22/gr.247064.118.full.pdf+html
     display: Genome Research
@@ -240,7 +240,7 @@
   book: 0
   supp: 0
   acknow: 0
-  section: 0
+  section: 2
   link:
     url: https://www.sciencedirect.com/science/article/pii/S1569905618318980?via%3Dihub#.#
     display: European Urology Supplements
@@ -253,7 +253,7 @@
   book: 0
   supp: 0
   acknow: 0
-  section: 0
+  section: 4
   link:
     url: https://doi.org/10.1016/j.virusres.2018.11.005
     display: Virus Research
@@ -266,7 +266,7 @@
   book: 0
   supp: 0
   acknow: 0
-  section: 0
+  section: 1
   link:
     url: https://doi.org/10.1084/jem.20181505
     display: Journal of Experimental Medicine
@@ -279,7 +279,7 @@
   book: 0
   supp: 0
   acknow: 0
-  section: 0
+  section: 4
   link:
     url: https://doi.org/10.1101/433078
     display: bioRxiv
@@ -331,7 +331,7 @@
   book: 0
   supp: http://www.rna.uni-jena.de/supplements/fungi_infection
   acknow: 0
-  section: 0
+  section: 1
   link:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5240112/pdf/srep40598.pdf
     display: Scientific Reports
@@ -344,7 +344,7 @@
   book: 0
   supp: http://www.rna.uni-jena.de/supplements/fungi_infection
   acknow: 0
-  section: 0
+  section: 1
   link:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5240108/pdf/srep40599.pdf
     display: Scientific Reports
@@ -357,7 +357,7 @@
   book: 1
   supp: 0
   acknow: 0
-  section: 0
+  section: 3
   link:
     url: https://www.sciencedirect.com/science/article/pii/S0065352717300222?via%3Dihub
     display: Advances in Virus Research
@@ -383,7 +383,7 @@
   book: 0
   supp: http://www.rna.uni-jena.de/supplements/mx1_bats/full_aln/
   acknow: 0
-  section: 0
+  section: 3
   link:
     url: https://doi.org/10.1128/JVI.00361-17
     display: Journal of Virology
@@ -396,7 +396,7 @@
   book: 0
   supp: 0
   acknow: 0
-  section: 0
+  section: 2
   link:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5571421/pdf/e00870-17.pdf
     display: Genome Announcements
@@ -409,7 +409,7 @@
   book: 0
   supp: http://www.rna.uni-jena.de/supplements/filovirus_human_bat
   acknow: 0
-  section: 0
+  section: 1
   link:
     url: http://dx.doi.org/10.1038/srep34589
     display: Scientific Reports
@@ -422,7 +422,7 @@
   book: 0
   supp: 0
   acknow: 0
-  section: 0
+  section: 2
   link:
     url: http://dx.doi.org/10.1128/genomeA.00708-16
     display: Genome Announcements
@@ -448,7 +448,7 @@
   book: 0
   supp: http://www.rna.uni-jena.de/supplements/mycobacterium
   acknow: 0
-  section: 0
+  section: 2
   link:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4607514/pdf/evv154.pdf
     display: Genome Biology and Evolution

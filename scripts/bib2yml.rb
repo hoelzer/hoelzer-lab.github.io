@@ -129,7 +129,7 @@ year.each do |y|
 		yml << "  book: #{book}\n"
 		yml << "  supp: #{pub.supp}\n"
 		yml << "  acknow: #{acknow}\n"
-		yml << "  section: #{pub.section}\n" # 0 == Misc, 1 == Transcriptomics, ...
+		yml << "  section: #{pub.section}\n" # 0 == Misc, 1 == Transcriptomics, 2 == Genomics, 3 == Viruses, 4 == Tools
 		yml << "  link:\n"
 		yml << "    url: #{pub.url}\n"
 		yml << "    display: #{pub.journal}\n\n"

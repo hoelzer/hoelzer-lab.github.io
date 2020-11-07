@@ -30,6 +30,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 
 ### Peer reviewed
 
+<!--TRANSCRIPTOMICS-->
 {% for publi in site.data.publist %}
 
   {% if publi.preprint == 0 %}
@@ -37,7 +38,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
     {% if publi.submitted == 0 %}
     {% if publi.acknow == 0 %}
     {% if publi.section == 1 %}
-  <h3>Transcriptomics</h3>
+  <h4>Transcriptomics</h4>
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br />
   <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}}){% if publi.supp != 0 %}, <a href="{{ publi.supp }}">supplement</a> {% endif %}
@@ -48,6 +49,88 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
   {% endif %}
   
 {% endfor %}
+
+<!--GENOMICS-->
+{% for publi in site.data.publist %}
+
+  {% if publi.preprint == 0 %}
+    {% if publi.book == 0 %}
+    {% if publi.submitted == 0 %}
+    {% if publi.acknow == 0 %}
+    {% if publi.section == 2 %}
+  <h4>Genomics & metagenomics</h4>
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }} </em><br />
+  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}}){% if publi.supp != 0 %}, <a href="{{ publi.supp }}">supplement</a> {% endif %}
+  {% endif %}  
+  {% endif %}
+  {% endif %}
+  {% endif %}
+  {% endif %}
+  
+{% endfor %}
+
+<!--VIRUSES-->
+{% for publi in site.data.publist %}
+
+  {% if publi.preprint == 0 %}
+    {% if publi.book == 0 %}
+    {% if publi.submitted == 0 %}
+    {% if publi.acknow == 0 %}
+    {% if publi.section == 3 %}
+  <h4>Viruses</h4>
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }} </em><br />
+  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}}){% if publi.supp != 0 %}, <a href="{{ publi.supp }}">supplement</a> {% endif %}
+  {% endif %}  
+  {% endif %}
+  {% endif %}
+  {% endif %}
+  {% endif %}
+  
+{% endfor %}
+
+<!--TOOLS-->
+{% for publi in site.data.publist %}
+
+  {% if publi.preprint == 0 %}
+    {% if publi.book == 0 %}
+    {% if publi.submitted == 0 %}
+    {% if publi.acknow == 0 %}
+    {% if publi.section == 4 %}
+  <h4>Bioinformatic tools & workflows</h4>
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }} </em><br />
+  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}}){% if publi.supp != 0 %}, <a href="{{ publi.supp }}">supplement</a> {% endif %}
+  {% endif %}  
+  {% endif %}
+  {% endif %}
+  {% endif %}
+  {% endif %}
+  
+{% endfor %}
+
+
+<!--MISC-->
+{% for publi in site.data.publist %}
+
+  {% if publi.preprint == 0 %}
+    {% if publi.book == 0 %}
+    {% if publi.submitted == 0 %}
+    {% if publi.acknow == 0 %}
+    {% if publi.section == 0 %}
+  <h4>Misc</h4>
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }} </em><br />
+  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a> ({{publi.year}}){% if publi.supp != 0 %}, <a href="{{ publi.supp }}">supplement</a> {% endif %}
+  {% endif %}  
+  {% endif %}
+  {% endif %}
+  {% endif %}
+  {% endif %}
+  
+{% endfor %}
+
 
 ### Book chapter
 
