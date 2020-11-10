@@ -1,3 +1,5 @@
+- date: 10. November 2020
+  headline: Very happy that this is finally out, a <a href="https://doi.org/10.1093/bib/bbaa232">review</a> on workflows and tools that have been developed by the <a href="http://evbc.uni-jena.de/">virus bioinformatics community</a> as a rapid reaction to the COVID-19 pandemic! Including a comprehensive (yet incomplete) <a href="http://evbc.uni-jena.de/tools/coronavirus-tools/">collection of tools and resources</a> for virus detection, annotation, tracking and drug design. 
 - date: 29. October 2020
   headline: <a href="https://www.mdpi.com/2076-0817/9/11/899">Freshly out</a>! Our genome comparison of 33 <i>Chlamydia</i> strains! All started with Lisa's master thesis, we run into issues defining proper core gene sets (roary n = 7, really?!) and developed <a href="https://github.com/hoelzer-lab/ribap">RIBAP</a> together with Kevin! All would not have been possible without the supervision of the great post-prof Konrad! Thx to all involved!    
 - date: 20. October 2020
