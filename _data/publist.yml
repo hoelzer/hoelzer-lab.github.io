@@ -89,6 +89,19 @@
     url: https://doi.org/10.1093/bib/bbaa232
     display: Briefings in Bioinformatics
 
+- title: "DarkQ: Continuous genomic monitoring using message queues."
+  authors: Adrian Viehweger, Christian Brandt, <b>Martin Hölzer</b>
+  year: 2020
+  preprint: 0
+  submitted: 2
+  book: 0
+  supp: https://github.com/phiweger/darkq
+  acknow: 0
+  section: 4
+  link:
+    url: https://doi.org/10.1101/2020.11.12.379560
+    display: bioRxiv
+
 - title: "What the Phage: A scalable workflow for the identification and analysis of phage sequences."
   authors: Maik Marquet, <b>Martin Hölzer</b>, Mathias W Pletz, Adrian Viehweger, Oliwia Makarewicz, Ralf Ehricht, Christian Brandt
   year: 2020
