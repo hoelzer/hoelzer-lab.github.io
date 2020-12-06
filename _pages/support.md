@@ -20,7 +20,7 @@ The Add-on Fellowship for Interdisciplinary Life Science of the [Joachim Herz St
 [![JHS logo](/images/jhs_logo.svg)](https://www.joachim-herz-stiftung.de/)
 </div></div>
 
-and was supported in the past by:
+__and was supported in the past by__:
 
 <div class="row"><div class="col-sm-6 clearfix">
 
