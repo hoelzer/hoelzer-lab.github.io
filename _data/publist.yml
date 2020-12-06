@@ -47,7 +47,7 @@
   acknow: 0
   section: 0
   link:
-    url: https://dummyimage.com/
+    url: https://doi.org/10.1111/jpy.13083
     display: Journal of Phycology
 
 - title: "A decade of *de novo* transcriptome assembly: Are we there yet?"
@@ -89,6 +89,32 @@
     url: https://doi.org/10.1093/bib/bbaa232
     display: Briefings in Bioinformatics
 
+- title: "EpiDope: A Deep neural network for linear B-cell epitope prediction."
+  authors: Maximilian Collatz, Forian Mock, <b>Martin Hölzer</b>, Emmanuel Barth, Konrad Sachse, Manja Marz
+  year: 2020
+  preprint: 0
+  submitted: 0
+  book: 0
+  supp: https://github.com/mcollatz/EpiDope
+  acknow: 0
+  section: 4
+  link:
+    url: https://doi.org/10.1093/bioinformatics/btaa773
+    display: OUP Bioinformatics
+
+- title: "RNAflow: An effective and simple RNA-Seq differential gene expression pipeline using Nextflow."
+  authors: <b>Marie Lataretu</b>, <b>Martin Hölzer</b>
+  year: 2020
+  preprint: 0
+  submitted: 2
+  book: 0
+  supp: https://github.com/hoelzer/poseidon
+  acknow: 0
+  section: 4
+  link:
+    url: https://doi.org/10.1093/bioinformatics/btaa695
+    display: Submitted
+
 - title: "DarkQ: Continuous genomic monitoring using message queues."
   authors: Adrian Viehweger, Christian Brandt, <b>Martin Hölzer</b>
   year: 2020
@@ -113,19 +139,6 @@
   section: 4
   link:
     url: https://doi.org/10.1101/2020.07.24.219899
-    display: bioRxiv
-
-- title: "EpiDope: A Deep neural network for linear B-cell epitope prediction."
-  authors: Maximilian Collatz, Forian Mock, <b>Martin Hölzer</b>, Emmanuel Barth, Konrad Sachse, Manja Marz
-  year: 2020
-  preprint: 0
-  submitted: 2
-  book: 0
-  supp: https://github.com/mcollatz/EpiDope
-  acknow: 0
-  section: 4
-  link:
-    url: https://www.biorxiv.org/content/10.1101/2020.05.12.090019v1
     display: bioRxiv
 
 - title: "Metagenomics workflow for hybrid assembly, differential coverage binning, transcriptomics and pathway analysis (MUFFIN)."
