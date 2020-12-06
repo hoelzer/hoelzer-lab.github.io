@@ -8,6 +8,32 @@ permalink: /tools/
 
 ## Tools
 
+
+
+<div class="row"><div class="col-sm-6 clearfix">
+
+### RNAflow
+
+A simple RNA-Seq differential gene expression pipeline using Nextflow.
+
+- [Source code @GitHub](https://github.com/hoelzer-lab/rnaflow)
+<!--- [Publication]()-->
+
+The pipeline needs only [Nextflow](https://www.nextflow.io/) and [Docker](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/#install-docker-ce) or [Conda](https://docs.conda.io/en/latest/miniconda.html) installed. For a test run, please try:
+
+<code>
+nextflow run hoelzer-lab/rnaflow -r v1.1.0 -profile test,local,docker
+</code>
+
+Please see the [GitHub](https://github.com/hoelzer-lab/rnaflow) page for more detailed instructions and examples on how to use RNAflow.
+
+</div><div class="col-sm-6 clearfix">
+[![RNAflow logo](/assets/tools/rnaflow.png)](/assets/tools/rnaflow.png)
+</div></div>
+
+
+
+
 <div class="row"><div class="col-sm-6 clearfix">
 
 ### RIBAP
@@ -100,7 +126,6 @@ In both cases you will then be able to access PCAGO via the following address in
 SilentMutations (SIM) automatically constructs disrupting and restoring synonymous (silent) mutation pairs within coding regions for combinatorial _in silico_ analysis of (viral) RNA-RNA interactions.
 
 - [Source code @GitHub](https://github.com/desiro/silentMutations)
-
 - [Publication @VirusResearch](https://doi.org/10.1016/j.virusres.2018.11.005)
 
 </div><div class="col-sm-6 clearfix">
