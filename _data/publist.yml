@@ -108,11 +108,11 @@
   preprint: 0
   submitted: 2
   book: 0
-  supp: https://github.com/hoelzer/poseidon
+  supp: https://github.com/hoelzer-lab/rnaflow
   acknow: 0
   section: 4
   link:
-    url: https://doi.org/10.1093/bioinformatics/btaa695
+    url: https://github.com/hoelzer-lab/rnaflow
     display: Submitted
 
 - title: "DarkQ: Continuous genomic monitoring using message queues."
