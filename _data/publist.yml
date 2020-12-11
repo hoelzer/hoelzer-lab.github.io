@@ -106,14 +106,14 @@
   authors: <b>Marie Lataretu</b>, <b>Martin Hölzer</b>
   year: 2020
   preprint: 0
-  submitted: 2
+  submitted: 0
   book: 0
   supp: https://github.com/hoelzer-lab/rnaflow
   acknow: 0
   section: 4
   link:
-    url: https://github.com/hoelzer-lab/rnaflow
-    display: Submitted
+    url: https://doi.org/10.3390/genes11121487
+    display: MDPI Genes
 
 - title: "DarkQ: Continuous genomic monitoring using message queues."
   authors: Adrian Viehweger, Christian Brandt, <b>Martin Hölzer</b>
