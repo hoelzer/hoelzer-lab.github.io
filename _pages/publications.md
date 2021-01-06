@@ -10,7 +10,22 @@ permalink: /publications/
 
 This list is also available on [Google Scholar](https://scholar.google.de/citations?user=DMZ7Hc8AAAAJ) and under [ORCID](https://orcid.org/0000-0001-7090-8717).
 
+<ul>
+<li><a href="#preprints">Preprints</a></li>
+<li>Peer reviewed</li>
+<ul>
+<li><a href="#transcriptomics">Transcriptomics & gene expression analysis</a></li>
+<li><a href="#genomics">Genomics & metagenomics</a></li>
+<li><a href="#viruses">Viruses</a></li>
+<li><a href="#tools">Bioinformatic tools & workflows</a></li>
+<li><a href="#misc">Other interesting stuff</a></li>
+</ul>
+<li><a href="#books">Book chapter</a></li>
+<li><a href="#acknow">Publications with acknowledgement</a></li>
+</ul>
+
 ### Submitted journal publications & preprints  
+<a name="preprints">
 
 {% for publi in site.data.publist %}
 
@@ -29,11 +44,6 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 {% endfor %}
 
 ### Peer reviewed
-
-<ul>
-<li><a href="#transcriptomics">Transcriptomics & gene expression analysis</a></li>
-<li><a href="#genomics">Genomics & metagenomics</a></li>
-</ul>
 
 <!--TRANSCRIPTOMICS-->
 <a name="transcriptomics">
@@ -78,6 +88,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 {% endfor %}
 
 <!--VIRUSES-->
+<a name="viruses">
   <h4>Viruses</h4>
 {% for publi in site.data.publist %}
 
@@ -98,6 +109,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 {% endfor %}
 
 <!--TOOLS-->
+<a name="tools">
   <h4>Bioinformatic tools & workflows</h4>
 {% for publi in site.data.publist %}
 
@@ -119,6 +131,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 
 
 <!--MISC-->
+<a name="misc">
   <h4>Other</h4>
 {% for publi in site.data.publist %}
 
@@ -138,7 +151,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
   
 {% endfor %}
 
-
+<a name="books">
 ### Book chapter
 
 {% for publi in site.data.publist %}
@@ -151,6 +164,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 
 {% endfor %}
 
+<a name="acknow">
 ### Publications with acknowledgement
 
 {% for publi in site.data.publist %}
