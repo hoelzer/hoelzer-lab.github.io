@@ -30,7 +30,13 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 
 ### Peer reviewed
 
+<ul>
+<li><a href="#transcriptomics">Transcriptomics & gene expression analysis</a></li>
+<li><a href="#genomics">Genomics & metagenomics</a></li>
+</ul>
+
 <!--TRANSCRIPTOMICS-->
+<a name="transcriptomics">
   <h4>Transcriptomics</h4>
 {% for publi in site.data.publist %}
 
@@ -51,6 +57,7 @@ This list is also available on [Google Scholar](https://scholar.google.de/citati
 {% endfor %}
 
 <!--GENOMICS-->
+<a name="genomics">
   <h4>Genomics & metagenomics</h4>
 {% for publi in site.data.publist %}
 
