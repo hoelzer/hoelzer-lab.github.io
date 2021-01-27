@@ -11,6 +11,32 @@
     url: https://www.mdpi.com/2073-4409/10/1/80
     display: MDPI Cells
 
+- title: "*RUNX3* transcript variants have dichotomous roles in ovarian carcinoma and influence platin sensitivity and angiogenesis"
+  authors: Karolin Heinze, <b>Martin Hölzer</b>, M Ungelenk, M Gerth, J Thomale, R Heller, CR Morden, KJ McManus, A Mosig, Matthias Dürst, Ingo B Runnebaum, Norman Häfner
+  year: 2021
+  preprint: 0
+  submitted: 0
+  book: 0
+  supp: 0
+  acknow: 0
+  section: 1
+  link:
+    url: https://doi.org/10.3390/cancers13030476
+    display: MDPI Cancers
+
+- title: "Molecular epidemiology of SARS-CoV-2 -- a regional to global perspective."
+  authors: Christian Brandt, Riccardo Spott, <b>Martin Hölzer</b>, Denise K\"uhnert, Stephan Fuchs, Mara Lohde, Mike Marquet, Adrian Viehweger, Dagmar Rimek, Matthias Pletz
+  year: 2021
+  preprint: 0
+  submitted: 0
+  book: 0
+  supp: https://github.com/phiweger/darkq
+  acknow: 0
+  section: 4
+  link:
+    url: https://doi.org/10.1101/2021.01.25.21250447
+    display: medRxiv
+
 - title: "Virus Bioinformatics"
   authors: Nikolaos Pappas, Simon Roux, <b>Martin Hölzer</b>, Kevin Lamkiewicz, Florian Mock, Manja Marz, Bas E Dutilh
   year: 2020
