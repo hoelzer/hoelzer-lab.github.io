@@ -28,11 +28,11 @@
   authors: Christian Brandt, Riccardo Spott, <b>Martin Hölzer</b>, Denise K\"uhnert, Stephan Fuchs, Mara Lohde, Mike Marquet, Adrian Viehweger, Dagmar Rimek, Matthias Pletz
   year: 2021
   preprint: 0
-  submitted: 0
+  submitted: 2
   book: 0
-  supp: https://github.com/phiweger/darkq
+  supp: 
   acknow: 0
-  section: 4
+  section: 3
   link:
     url: https://doi.org/10.1101/2021.01.25.21250447
     display: medRxiv

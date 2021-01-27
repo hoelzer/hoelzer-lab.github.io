@@ -115,7 +115,7 @@ year.each do |y|
 		acknow = '0'
 		book = '1' if pub.title.include?('Software {D}edicated') || pub.title.include?('Virus {B}ioinformatics')
 		submitted = '1' if pub.journal.include?('Submitted') 
-		submitted = '2' if pub.journal.include?('bioRxiv') || pub.journal.include?('Preprints') || pub.journal.include?('Authorea') || pub.journal.include?('Submitted') && pub.acknow != 1
+		submitted = '2' if pub.journal.include?('bioRxiv') || pub.journal.include?('medRxiv') || pub.journal.include?('Preprints') || pub.journal.include?('Authorea') || pub.journal.include?('Submitted') && pub.acknow != 1
 		acknow = '1' if pub.acknow == 1
 		yml << "- title: \"#{title(pub.title.gsub('"','\"'))}\"\n"
 		authors_string = authors(pub.authors)
