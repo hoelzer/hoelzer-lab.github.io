@@ -5,7 +5,8 @@
   github: https://github.com/hoelzer
   twitter: https://twitter.com/martinhoelzer
   orcid: https://orcid.org/0000-0001-7090-8717
-  cv: /assets/hoelzer_cv.pdf
+  #cv: /assets/hoelzer_cv.pdf
+  cv: 0
   thesis: /assets/hoelzer-thesis-2017.pdf
   number_educ: 2
   education1: Ph.D., University of Jena
