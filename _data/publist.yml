@@ -24,6 +24,19 @@
     url: https://doi.org/10.3390/cancers13030476
     display: MDPI Cancers
 
+- title: "CovRadar: Continuously tracking and filtering SARS-CoV-2 mutations for molecular surveillance."
+  authors: Alice Wittig, Fabio Miranda, Ming Tang, <b>Martin Hölzer</b>, Bernhard Renard, Stephan Fuchs
+  year: 2021
+  preprint: 0
+  submitted: 2
+  book: 0
+  supp: https://covradar.net/
+  acknow: 0
+  section: 4
+  link:
+    url: https://doi.org/10.1101/2021.02.03.429146
+    display: bioRxiv
+
 - title: "Molecular epidemiology of SARS-CoV-2 -- a regional to global perspective."
   authors: Christian Brandt, Riccardo Spott, <b>Martin Hölzer</b>, Denise Kühnert, Stephan Fuchs, Mara Lohde, Mike Marquet, Adrian Viehweger, Dagmar Rimek, Matthias Pletz
   year: 2021
