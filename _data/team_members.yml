@@ -1,6 +1,6 @@
 - name: Dr. Martin Hölzer
   photo: Martin_2019.png
-  info: Head (<a href="/assets/hoelzer_cv.pdf">CV</a>)
+  info: Head #(<a href="/assets/hoelzer_cv.pdf">CV</a>)
   email: hoelzerm@rki.de
   github: https://github.com/hoelzer
   twitter: https://twitter.com/martinhoelzer
