@@ -50,6 +50,19 @@
     url: https://doi.org/10.1101/2021.01.25.21250447
     display: medRxiv
 
+- title: "Metagenomics workflow for hybrid assembly, differential coverage binning, transcriptomics and pathway analysis (MUFFIN)."
+  authors: Renaud Van Damme, <b>Martin Hölzer</b>, Adrian Viehweger, Müller Bettina, Erik Bongcam-Rudloff, Christian Brandt
+  year: 2021
+  preprint: 0
+  submitted: 0
+  book: 0
+  supp: https://github.com/RVanDamme/MUFFIN
+  acknow: 0
+  section: 4
+  link:
+    url: https://doi.org/10.1371/journal.pcbi.1008716
+    display: Plos Comp Biol
+
 - title: "Virus Bioinformatics"
   authors: Nikolaos Pappas, Simon Roux, <b>Martin Hölzer</b>, Kevin Lamkiewicz, Florian Mock, Manja Marz, Bas E Dutilh
   year: 2020
@@ -191,19 +204,6 @@
   section: 4
   link:
     url: https://doi.org/10.1101/2020.07.24.219899
-    display: bioRxiv
-
-- title: "Metagenomics workflow for hybrid assembly, differential coverage binning, transcriptomics and pathway analysis (MUFFIN)."
-  authors: Renaud Van Damme, <b>Martin Hölzer</b>, Adrian Viehweger, Müller Bettina, Erik Bongcam-Rudloff, Christian Brandt
-  year: 2020
-  preprint: 0
-  submitted: 2
-  book: 0
-  supp: https://github.com/RVanDamme/MUFFIN
-  acknow: 0
-  section: 4
-  link:
-    url: https://www.biorxiv.org/content/10.1101/2020.02.08.939843v1
     display: bioRxiv
 
 - title: "*Chlamydia buteonis*, a new *Chlamydia* species isolated from a red-shouldered hawk."
