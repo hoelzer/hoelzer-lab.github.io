@@ -1,3 +1,5 @@
+- date: 22. February 2021
+  headline: Are you looking for some easy to run tool w/o dependency-struggle to analyze your hybrid metagenomics data? Including state-of-the-art principals of diff binning and pathways? Out now in PLOS Comp Biol, <a href="https://doi.org/10.1371/journal.pcbi.1008716">MUFFIN</a>!   
 - date: 06. December 2020
   headline: RNA-Seq workflows are a dime a dozen. Nevertheless, we are happy to present <a href="https://github.com/hoelzer-lab/rnaflow">RNAflow</a> as an easy to use pipeline for gene expression calculation with less configuration effort. Made possible by <a href="https://www.nextflow.io/">Nextflow</a> and most importantly Marie ;) ! 
 - date: 14. November 2020
