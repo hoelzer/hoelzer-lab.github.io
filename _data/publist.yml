@@ -24,6 +24,19 @@
     url: https://doi.org/10.3390/cancers13030476
     display: MDPI Cancers
 
+- title: "SARS-CoV-2-Varianten: Evolution im Zeitraffer"
+  authors: Djin-Ye Oh, Stefan Kröger, Marianne Wedde, Felix Hartkopf, Matthias Budt, Janna Seifried, Aleksandar Radonic, Essia Belarbi, <b>Martin Hölzer</b>, Sindy Böttcher, Grit Schubert, Sandra Kaiser *et al*.
+  year: 2021
+  preprint: 0
+  submitted: 0
+  book: 0
+  supp: 0
+  acknow: 0
+  section: 3
+  link:
+    url: https://www.aerzteblatt.de/int/article.asp?id=218112
+    display: Dtsch Arztebl International
+
 - title: "CovRadar: Continuously tracking and filtering SARS-CoV-2 mutations for molecular surveillance."
   authors: Alice Wittig, Fabio Miranda, Ming Tang, <b>Martin Hölzer</b>, Bernhard Renard, Stephan Fuchs
   year: 2021
