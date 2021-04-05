@@ -37,6 +37,19 @@
     url: https://www.aerzteblatt.de/int/article.asp?id=218112
     display: Dtsch Arztebl International
 
+- title: "Evidence for the existence of a new genus *Chlamydiifrater* gen. nov. inside the family *Chlamydiaceae* with two new species isolated from flamingo (*Phoenicopterus roseus*): *Chlamydiifrater phoenicopteri* sp. nov. and *Chlamydiifrater volucris* sp. nov."
+  authors: F Vorimore, M Hölzer, EM Liebler-Tenorio, LM Barf, S Delannoy, M Vittecoq, R Wedlarski, A L{\'e}cu, S Scharf, Y Blanchard, P Fach, RC Hsia *et al*.
+  year: 2021
+  preprint: 0
+  submitted: 0
+  book: 0
+  supp: https://osf.io/d8yk3/
+  acknow: 0
+  section: 2
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S0723202021000230
+    display: Systematic and Applied Microbiology
+
 - title: "CovRadar: Continuously tracking and filtering SARS-CoV-2 mutations for molecular surveillance."
   authors: Alice Wittig, Fabio Miranda, Ming Tang, <b>Martin Hölzer</b>, Bernhard Renard, Stephan Fuchs
   year: 2021
