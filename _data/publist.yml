@@ -50,6 +50,19 @@
     url: https://www.sciencedirect.com/science/article/pii/S0723202021000230
     display: Systematic and Applied Microbiology
 
+- title: "Chromosome-level genome assembly and transcriptome-based annotation of the oleaginous yeast *Rhodotorula toruloides* CBS 14."
+  authors: Giselle De La Caridad Martin Hernandez, Bettina Müller, Mikolaj Chmielarz, Christian Brandt, <b>Martin Hölzer</b>, Adrian Viehweger, Volkmar Passoth
+  year: 2021
+  preprint: 0
+  submitted: 2
+  book: 0
+  supp: 0
+  acknow: 0
+  section: 2
+  link:
+    url: https://doi.org/10.1101/2021.04.09.439123
+    display: bioRxiv
+
 - title: "CovRadar: Continuously tracking and filtering SARS-CoV-2 mutations for molecular surveillance."
   authors: Alice Wittig, Fabio Miranda, Ming Tang, <b>Martin Hölzer</b>, Bernhard Renard, Stephan Fuchs
   year: 2021
