@@ -1,3 +1,5 @@
+- date: 08. May 2021
+  headline: Many laboratories have ramped up nanopore sequencing for SARS-CoV-2 surveillance, but are in dire need of bioinformatics support. Here we present <a href="https://www.biorxiv.org/content/10.1101/2021.05.07.443089v1">poreCov, a high-throughput software pipeline</a> for reliable genotyping and reference-based genome reconstruction of SARS-CoV-2 samples based on nanopore tiled amplicon sequencing focused around the <a href="https://artic.network/ncov-2019">ARTIC protocol</a>. <a href="https://github.com/replikation/poreCov">On GitHub!</a> Big kudos @<a href="http://case-group.github.io/">CaSe Group Jena!</a> 
 - date: 11. April 2021
   headline: Our chromosome-level hybrid genome assembly with RNA-Seq-improved annotation of the oleaginous yeast <i>Rhodotorula toruloides</i> is <a href="https://doi.org/10.1101/2021.04.09.439123">out as a preprint</a>! Great collaboration w/ the Swedish University of Agricultural Sciences, Uppsala (<a href="https://www.slu.se/en/ew-cv/volkmar-passoth/">SLU</a>)!  
 - date: 05. April 2021

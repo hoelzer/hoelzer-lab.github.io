@@ -50,6 +50,19 @@
     url: https://www.sciencedirect.com/science/article/pii/S0723202021000230
     display: Systematic and Applied Microbiology
 
+- title: "poreCov -- an easy to use, fast, and robust workflow for SARS-CoV-2 genome reconstruction via nanopore sequencing."
+  authors: Christian Brandt, Riccardo Spott, <b>Martin Hölzer</b>, Denise Kühnert, Stephan Fuchs, Mara Lohde, Mike Marquet, Adrian Viehweger, Dagmar Rimek, Matthias Pletz
+  year: 2021
+  preprint: 0
+  submitted: 2
+  book: 0
+  supp: https://github.com/replikation/poreCov
+  acknow: 0
+  section: 4
+  link:
+    url: https://doi.org/10.1101/2021.05.07.443089
+    display: bioRxiv
+
 - title: "Chromosome-level genome assembly and transcriptome-based annotation of the oleaginous yeast *Rhodotorula toruloides* CBS 14."
   authors: Giselle De La Caridad Martin Hernandez, Bettina Müller, Mikolaj Chmielarz, Christian Brandt, <b>Martin Hölzer</b>, Adrian Viehweger, Volkmar Passoth
   year: 2021
