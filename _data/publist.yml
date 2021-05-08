@@ -51,7 +51,7 @@
     display: Systematic and Applied Microbiology
 
 - title: "poreCov -- an easy to use, fast, and robust workflow for SARS-CoV-2 genome reconstruction via nanopore sequencing."
-  authors: Christian Brandt, Riccardo Spott, <b>Martin Hölzer</b>, Denise Kühnert, Stephan Fuchs, Mara Lohde, Mike Marquet, Adrian Viehweger, Dagmar Rimek, Matthias Pletz
+  authors: Christian Brandt, <b>Sebastian Krautwurst</b>, Riccardo Spott, Mara Lohde, Mateusz Jundzill, Mike Marquet, <b>Martin Hölzer</b>
   year: 2021
   preprint: 0
   submitted: 2
