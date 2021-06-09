@@ -50,6 +50,19 @@
     url: https://www.sciencedirect.com/science/article/pii/S0723202021000230
     display: Systematic and Applied Microbiology
 
+- title: "Context-aware genomic surveillance reveals hidden transmission of a carbapenemase-producing *Klebsiella pneumoniae*."
+  authors: Adrian Viehweger, Christian Blumenscheit, Norman Lippmann, Kelly L Wyres, Christian Brandt, Jörg B Hans, <b>Martin Hölzer</b>, Luiz Irber, Sören Gatermann, Christoph Lübbert, Mathias Pletz, Kathryn E Holt *et al*.
+  year: 2021
+  preprint: 0
+  submitted: 2
+  book: 0
+  supp: https://microreact.org/project/6bBfAYXswvY691LfbVytLT
+  acknow: 0
+  section: 2
+  link:
+    url: https://doi.org/10.1101/2021.06.07.447408
+    display: bioRxiv
+
 - title: "poreCov -- an easy to use, fast, and robust workflow for SARS-CoV-2 genome reconstruction via nanopore sequencing."
   authors: Christian Brandt, <b>Sebastian Krautwurst</b>, Riccardo Spott, Mara Lohde, Mateusz Jundzill, Mike Marquet, <b>Martin Hölzer</b>
   year: 2021

@@ -1,3 +1,5 @@
+- date: 09. June 2021
+  headline: Genomic surveillance can inform effective public health responses to pathogen outbreaks. However, integration of non-local data is rarely done! In the latest <a href="https://doi.org/10.1101/2021.06.07.447408">preprint</a>, we investigate two large hospital outbreaks of a carbapenemase-carrying <i>Klebsiella pneumoniae</i> strain in Germany and show the value of contextual data. 
 - date: 08. May 2021
   headline: Many laboratories have ramped up nanopore sequencing for SARS-CoV-2 surveillance, but are in dire need of bioinformatics support. Here we present <a href="https://www.biorxiv.org/content/10.1101/2021.05.07.443089v1">poreCov, a high-throughput software pipeline</a> for reliable genotyping and reference-based genome reconstruction of SARS-CoV-2 samples based on nanopore tiled amplicon sequencing focused around the <a href="https://artic.network/ncov-2019">ARTIC protocol</a>. <a href="https://github.com/replikation/poreCov">On GitHub!</a> Big kudos @<a href="http://case-group.github.io/">CaSe Group Jena!</a> 
 - date: 11. April 2021
