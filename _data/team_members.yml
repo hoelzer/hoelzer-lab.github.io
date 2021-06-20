@@ -1,7 +1,7 @@
 - name: Dr. Martin Hölzer
   photo: Martin_2019.png
   info: Head #(<a href="/assets/hoelzer_cv.pdf">CV</a>)
-  email: hoelzerm@rki.de
+  email: HoelzerM@rki.de
   github: https://github.com/hoelzer
   twitter: https://twitter.com/martinhoelzer
   orcid: https://orcid.org/0000-0001-7090-8717
@@ -74,7 +74,7 @@
 - name: David Fischer
   photo: rock.jpg
   info: Research internship, started Jun 2021
-#  email: KongkitimanonK@rki.de
+  email: 
   github: https://github.com/fischer-hub
   twitter: 0
   orcid: 0
