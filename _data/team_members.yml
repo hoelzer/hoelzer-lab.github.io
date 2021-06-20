@@ -81,8 +81,19 @@
   cv: 0
   thesis: 0
   number_educ: 1
-  education1: B.Sc. Computer Science, FU Berlin
+  education1: B.Sc. Bioinformatics, FU Berlin
 
+- name: Eva Aßmann
+  photo: rock.jpg
+  info: Research assistant, started Apr 2021
+  email: AssmannE@rki.de
+  github: https://github.com/EvaFriederike
+  twitter: 0
+  orcid: 0
+  cv: 0
+  thesis: 0
+  number_educ: 1
+  education1: B.Sc. Bioinformatics, FU Berlin
 
 #- name: Maximilian Arlt
 #  photo: KaffeeMax.png
