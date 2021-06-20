@@ -6,9 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-In 2018, we formed a bioinformatics team focusing on pathogen transcriptomics and metagenomics in collaboration with the [RNA Bioinformatics](https://www.rna.uni-jena.de/) group at the [FSU Jena](https://www.uni-jena.de/en/start.html?).
+<!--In 2018, we formed a bioinformatics team focusing on pathogen transcriptomics and metagenomics in collaboration with the [RNA Bioinformatics](https://www.rna.uni-jena.de/) group at the [FSU Jena](https://www.uni-jena.de/en/start.html?).
 
-With Martin's move to the [bioinformatics department of the Robert Koch Institute](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/MF/MF1/mf1_node.html) in 2020, the team will no longer exist in its original form, but the science will continue at the RKI. 
+With Martin's move to the [bioinformatics department of the Robert Koch Institute](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/MF/MF1/mf1_node.html) in 2020, the team will no longer exist in its original form, but the science will continue at the RKI. -->
 
 We develop novel tools and workflows for handling large amounts of sequence data. We apply computational methods to automate *de novo* (meta-)genome and transcriptome assembly, analysis and annotation of RNA-Seq data, identification and characterization of pathogens such as viruses and bacteria from environmental samples and (more recently) molecular monitoring of infectious diseases.
 

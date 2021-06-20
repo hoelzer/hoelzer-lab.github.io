@@ -1,0 +1,27 @@
+---
+title: "Hölzer Lab - Collaborations"
+layout: gridlay
+excerpt: "Hölzer Lab: Collaborations"
+sitemap: flase
+permalink: /collaborations/
+---
+
+<div class="row">
+<div class="col-sm-6 clearfix">
+
+## Collaborations
+
+This list does not claim to be complete. Science thrives on interdisciplinarity and cooperation and listed here are, among many other great scientists, those with whom we currently cooperate a lot.  
+
+* Systems Medicine of Infectious Disease, Robert Koch Institute, Berlin ([Max von Kleist](http://systems-pharmacology.de/))
+* Data Analytics and Computational Statistics, Hasso Plattner Institute, Potsdam ([Bernhard Renard](https://hpi.de/forschung/fachgebiete/data-analytics-and-computational-statistics.html))
+* Institute for Infectious Diseases and Infection Control, Cloud computing and sequencing, University Hospital, Jena ([Christian Brandt](https://case-group.github.io/))
+* Institute for Medical Microbiology and Virology, University Hospital, Leipzig ([Adrian Viehweger](https://www.uniklinikum-leipzig.de/einrichtungen/mikrobiologie/unsere-mitarbeiter))
+* Institute of Virology, University Hospital, Freiburg ([Jonas Fuchs](https://www.uniklinik-freiburg.de/virologie-en/research/research-teams/georg-kochs-team.html))
+* RNA Bioinformatics and High-Throughput Analysis, Friedrich Schiller University, Jena ([Manja Marz](https://www.rna.uni-jena.de/)) 
+
+We are a member of the [European Virus Bioinformatics Center](http://evbc.uni-jena.de/).
+
+
+</div>
+</div>
