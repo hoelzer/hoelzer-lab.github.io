@@ -59,6 +59,18 @@
 #  number_educ: 1
 #  education1: M.Sc. Mol. Life Sciences, University of Jena
 
+- name: Sandra Triebel
+  photo: Sandra.png
+  info: co-supervised M.Sc.
+  email: sandra.triebel@uni-jena.de
+  github: https://github.com/sandraTriebel
+  twitter: https://twitter.com/sandraLutaLivre
+  orcid: 0
+  cv: 0
+  thesis: 0
+  number_educ: 1  
+  education1: B.Sc. Bioinformatics, University of Jena
+
 - name: Kunaphas "Note" Kongkitimanon
   photo: note.png
   info: Researcher
@@ -83,6 +95,18 @@
   number_educ: 1
   education1: M.Sc. Computer Science, Mahidol University
 
+- name: Eva Aßmann
+  photo: eva.png
+  info: Research assistant, started Apr 2021
+  email: AssmannE@rki.de
+  github: https://github.com/EvaFriederike
+  twitter: 0
+  orcid: 0
+  cv: 0
+  thesis: 0
+  number_educ: 1
+  education1: B.Sc. Bioinformatics, FU Berlin
+
 
 - name: David Fischer
   photo: david.png
@@ -96,17 +120,6 @@
   number_educ: 0
 #  education1: B.Sc. Bioinformatics, FU Berlin
 
-- name: Eva Aßmann
-  photo: eva.png
-  info: Research assistant, started Apr 2021
-  email: AssmannE@rki.de
-  github: https://github.com/EvaFriederike
-  twitter: 0
-  orcid: 0
-  cv: 0
-  thesis: 0
-  number_educ: 1
-  education1: B.Sc. Bioinformatics, FU Berlin
 
 #- name: Maximilian Arlt
 #  photo: KaffeeMax.png
@@ -143,17 +156,6 @@
 #  thesis: 0
 #  number_educ: 0
 
-- name: Sandra Triebel
-  photo: Sandra.png
-  info: co-supervised M.Sc.
-  email: sandra.triebel@uni-jena.de
-  github: https://github.com/sandraTriebel
-  twitter: https://twitter.com/sandraLutaLivre
-  orcid: 0
-  cv: 0
-  thesis: 0
-  number_educ: 1  
-  education1: B.Sc. Bioinformatics, University of Jena
 
 #- name: "This could be you !"
 #  photo: rock.jpg
