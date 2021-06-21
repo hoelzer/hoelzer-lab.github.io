@@ -61,6 +61,18 @@
 
 - name: Kunaphas "Note" Kongkitimanon
   photo: note.png
+  info: Researcher
+  email: FrankS@rki.de
+  github: https://gitlab.com/StefanFrankBio
+  twitter: 0
+  orcid: 0
+  cv: 0
+  thesis: 0
+  number_educ: 1
+  education1: M.Sc. Biology, TU Braunschweig
+
+- name: Stefan Frank
+  photo: stefan.png
   info: Master, started Jan 2021
   email: KongkitimanonK@rki.de
   github: https://github.com/silenus092
@@ -70,6 +82,7 @@
   thesis: 0
   number_educ: 1
   education1: M.Sc. Computer Science, Mahidol University
+
 
 - name: David Fischer
   photo: david.png
